@@ -1,0 +1,105 @@
+{
+  "id": "NSR:StopPlace:6196",
+  "slug": "osthorn",
+  "name": "Østhorn",
+  "lat": 59.956649,
+  "lon": 10.750155,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6196"
+  ],
+  "neighbours": {
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59765",
+        "next": "NSR:StopPlace:59573"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:59573",
+        "next": "NSR:StopPlace:59765"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 15,
+    "majorstuen": 10
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6196",
+        "name": "Østhorn",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11371",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11372",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/118089563",
+      "name": {
+        "nb": "Bakkehaugen kirke",
+        "en": "Bakkehaugen Church"
+      },
+      "category": "church",
+      "lat": 59.948962,
+      "lon": 10.754071,
+      "score": 9.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q4580047",
+      "wikipedia": {
+        "nb": "Bakkehaugen kirke",
+        "en": "Bakkehaugen Church"
+      },
+      "summary": {
+        "nb": "Bakkehaugen kirke er en langkirke fra 1959 i Bakkehaugen, Majorstuen og Vestre Aker menighet i Vestre Aker prosti i Oslo bispedømme i Oslo kommune. Kirken ligger i Carl Grøndahls vei 27 på Tåsen i Oslo.",
+        "en": "Bakkehaugen Church is a church, located in the neighborhood of Tåsen in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Bakkehaugens_kirke-1.jpg/640px-Bakkehaugens_kirke-1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 879,
+        "distanceM": 1137,
+        "polyline": "ch}lJysr`AXa@AERWPY@G@GAMAMFAVGD@DFLTBH@DFV?h@Ji@NKhAE`@KdAWTENER@LFJNDPBPLzAFr@LxA@T@VDA@?BEPI`A[t@UNC`@QZQz@i@@AHEFEJEDAF@DFBHDRBCBABABADABABABA?Q?SBSBOFMHGVKd@YLOZWVKVQRINCP@J?FBhA^`@PLF`@RDB?B@?JFHUNg@`@_B@IVkATeAFUz@uDLMQ_@CMJk@NQ@?@QDMJQPi@@C",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

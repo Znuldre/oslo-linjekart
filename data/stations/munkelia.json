@@ -1,0 +1,157 @@
+{
+  "id": "NSR:StopPlace:58244",
+  "slug": "munkelia",
+  "name": "Munkelia",
+  "lat": 59.868208,
+  "lon": 10.813143,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1",
+    "4"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5816"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58243",
+        "next": "NSR:StopPlace:58245"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58245",
+        "next": "NSR:StopPlace:58243"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58245",
+        "next": "NSR:StopPlace:58243"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58243",
+        "next": "NSR:StopPlace:58245"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 20,
+    "majorstuen": 26
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58244",
+      "name": "Munkelia",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "79",
+          "name": "Grorud T - Åsbråten",
+          "lineId": "RUT:Line:79"
+        },
+        {
+          "publicCode": "FB10",
+          "name": "Mortensrud - Oslo lufthavn Gardermoen",
+          "lineId": "UNI:Line:UE1"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:5828",
+      "name": "Blåfjellet",
+      "distanceM": 276,
+      "lines": [
+        {
+          "publicCode": "4B",
+          "name": "Buss for linje 4",
+          "lineId": "RUT:Line:3004"
+        },
+        {
+          "publicCode": "4N",
+          "name": "Jernbanetorget - Bergkrystallen T",
+          "lineId": "RUT:Line:3904"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5816",
+        "name": "Munkelia",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10666",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10667",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/159967599",
+      "name": {
+        "nb": "Lambertseter kirke",
+        "en": "Lambertseter Church"
+      },
+      "category": "church",
+      "lat": 59.870075,
+      "lon": 10.81362,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10355937",
+      "wikipedia": {
+        "nb": "Lambertseter kirke",
+        "en": "Lambertseter Church"
+      },
+      "summary": {
+        "nb": "Lambertseter kirke er soknekirke for Lambertseter menighet i Søndre Aker prosti i Oslo bispedømme i bydel Nordstrand i Oslo kommune. Den er en langkirke fra 1966 på Lambertseter i Oslo. Byggverket er i betong og tegl og har 600 plasser. Lambertseter kirke er tegnet av Harald Hille, og ble vigslet den 15. mai 1966 av daværende Oslo biskop Johannes Smemo.",
+        "en": "Lambertseter Church is a church center in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Lambertseter_kirke_%282016-07-24%29.jpg/640px-Lambertseter_kirke_%282016-07-24%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 221,
+        "distanceM": 250,
+        "polyline": "g_llJa}~`ACAEA?C?E?EI@O@]?OAQAWEOCUIOGWOKECCCCQMy@u@}@s@KGEDEFIFEBADAF?JAN",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

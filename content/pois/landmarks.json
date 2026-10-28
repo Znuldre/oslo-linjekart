@@ -1,0 +1,1252 @@
+{
+  "$comment": "Kuraterte landemerker. Kobles til OSM-elementer via `osm` (id) eller `osmName` (eksakt navn) når de finnes der, ellers hentes koordinater fra Wikipedia (nb-tittel). `priority` 1–3 styrer rekkefølge (3 = må vises). `access` (lat/lon) overstyrer gangmål, f.eks. inngang. Kategorier: museum, attraction, park, gallery, theatre, viewpoint, church, zoo, other.",
+  "landmarks": [
+    {
+      "id": "operaen",
+      "osm": "way/810259696",
+      "name": {
+        "nb": "Operahuset",
+        "en": "Oslo Opera House"
+      },
+      "category": "attraction",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Operahuset i Oslo",
+        "en": "Oslo Opera House"
+      }
+    },
+    {
+      "id": "munchmuseet",
+      "osm": "way/545260792",
+      "name": {
+        "nb": "Munchmuseet",
+        "en": "Munch Museum"
+      },
+      "category": "museum",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Munchmuseet",
+        "en": "Munch Museum"
+      }
+    },
+    {
+      "id": "deichman-bjorvika",
+      "name": {
+        "nb": "Deichman Bjørvika",
+        "en": "Deichman Bjørvika Library"
+      },
+      "category": "attraction",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Deichman Bjørvika",
+        "en": "Deichman Bjørvika"
+      }
+    },
+    {
+      "id": "barcode",
+      "name": {
+        "nb": "Barcode",
+        "en": "Barcode"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Barcode (Oslo)",
+        "en": "Barcode Project"
+      }
+    },
+    {
+      "id": "sorenga-sjobad",
+      "name": {
+        "nb": "Sørenga sjøbad",
+        "en": "Sørenga Seawater Pool"
+      },
+      "category": "park",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Sørenga sjøbad"
+      }
+    },
+    {
+      "id": "akershus-festning",
+      "osm": "relation/12391390",
+      "name": {
+        "nb": "Akershus festning",
+        "en": "Akershus Fortress"
+      },
+      "category": "attraction",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Akershus festning",
+        "en": "Akershus Fortress"
+      }
+    },
+    {
+      "id": "forsvarsmuseet",
+      "osm": "way/54830211",
+      "name": {
+        "nb": "Forsvarsmuseet",
+        "en": "Norwegian Armed Forces Museum"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Forsvarsmuseet",
+        "en": "Norwegian Armed Forces Museum"
+      }
+    },
+    {
+      "id": "hjemmefrontmuseet",
+      "osm": "node/270315261",
+      "name": {
+        "nb": "Norges hjemmefrontmuseum",
+        "en": "Norway's Resistance Museum"
+      },
+      "category": "museum",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Norges hjemmefrontmuseum",
+        "en": "Norway's Resistance Museum"
+      }
+    },
+    {
+      "id": "radhuset",
+      "osm": "way/24900009",
+      "name": {
+        "nb": "Oslo rådhus",
+        "en": "Oslo City Hall"
+      },
+      "category": "attraction",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Oslo rådhus",
+        "en": "Oslo City Hall"
+      }
+    },
+    {
+      "id": "nasjonalmuseet",
+      "osm": "relation/13920125",
+      "name": {
+        "nb": "Nasjonalmuseet",
+        "en": "National Museum of Norway"
+      },
+      "category": "museum",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Nasjonalmuseet for kunst, arkitektur og design",
+        "en": "National Museum of Art, Architecture and Design"
+      }
+    },
+    {
+      "id": "nobels-fredssenter",
+      "osm": "node/8046314379",
+      "name": {
+        "nb": "Nobels Fredssenter",
+        "en": "Nobel Peace Center"
+      },
+      "category": "museum",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Nobels Fredssenter",
+        "en": "Nobel Peace Center"
+      }
+    },
+    {
+      "id": "astrup-fearnley",
+      "osm": "node/1931359713",
+      "name": {
+        "nb": "Astrup Fearnley Museet",
+        "en": "Astrup Fearnley Museum"
+      },
+      "category": "museum",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Astrup Fearnley Museet",
+        "en": "Astrup Fearnley Museum of Modern Art"
+      }
+    },
+    {
+      "id": "tjuvholmen",
+      "osm": "way/559781745",
+      "name": {
+        "nb": "Tjuvholmen skulpturpark",
+        "en": "Tjuvholmen Sculpture Park"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Tjuvholmen skulpturpark"
+      }
+    },
+    {
+      "id": "aker-brygge",
+      "name": {
+        "nb": "Aker Brygge",
+        "en": "Aker Brygge"
+      },
+      "category": "attraction",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Aker Brygge",
+        "en": "Aker Brygge"
+      }
+    },
+    {
+      "id": "slottet",
+      "osm": "relation/12267199",
+      "name": {
+        "nb": "Det kongelige slott",
+        "en": "The Royal Palace"
+      },
+      "category": "attraction",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Det kongelige slott (Oslo)",
+        "en": "Royal Palace, Oslo"
+      }
+    },
+    {
+      "id": "slottsparken",
+      "osm": "way/89545556",
+      "name": {
+        "nb": "Slottsparken",
+        "en": "Palace Park"
+      },
+      "category": "park",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Slottsparken",
+        "en": "Palace Park (Oslo)"
+      }
+    },
+    {
+      "id": "karl-johans-gate",
+      "name": {
+        "nb": "Karl Johans gate",
+        "en": "Karl Johans gate"
+      },
+      "category": "attraction",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Karl Johans gate",
+        "en": "Karl Johans gate"
+      }
+    },
+    {
+      "id": "stortinget",
+      "name": {
+        "nb": "Stortingsbygningen",
+        "en": "Parliament Building"
+      },
+      "category": "attraction",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Stortingsbygningen",
+        "en": "Storting building"
+      }
+    },
+    {
+      "id": "domkirken",
+      "osm": "way/33204291",
+      "name": {
+        "nb": "Oslo domkirke",
+        "en": "Oslo Cathedral"
+      },
+      "category": "church",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Oslo domkirke",
+        "en": "Oslo Cathedral"
+      }
+    },
+    {
+      "id": "basarhallene",
+      "name": {
+        "nb": "Basarhallene",
+        "en": "The Bazaar Halls"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Basarhallene"
+      }
+    },
+    {
+      "id": "ostbanehallen",
+      "name": {
+        "nb": "Østbanehallen",
+        "en": "Østbanehallen"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Østbanehallen"
+      }
+    },
+    {
+      "id": "youngstorget",
+      "name": {
+        "nb": "Youngstorget",
+        "en": "Youngstorget"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Youngstorget",
+        "en": "Youngstorget"
+      }
+    },
+    {
+      "id": "oslo-spektrum",
+      "osm": "way/10568134",
+      "name": {
+        "nb": "Oslo Spektrum",
+        "en": "Oslo Spektrum"
+      },
+      "category": "theatre",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Oslo Spektrum",
+        "en": "Oslo Spektrum"
+      }
+    },
+    {
+      "id": "nationaltheatret",
+      "osm": "way/4368869",
+      "name": {
+        "nb": "Nationaltheatret",
+        "en": "National Theatre"
+      },
+      "category": "theatre",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Nationaltheatret",
+        "en": "Nationaltheatret"
+      }
+    },
+    {
+      "id": "det-norske-teatret",
+      "osm": "node/34693409",
+      "name": {
+        "nb": "Det Norske Teatret",
+        "en": "Det Norske Teatret"
+      },
+      "category": "theatre",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Det Norske Teatret",
+        "en": "Det Norske Teatret"
+      }
+    },
+    {
+      "id": "konserthuset",
+      "osm": "relation/14166523",
+      "name": {
+        "nb": "Oslo Konserthus",
+        "en": "Oslo Concert Hall"
+      },
+      "category": "theatre",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Oslo Konserthus",
+        "en": "Oslo Concert Hall"
+      }
+    },
+    {
+      "id": "historisk-museum",
+      "osm": "way/31106820",
+      "name": {
+        "nb": "Historisk museum",
+        "en": "Historical Museum"
+      },
+      "category": "museum",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Historisk museum",
+        "en": "Historical Museum, Oslo"
+      }
+    },
+    {
+      "id": "ibsenmuseet",
+      "osm": "way/90768996",
+      "name": {
+        "nb": "Ibsen museum & teater",
+        "en": "Ibsen Museum & Theatre"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "IBSEN Museum & Teater",
+        "en": "Ibsen Museum"
+      }
+    },
+    {
+      "id": "kunstnernes-hus",
+      "osm": "way/116409744",
+      "name": {
+        "nb": "Kunstnernes Hus",
+        "en": "Kunstnernes Hus"
+      },
+      "category": "gallery",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Kunstnernes Hus",
+        "en": "Kunstnernes Hus"
+      }
+    },
+    {
+      "id": "reptilparken",
+      "osm": "node/2616073830",
+      "name": {
+        "nb": "Oslo Reptilpark",
+        "en": "Oslo Reptile Park"
+      },
+      "category": "zoo",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Oslo Reptilpark"
+      }
+    },
+    {
+      "id": "22-juli-senteret",
+      "osm": "node/2785549850",
+      "name": {
+        "nb": "22. juli-senteret",
+        "en": "22 July Centre"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "22. juli-senteret",
+        "en": "22 July Centre"
+      }
+    },
+    {
+      "id": "nasjonalbiblioteket",
+      "name": {
+        "nb": "Nasjonalbiblioteket",
+        "en": "National Library of Norway"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Nasjonalbiblioteket",
+        "en": "National Library of Norway"
+      }
+    },
+    {
+      "id": "middelalderparken",
+      "osm": "way/31258136",
+      "name": {
+        "nb": "Middelalderparken",
+        "en": "Medieval Park"
+      },
+      "category": "park",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Middelalderparken",
+        "en": "Middelalderparken"
+      }
+    },
+    {
+      "id": "ladegarden",
+      "osm": "way/111546665",
+      "name": {
+        "nb": "Oslo Ladegård",
+        "en": "Oslo Ladegård"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Oslo Ladegård",
+        "en": "Oslo Ladegård"
+      }
+    },
+    {
+      "id": "ekebergparken",
+      "osm": "way/115901299",
+      "name": {
+        "nb": "Ekebergparken skulpturpark",
+        "en": "Ekebergparken Sculpture Park"
+      },
+      "category": "attraction",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Ekebergparken skulpturpark",
+        "en": "Ekebergparken Sculpture Park"
+      }
+    },
+    {
+      "id": "ekebergrestauranten",
+      "name": {
+        "nb": "Ekebergrestauranten",
+        "en": "Ekeberg Restaurant"
+      },
+      "category": "viewpoint",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Ekebergrestauranten",
+        "en": "Ekebergrestauranten"
+      }
+    },
+    {
+      "id": "ekebergsletta",
+      "name": {
+        "nb": "Ekebergsletta",
+        "en": "Ekebergsletta"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Ekebergsletta"
+      }
+    },
+    {
+      "id": "botanisk-hage",
+      "osm": "way/4045303",
+      "name": {
+        "nb": "Botanisk hage",
+        "en": "Botanical Garden"
+      },
+      "category": "park",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Botanisk hage (Oslo)",
+        "en": "University Botanical Garden (Oslo)"
+      }
+    },
+    {
+      "id": "naturhistorisk-museum",
+      "osm": "node/5412354900",
+      "name": {
+        "nb": "Naturhistorisk museum",
+        "en": "Natural History Museum"
+      },
+      "category": "museum",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Naturhistorisk museum (Oslo)",
+        "en": "Natural History Museum (Oslo)"
+      }
+    },
+    {
+      "id": "toyenbadet",
+      "name": {
+        "nb": "Tøyenbadet",
+        "en": "Tøyen Baths"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Tøyenbadet"
+      }
+    },
+    {
+      "id": "mathallen",
+      "name": {
+        "nb": "Mathallen",
+        "en": "Mathallen Food Hall"
+      },
+      "category": "attraction",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Mathallen Oslo",
+        "en": "Mathallen Oslo"
+      }
+    },
+    {
+      "id": "olaf-ryes-plass",
+      "osm": "way/3236548",
+      "name": {
+        "nb": "Olaf Ryes plass",
+        "en": "Olaf Ryes plass"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Olaf Ryes plass",
+        "en": "Olaf Ryes plass"
+      }
+    },
+    {
+      "id": "birkelunden",
+      "osm": "way/3236549",
+      "name": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      }
+    },
+    {
+      "id": "sofienbergparken",
+      "osm": "way/3235895",
+      "name": {
+        "nb": "Sofienbergparken",
+        "en": "Sofienberg Park"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Sofienbergparken"
+      }
+    },
+    {
+      "id": "gamle-aker-kirke",
+      "osm": "way/32808508",
+      "name": {
+        "nb": "Gamle Aker kirke",
+        "en": "Old Aker Church"
+      },
+      "category": "church",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Gamle Aker kirke",
+        "en": "Old Aker Church"
+      }
+    },
+    {
+      "id": "damstredet",
+      "name": {
+        "nb": "Damstredet og Telthusbakken",
+        "en": "Damstredet and Telthusbakken"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "lat": 59.9217,
+      "lon": 10.7452,
+      "wikipedia": {
+        "nb": "Damstredet (Oslo)",
+        "en": "Damstredet"
+      }
+    },
+    {
+      "id": "var-frelsers-gravlund",
+      "name": {
+        "nb": "Vår Frelsers gravlund",
+        "en": "Cemetery of Our Saviour"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Vår Frelsers gravlund",
+        "en": "Cemetery of Our Saviour"
+      }
+    },
+    {
+      "id": "st-hanshaugen",
+      "name": {
+        "nb": "St. Hanshaugen",
+        "en": "St. Hanshaugen Park"
+      },
+      "category": "park",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "St. Hanshaugen (park)",
+        "en": "St. Hanshaugen Park"
+      }
+    },
+    {
+      "id": "bislett-stadion",
+      "osm": "way/115277337",
+      "name": {
+        "nb": "Bislett stadion",
+        "en": "Bislett Stadium"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Bislett stadion",
+        "en": "Bislett Stadium"
+      }
+    },
+    {
+      "id": "frognerparken",
+      "osm": "way/4334023",
+      "name": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "category": "park",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      }
+    },
+    {
+      "id": "vigelandsanlegget",
+      "osm": "way/488565859",
+      "name": {
+        "nb": "Vigelandsanlegget",
+        "en": "Vigeland Sculpture Park"
+      },
+      "category": "attraction",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Vigelandsanlegget",
+        "en": "Vigeland Installation"
+      }
+    },
+    {
+      "id": "vigelandmuseet",
+      "osm": "way/30176633",
+      "name": {
+        "nb": "Vigelandmuseet",
+        "en": "Vigeland Museum"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Vigelandmuseet",
+        "en": "Vigeland Museum"
+      }
+    },
+    {
+      "id": "bymuseet",
+      "osm": "node/330082033",
+      "name": {
+        "nb": "Oslo Museum (Bymuseet)",
+        "en": "Oslo City Museum"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Oslo Museum",
+        "en": "Oslo City Museum"
+      }
+    },
+    {
+      "id": "colosseum",
+      "name": {
+        "nb": "Colosseum kino",
+        "en": "Colosseum Cinema"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Colosseum kino",
+        "en": "Colosseum Kino"
+      }
+    },
+    {
+      "id": "bogstadveien",
+      "name": {
+        "nb": "Bogstadveien",
+        "en": "Bogstadveien"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Bogstadveien",
+        "en": "Bogstadveien"
+      }
+    },
+    {
+      "id": "holmenkollbakken",
+      "osm": "way/173145217",
+      "name": {
+        "nb": "Holmenkollbakken",
+        "en": "Holmenkollen Ski Jump"
+      },
+      "category": "attraction",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Holmenkollbakken",
+        "en": "Holmenkollbakken"
+      },
+      "access": {
+        "lat": 59.9628,
+        "lon": 10.6672
+      }
+    },
+    {
+      "id": "skimuseet",
+      "osm": "node/6593517789",
+      "name": {
+        "nb": "Skimuseet i Holmenkollen",
+        "en": "Holmenkollen Ski Museum"
+      },
+      "category": "museum",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Skimuseet",
+        "en": "Holmenkollen Ski Museum"
+      },
+      "access": {
+        "lat": 59.9628,
+        "lon": 10.6672
+      }
+    },
+    {
+      "id": "holmenkollen-kapell",
+      "osm": "way/159200193",
+      "name": {
+        "nb": "Holmenkollen kapell",
+        "en": "Holmenkollen Chapel"
+      },
+      "category": "church",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Holmenkollen kapell",
+        "en": "Holmenkollen Chapel"
+      }
+    },
+    {
+      "id": "frognerseteren",
+      "name": {
+        "nb": "Frognerseteren",
+        "en": "Frognerseteren"
+      },
+      "category": "viewpoint",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Frognerseteren",
+        "en": "Frognerseteren"
+      }
+    },
+    {
+      "id": "korketrekkeren",
+      "name": {
+        "nb": "Korketrekkeren",
+        "en": "Korketrekkeren Toboggan Run"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Korketrekkeren",
+        "en": "Korketrekkeren"
+      },
+      "access": {
+        "lat": 59.978602,
+        "lon": 10.676345
+      }
+    },
+    {
+      "id": "tryvann",
+      "osm": "node/1288333920",
+      "name": {
+        "nb": "Tryvannshøgda og Tryvannstårnet",
+        "en": "Tryvann"
+      },
+      "category": "viewpoint",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Tryvannstårnet",
+        "en": "Tryvannstårnet"
+      }
+    },
+    {
+      "id": "emanuel-vigeland",
+      "osm": "way/1551792576",
+      "name": {
+        "nb": "Emanuel Vigelands museum",
+        "en": "Emanuel Vigeland Museum"
+      },
+      "category": "museum",
+      "priority": 2,
+      "lat": 59.9436,
+      "lon": 10.6999,
+      "wikipedia": {
+        "nb": "Emanuel Vigelands Museum",
+        "en": "Emanuel Vigeland Museum"
+      }
+    },
+    {
+      "id": "villa-stenersen",
+      "osm": "way/219440002",
+      "name": {
+        "nb": "Villa Stenersen",
+        "en": "Villa Stenersen"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Villa Stenersen",
+        "en": "Villa Stenersen"
+      }
+    },
+    {
+      "id": "sognsvann",
+      "osmName": "Sognsvann",
+      "name": {
+        "nb": "Sognsvann",
+        "en": "Sognsvann Lake"
+      },
+      "category": "park",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Sognsvann",
+        "en": "Sognsvann"
+      }
+    },
+    {
+      "id": "ullevaal-stadion",
+      "osm": "way/43222619",
+      "name": {
+        "nb": "Ullevaal Stadion",
+        "en": "Ullevaal Stadium"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Ullevaal stadion",
+        "en": "Ullevaal Stadion"
+      }
+    },
+    {
+      "id": "teknisk-museum",
+      "osm": "way/54031035",
+      "name": {
+        "nb": "Norsk Teknisk Museum",
+        "en": "Norwegian Museum of Science and Technology"
+      },
+      "category": "museum",
+      "priority": 3,
+      "wikipedia": {
+        "nb": "Norsk Teknisk Museum",
+        "en": "Norwegian Museum of Science and Technology"
+      }
+    },
+    {
+      "id": "grefsenkollen",
+      "osm": "node/301173334",
+      "name": {
+        "nb": "Grefsenkollen",
+        "en": "Grefsenkollen"
+      },
+      "category": "viewpoint",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Grefsenkollen",
+        "en": "Grefsenkollen"
+      }
+    },
+    {
+      "id": "torshovdalen",
+      "osm": "relation/959781",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      }
+    },
+    {
+      "id": "rodelokka",
+      "name": {
+        "nb": "Rodeløkka",
+        "en": "Rodeløkka"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Rodeløkka",
+        "en": "Rodeløkka"
+      }
+    },
+    {
+      "id": "stovnertarnet",
+      "osm": "node/5163964280",
+      "name": {
+        "nb": "Stovnertårnet",
+        "en": "Stovner Tower"
+      },
+      "category": "viewpoint",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Stovnertårnet"
+      },
+      "summary": {
+        "nb": "265 meter lang, sirklende gangbro i tretoppene på Fossumberget, med utsikt over Groruddalen og innover mot Oslo. Universelt utformet og åpen hele døgnet.",
+        "en": "A 265-metre circling walkway through the treetops on Fossumberget, with views over the Grorud valley towards Oslo. Universally accessible and open around the clock."
+      },
+      "access": {
+        "lat": 59.9605,
+        "lon": 10.929
+      }
+    },
+    {
+      "id": "linderud-gard",
+      "osm": "way/80871207",
+      "name": {
+        "nb": "Linderud gård",
+        "en": "Linderud Manor"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Linderud gård",
+        "en": "Linderud Manor"
+      }
+    },
+    {
+      "id": "baitun-nasr",
+      "osm": "way/155330109",
+      "name": {
+        "nb": "Baitun Nasr moské",
+        "en": "Baitun Nasr Mosque"
+      },
+      "category": "church",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Baitun Nasr",
+        "en": "Baitun Nasr Mosque"
+      }
+    },
+    {
+      "id": "intility-arena",
+      "osm": "way/443983964",
+      "name": {
+        "nb": "Intility Arena",
+        "en": "Intility Arena"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Intility Arena",
+        "en": "Intility Arena"
+      }
+    },
+    {
+      "id": "jordal-amfi",
+      "osm": "way/760875553",
+      "name": {
+        "nb": "Jordal Amfi",
+        "en": "Jordal Amfi"
+      },
+      "category": "attraction",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Jordal Amfi",
+        "en": "Jordal Amfi"
+      }
+    },
+    {
+      "id": "ostensjovannet",
+      "osm": "relation/13363590",
+      "name": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet Lake"
+      },
+      "category": "park",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet"
+      }
+    },
+    {
+      "id": "noklevann",
+      "osmName": "Nøklevann",
+      "name": {
+        "nb": "Nøklevann",
+        "en": "Nøklevann Lake"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Nøklevann",
+        "en": "Nøklevann"
+      }
+    },
+    {
+      "id": "mortensrud-kirke",
+      "osm": "relation/13642561",
+      "name": {
+        "nb": "Mortensrud kirke",
+        "en": "Mortensrud Church"
+      },
+      "category": "church",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Mortensrud kirke",
+        "en": "Mortensrud Church"
+      }
+    },
+    {
+      "id": "steinbruvann",
+      "osmName": "Steinbruvann",
+      "name": {
+        "nb": "Steinbruvann",
+        "en": "Steinbruvann Lake"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Steinbruvann"
+      }
+    },
+    {
+      "id": "valle-hovin",
+      "name": {
+        "nb": "Valle Hovin",
+        "en": "Valle Hovin"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Valle Hovin",
+        "en": "Valle Hovin"
+      }
+    },
+    {
+      "id": "kampen-park",
+      "osm": "way/4870715",
+      "name": {
+        "nb": "Kampen park",
+        "en": "Kampen Park"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Kampen park"
+      }
+    },
+    {
+      "id": "toyenparken",
+      "osm": "way/4870612",
+      "name": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "category": "park",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      }
+    },
+    {
+      "id": "interkulturelt-museum",
+      "osm": "node/3650497118",
+      "name": {
+        "nb": "Interkulturelt museum",
+        "en": "Intercultural Museum"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Interkulturelt museum",
+        "en": "Intercultural Museum"
+      }
+    },
+    {
+      "id": "sporveismuseet",
+      "osm": "node/305913819",
+      "name": {
+        "nb": "Sporveismuseet",
+        "en": "Oslo Tramway Museum"
+      },
+      "category": "museum",
+      "priority": 2,
+      "wikipedia": {
+        "nb": "Sporveismuseet Vognhall 5",
+        "en": "Oslo Tramway Museum"
+      },
+      "summary": {
+        "nb": "Sporveismuseet i Vognhall 5 på Majorstuen viser Oslos trikke-, buss- og T-banehistorie med rundt 20 vogner fra hestesporvognen i 1875 til nyere tid. Drives av Lokaltrafikkhistorisk forening, åpent i helgene.",
+        "en": "The Oslo Tramway Museum in Vognhall 5 at Majorstuen tells the story of Oslo's trams, buses and metro with around 20 vehicles from the 1875 horse tram onwards. Run by volunteers, open at weekends."
+      },
+      "summaryWins": true
+    },
+    {
+      "id": "skoytemuseet",
+      "osm": "node/9820788484",
+      "name": {
+        "nb": "Skøytemuseet",
+        "en": "Skating Museum"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Skøytemuseet"
+      }
+    },
+    {
+      "id": "barnekunstmuseet",
+      "osm": "node/30310859",
+      "name": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      }
+    },
+    {
+      "id": "arbeidermuseet",
+      "osm": "node/2789321759",
+      "name": {
+        "nb": "Arbeidermuseet",
+        "en": "Labour Museum"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Arbeidermuseet (Oslo)"
+      },
+      "summary": {
+        "nb": "Oslo Museums avdeling ved Akerselva forteller historien om arbeiderne og industrien langs elva, med utgangspunkt i det gamle arbeiderstrøket ved Sagene.",
+        "en": "Oslo Museum's branch by the Akerselva river tells the story of the workers and industry along the river, starting from the old working-class district at Sagene."
+      }
+    },
+    {
+      "id": "jodisk-museum",
+      "osm": "way/112401084",
+      "name": {
+        "nb": "Jødisk museum",
+        "en": "Jewish Museum Oslo"
+      },
+      "category": "museum",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Jødisk museum i Oslo",
+        "en": "Oslo Jewish Museum"
+      }
+    },
+    {
+      "id": "kulturkirken-jakob",
+      "osm": "way/44044595",
+      "name": {
+        "nb": "Kulturkirken Jakob",
+        "en": "Jakob Church of Culture"
+      },
+      "category": "theatre",
+      "priority": 1,
+      "wikipedia": {
+        "nb": "Jakob kirke",
+        "en": "Jakob Church"
+      }
+    },
+    {
+      "id": "akerselva-nydalen",
+      "name": {
+        "nb": "Akerselva ved Nydalen",
+        "en": "Akerselva river at Nydalen"
+      },
+      "category": "park",
+      "priority": 1,
+      "lat": 59.94906,
+      "lon": 10.76685,
+      "access": {
+        "lat": 59.94906,
+        "lon": 10.76685
+      },
+      "wikipedia": {
+        "nb": "Akerselva",
+        "en": "Akerselva"
+      }
+    }
+  ]
+}

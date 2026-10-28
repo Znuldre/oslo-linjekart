@@ -1,0 +1,128 @@
+{
+  "id": "NSR:StopPlace:58220",
+  "slug": "ellingsrudasen",
+  "name": "Ellingsrudåsen",
+  "lat": 59.936486,
+  "lon": 10.916859,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5639"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "next": "NSR:StopPlace:58221"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58221"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 22,
+    "majorstuen": 28
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58220",
+      "name": "Ellingsrudåsen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2B",
+          "name": "Buss for linje 2",
+          "lineId": "RUT:Line:3002"
+        },
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "26",
+          "name": "Ellingsrudåsen - Bislett",
+          "lineId": "RUT:Line:26"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5639",
+        "name": "Ellingsrudåsen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10331",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10330",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/155437573",
+      "name": {
+        "nb": "Ellingsrud kirke",
+        "en": "Ellingsrud Church"
+      },
+      "category": "church",
+      "lat": 59.937119,
+      "lon": 10.916471,
+      "score": 8.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297133",
+      "website": "https://www.oslo.kirken.no/ellingsrud-furuset",
+      "wikipedia": {
+        "nb": "Ellingsrud kirke",
+        "en": "Ellingsrud Church"
+      },
+      "summary": {
+        "nb": "Ellingsrud kirke er en kirke i Ellingsrud og Furuset menighet i Groruddalen prosti i Oslo bispedømme i Oslo kommune. Kirken er en arbeidskirke på Ellingsrudåsen i bydel Alna i Oslo. Kirken er bygget i tre, og kledd med syrevasket tegl. Ellingsrud har vært eget sokn med egen sokneprest siden 2003. Før dette var menigheten annekssokn i Høybråten prestegjeld. Fra 2015 er menigheten slått sammen med Furuset menighet med navnet Ellingsrud og Furuset menighet.",
+        "en": "Ellingsrud Church is a church center in Oslo, Norway. Ellingsrud Church was consecrated in 1981."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ellingsrud_kirke_%2819._juli_2023%29.jpg/640px-Ellingsrud_kirke_%2819._juli_2023%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 108,
+        "distanceM": 124,
+        "polyline": "_jylJiesaAJAFLDFELELAFCBELUj@GNIJEG@W@OOLC?C?A?MKO]EQ",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

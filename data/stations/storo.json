@@ -1,0 +1,397 @@
+{
+  "id": "NSR:StopPlace:58195",
+  "slug": "storo",
+  "name": "Storo",
+  "lat": 59.94527,
+  "lon": 10.778637,
+  "modes": [
+    "metro",
+    "tram"
+  ],
+  "lineCodes": [
+    "4",
+    "5",
+    "12",
+    "15",
+    "17",
+    "18"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6057",
+    "NSR:StopPlace:6060",
+    "NSR:StopPlace:6067"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:61268",
+        "next": "NSR:StopPlace:59605"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59605",
+        "next": "NSR:StopPlace:61268"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:61268",
+        "next": "NSR:StopPlace:59605"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:59605",
+        "next": "NSR:StopPlace:61268"
+      }
+    ],
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58196",
+        "next": "NSR:StopPlace:58305"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58305",
+        "next": "NSR:StopPlace:58196"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58305",
+        "next": "NSR:StopPlace:58196"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58196",
+        "next": "NSR:StopPlace:58305"
+      }
+    ],
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "prev": "NSR:StopPlace:59643",
+        "next": "NSR:StopPlace:58305"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58305",
+        "next": "NSR:StopPlace:59643"
+      }
+    ],
+    "18": [
+      {
+        "directionType": "inbound",
+        "towards": "Grefsen stasjon",
+        "prev": "NSR:StopPlace:58196",
+        "next": "NSR:StopPlace:59643"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:59643",
+        "next": "NSR:StopPlace:58196"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 16,
+    "majorstuen": 11
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58195",
+      "name": "Storo",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "4B",
+          "name": "Buss for linje 4",
+          "lineId": "RUT:Line:3004"
+        },
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        },
+        {
+          "publicCode": "23",
+          "name": "Lysaker - Simensbråten",
+          "lineId": "RUT:Line:23"
+        },
+        {
+          "publicCode": "24",
+          "name": "Fornebu vest - Brynseng T",
+          "lineId": "RUT:Line:24"
+        },
+        {
+          "publicCode": "56",
+          "name": "Nydalen - Solemskogen",
+          "lineId": "RUT:Line:56"
+        },
+        {
+          "publicCode": "56B",
+          "name": "Nydalen - Grefsenkollen",
+          "lineId": "RUT:Line:2056"
+        },
+        {
+          "publicCode": "FB3",
+          "name": "Radiumhospitalet via Økern-Storo-Tåsen",
+          "lineId": "NBU:Line:cb7b555c-f96e-42d5-84bf-a5e08c0145c2"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6060",
+        "name": "Storo",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11124",
+            "publicCode": "B",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11123",
+            "publicCode": "A",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:107241",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      },
+      {
+        "id": "NSR:StopPlace:6067",
+        "name": "Storo",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11133",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11132",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      },
+      {
+        "id": "NSR:StopPlace:6057",
+        "name": "Storo",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11117",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11115",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:102520",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:torshovdalen",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "lat": 59.934963,
+      "lon": 10.776707,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19392835",
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      },
+      "summary": {
+        "nb": "Torshovdalen er et parkområde i Oslo. Parken ligger mellom Torshov i vest, Sinsen i øst (Trondheimsveien), Rosenhoff og Rodeløkka i sørøst og sør (Mailundveien) og Gjøvikbanen i nord, og har skateboardramp i den sydlige delen. Parken forvaltes av Bymiljøetaten i Oslo kommune, som også preparerer langrennsløype om vinteren."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Torshovdalen4.JPG/640px-Torshovdalen4.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.938851,
+        "lon": 10.778637
+      },
+      "walk": {
+        "durationS": 695,
+        "distanceM": 839,
+        "polyline": "}`{lJmex`A@LDt@BP@N@A@?BA@AHCFC@A@L@F?FBD@B?@?HHELEHAZMl@NNBRLZ^h@^H?P?LBVPLF`ANh@LL?h@MBAjAe@PKNIJKb@YB@jA{@\\m@HWP?TOX_@jDmAfFiBAZExAB@J@H@@?AfAAF",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:akerselva-nydalen",
+      "name": {
+        "nb": "Akerselva ved Nydalen",
+        "en": "Akerselva river at Nydalen"
+      },
+      "category": "park",
+      "lat": 59.94906,
+      "lon": 10.76685,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Akerselva",
+        "en": "Akerselva"
+      },
+      "summary": {
+        "nb": "Akerselva, eller Akerselven, i middelalderen kalt Frysja, er en elv som renner gjennom Oslo. Den er nederste del av Nordmarksvassdraget, som i sin tur tilhører Oslomarkavassdragene.",
+        "en": "The Akerselva or Akerselven is a river which flows through Oslo, Norway. It starts at Maridalsvannet in Oslomarka, and traverses the boroughs of Nordre Aker, Sagene, Grünerløkka, central Oslo and Grønland, finally ending at Paulsenkaien and Oset in Bjørvika. The river is considered to be a part of the Nordmarkvassdraget, and has the Norwegian watercourse number 006.Z. The entire river is about 9.8 kilometres (6.1 mi) long, and the difference in elevation between source and mouth is approximately 149 metres (489 ft)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Gronvolds.jpg/640px-Gronvolds.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.94906,
+        "lon": 10.76685
+      },
+      "walk": {
+        "durationS": 738,
+        "distanceM": 920,
+        "polyline": "}`{lJmex`A@LDt@BP@NC@A?A@@FCBCBGDCB@FBJBL?JAFAJIPGLGLQZYh@OZO^Sl@Md@K`@Kf@Kb@G\\G^UpAIb@CHOz@Ot@In@Gl@CVGPAJABGNGDGBE@AD?HAD?FAHAF?BDL?PAJANQvAMfAALE`@?FEXAN?FCJCLENWbAGNGLKLQNs@`@@P@LBP@LIFA@EBEBEBmD|BUN]RGDKF??ABAB?JH|@J~@N|A@HBL@HJdAJ`AA@KFIDA@?H?DAFCDCDC@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/27012015",
+      "name": {
+        "nb": "Torshov kirkepark"
+      },
+      "category": "park",
+      "lat": 59.938137,
+      "lon": 10.773215,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12007133",
+      "wikipedia": {
+        "nb": "Torshov kirkepark"
+      },
+      "summary": {
+        "nb": "Torshov kirkepark er en park på Torshov i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Torshov_kirkepark.JPG/640px-Torshov_kirkepark.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.938954,
+        "lon": 10.774425
+      },
+      "walk": {
+        "durationS": 677,
+        "distanceM": 849,
+        "polyline": "}`{lJmex`A@LDt@BP@N@A@?BA@AHCFC@A@L@F?FBD@B?@?HHELEHAZMl@NNBRLZ^h@^H?P?LBVPLF`ANh@LL?h@MBAjAe@NBZHLNHZ@BBBDFFJ@@D@DBf@lAb@`Ax@lBPl@BDDH@F@BBCFJbAfC@L@BDFDQHH@@jCvCBDBFDJLKJWLYLXBG@CBEAI?IDKDKFM@CJYDGZM",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/252260743",
+      "name": {
+        "nb": "Torshovparken"
+      },
+      "category": "park",
+      "lat": 59.935297,
+      "lon": 10.77098,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19392836",
+      "wikipedia": {
+        "nb": "Torshovparken",
+        "en": "Torshovparken"
+      },
+      "summary": {
+        "nb": "Torshovparken er en stor park på Torshov i Oslo, anlagt på 1920-tallet som en del av Torshovbyen, boligområdet som ble bygget ut i kommunal regi.",
+        "en": "Torshovparken is a large park located in Torshov, Oslo, Norway, that was established in the 1920s as part of Torshovbyen, a residential area developed by the municipality."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Torshovparken1.JPG/640px-Torshovparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.936397,
+        "lon": 10.773276
+      },
+      "walk": {
+        "durationS": 888,
+        "distanceM": 1150,
+        "polyline": "}`{lJmex`A@LDt@BP@N@A@?BA@AHCFC@ABT?FBD@B?@?HHELEHAZMl@NNBRLZ^h@^H?P?LBVPLF`ANh@LL?h@MBAjAe@NBZHLNHZ@BBBDFFJ@@D@DBf@lAb@`Ax@lBPl@BDDH@F@BBCFJbAfC@L@BDFDQHH@@jCvCBDBFDJLKJWLYLXBG@CBEAI?IDKDKFM@CJYDG`@]xAr@FDv@^JFt@^D@JFd@Th@XJFDB@@FD`@R^PPFLDJBH?L?JAHALE",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

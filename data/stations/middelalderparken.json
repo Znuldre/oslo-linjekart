@@ -1,0 +1,515 @@
+{
+  "id": "NSR:StopPlace:61066",
+  "slug": "middelalderparken",
+  "name": "Middelalderparken",
+  "lat": 59.906258,
+  "lon": 10.764453,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "13",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:61065"
+  ],
+  "neighbours": {
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:58296",
+        "next": "NSR:StopPlace:58367"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58367",
+        "next": "NSR:StopPlace:58296"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58367",
+        "next": "NSR:StopPlace:58296"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58296",
+        "next": "NSR:StopPlace:58367"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 5,
+    "majorstuen": 20
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:61066",
+      "name": "Middelalderparken",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "19N",
+          "name": "Kringsjå - Åsbråten",
+          "lineId": "RUT:Line:3919"
+        },
+        {
+          "publicCode": "54",
+          "name": "Kværnerbyen - Kjelsås stasjon",
+          "lineId": "RUT:Line:54"
+        },
+        {
+          "publicCode": "70",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:70"
+        },
+        {
+          "publicCode": "71",
+          "name": "Bjørndal - Mortensrud T (-Jernbanetorget)",
+          "lineId": "RUT:Line:71"
+        },
+        {
+          "publicCode": "74X",
+          "name": "Bjørvika - Bekkelagshjemmet",
+          "lineId": "RUT:Line:9074"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:62016",
+      "name": "St. Halvards plass",
+      "distanceM": 210,
+      "lines": [
+        {
+          "publicCode": "34",
+          "name": "Tåsen - Ekeberg hageby",
+          "lineId": "RUT:Line:34"
+        },
+        {
+          "publicCode": "70N",
+          "name": "Jernbanetorget - Bjørndal",
+          "lineId": "RUT:Line:3970"
+        },
+        {
+          "publicCode": "74",
+          "name": "Jernbanetorget - Mortensrud T",
+          "lineId": "RUT:Line:74"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:61065",
+        "name": "Middelalderparken",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:104526",
+            "publicCode": "B",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:104525",
+            "publicCode": "C",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:middelalderparken",
+      "name": {
+        "nb": "Middelalderparken",
+        "en": "Medieval Park"
+      },
+      "category": "park",
+      "lat": 59.904175,
+      "lon": 10.763659,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q6841153",
+      "wikipedia": {
+        "nb": "Middelalderparken",
+        "en": "Middelalderparken"
+      },
+      "summary": {
+        "nb": "Middelalderparken ligger mellom Bjørvika og Gamlebyen i bydel Gamle Oslo, i det som en gang var Middelalderbyen Oslos søndre bydel. Den ble åpnet i 2000, som en viktig del av Oslos fylkes-tusenårssted, middelalderbyen. Utbygging i området er forbudt grunnet ruiner og kulturlag over og under bakken.",
+        "en": "The Medieval Park is located in the borough of Gamle Oslo in Oslo, Norway. The park was opened in the year 2000 at Sørenga in what was once the southern part of the medieval city of Oslo. The park is located within an area which also included the Minneparken and Ladegården on the north side of Bispegata. Development in the area is prohibited due to ruins and cultural layers above and below ground."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Middelalderparken_fra_Ekeberg.JPG/640px-Middelalderparken_fra_Ekeberg.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.906258,
+        "lon": 10.764453
+      },
+      "walk": {
+        "durationS": 0,
+        "distanceM": 0,
+        "source": "estimate"
+      }
+    },
+    {
+      "id": "curated:ladegarden",
+      "name": {
+        "nb": "Oslo Ladegård",
+        "en": "Oslo Ladegård"
+      },
+      "category": "museum",
+      "lat": 59.906189,
+      "lon": 10.767626,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q3526084",
+      "wikipedia": {
+        "nb": "Oslo ladegård",
+        "en": "Oslo Ladegård"
+      },
+      "summary": {
+        "nb": "Oslo ladegård eller Ladegården er en bygning i sentrum av Gamlebyen i Oslo, nærmere bestemt nord for Oslo torg / Bispegata. Oslo gate løper langs østsiden.",
+        "en": "Oslo Ladegård is a manor house situated at Gamlebyen in Oslo, Norway. It was built of the site of the Old Bishop's Palace in Oslo.\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Oslo_ladeg%C3%A5rd.jpg/640px-Oslo_ladeg%C3%A5rd.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 201,
+        "distanceM": 226,
+        "polyline": "_mslJulu`ARkABUAAAAECAAAAAACAAAAAAAAAA?AC?CBE@EBEDOBMDWD[Da@BYB]ZiF@KMCk@[A?AC?C?C?C@S",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:barcode",
+      "name": {
+        "nb": "Barcode",
+        "en": "Barcode"
+      },
+      "category": "attraction",
+      "lat": 59.907778,
+      "lon": 10.759444,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Barcode (Oslo)",
+        "en": "Barcode Project"
+      },
+      "summary": {
+        "nb": "",
+        "en": "The Barcode Project is a section of the Bjørvika portion of the Fjord City redevelopment on former dock and industrial land in central Oslo. It consists of a row of new multi-purpose high-rise buildings, that was completed in 2016. The developer is marketing the project as \"The Opera Quarter.\" There has been intense public debate about the height and shape of the buildings."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Oslo_-_Bj%C3%B8rvika.jpg/640px-Oslo_-_Bj%C3%B8rvika.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 387,
+        "distanceM": 369,
+        "polyline": "_mslJulu`ACf@Gb@CN@@B@ADGj@GXGf@QbAIh@E`@E\\CPEZIb@Ij@Kj@AHO|@[rBGb@GDGECCEECQSSAJAD@HCJQlACLKl@Id@AH??CDAFAHAJAFQQ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:munchmuseet",
+      "name": {
+        "nb": "Munchmuseet",
+        "en": "Munch Museum"
+      },
+      "category": "museum",
+      "lat": 59.905724,
+      "lon": 10.755255,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q844926",
+      "website": "https://www.munchmuseet.no/",
+      "wikipedia": {
+        "nb": "Munchmuseet",
+        "en": "Munch Museum"
+      },
+      "summary": {
+        "nb": "Munchmuseet, fra 2020 markedsført som MUNCH, er et kunstmuseum i Bjørvika i Oslo. Museet inneholder Edvard Munchs etterlatte arbeider som han testamenterte til Oslo kommune i 1940.",
+        "en": "Munch Museum, marketed as MUNCH since 2020, is an art museum in Bjørvika, Oslo, Norway, dedicated to the life and works of the Norwegian artist Edvard Munch."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/MUNCH_Museum_front_%282020%29_4.jpg/640px-MUNCH_Museum_front_%282020%29_4.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 619,
+        "distanceM": 705,
+        "polyline": "_mslJulu`ACf@Gb@CN@@B@ADGj@GXGf@QbAIh@E`@E\\CPEZIb@Ij@Ar@?@DB[lBOz@CPEV?@@@tApAAB@@BFBD@JUvACRCPAHCHOfAEVCNO`AADADADI\\Kp@`AfEDLPVhA~AVXShAW~ADB`@X`Ap@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:operaen",
+      "name": {
+        "nb": "Operahuset",
+        "en": "Oslo Opera House"
+      },
+      "category": "attraction",
+      "lat": 59.907484,
+      "lon": 10.752681,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q43280",
+      "website": "https://operaen.no/",
+      "wikipedia": {
+        "nb": "Operahuset i Oslo",
+        "en": "Oslo Opera House"
+      },
+      "summary": {
+        "nb": "Operahuset i Oslo er Den Norske Opera & Balletts operahus i Bjørvika innerst i Oslofjorden. Det har adresse Kirsten Flagstads plass 1 etter operaens første sjef Kirsten Flagstad. Huset er tegnet av arkitekt- og designkontoret Snøhetta, som vant en arkitektkonkurranse i 2000. Det ble høytidelig åpnet 12. april 2008. Bygningen har fått mange priser, og er fredet av Riksantikvaren.",
+        "en": "The Oslo Opera House is the home of the Norwegian National Opera and Ballet, and the national opera house in Norway. The building is situated in the Bjørvika neighbourhood of central Oslo, at the head of the Oslofjord. It is operated by Norwegian Directorate of Public Construction and Property, the government agency which manages property for the Norwegian government. The structure contains 1,100 rooms in a total area of 49,000 m2 (530,000 sq ft). The main auditorium seats 1,364 and two other performance spaces can seat 200 and 400. The main stage is 16 m (52 ft) wide and 40 m (130 ft) deep. The angled exterior surfaces of the building are covered with marble from Carrara, Italy and white granite and make it appear to rise from the water. It is the largest cultural building constructed in Norway since Nidaros Cathedral was completed circa 1300."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Operahuset_i_Oslo_1.jpg/640px-Operahuset_i_Oslo_1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.906655,
+        "lon": 10.754813
+      },
+      "walk": {
+        "durationS": 619,
+        "distanceM": 719,
+        "polyline": "_mslJulu`ACf@Gb@CN@@B@ADGj@GXGf@QbAIh@E`@E\\CPEZIb@Ij@Ar@?@DBSlAWzACPEV?@@@tApAAB@@BFBD@JUvACRCPAHCHOfAEVCNO`AADADADI\\Kp@U`BCVAb@i@nDCRKt@YlBAJCJFD@AFINDDJv@NdAh@XV",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:deichman-bjorvika",
+      "name": {
+        "nb": "Deichman Bjørvika",
+        "en": "Deichman Bjørvika Library"
+      },
+      "category": "attraction",
+      "lat": 59.908658,
+      "lon": 10.752697,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Deichman Bjørvika",
+        "en": "Deichman Bjørvika"
+      },
+      "summary": {
+        "nb": "Deichman Bjørvika er hovedbibliotek for Deichman, folkebiblioteket i Oslo kommune. Det ligger i Bjørvika, mellom Oslo S og Operahuset i Oslo. Byggearbeidene tok til i 2013 og ble ferdige i desember 2019. Det nye biblioteket planla å åpne med samlingene fra det gamle hovedbiblioteket på Hammersborg og et utvidet publikumstilbud 28. mars 2020, men åpninga ble utsatt på grunn av nedstengninga av offentlige samlingsarenaer som følge av koronaviruspandemien i 2019–2020. Den offisielle åpningen var 18. juni 2020. Biblioteket har vunnet en rekke priser, blant andre Norsk Bibliotekforenings pris for Årets bibliotek 2020, den internasjonale bibliotekføderasjonen IFLAs pris Public Library of the Year 2021 og prisen Trend Brand of the Year 2020."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Deichman_Bj%C3%B8rvika_og_Operaen_med_Dronning_Eufemias_gate_og_Operagata.jpg/640px-Deichman_Bj%C3%B8rvika_og_Operaen_med_Dronning_Eufemias_gate_og_Operagata.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 701,
+        "distanceM": 746,
+        "polyline": "_mslJulu`ACf@Gb@CN@@B@ADGj@GXGf@QbAIh@E`@E\\CPEZIb@Ij@Ar@?@DBSlAWzACPEVAJAF?@EXQ`AYlBETCPAFEXIn@]xBDZBfADRd@~@@RIh@e@tCCNG`@AH[jBALC@?FCLEPAF?D?DGX?Bs@nEAJWbBCLAFCPCPEVKt@CH",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:interkulturelt-museum",
+      "name": {
+        "nb": "Interkulturelt museum",
+        "en": "Intercultural Museum"
+      },
+      "category": "museum",
+      "lat": 59.913048,
+      "lon": 10.763251,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q18663554",
+      "website": "https://www.oslomuseum.no/interkulturelt-museum/",
+      "wikipedia": {
+        "nb": "Interkulturelt Museum",
+        "en": "Intercultural Museum"
+      },
+      "summary": {
+        "nb": "Interkulturelt Museum (IKM), tidligere Internasjonalt kultursenter og museum eller Internasjonalt kulturmuseum, er siden 2006 en avdeling ved Oslo Museum.",
+        "en": "The Intercultural Museum is located at Tøyenbekken 5 in Oslo, Norway. \nThe Intercultural Museum is a migration museum, and is primarily concerned with the collection, preservation and dissemination of Norwegian immigration history.\nSince 2006, the Intercultural Museum has been part of the Oslo Museum. It is situated in the district of Grønland and housed in a former police station which was built in 1900–1902 under design by architect Balthazar Lange (1854-1937).\n\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG/640px-Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 953,
+        "distanceM": 1013,
+        "polyline": "_mslJulu`ACf@Gb@AACACCCAAAANCAAAACCAAAA?AAAAADADABC@AFANET?F?B?F?D?FAJ?FCHo@hEAHMECLcCwAq@_@eAm@kEiCKIANMdAAFECStAk@lDIGGGwAoAgA`FGV?ACCAAACAAAA??CF?@AACEEGA?ABEAGCECCAYSMKoA{@[UCNAVGIKIKGGE_BeASMMICAAAC?C@ABAAIEIECCB]?G?Eo@{A",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ostbanehallen",
+      "name": {
+        "nb": "Østbanehallen",
+        "en": "Østbanehallen"
+      },
+      "category": "attraction",
+      "lat": 59.910602,
+      "lon": 10.751361,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Østbanehallen"
+      },
+      "summary": {
+        "nb": "Østbanehallen er vognhallen til Østbanestasjonen i Oslo. Siden har navnet blitt tatt i bruk av kjøpesenteret som ble opprettet i hallen etter at Oslo S tok over jernbanefunksjonene. Den er på 8 000 m²."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Oslo_%C3%98stbanestasjonen_2005-08-30.jpg/640px-Oslo_%C3%98stbanestasjonen_2005-08-30.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 887,
+        "distanceM": 1027,
+        "polyline": "_mslJulu`ACf@Gb@AACACCCAAAANCAAAACCAAAA?AAAAADADABC@AFANET?F?B?F?D?FAJ?FCHo@hEAHMEkC{AAAECAAGCGGEEy@~BO`@Qn@GXMd@I`@EXId@CZIr@Ex@??Aj@AJEj@A^G~@AFEt@CXG|@Ed@?BCNGr@AHEZE^Kv@Mz@?DO`AMr@?BSpAMbAObAMv@G^ANAAmAdHEV}@WEXEHAHMbAIl@KfAAHE`@?BAN@b@C\\ANDBGn@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4258487",
+      "name": {
+        "nb": "Tenerife"
+      },
+      "category": "park",
+      "lat": 59.904307,
+      "lon": 10.761486,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12005478",
+      "wikipedia": {
+        "nb": "Tenerife (Oslo)"
+      },
+      "summary": {
+        "nb": "Tenerife er et folkelig navn på vannspeilet i Middelalderparken i Gamlebyen i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Middelalderparken%2C_Oslo.jpg/640px-Middelalderparken%2C_Oslo.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.906258,
+        "lon": 10.762798
+      },
+      "walk": {
+        "durationS": 143,
+        "distanceM": 147,
+        "polyline": "_mslJulu`ACf@Gb@CN@@B@ADGj@DD@??@B@CHKr@AHNHXNPJJFMJOFSFC@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/7951543",
+      "name": {
+        "nb": "Botsparken",
+        "en": "Grønlands park – Botsparken"
+      },
+      "category": "park",
+      "lat": 59.909593,
+      "lon": 10.771116,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11973058",
+      "wikipedia": {
+        "nb": "Grønlands park – Botsparken"
+      },
+      "summary": {
+        "nb": "Grønlands park – Botsparken er en park som ligger rundt Oslo fengsel og Politihuset på Grønland i Oslo. Parken er 27,5 dekar stor, når det 11,6 dekar store arealet langs sydsiden av muren mot Klosterenga ikke regnes med. I parken ligger Egon Olsens allé."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Gronlands_park2.JPG/640px-Gronlands_park2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.908159,
+        "lon": 10.767888
+      },
+      "walk": {
+        "durationS": 390,
+        "distanceM": 467,
+        "polyline": "_mslJulu`ARkABUAAAAECAAAAAACAAAAAAAAAA?AC?CBE@EBEDOBMDWD[Da@BYB]ZiF@K@WBc@?E?EAGACAAAAAAA?AAIG_AIWCKAa@Ac@?Y@U?c@DQBM@?CAI?EOBO@i@FU@CCCEE@ABCDEAGCOG",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4874898",
+      "name": {
+        "nb": "Klosterenga"
+      },
+      "category": "park",
+      "lat": 59.908272,
+      "lon": 10.77627,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q15091162",
+      "wikipedia": {
+        "nb": "Klosterenga",
+        "en": "Klosterenga"
+      },
+      "summary": {
+        "nb": "Klosterenga, eller Klosterenga park, er et parkmessig område i Bydel Gamle Oslo som ligger i overgangen mellom Nordre Gamlebyen og Grønland i Oslo. Parkdraget strekker seg opp til Galgeberg.",
+        "en": "Klosterenga or Klosterenga park is a park in Oslo, located in the transition between Old Town and Grønland. The park route extends up to Galgeberg. It was made as part of a housing project."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Klosterenga_skulpturpark2.JPG/640px-Klosterenga_skulpturpark2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.907427,
+        "lon": 10.774206
+      },
+      "walk": {
+        "durationS": 648,
+        "distanceM": 707,
+        "polyline": "_mslJulu`ARkABUAAAAECAAAAAACAAAAAAAAAA?AC?CBE@EBEDOBMDWD[Da@BYB]ZiF@K@WBc@?E?EAGAC@E?K@I?ILB@?@ABA@C?C@ILyADe@DY@IBO@OAIACAIAGIWCIEAAAUy@GUCKCMGSIWCKI[E_@Gk@KaAYsCACCEOGe@]SMC?A@A@BS?EKIOKGECEAGE?ECGEe@[GEEC?QO_BAM@SAAECECA?RwB@M@QMK",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "NSR:StopPlace:58215",
+  "slug": "veitvet",
+  "name": "Veitvet",
+  "lat": 59.94491,
+  "lon": 10.845587,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5963"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58214",
+        "next": "NSR:StopPlace:61582"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:61582",
+        "next": "NSR:StopPlace:58214"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:61582",
+        "next": "NSR:StopPlace:58214"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58214",
+        "next": "NSR:StopPlace:61582"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 27,
+    "majorstuen": 22
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58215",
+      "name": "Veitvet",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "25",
+          "name": "Majorstuen-Haugerud",
+          "lineId": "RUT:Line:25"
+        },
+        {
+          "publicCode": "26",
+          "name": "Ellingsrudåsen - Bislett",
+          "lineId": "RUT:Line:26"
+        },
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        },
+        {
+          "publicCode": "31E",
+          "name": "Fornebu - Kalbakken",
+          "lineId": "RUT:Line:2031"
+        },
+        {
+          "publicCode": "126",
+          "name": "Dokka-Hov-Brandbu-Oslo",
+          "lineId": "INN:Line:126"
+        },
+        {
+          "publicCode": "380",
+          "name": "Lillestrøm - Rv4 - Oslo bussterminal",
+          "lineId": "RUT:Line:380"
+        },
+        {
+          "publicCode": "390",
+          "name": "Kongskog/Hellerudhaugen - Oslo bussterminal",
+          "lineId": "RUT:Line:390"
+        },
+        {
+          "publicCode": "FB1",
+          "name": "Majorstuen via Torshov-Sagene",
+          "lineId": "NBU:Line:a7cafc59-feaf-4e61-9fa1-b7dce4ffe970"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5963",
+        "name": "Veitvet",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10939",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:102519",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10938",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:linderud-gard",
+      "name": {
+        "nb": "Linderud gård",
+        "en": "Linderud Manor"
+      },
+      "category": "museum",
+      "lat": 59.941891,
+      "lon": 10.833781,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q11984093",
+      "wikipedia": {
+        "nb": "Linderud gård",
+        "en": "Linderud Manor"
+      },
+      "summary": {
+        "nb": "Linderud gård er en tidligere storgård ved Linderud i bydel Bjerke i Oslo og en avdeling av MiA - Museene i Akershus. Gårdsbebyggelsen og hagen er i dag et fredet kulturminne."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Linderud_g%C3%A5rd_hovedbygning2.JPG/640px-Linderud_g%C3%A5rd_hovedbygning2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 938,
+        "distanceM": 1132,
+        "polyline": "u~zlJaheaAKNU\\BH@BQVYh@CJAHANBVb@fDD`@Bf@Ff@`BlMFb@Hb@F`@TfANr@Fd@Fb@LdABVBLDJBDBB@@B?D?BCvAcADGBEBG?G@I?I@ADC@A@ADC@AD^TZLZNCPMd@]FAF?HBHHFLVt@Ph@J\\DVB\\Bd@FjAHpAZzCHp@Fh@DTDLDFDFDBH?NCPGBZdAbMuCh@Ag@?YCq@?E",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/248741524",
+      "name": {
+        "nb": "Veitvetparken"
+      },
+      "category": "park",
+      "lat": 59.941571,
+      "lon": 10.848437,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q129994004",
+      "wikipedia": {
+        "nb": "Veitvetparken"
+      },
+      "summary": {
+        "nb": "Veitvetparken er et parkområde i Veitvetdalen mellom Veitvet skole og Linderud i Oslo."
+      },
+      "access": {
+        "lat": 59.942214,
+        "lon": 10.846822
+      },
+      "walk": {
+        "durationS": 366,
+        "distanceM": 458,
+        "polyline": "u~zlJaheaAb@s@NU@F@B@C^k@BEBCHI@ABALUL[DMHSBE@A@A??BEBKDK@C?C?C?EHSFYH]BOP}@Dc@D_@DBHFFHHPFP@?F?PEBBJJJBJbAd@[XOXQXQVONKRBXpBFREVAJU^",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

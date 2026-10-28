@@ -1,0 +1,150 @@
+{
+  "id": "NSR:StopPlace:58308",
+  "slug": "grefsenplataet",
+  "name": "Grefsenplatået",
+  "lat": 59.955962,
+  "lon": 10.785736,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "15"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6097"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58307",
+        "next": "NSR:StopPlace:58309"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58309",
+        "next": "NSR:StopPlace:58307"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58309",
+        "next": "NSR:StopPlace:58307"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58307",
+        "next": "NSR:StopPlace:58309"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 22,
+    "majorstuen": 40
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58308",
+      "name": "Grefsenplatået",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:6137",
+      "name": "Lyngåsveien",
+      "distanceM": 224,
+      "lines": [
+        {
+          "publicCode": "25",
+          "name": "Majorstuen-Haugerud",
+          "lineId": "RUT:Line:25"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6097",
+        "name": "Grefsenplatået",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11200",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11198",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/66136796",
+      "name": {
+        "nb": "Grefsen kirke",
+        "en": "Grefsen Church"
+      },
+      "category": "church",
+      "lat": 59.954216,
+      "lon": 10.77924,
+      "score": 10.5,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q10297163",
+      "wikipedia": {
+        "nb": "Grefsen kirke",
+        "en": "Grefsen Church"
+      },
+      "summary": {
+        "nb": "Grefsen kirke er soknekirke for Grefsen menighet i Vestre Aker prosti i Oslo bispedømme i Oslo kommune. Den er en langkirke fra 1940 på Grefsen i Oslo. Den ble innviet av biskop Eivind Berggrav 3. mars samme år.",
+        "en": "Grefsen Church is a long church located in Grefsen, a neighborhood of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Grefsen_kirke_20080531-1.jpg/640px-Grefsen_kirke_20080531-1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 519,
+        "distanceM": 611,
+        "polyline": "wc}lJyqy`A\\@?D?DAD?J@@DBDD??@?Kj@o@`E]vBAD@B?@CLCL?DCDG^Kh@UtA?F@DA@?P\\Fx@Rd@LjCb@PDXHCp@IZKvBIlACj@ZLl@RPL@HLCp@fCAl@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

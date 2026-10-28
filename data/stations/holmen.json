@@ -1,0 +1,106 @@
+{
+  "id": "NSR:StopPlace:6350",
+  "slug": "holmen",
+  "name": "Holmen",
+  "lat": 59.946029,
+  "lon": 10.667379,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6350"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:58274",
+        "next": "NSR:StopPlace:58275"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58275",
+        "next": "NSR:StopPlace:58274"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 14,
+    "majorstuen": 9
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6350",
+        "name": "Holmen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11670",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11669",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/220645990",
+      "name": {
+        "nb": "Gardeparken"
+      },
+      "category": "park",
+      "lat": 59.942164,
+      "lon": 10.66212,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q29955009",
+      "wikipedia": {
+        "nb": "Gardeparken"
+      },
+      "summary": {
+        "nb": "Gardeparken er en park på Huseby i Oslo. Parken ligger ved Husebyskogen og Sørkedalsveien, mellom Huseby leir og USAs ambassade i Oslo. Parken ble anlagt i 2012 av Forsvarsbygg, som et kompenserende tiltak for byggingen av ambassaden i friområdet Husebyskogen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Gardeparken_plakett.jpg/640px-Gardeparken_plakett.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.943024,
+        "lon": 10.66396
+      },
+      "walk": {
+        "durationS": 591,
+        "distanceM": 700,
+        "polyline": "ye{lJinb`A?CUl@Kf@g@jCRPd@_CBDHLbAxALPFHt@nAd@t@PHBF@@DHz@rALQLOZYPQJOBEL?B?BBBBBJDHBD@B@@B?@?@@B@DQFQHKTWv@u@dCsBALMjCCb@MtCBTNjB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

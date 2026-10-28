@@ -1,0 +1,613 @@
+{
+  "id": "NSR:StopPlace:58254",
+  "slug": "lakkegata-skole",
+  "name": "Lakkegata skole",
+  "lat": 59.920591,
+  "lon": 10.768439,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "17"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:62029"
+  ],
+  "neighbours": {
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "prev": "NSR:StopPlace:58253",
+        "next": "NSR:StopPlace:58190"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58190",
+        "next": "NSR:StopPlace:58253"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 8,
+    "majorstuen": null
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59421",
+      "name": "Sars' gate",
+      "distanceM": 226,
+      "lines": [
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        },
+        {
+          "publicCode": "31E",
+          "name": "Fornebu - Kalbakken",
+          "lineId": "RUT:Line:2031"
+        },
+        {
+          "publicCode": "380",
+          "name": "Lillestrøm - Rv4 - Oslo bussterminal",
+          "lineId": "RUT:Line:380"
+        },
+        {
+          "publicCode": "390",
+          "name": "Kongskog/Hellerudhaugen - Oslo bussterminal",
+          "lineId": "RUT:Line:390"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:62029",
+        "name": "Lakkegata skole",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:104051",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:104050",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:botanisk-hage",
+      "name": {
+        "nb": "Botanisk hage",
+        "en": "Botanical Garden"
+      },
+      "category": "park",
+      "lat": 59.918365,
+      "lon": 10.769751,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q3116396",
+      "website": "https://www.nhm.uio.no/utstillinger/botanisk-hage/index.html",
+      "wikipedia": {
+        "nb": "Botanisk hage (Oslo)",
+        "en": "University Botanical Garden (Oslo)"
+      },
+      "summary": {
+        "nb": "Botanisk hage på Tøyen i Oslo er Norges eldste botaniske hage, den ble etablert i 1814. Hagen og samlingene er siden blitt del av Naturhistorisk museum, sammen med blant annet Geologisk museum og Zoologisk museum. Naturhistorisk museum er igjen en del av Universitetet i Oslo (UiO). Botanisk hage har et areal på 150 mål, med rundt 35 000 planter, fordelt på 8 500 arter fra ulike deler av verden. Utvalget er under stadig utvidelse og omlegging.",
+        "en": "The University Botanical Garden is Norway's oldest botanical garden. It was first established in 1814 and is administered by the University of Oslo. It is situated in the neighborhood of Tøyen in Oslo, Norway. \n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Botanisk_hage_Oldemors_have.JPG/640px-Botanisk_hage_Oldemors_have.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.920591,
+        "lon": 10.768439
+      },
+      "walk": {
+        "durationS": 0,
+        "distanceM": 0,
+        "source": "estimate"
+      }
+    },
+    {
+      "id": "curated:naturhistorisk-museum",
+      "name": {
+        "nb": "Naturhistorisk museum",
+        "en": "Natural History Museum"
+      },
+      "category": "museum",
+      "lat": 59.919783,
+      "lon": 10.771714,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1840963",
+      "website": "https://www.nhm.uio.no/",
+      "wikipedia": {
+        "nb": "Naturhistorisk museum (Oslo)",
+        "en": "Natural History Museum at the University of Oslo"
+      },
+      "summary": {
+        "nb": "Naturhistorisk museum (NHM) på Tøyen i Oslo er en del av Universitetet i Oslo og huser universitetets naturhistoriske samlinger og botanisk hage.",
+        "en": "The Natural History Museum at the University of Oslo is Norway's oldest and largest museum of natural history. It is situated in the neighborhood of Tøyen in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/T%C3%B8yen_hovedgaard_Oslo.JPG/640px-T%C3%B8yen_hovedgaard_Oslo.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 359,
+        "distanceM": 342,
+        "polyline": "ufvlJsev`ABDFRDLDJDP@ABC@CAEAED[Da@^{CFe@BIBKHJ@@BDFSDQGIDQHg@?G@C@IBC@A|A}ARKKg@Ck@?}@O}@}@?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:sofienbergparken",
+      "name": {
+        "nb": "Sofienbergparken",
+        "en": "Sofienberg Park"
+      },
+      "category": "park",
+      "lat": 59.923134,
+      "lon": 10.764245,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q12001727",
+      "wikipedia": {
+        "nb": "Sofienbergparken",
+        "en": "Sofienberg Park"
+      },
+      "summary": {
+        "nb": "Sofienbergparken er en 74 mål stor park i bydel Grünerløkka i Oslo. Sofienberg kirke ligger i parken.",
+        "en": "Sofienberg Park is a large park in the Grünerløkka district of Oslo, Norway, covering an area of 74 ha."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Sofienbergparken_%287._september_2018%29.jpg/640px-Sofienbergparken_%287._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.921861,
+        "lon": 10.767143
+      },
+      "walk": {
+        "durationS": 232,
+        "distanceM": 255,
+        "polyline": "ufvlJsev`AKWa@{@KUABAFAHCKAAe@~H{@]ARSIB]ICQGE`@GhA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:toyenparken",
+      "name": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "category": "park",
+      "lat": 59.919963,
+      "lon": 10.778272,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q7862388",
+      "wikipedia": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "summary": {
+        "nb": "Tøyenparken er en 93 mål stor park langs et høydedrag på Tøyen i Oslo. Fra 2014 arrangeres Øyafestivalen i parken.",
+        "en": "Tøyen Park is a park in Oslo, Norway. It is located to the north-east of the old Munch Museum and neighbours the University of Oslo Botanical Gardens."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Toyenparken_med_Bellevue.JPG/640px-Toyenparken_med_Bellevue.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.920591,
+        "lon": 10.775017
+      },
+      "walk": {
+        "durationS": 436,
+        "distanceM": 462,
+        "polyline": "ufvlJsev`AKWa@{@@C@C@CAKAIg@gAUc@IOGQAK?CCCGGGIAC@Ib@oC?I?CAEEEBK?EDU@GBM@?B@@E?KDiB@eABsCBwAAGBO?I@C@C?C@m@BsB@eB?S@?D?@K?Mt@F",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:rodelokka",
+      "name": {
+        "nb": "Rodeløkka",
+        "en": "Rodeløkka"
+      },
+      "category": "attraction",
+      "lat": 59.9244,
+      "lon": 10.7689,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Rodeløkka",
+        "en": "Rodeløkka"
+      },
+      "summary": {
+        "nb": "Rodeløkka er et strøk i bydel Grünerløkka, i indre by i Oslo. Freia produserer melkesjokoladen sin der.",
+        "en": "Rodeløkka is a neighborhood in Grünerløkka in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Rodel%C3%B8kka_%287._september_2018%29.jpg/640px-Rodel%C3%B8kka_%287._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 547,
+        "distanceM": 605,
+        "polyline": "ufvlJsev`AKWa@{@KUABAFAHCKAA?EAEAGu@eBCEC?CB?DEECCCCGEAEAEy@aAuAaBAAA@k@fDEVKr@g@zCStAY~AADAAEECCCCMCMK}@_AGICCEEBKo@b@IDAIAKi@uAu@qB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:olaf-ryes-plass",
+      "name": {
+        "nb": "Olaf Ryes plass",
+        "en": "Olaf Ryes plass"
+      },
+      "category": "park",
+      "lat": 59.922882,
+      "lon": 10.758259,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q4993079",
+      "wikipedia": {
+        "nb": "Olaf Ryes plass (Oslo)",
+        "en": "Olaf Ryes plass"
+      },
+      "summary": {
+        "nb": "Olaf Ryes plass er en plass på Grünerløkka i Oslo, oppkalt etter den dansk-norske offiseren og idrettsmannen Olaf Rye.",
+        "en": "Olaf Ryes plass is a square and park placed centrally in the Grünerløkka borough of Oslo, Norway. It is more or less square in shape."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Olaf_Ryes_plass.JPG/640px-Olaf_Ryes_plass.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 638,
+        "distanceM": 744,
+        "polyline": "ufvlJsev`AKWa@{@KUABAFAHCKAAe@~HCd@Cn@Ep@GHqA`BGCAAGCC^CXQvCWvECZCXCCA?ANC\\i@zIIrAAB?BA@EA?D?L?P?FB@@B?F@LC|G?R?FAD?H?D?D?D?D?F?@OZc@`Ac@`A@D?D?D?FABCBC@A?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:toyenbadet",
+      "name": {
+        "nb": "Tøyenbadet",
+        "en": "Tøyen Baths"
+      },
+      "category": "attraction",
+      "lat": 59.9194,
+      "lon": 10.7789,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Tøyenbadet"
+      },
+      "summary": {
+        "nb": "Tøyenbadet er en offentlig svømmehall på Tøyen i Oslo, med adresse Helgesens gate 90. Det nåværende anlegget ble innviet 6. januar 2025, og erstattet en eldre svømmehall fra 1976 som ble revet i 2020."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/2013-05_T%C3%B8yenbadet.jpg/640px-2013-05_T%C3%B8yenbadet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 860,
+        "distanceM": 903,
+        "polyline": "ufvlJsev`AKWa@{@@C@C@CAKAIg@gAUc@IOGQAK?CCCGGGIAC@Ib@oC?I?CAEEEBK?EDU@GBMOQEGc@i@k@k@MWMOEGAE?I@I?QBs@By@HwBBG?E?K?K?C?G?IHiG@QD??O?K@S?M?OEA?K@oADyB@kB@Y?IBU?MDQFOHUNULQNOLI@AFEJCPETCPAT?bABv@D|AJZOJCP?CWI@Q?MC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:birkelunden",
+      "name": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "category": "park",
+      "lat": 59.92635,
+      "lon": 10.760125,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q4916412",
+      "wikipedia": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "summary": {
+        "nb": "Birkelunden er en park på Grünerløkka i Oslo. Parken, Grünerløkka skole, Paulus kirke og 15 omkringliggende kvartaler ble fredet i 2006.",
+        "en": "Birkelunden is a park placed centrally in the Grünerløkka borough of Oslo, Norway. It is formed as a rectangle, more or less like a city block."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Birkelunden_%28121153%29.jpg/640px-Birkelunden_%28121153%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.925588,
+        "lon": 10.760999
+      },
+      "walk": {
+        "durationS": 791,
+        "distanceM": 927,
+        "polyline": "ufvlJsev`AKWa@{@KUABAFAHCKAAe@~HCd@Cn@Ep@GHqA`BGCAAGCC^CXQvCWvECZCXCCA?ANC\\K?UE]MyAm@_A_@EAm@Wg@UMIy@nFAHUxACCCCEGAHaAdGEHE?kDFAAAA?B?T?P?BA?K?E?C?@D",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:kulturkirken-jakob",
+      "name": {
+        "nb": "Kulturkirken Jakob",
+        "en": "Jakob Church of Culture"
+      },
+      "category": "theatre",
+      "lat": 59.91815,
+      "lon": 10.754419,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1773529",
+      "website": "https://jakob.no/",
+      "wikipedia": {
+        "nb": "Kulturkirken Jakob",
+        "en": "Jakob Church"
+      },
+      "summary": {
+        "nb": "Kulturkirken Jakob er en kirke i Hausmanns gate i strøket Hausmannsområdet i Oslo. Jakob kirke ble tegnet av arkitekt Georg Andreas Bull og oppført i 1880. Den har sitt navn etter apostelen St. Jakob. Altertavlen er «Hyrdenes tilbedelse» av Eilif Peterssen (1880). I våpenhuset henger et relieff av Erkeengelen Mikael. Den har plass til 550."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Kulturkirken_Jakob-1.jpg/640px-Kulturkirken_Jakob-1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 801,
+        "distanceM": 970,
+        "polyline": "ufvlJsev`ABDFRDLDJDPA@CBA@\\hBThA^pBPt@v@dE?D?D@FBNBL?DD@@Fn@dD?B?D?B?BBH@J@B@?@@@Bz@pE@F?D?BBNBN@B@@@@j@rC@HLn@H^DTl@dD@BH^DVFX@N?TANCJABELGHGDK@c@@?H?D?D?B?F?DC?CBA?I?AvAA|E?H?H@D?B@FFh@FLFRVhA|@vDPp@EHABCVQ`@OXCB_@h@GJj@jB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:kampen-park",
+      "name": {
+        "nb": "Kampen park",
+        "en": "Kampen Park"
+      },
+      "category": "park",
+      "lat": 59.915381,
+      "lon": 10.780319,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19376841",
+      "wikipedia": {
+        "nb": "Kampen park"
+      },
+      "summary": {
+        "nb": "Kampen park er en park på Kampen i Oslo, avgrenset av Økernveien og Ensjøveien i nord, jernbanen i øst, Sons gate i sør og Brinken i vest. Bøgata går gjennom parken i østenden."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Kampen_park1.JPG/640px-Kampen_park1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.916273,
+        "lon": 10.778277
+      },
+      "walk": {
+        "durationS": 909,
+        "distanceM": 974,
+        "polyline": "ufvlJsev`ABDFRDLDJDP@ABC@CAEAED[Da@^{CFe@BIBKHJ@@BDFSDQGIDQHg@nAlAh@d@XDV?d@]VUv@o@N[DW@GD{AD}@@EL_@l@iAFOIwAl@YD[CmACgA?Ch@DB??A@K?Q?AFo@LSBS?WBwB?KCGECE@CD?G@{B@SLSPOJKNGJEVCHC@CBC@G?IAWAGAMAOAEAUA_@Ba@Bg@JoALyAZsDPL@?FD",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:jodisk-museum",
+      "name": {
+        "nb": "Jødisk museum",
+        "en": "Jewish Museum Oslo"
+      },
+      "category": "museum",
+      "lat": 59.916338,
+      "lon": 10.755421,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q6189888",
+      "wikipedia": {
+        "nb": "Jødisk museum i Oslo",
+        "en": "Oslo Jewish Museum"
+      },
+      "summary": {
+        "nb": "",
+        "en": "\nThe Oslo Jewish Museum aims to inform about Jews in Norway. It was established as a foundation in 2003, supported by Det Mosaiske Trossamfund and Oslo City Museum."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/J%C3%B8disk_Museum_i_Oslo_-_2010-07-05_at_15-21-17.jpg/640px-J%C3%B8disk_Museum_i_Oslo_-_2010-07-05_at_15-21-17.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 881,
+        "distanceM": 999,
+        "polyline": "ufvlJsev`ABDFRDLDJDPA@CBA@\\hBThA^pBPt@RdAb@~B?D?D@FBNBL?DD@@Fn@dD?B?D?B?BBH@J@B@?@@@Bz@pE@F?D?BBNBN@B@@@@j@rC@HLn@H^DTl@dD@BH^DVFX@N?TANCJB@BBBBB@BB?\\?B?D?D?FABFBFDRRf@j@FDH?FDFHD@Z`@lBnCDLb@p@FHHL~@tAEJ@FBHBHBFBHBH@DMRIP_BbD?BAD?B?B@@d@|A??",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:interkulturelt-museum",
+      "name": {
+        "nb": "Interkulturelt museum",
+        "en": "Intercultural Museum"
+      },
+      "category": "museum",
+      "lat": 59.913048,
+      "lon": 10.763251,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q18663554",
+      "website": "https://www.oslomuseum.no/interkulturelt-museum/",
+      "wikipedia": {
+        "nb": "Interkulturelt Museum",
+        "en": "Intercultural Museum"
+      },
+      "summary": {
+        "nb": "Interkulturelt Museum (IKM), tidligere Internasjonalt kultursenter og museum eller Internasjonalt kulturmuseum, er siden 2006 en avdeling ved Oslo Museum.",
+        "en": "The Intercultural Museum is located at Tøyenbekken 5 in Oslo, Norway. \nThe Intercultural Museum is a migration museum, and is primarily concerned with the collection, preservation and dissemination of Norwegian immigration history.\nSince 2006, the Intercultural Museum has been part of the Oslo Museum. It is situated in the district of Grønland and housed in a former police station which was built in 1900–1902 under design by architect Balthazar Lange (1854-1937).\n\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG/640px-Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 950,
+        "distanceM": 1143,
+        "polyline": "ufvlJsev`ABDFRDLDJDP@ABC@CB@B@B@BBDDFJ|@tBDJb@nAVr@r@nAb@|@Rb@AT@P@Jr@hBDLHNDDFFDEDG\\e@vBqCLKHMHKR_@`AiAFVBLLb@NXV~@HNDLDJ@CBCXhAR]BAB?|@Pn@LFBj@}@DPBJrAwB@A@?BEBEBEBC?B?BlAtELd@FTBJj@bCBFBDB?@HBF@JDH@D?E@CBE~@eBp@oABFBBBBDHDJHRHRDLn@zA\\v@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/547688836",
+      "name": {
+        "nb": "Elgsletta",
+        "en": "Elgsletta aktivitetspark"
+      },
+      "category": "park",
+      "lat": 59.915901,
+      "lon": 10.761247,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q97794288",
+      "wikipedia": {
+        "nb": "Elgsletta aktivitetspark"
+      },
+      "summary": {
+        "nb": "Elgsletta aktivitetspark er en park langs Akerselva på Grønland i Oslo, ferdig i 2009. Parken inneholder blant annet sandvolleyballbaner."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Elgsletta_aktivitetspark_2014.jpg/640px-Elgsletta_aktivitetspark_2014.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.916579,
+        "lon": 10.762371
+      },
+      "walk": {
+        "durationS": 502,
+        "distanceM": 596,
+        "polyline": "ufvlJsev`ABDFRDLDJDP@ABC@CB@B@B@BBDDFJ|@tBDJb@nAVr@r@nAb@|@Rb@AT@P@Jr@hBDLHNDDFFJXFIBA@F`AhCFPBCBJBB@FDHA@vAlDBHB@@?@?DDDFDH@B?B?@@BBBB@l@NZHd@LHBH@`@J",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/70186922",
+      "name": {
+        "nb": "Grünerhagen"
+      },
+      "category": "park",
+      "lat": 59.921816,
+      "lon": 10.755136,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11973102",
+      "wikipedia": {
+        "nb": "Grünerhagen"
+      },
+      "summary": {
+        "nb": "Grünerhagen er en park på Grünerløkka i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Rigmor_Luihns_vei_nedre_del.JPG/640px-Rigmor_Luihns_vei_nedre_del.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.921162,
+        "lon": 10.755825
+      },
+      "walk": {
+        "durationS": 716,
+        "distanceM": 885,
+        "polyline": "ufvlJsev`AKWa@{@KUABAFAHCKAAe@~HCd@Cn@Ep@GHqA`BGCCd@AP`AlFh@nCEv@DL?H@N?XAFo@|J?F@B?B?T?R?@v@AB?@@@HArHAH?@ABAD?F?D?B?F@F@JAlCA|DC??D?H?J?BB@AbB?dB?h@?HAZ?L",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/511229553",
+      "name": {
+        "nb": "Nedre foss park",
+        "en": "Nedre Foss park"
+      },
+      "category": "park",
+      "lat": 59.921918,
+      "lon": 10.753595,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q66313522",
+      "wikipedia": {
+        "nb": "Nedre Foss park"
+      },
+      "summary": {
+        "nb": "Nedre Foss park er en bypark fra 2017 ved bredden av Akerselva syd på Grünerløkka i Oslo. Parken ligger ved Nedre Foss gård og nedenfor fossefallet som har gitt gården navn."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Nedre_Foss_park_med_hovedbygningen_og_siloen_Gr%C3%BCnerl%C3%B8kka_studenhus.jpg/640px-Nedre_Foss_park_med_hovedbygningen_og_siloen_Gr%C3%BCnerl%C3%B8kka_studenhus.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.921343,
+        "lon": 10.754457
+      },
+      "walk": {
+        "durationS": 785,
+        "distanceM": 976,
+        "polyline": "ufvlJsev`AKWa@{@KUABAFAHCKAAe@~HCd@Cn@Ep@GHqA`BGCCd@AP`AlFh@nCEv@DL?H@N?XAFo@|J?F@B?B?T?R?@v@AB?@@@HArHAH?@ABAD?F?D?B?F@F@JAlCA|DC??D?H?J?BB@AbB?dB?h@?HAZ?h@?`@?vAAfA???F?FAHAFABCBWLA?",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

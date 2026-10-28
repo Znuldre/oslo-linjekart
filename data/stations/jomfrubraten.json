@@ -1,0 +1,166 @@
+{
+  "id": "NSR:StopPlace:6580",
+  "slug": "jomfrubraten",
+  "name": "Jomfrubråten",
+  "lat": 59.888213,
+  "lon": 10.770829,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "13",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6580"
+  ],
+  "neighbours": {
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:58298",
+        "next": "NSR:StopPlace:58297"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58298",
+        "next": "NSR:StopPlace:58297"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 11,
+    "majorstuen": 26
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6580",
+        "name": "Jomfrubråten",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:12153",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12152",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:ekebergsletta",
+      "name": {
+        "nb": "Ekebergsletta",
+        "en": "Ekebergsletta"
+      },
+      "category": "park",
+      "lat": 59.893611,
+      "lon": 10.780833,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Ekebergsletta"
+      },
+      "summary": {
+        "nb": "Ekebergsletta er et område som ligger på Ekebergplatået i Oslo. Ekebergsletta benyttes i dag først og fremst til idrett og er del av Oslos største parkområde, som også omfatter Brannfjell, Ballsletta og Ekebergskogen. Området er et «statlig sikret friluftslivsområde»."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Air_ekebergsletta.jpg/640px-Air_ekebergsletta.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 889,
+        "distanceM": 1029,
+        "polyline": "m|olJ_uv`A@AAAMNIHKLIFIDMHc@VA@EBE@I[Ka@Y}@GUIWISYcAM_@Sw@w@bAQVm@x@GLINGJKPOTILEJOXMk@]uAEQIWSy@Og@CKCMEMEKEKEIKMGGMKIECACAIAI?G?C@WNSHQFOBG?OAMEKEECMQKQM[MYQe@ISI[AGIYCSAMAWKmBOuDAc@C_@E_AEa@Ea@QoAa@sCi@eEKw@IFAIAOnA}@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/13363583",
+      "name": {
+        "nb": "Ekebergskråningen naturreservat",
+        "en": "Ekebergskråningen"
+      },
+      "category": "park",
+      "lat": 59.891795,
+      "lon": 10.764855,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17769381",
+      "wikipedia": {
+        "nb": "Ekebergskråningen"
+      },
+      "summary": {
+        "nb": "Ekebergskråningen, eller Ekebergskråninga, er et naturområde på cirka 800 dekar (mål) i tilknytning til Oslo indre by. Skråningen ligger dels i bydel Gamle Oslo, dels i bydel Nordstrand og utgjør den solfylte vesthellinga av Ekeberg, som skråner ned mot Oslofjorden og Bjørvika. Skråningen er for en stor del skogkledt, og ligger nær Oslo sentrum. Nedre del av skogen, dvs. omtrent det området som ligger innenfor bygrensa av 1878, kalles gjerne Ekebergskauen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Ekeberg_Sj%C3%B8mannsskolen_Oslofjorden.jpeg/640px-Ekeberg_Sj%C3%B8mannsskolen_Oslofjorden.jpeg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.888213,
+        "lon": 10.770829
+      },
+      "walk": {
+        "durationS": 0,
+        "distanceM": 0,
+        "source": "estimate"
+      }
+    },
+    {
+      "id": "osm:relation/15937521",
+      "name": {
+        "nb": "Ballsletta"
+      },
+      "category": "park",
+      "lat": 59.891527,
+      "lon": 10.773209,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11960097",
+      "wikipedia": {
+        "nb": "Ballsletta"
+      },
+      "summary": {
+        "nb": "Ballsletta er navn på et område på Ekeberg i Oslo."
+      },
+      "access": {
+        "lat": 59.889925,
+        "lon": 10.77162
+      },
+      "walk": {
+        "durationS": 229,
+        "distanceM": 251,
+        "polyline": "m|olJ_uv`A@AAAMNIHKLIFIDMHc@VA@EBE@I[Ka@Y}@GUIWISYcAM_@Sw@w@bAQVIJ",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

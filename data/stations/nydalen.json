@@ -1,0 +1,214 @@
+{
+  "id": "NSR:StopPlace:59605",
+  "slug": "nydalen",
+  "name": "Nydalen",
+  "lat": 59.949063,
+  "lon": 10.766848,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6073"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58195",
+        "next": "NSR:StopPlace:58265"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58265",
+        "next": "NSR:StopPlace:58195"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58195",
+        "next": "NSR:StopPlace:58265"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58265",
+        "next": "NSR:StopPlace:58195"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 14,
+    "majorstuen": 9
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59605",
+      "name": "Nydalen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "4B",
+          "name": "Buss for linje 4",
+          "lineId": "RUT:Line:3004"
+        },
+        {
+          "publicCode": "30",
+          "name": "Bygdøy - Nydalen",
+          "lineId": "RUT:Line:30"
+        },
+        {
+          "publicCode": "37",
+          "name": "Nydalen T - Helsfyr",
+          "lineId": "RUT:Line:37"
+        },
+        {
+          "publicCode": "51",
+          "name": "Maridalen - Nydalen",
+          "lineId": "RUT:Line:51"
+        },
+        {
+          "publicCode": "56",
+          "name": "Nydalen - Solemskogen",
+          "lineId": "RUT:Line:56"
+        },
+        {
+          "publicCode": "56B",
+          "name": "Nydalen - Grefsenkollen",
+          "lineId": "RUT:Line:2056"
+        },
+        {
+          "publicCode": "58",
+          "name": "Nydalen - Tveita (- Bøler) via Bjerke",
+          "lineId": "RUT:Line:58"
+        }
+      ]
+    },
+    {
+      "mode": "rail",
+      "stopPlaceId": "NSR:StopPlace:59605",
+      "name": "Nydalen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "R31",
+          "name": "Skøyen-Jaren-Gjøvik",
+          "lineId": "VYG:Line:R31"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6073",
+        "name": "Nydalen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11151",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11153",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:akerselva-nydalen",
+      "name": {
+        "nb": "Akerselva ved Nydalen",
+        "en": "Akerselva river at Nydalen"
+      },
+      "category": "park",
+      "lat": 59.94906,
+      "lon": 10.76685,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Akerselva",
+        "en": "Akerselva"
+      },
+      "summary": {
+        "nb": "Akerselva, eller Akerselven, i middelalderen kalt Frysja, er en elv som renner gjennom Oslo. Den er nederste del av Nordmarksvassdraget, som i sin tur tilhører Oslomarkavassdragene.",
+        "en": "The Akerselva or Akerselven is a river which flows through Oslo, Norway. It starts at Maridalsvannet in Oslomarka, and traverses the boroughs of Nordre Aker, Sagene, Grünerløkka, central Oslo and Grønland, finally ending at Paulsenkaien and Oset in Bjørvika. The river is considered to be a part of the Nordmarkvassdraget, and has the Norwegian watercourse number 006.Z. The entire river is about 9.8 kilometres (6.1 mi) long, and the difference in elevation between source and mouth is approximately 149 metres (489 ft)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Gronvolds.jpg/640px-Gronvolds.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.94906,
+        "lon": 10.76685
+      },
+      "walk": {
+        "durationS": 1,
+        "distanceM": 0,
+        "polyline": "qx{lJs{u`A??",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/3630497",
+      "name": {
+        "nb": "Voldsløkka"
+      },
+      "category": "park",
+      "lat": 59.944846,
+      "lon": 10.753937,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12010063",
+      "wikipedia": {
+        "nb": "Voldsløkka"
+      },
+      "summary": {
+        "nb": "Voldsløkka er et område i bydel Sagene i Oslo, av noen betegnet som en del av Bjølsen, av andre som et eget strøk."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Voldsl%C3%B8kka_sett_mot_nord.jpg/640px-Voldsl%C3%B8kka_sett_mot_nord.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.94642,
+        "lon": 10.759435
+      },
+      "walk": {
+        "durationS": 660,
+        "distanceM": 816,
+        "polyline": "qx{lJs{u`AWPA?KHE@CBo@^]T?BBR@H?DWPGDEdCBb@?FDjA?FDHDJDDF@TB@@h@FLBJ@J@b@FH@H@B@|B\\RDPB?B?JAJ?JzAT??F@DBRLPLDDDDFHFF@FBH@JBFBDDH@DBRDd@B`@Dh@Df@Dd@Fd@Hh@Jf@Lf@J`@V~@DRBPBJ@H?J?HALA@AFAD?B?H@H?F?F@H?DJ@P?n@@L?BTEb@MfAGNGb@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

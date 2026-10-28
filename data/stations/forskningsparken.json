@@ -1,0 +1,245 @@
+{
+  "id": "NSR:StopPlace:59600",
+  "slug": "forskningsparken",
+  "name": "Forskningsparken",
+  "lat": 59.943756,
+  "lon": 10.721023,
+  "modes": [
+    "metro",
+    "tram"
+  ],
+  "lineCodes": [
+    "4",
+    "5",
+    "17",
+    "18"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6342",
+    "NSR:StopPlace:6346"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58265",
+        "next": "NSR:StopPlace:6332"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:6332",
+        "next": "NSR:StopPlace:58265"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58265",
+        "next": "NSR:StopPlace:6332"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:6332",
+        "next": "NSR:StopPlace:58265"
+      }
+    ],
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "prev": "NSR:StopPlace:6261",
+        "next": "NSR:StopPlace:6340"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:6340",
+        "next": "NSR:StopPlace:6261"
+      }
+    ],
+    "18": [
+      {
+        "directionType": "inbound",
+        "towards": "Grefsen stasjon",
+        "prev": "NSR:StopPlace:6261",
+        "next": "NSR:StopPlace:6340"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:6340",
+        "next": "NSR:StopPlace:6261"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 10,
+    "majorstuen": 5
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6342",
+        "name": "Forskningsparken",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11655",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11654",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      },
+      {
+        "id": "NSR:StopPlace:6346",
+        "name": "Forskningsparken T",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11662",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11663",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:ullevaal-stadion",
+      "name": {
+        "nb": "Ullevaal Stadion",
+        "en": "Ullevaal Stadium"
+      },
+      "category": "attraction",
+      "lat": 59.949136,
+      "lon": 10.734329,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q680291",
+      "wikipedia": {
+        "nb": "Ullevaal Stadion",
+        "en": "Ullevaal Stadion"
+      },
+      "summary": {
+        "nb": "Ullevaal Stadion er et fotballstadion i Oslo i Norge. Det er hjemmebanen til herrelandslaget og damelandslaget i tillegg til at cupfinalen i herrefotball og damefotball blir arrangert der hvert år. Fra åpningen i 1926 til 2009 var stadionet også hjemmebanen til Lyn Toppfotball. Med en kapasitet på ca. 27 182 er det det største fotballstadionet i Norge. Det er eid av Norges Fotballforbund (NFF).",
+        "en": "Ullevaal Stadion is an all-seater football stadium located in Oslo, Norway. It is the home ground of the Norway national football team, and the site of the Norwegian Cup Final. From its opening in 1926 to 2009 it was the home ground of FK Lyn and from 1999 to 2017 was a home ground of Vålerenga IF. With a capacity of approximately 28,000, it is the largest football stadium in Norway. The national stadium is fully owned by the Football Association of Norway (NFF)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Ullev%C3%A5l_Stadium_from_air.jpg/640px-Ullev%C3%A5l_Stadium_from_air.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.948299,
+        "lon": 10.732446
+      },
+      "walk": {
+        "durationS": 898,
+        "distanceM": 1071,
+        "polyline": "qwzlJs}l`A_@|@C?EJ@B?BDF@BBFMRMXITM[CIEIAAELINCHK^Sa@Is@Im@CWGSEOESAWCQAIEGGKKSCMESAMAk@AMCGCEEAQEE?GCCEEIKm@Gs@Eq@Eo@Gu@CKAADUD]F[LkCBu@?SE_@KqA?}@G_CA]KoBIy@gDmPGQ_A_BEGAIAGAK?IBc@?I?OAIEOIU}@qBEIECE?E@i@RSFEBGCACCGCBGDGFG?KAK@MBMDC]AGCSAECKU\\A@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/114706150",
+      "name": {
+        "nb": "Vestre Aker kirke",
+        "en": "Vestre Aker Church"
+      },
+      "category": "church",
+      "lat": 59.936655,
+      "lon": 10.729338,
+      "score": 10,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q4343578",
+      "wikipedia": {
+        "nb": "Vestre Aker kirke",
+        "en": "Vestre Aker Church"
+      },
+      "summary": {
+        "nb": "Vestre Aker kirke er sognekirke for Bakkehaugen, Majorstuen og Vestre aker menighet og prostesete for Vestre Aker prosti i Oslo bispedømme i Bydel St. Hanshaugen i Oslo kommune. Den ligger på Kalvehaugen på Ullevål i Oslo med gateadresse Ullevålsveien 117 i Bydel St. Hanshaugen.",
+        "en": "Vestre Aker Church is a church at Ullevaal in Oslo that was consecrated in 1855. The church was at first named Aker Church, but was renamed to Vestre Aker Church in 1861."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/VestreAkerKirke.JPG/640px-VestreAkerKirke.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 957,
+        "distanceM": 1119,
+        "polyline": "qwzlJs}l`AJUACDIBDBHBH@D@KLYPe@N[Zw@HSNc@@GBIBM?AH[L{@J[J[xAcEBGh@wABI?AHQ@ECGCGCKBGRg@l@uAtAaDJYJK@ADI\\sA@EBBBDf@sBH_@H]Li@h@{BBKd@iBBM@CBAB@@BDJ@C@EFM@C@C?I@KBKBED?jBU@?FAFA??jAMdBSh@GZEVGLCBADAHEFCJJ@BHLb@z@t@tA@BR^JLRBBFNVBDHNJ?RMBiB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/115886381",
+      "name": {
+        "nb": "Harald Hals park"
+      },
+      "category": "park",
+      "lat": 59.944567,
+      "lon": 10.735194,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11974204",
+      "wikipedia": {
+        "nb": "Harald Hals’ park"
+      },
+      "summary": {
+        "nb": "Harald Hals' park er en park nordøst for Damplassen i Ullevål Hageby i bydel Nordre Aker i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Harald_Hals_park1.JPG/640px-Harald_Hals_park1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.944071,
+        "lon": 10.734054
+      },
+      "walk": {
+        "durationS": 910,
+        "distanceM": 997,
+        "polyline": "qwzlJs}l`AJUACDIBDBHBH@D@KLYPe@N[Zw@HSNc@@GBIBM?AH[GGEEOSXw@zCkIyBiFKUMeAg@sECMCBC@?EMcAGYIc@Me@Uk@MYYa@OSc@c@AABOAACKAGScAWyAIeAGcA?KA_@?Y@Q@G@I?IAKAEACAAMK?ABOBM?EBBD?@C@?BEBI@IL_AFFPmAHi@@YAQE[pAoBEWA]?K@OBUOo@CB??",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

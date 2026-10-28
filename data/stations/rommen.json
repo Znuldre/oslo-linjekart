@@ -1,0 +1,154 @@
+{
+  "id": "NSR:StopPlace:58217",
+  "slug": "rommen",
+  "name": "Rommen",
+  "lat": 59.962916,
+  "lon": 10.908651,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5705"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58219",
+        "next": "NSR:StopPlace:5780"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:5780",
+        "next": "NSR:StopPlace:58219"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:5780",
+        "next": "NSR:StopPlace:58219"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58219",
+        "next": "NSR:StopPlace:5780"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 35,
+    "majorstuen": 30
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5705",
+        "name": "Rommen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10462",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10461",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/95200947",
+      "name": {
+        "nb": "Røverkollen naturreservat",
+        "en": "Røverkollen"
+      },
+      "category": "park",
+      "lat": 59.974543,
+      "lon": 10.894921,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11998942",
+      "wikipedia": {
+        "nb": "Røverkollen"
+      },
+      "summary": {
+        "nb": "Røverkollen er en høyde på grensa mellom Oslo og Nittedal kommuner. Toppen på 404 meter over havet ligger i Oslo, ca. 70 meter sør for kommunegrensa. Her står en TV-mast som et landemerke godt synlig i vid omkrets. Like nord for TV-masta står et utsiktstårn i betong, med utvendig vindeltrapp og takoverbygg."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Groruddalen_Roms%C3%A5s.jpg/640px-Groruddalen_Roms%C3%A5s.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.965468,
+        "lon": 10.907075
+      },
+      "walk": {
+        "durationS": 524,
+        "distanceM": 577,
+        "polyline": "eo~lJ_rqaAw@kBOSGIGIGKC@EACCEGAIAG?GGWCQEHCKCIEKuA_DMQMMCCCAC@EBEBCFA@INm@fAc@t@EJAF?F?FA@GJKNA@C?E@CBEFi@bAOTKPGHKJIHKJKHC@GDMFODKDOBI@?^?H@F?PDPFTHPT^R\\DHFJLZ@@Rh@BHJ\\BF",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/107808300",
+      "name": {
+        "nb": "Fossum kirke",
+        "en": "Fossum Church"
+      },
+      "category": "church",
+      "lat": 59.962737,
+      "lon": 10.924836,
+      "score": 8.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297144",
+      "wikipedia": {
+        "nb": "Fossum kirke",
+        "en": "Fossum Church"
+      },
+      "summary": {
+        "nb": "Fossum kirke er en av tre kirker i Høybråten, Fossum og Stovner menighet i Groruddalen prosti i Oslo bispedømme i Bydel Stovner i Oslo kommune. Den er en arbeidskirke oppført i 1976.",
+        "en": "Fossum Church is a church center at Stovner in Oslo, Norway. The church was designed by the architectural firm Anker & Hølaas and created by Selvaagbygg. The church was consecrated in September 1976. Fossum church has 200 seats in the nave and 400 in the aisles."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Fossum_kirke.jpg/640px-Fossum_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 971,
+        "distanceM": 1091,
+        "polyline": "eo~lJ_rqaAHTLQSg@KKMQKWO]EOEIAKCOAMAM?Q?MBOA?CCCAAAAAAECEGK@CBIBKH_@F_@Fg@Hq@Di@Bc@Dm@@q@B{@?u@A}AA{E?u@CiDAoC?c@Ag@Aa@AU?]?_AAqA?M?YAU?W?E?SECCCA?QWCKCSA]?i@?[@SDa@@U@[@}ADwADoCBc@BaAFmBBcA?UAQIWE]@g@Ji@~@mB@A??HMHOHMHk@R_ADGTi@Tu@B]Yo@q@tA",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

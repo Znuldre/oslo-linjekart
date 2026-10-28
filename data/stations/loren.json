@@ -1,0 +1,180 @@
+{
+  "id": "NSR:StopPlace:63284",
+  "slug": "loren",
+  "name": "Løren",
+  "lat": 59.929501,
+  "lon": 10.791315,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:58163"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58194",
+        "next": "NSR:StopPlace:61268"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:61268",
+        "next": "NSR:StopPlace:58194"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 19,
+    "majorstuen": 14
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:58163",
+        "name": "Løren",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:102017",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:102018",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:toyenparken",
+      "name": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "category": "park",
+      "lat": 59.919963,
+      "lon": 10.778272,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q7862388",
+      "wikipedia": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "summary": {
+        "nb": "Tøyenparken er en 93 mål stor park langs et høydedrag på Tøyen i Oslo. Fra 2014 arrangeres Øyafestivalen i parken.",
+        "en": "Tøyen Park is a park in Oslo, Norway. It is located to the north-east of the old Munch Museum and neighbours the University of Oslo Botanical Gardens."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Toyenparken_med_Bellevue.JPG/640px-Toyenparken_med_Bellevue.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.924348,
+        "lon": 10.781527
+      },
+      "walk": {
+        "durationS": 838,
+        "distanceM": 1044,
+        "polyline": "m~wlJytz`A@I?G?CACAAOr@EEDSBQCSCS@C@Kf@Z@@HDDBDCl@ZJFHBh@Pn@NJDNLBDJLLZ@DFTRr@Jb@dAdEPp@FV\\tABJLd@@L?LDGBCBEFGBDBBD?BA@?j@k@~@{@DE@E@@BJDH?@`@pAJ`@\\tAX|A@BHj@Hr@Lz@H~@JnAH|@NbBJlA@LDf@@R@B@J@H@BILGLEPCR?R?V@L@JHVDNBHDHd@Lp@N?BAHVFA\\HBAb@?\\?`Aj@RLFHDLH",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:torshovdalen",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "lat": 59.934963,
+      "lon": 10.776707,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19392835",
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      },
+      "summary": {
+        "nb": "Torshovdalen er et parkområde i Oslo. Parken ligger mellom Torshov i vest, Sinsen i øst (Trondheimsveien), Rosenhoff og Rodeløkka i sørøst og sør (Mailundveien) og Gjøvikbanen i nord, og har skateboardramp i den sydlige delen. Parken forvaltes av Bymiljøetaten i Oslo kommune, som også preparerer langrennsløype om vinteren."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Torshovdalen4.JPG/640px-Torshovdalen4.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.931074,
+        "lon": 10.781886
+      },
+      "walk": {
+        "durationS": 973,
+        "distanceM": 1180,
+        "polyline": "m~wlJytz`A@I?G?CACAAOr@EEDSBQCSCS@C@Kf@Z@@HDDBDCl@ZJFHBh@Pn@NJDNLBDJLLZ@DFTRr@Jb@dAdEPp@FV\\tABJLd@@L?LANAJCF}@pAm@bAKP?@eAfBA@ALENGXA`@AVMhCCb@IbBCt@En@?FALAJCD?@CDC@C@E@ECYO_@QSIQIUG?@AJANAH?D?F?FAL?@??YGiDe@iAQa@EA?MAC?C@ABADC?E?G?A?BF@RBP@VuAxC@DABELJZDGdA|C",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/110586542",
+      "name": {
+        "nb": "Sinsenparken"
+      },
+      "category": "park",
+      "lat": 59.933244,
+      "lon": 10.785884,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19388524",
+      "wikipedia": {
+        "nb": "Sinsenparken",
+        "en": "Sinsenparken"
+      },
+      "summary": {
+        "nb": "Sinsenparken er en park mellom Lørenveien og Gjøvikbanen på Sinsen i Oslo. Oslo kommune bruker Sinsenparken også om et område ved Schouterrassen lenger syd på Sinsen.",
+        "en": "Sinsenparken is a park between Lørenveien road and the Gjøvik Line at Sinsen, in Oslo, Norway. The 21.2-acre park is used for recreational purposes. The area is bounded by 6 storey residential buildings on three sides, and has Sinsen Church framing the south. There is a leisure and recreation area for the community, which is used for exercise, dog walking, games, sunbathing, barbecuing, social gatherings and other recreation. The entire surface is covered with grass, and in the northeastern part of the park are some tall trees. In the park stands a memorial in remembrance of the 24 Sinsen residents who fell during World War II. The monument was unveiled by Alfred Seland in September 1949."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Sinsenparken2.JPG/640px-Sinsenparken2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.932445,
+        "lon": 10.787217
+      },
+      "walk": {
+        "durationS": 467,
+        "distanceM": 547,
+        "polyline": "m~wlJytz`A@I?G?CACAAOr@EEDSBQCSCS@C@KECq@_@g@a@IK_@c@W[KQC?A@?@ADa@xB{@rECLw@tEYbBOt@CRENGZGRGPGRAB?B?D@B?@ABCFEFABACA?C?A?ED]X_@ZKJw@r@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

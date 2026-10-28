@@ -1,0 +1,152 @@
+{
+  "id": "NSR:StopPlace:59768",
+  "slug": "frognerseteren",
+  "name": "Frognerseteren",
+  "lat": 59.978602,
+  "lon": 10.676345,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6579"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58266"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "next": "NSR:StopPlace:58266"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 37,
+    "majorstuen": 32
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59768",
+      "name": "Frognerseteren",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "48",
+          "name": "Voksenkollen - Tryvann",
+          "lineId": "RUT:Line:48"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6579",
+        "name": "Frognerseteren",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:12150",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12151",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:korketrekkeren",
+      "name": {
+        "nb": "Korketrekkeren",
+        "en": "Korketrekkeren Toboggan Run"
+      },
+      "category": "attraction",
+      "lat": 59.968889,
+      "lon": 10.681389,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Korketrekkeren",
+        "en": "Korketrekkeren"
+      },
+      "summary": {
+        "nb": "Korketrekkeren, eller Korken, er en akebakke i Oslo på ca. 2 000 meter som går fra Frognerseteren stasjon til Midtstuen stasjon. Fallhøyden er på 255 meter. Akebakken blir stort sett preparert hver morgen i vintersesongen. Ansvarlig for vedlikehold er Oslo kommune. Nedenfor Midtstuen stasjon er det også mulig å ake videre ned til Skådalen stasjon. Denne turen krever imidlertid forsering av et boligfelt og kryssing av bilvei.",
+        "en": "Korketrekkeren is a tobogganing track and former bobsleigh and luge track in Oslo, Norway. The tobogganing track runs between Frognerseteren and Midtstuen and is operated as a public venue by the municipality. Return transport to the top of the hill is undertaken by riding the Oslo Metro's Holmenkollen Line. Tobogganing in the area started in the 1880s, with several roads being used during winter evenings. Auto racing took place in the hill in 1921 and the following year it saw its first luge tournament. The first major tournament was the FIL European Luge Championships 1937. Tobagganing also took place in the nearby Heftyebakken, but from 1950 Korketrekkeren became the sole tobogganing hill and Heftyebakken was used for cross-country skiing."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Korketrekkeren_competition_1922.jpg/640px-Korketrekkeren_competition_1922.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.978602,
+        "lon": 10.676345
+      },
+      "walk": {
+        "durationS": 0,
+        "distanceM": 0,
+        "source": "estimate"
+      }
+    },
+    {
+      "id": "curated:frognerseteren",
+      "name": {
+        "nb": "Frognerseteren",
+        "en": "Frognerseteren"
+      },
+      "category": "viewpoint",
+      "lat": 59.978,
+      "lon": 10.6773,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Frognerseteren",
+        "en": "Frognerseteren"
+      },
+      "summary": {
+        "nb": "Frognerseteren, eller Frognersætra, er et populært helårs turområde i Nordmarka i Oslo. Frognerseteren stasjon er endeholdeplass for Holmenkollbanen og ligger i sørskråningen av Tryvannshøgda ved Holmenkollen, 469 meter over havet. Stedet var opprinnelig en seter som til 1848 lå under Frogner Hovedgård i daværende Aker, og til seteren hørte en del av skogen i Nordmarka, tidligere kjent som Trevollskogen og nå som Frognerseterskogen, en skogeiendom på rundt 7 000 dekar. Siden 1891 har det vært drevet restaurant på eiendommen. Frognerseteren og Frognerseterskogen ble solgt til Christiania kommune i 1889 og ble den første kommunalt eide skogen.",
+        "en": "Frognerseteren is a neighborhood of Oslo, Norway, located within Nordmarka. It is a popular starting point for recreational hiking and skiing in Oslo. Frognerseteren Station is the terminal station of the Holmenkollen Line of the Oslo Metro. Frognerseteren Restaurant and conference facilities is one of the best examples of architectural style Dragestil in Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Frognerseteren_27may2005.jpg/640px-Frognerseteren_27may2005.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 161,
+        "distanceM": 191,
+        "polyline": "gqamJafd`A?@BBB@D?B?DCDIHSHWBKDGBEHEFBDDBHBJBNBNBZ@L@D@F@DBB@@B@D@DADADAFEFWBKDMBUBQBOBYD_@@WWA",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

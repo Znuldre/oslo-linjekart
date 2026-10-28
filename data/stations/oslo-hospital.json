@@ -1,0 +1,403 @@
+{
+  "id": "NSR:StopPlace:58296",
+  "slug": "oslo-hospital",
+  "name": "Oslo Hospital",
+  "lat": 59.903165,
+  "lon": 10.767495,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "13",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6535"
+  ],
+  "neighbours": {
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:58297",
+        "next": "NSR:StopPlace:61066"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:61066",
+        "next": "NSR:StopPlace:58297"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:61066",
+        "next": "NSR:StopPlace:58297"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58297",
+        "next": "NSR:StopPlace:61066"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 7,
+    "majorstuen": 22
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6535",
+        "name": "Oslo Hospital",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:108449",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:108450",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:108548",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12066",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12065",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:middelalderparken",
+      "name": {
+        "nb": "Middelalderparken",
+        "en": "Medieval Park"
+      },
+      "category": "park",
+      "lat": 59.904175,
+      "lon": 10.763659,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q6841153",
+      "wikipedia": {
+        "nb": "Middelalderparken",
+        "en": "Middelalderparken"
+      },
+      "summary": {
+        "nb": "Middelalderparken ligger mellom Bjørvika og Gamlebyen i bydel Gamle Oslo, i det som en gang var Middelalderbyen Oslos søndre bydel. Den ble åpnet i 2000, som en viktig del av Oslos fylkes-tusenårssted, middelalderbyen. Utbygging i området er forbudt grunnet ruiner og kulturlag over og under bakken.",
+        "en": "The Medieval Park is located in the borough of Gamle Oslo in Oslo, Norway. The park was opened in the year 2000 at Sørenga in what was once the southern part of the medieval city of Oslo. The park is located within an area which also included the Minneparken and Ladegården on the north side of Bispegata. Development in the area is prohibited due to ruins and cultural layers above and below ground."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Middelalderparken_fra_Ekeberg.JPG/640px-Middelalderparken_fra_Ekeberg.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.903165,
+        "lon": 10.767145
+      },
+      "walk": {
+        "durationS": 69,
+        "distanceM": 81,
+        "polyline": "wyrlJy_v`AC?_@@K?M??D?PBR@FBDD@D@NADAF?D?B@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ladegarden",
+      "name": {
+        "nb": "Oslo Ladegård",
+        "en": "Oslo Ladegård"
+      },
+      "category": "museum",
+      "lat": 59.906189,
+      "lon": 10.767626,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q3526084",
+      "wikipedia": {
+        "nb": "Oslo ladegård",
+        "en": "Oslo Ladegård"
+      },
+      "summary": {
+        "nb": "Oslo ladegård eller Ladegården er en bygning i sentrum av Gamlebyen i Oslo, nærmere bestemt nord for Oslo torg / Bispegata. Oslo gate løper langs østsiden.",
+        "en": "Oslo Ladegård is a manor house situated at Gamlebyen in Oslo, Norway. It was built of the site of the Old Bishop's Palace in Oslo.\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Oslo_ladeg%C3%A5rd.jpg/640px-Oslo_ladeg%C3%A5rd.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 358,
+        "distanceM": 393,
+        "polyline": "wyrlJy_v`AC?_@@K?M?G@?D?H?DO?E@E@GDCDGFGJw@tAGFEDEBC@G?GAGA{@e@CAABADCF?@_@o@cAi@CAEBAAECGCAA?EACAAAAs@a@CAA?A?CBC@CBABCHCFAFECA?CACAGAAAAVMCk@[A?AC?C?C?C@S",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ekebergparken",
+      "name": {
+        "nb": "Ekebergparken skulpturpark",
+        "en": "Ekebergparken Sculpture Park"
+      },
+      "category": "attraction",
+      "lat": 59.898599,
+      "lon": 10.759637,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Ekebergparken skulpturpark",
+        "en": "Ekebergparken Sculpture Park"
+      },
+      "summary": {
+        "nb": "",
+        "en": "Ekebergparken Sculpture Park is a sculpture park and a national heritage park close to Ekebergrestauranten with a panoramic view of the city at Ekeberg in the southeast of the city of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Ekebergparken_open_park_landscape.JPG/640px-Ekebergparken_open_park_landscape.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1101,
+        "distanceM": 924,
+        "polyline": "wyrlJy_v`Az@CH?TC`@?NAPB?E?I@OD?B@AF?JTLPJ@?HFJHB?JPFBJTRf@PPHRF\\HbADd@@VD^HR\\TPn@^pBR^L^B^BlAH\\B\\@n@R~@Tx@VzAPx@Ll@JJNLBBD@FETM@eABQBCBCL?Fz@?HDzA@NBJBJDJFFJDF?F?JEFAFAF@HD@@@BV^DFJLNRKDKDYH?FKPOVIPH`AHx@VXLNLEFINBPQBI?I?C",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ekebergrestauranten",
+      "name": {
+        "nb": "Ekebergrestauranten",
+        "en": "Ekeberg Restaurant"
+      },
+      "category": "viewpoint",
+      "lat": 59.899205,
+      "lon": 10.761677,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Ekebergrestauranten",
+        "en": "Ekebergrestauranten"
+      },
+      "summary": {
+        "nb": "Ekebergrestauranten er en restaurant i Ekebergåsen med utsikt ned mot Bjørvika i Oslo, oppført for Oslo kommune 1927–1929. Bygningen ble tegnet av arkitekt Lars Backer og er et av de fineste eksempler på klassisk funksjonalisme i Norge.",
+        "en": "\nEkebergrestauranten is a restaurant and banquet facility in a hillside overlooking downtown Oslo, Norway. Ekebergparken Sculpture Park is the nearest neighbor. The restaurant has been owned by Christian Ringnes since 2005."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Ekebergrestauranten_fra_nord.JPG/640px-Ekebergrestauranten_fra_nord.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 949,
+        "distanceM": 738,
+        "polyline": "wyrlJy_v`Az@CH?TC`@?NAPB?E?I@OD?B@AF?JTLPJ@?HFJHB?JPFBJTRf@PPHRF\\HbADd@@VD^HR\\TPn@^pBR^L^B^BlAH\\B\\@n@R~@Tx@VzAPx@Ll@JJNLBBD@FETM@eABQBCBCL?Fz@?HDzA@NBJBJDJFFJDF?F?JEFAFAF@BSBKEEACAAAAC?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:barcode",
+      "name": {
+        "nb": "Barcode",
+        "en": "Barcode"
+      },
+      "category": "attraction",
+      "lat": 59.907778,
+      "lon": 10.759444,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Barcode (Oslo)",
+        "en": "Barcode Project"
+      },
+      "summary": {
+        "nb": "",
+        "en": "The Barcode Project is a section of the Bjørvika portion of the Fjord City redevelopment on former dock and industrial land in central Oslo. It consists of a row of new multi-purpose high-rise buildings, that was completed in 2016. The developer is marketing the project as \"The Opera Quarter.\" There has been intense public debate about the height and shape of the buildings."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Oslo_-_Bj%C3%B8rvika.jpg/640px-Oslo_-_Bj%C3%B8rvika.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 773,
+        "distanceM": 868,
+        "polyline": "wyrlJy_v`AC?_@@K?M?G@?D?H?DO?E@E@GDCDGFGJw@tAGFEDEBC@G?GAGA{@e@CAABADCF?@_@o@cAi@CAEBAAECGCAA?EACAAAAs@a@CA_@hAU|DEn@QpCAL?H?H?J?HAH?JAJAHAJ]nCAJADAJAFEP?BCHKr@AHAHOdAAH[jB?JC?GEIb@Ij@Kj@AHO|@[rBGb@GDGECCEECQSSAJAD@HCJQlACLKn@Ib@AH??CDAFAHAJAFQQ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:munchmuseet",
+      "name": {
+        "nb": "Munchmuseet",
+        "en": "Munch Museum"
+      },
+      "category": "museum",
+      "lat": 59.905724,
+      "lon": 10.755255,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q844926",
+      "website": "https://www.munchmuseet.no/",
+      "wikipedia": {
+        "nb": "Munchmuseet",
+        "en": "Munch Museum"
+      },
+      "summary": {
+        "nb": "Munchmuseet, fra 2020 markedsført som MUNCH, er et kunstmuseum i Bjørvika i Oslo. Museet inneholder Edvard Munchs etterlatte arbeider som han testamenterte til Oslo kommune i 1940.",
+        "en": "Munch Museum, marketed as MUNCH since 2020, is an art museum in Bjørvika, Oslo, Norway, dedicated to the life and works of the Norwegian artist Edvard Munch."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/MUNCH_Museum_front_%282020%29_4.jpg/640px-MUNCH_Museum_front_%282020%29_4.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 996,
+        "distanceM": 1197,
+        "polyline": "wyrlJy_v`AC?_@@K?M?G@?D?H?DO?E@E@GDCDGFGJw@tAGFEDEBC@G?GAGA{@e@CAABADCF?@_@o@cAi@CAEBAAECGCAA?EACAAAAs@a@CA_@hAU|DEn@QpCAL?H?H?J?HAH?JAJAHAJ]nCAJADAJAFEP?BCHKr@AHAHOdAAH[jB?JBLCFCPCNCLAPCNAHC@A@AL[lBOz@CPEV?@@@tApAAB@@BFBD@JUvACRCPAHCHOfAEVCNO`AADADADI\\Kp@`AfEDLPVhA~AVXShAW~ADB`@X`Ap@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4258487",
+      "name": {
+        "nb": "Tenerife"
+      },
+      "category": "park",
+      "lat": 59.904307,
+      "lon": 10.761486,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12005478",
+      "wikipedia": {
+        "nb": "Tenerife (Oslo)"
+      },
+      "summary": {
+        "nb": "Tenerife er et folkelig navn på vannspeilet i Middelalderparken i Gamlebyen i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Middelalderparken%2C_Oslo.jpg/640px-Middelalderparken%2C_Oslo.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.903165,
+        "lon": 10.762798
+      },
+      "walk": {
+        "durationS": 380,
+        "distanceM": 471,
+        "polyline": "wyrlJy_v`AC?_@@K?M?G@?D?H?DO?E@E@GDCDGFGJw@tAGFEDEBC@G?GAGA{@e@?D@B@@DBBB\\p@JJD@DFXh@Vn@HRBNDb@JdABRBVDd@@Ld@hCBLFZT|AN|@BNH\\DNDL@B",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/7951543",
+      "name": {
+        "nb": "Botsparken",
+        "en": "Grønlands park – Botsparken"
+      },
+      "category": "park",
+      "lat": 59.909593,
+      "lon": 10.771116,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11973058",
+      "wikipedia": {
+        "nb": "Grønlands park – Botsparken"
+      },
+      "summary": {
+        "nb": "Grønlands park – Botsparken er en park som ligger rundt Oslo fengsel og Politihuset på Grønland i Oslo. Parken er 27,5 dekar stor, når det 11,6 dekar store arealet langs sydsiden av muren mot Klosterenga ikke regnes med. I parken ligger Egon Olsens allé."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Gronlands_park2.JPG/640px-Gronlands_park2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.908159,
+        "lon": 10.767888
+      },
+      "walk": {
+        "durationS": 507,
+        "distanceM": 597,
+        "polyline": "wyrlJy_v`AC?_@@K?M?G@?GAG?EG?K@IBMHCBEFCDGJq@hAGHIFKBA?IAQKu@a@}A{@AACE?GA?GCECAAADC@AAy@c@CAAAAC?C?CACAAIEIEAAC@A@A?MCIC_AIIKCACGCCCAA?w@AI?E@m@DYBc@D[DA??B?H?BOBO@i@FU@CCCEE@ABCDEAGCOG",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4874898",
+      "name": {
+        "nb": "Klosterenga"
+      },
+      "category": "park",
+      "lat": 59.908272,
+      "lon": 10.77627,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q15091162",
+      "wikipedia": {
+        "nb": "Klosterenga",
+        "en": "Klosterenga"
+      },
+      "summary": {
+        "nb": "Klosterenga, eller Klosterenga park, er et parkmessig område i Bydel Gamle Oslo som ligger i overgangen mellom Nordre Gamlebyen og Grønland i Oslo. Parkdraget strekker seg opp til Galgeberg.",
+        "en": "Klosterenga or Klosterenga park is a park in Oslo, located in the transition between Old Town and Grønland. The park route extends up to Galgeberg. It was made as part of a housing project."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Klosterenga_skulpturpark2.JPG/640px-Klosterenga_skulpturpark2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.907427,
+        "lon": 10.774206
+      },
+      "walk": {
+        "durationS": 708,
+        "distanceM": 779,
+        "polyline": "wyrlJy_v`AC?_@@K?M?G@?GAG?EG?K@IBMHCBEFCDGJq@hAGHIFKBA?IAQKu@a@}A{@AACE?GA?GCECAAFq@Fs@?G?E?C?GAE?EACAAW]KKKSEGDKAC?AAACCGIGIAC@OAIACAIAGIWCIEAAAUy@GUCKCMGSIWCKI[E_@Gk@KaAYsCACCEOGe@]SMC?A@A@BS?EKIOKGECEAGE?ECGEe@[GEEC?QO_BAM@SAAECECA?RwB@M@QMK",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

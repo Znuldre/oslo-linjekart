@@ -1,0 +1,137 @@
+{
+  "id": "NSR:StopPlace:58273",
+  "slug": "smestad",
+  "name": "Smestad",
+  "lat": 59.937306,
+  "lon": 10.684011,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2",
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6496"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:58272",
+        "next": "NSR:StopPlace:58274"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58274",
+        "next": "NSR:StopPlace:58272"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Avløs",
+        "prev": "NSR:StopPlace:58272",
+        "next": "NSR:StopPlace:6503"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:6503",
+        "next": "NSR:StopPlace:58272"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58272",
+        "next": "NSR:StopPlace:6503"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 10,
+    "majorstuen": 5
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58273",
+      "name": "Smestad",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "23",
+          "name": "Lysaker - Simensbråten",
+          "lineId": "RUT:Line:23"
+        },
+        {
+          "publicCode": "24",
+          "name": "Fornebu vest - Brynseng T",
+          "lineId": "RUT:Line:24"
+        },
+        {
+          "publicCode": "28",
+          "name": "Fornebu vest - Økern T",
+          "lineId": "RUT:Line:28"
+        },
+        {
+          "publicCode": "40",
+          "name": "Øvre Sogn - Skøyen",
+          "lineId": "RUT:Line:40"
+        },
+        {
+          "publicCode": "45",
+          "name": "Majorstuen - Voksen skog",
+          "lineId": "RUT:Line:45"
+        },
+        {
+          "publicCode": "FB3",
+          "name": "Radiumhospitalet via Økern-Storo-Tåsen",
+          "lineId": "NBU:Line:cb7b555c-f96e-42d5-84bf-a5e08c0145c2"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6496",
+        "name": "Smestad",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11945",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11944",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": []
+}

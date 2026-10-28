@@ -1,0 +1,147 @@
+{
+  "id": "NSR:StopPlace:63808",
+  "slug": "ringstabekk",
+  "name": "Ringstabekk",
+  "lat": 59.920146,
+  "lon": 10.604157,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2",
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:3779"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Avløs",
+        "prev": "NSR:StopPlace:58280",
+        "next": "NSR:StopPlace:58281"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58281",
+        "next": "NSR:StopPlace:58280"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58281",
+        "next": "NSR:StopPlace:58280"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58280",
+        "next": "NSR:StopPlace:58281"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 21,
+    "majorstuen": 16
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:3779",
+        "name": "Ringstabekk",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:6764",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:6765",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/284716256",
+      "name": {
+        "nb": "Bjerkelunden"
+      },
+      "category": "park",
+      "lat": 59.92435,
+      "lon": 10.600184,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11961242",
+      "wikipedia": {
+        "nb": "Bjerkelunden"
+      },
+      "summary": {
+        "nb": "Bjerkelunden er et grøntområde på Nadderud i Bærum som blant annet benyttes til forsamlinger den 17. mai. Den 21,6 mål store naturparken har to monumenter. Det eldste er minnesmerket for Egne Hjem fra 1935. Det andre er en statue av en tamburmajor som ble reist for Norges Musikkorps Forbund ved 50 års jubileet i 1968. \nParken fikk sitt navn i 1925, men ble i 1938 fornorsket fra Birkelunden til Bjerkelunden. I 1939 ble området bevart som naturpark. I dag ligger Bjerkelunden barnepark som ble åpnet i 1958 på området."
+      },
+      "access": {
+        "lat": 59.923394,
+        "lon": 10.601896
+      },
+      "walk": {
+        "durationS": 582,
+        "distanceM": 597,
+        "polyline": "advlJ_cv_A@m@AiAA?C??JQtJ@F?J@P?F?FAh@?DABADISGM?@ADISE\\EXCP[~AKn@Gd@IGYWB[?KAKCIEGm@]_Ay@}@w@II[[e@i@iA_BKXo@~AGPSn@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/200498489",
+      "name": {
+        "nb": "Jar kirke",
+        "en": "Jar Church"
+      },
+      "category": "church",
+      "lat": 59.918387,
+      "lon": 10.617559,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q8734279",
+      "wikipedia": {
+        "nb": "Jar kirke"
+      },
+      "summary": {
+        "nb": "Jar kirke er en kirke konstruert i en rektangulær form, fra 1961 i Bærum kommune, Akershus fylke."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Jar_kirke_20080601-1.jpg/640px-Jar_kirke_20080601-1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 893,
+        "distanceM": 1005,
+        "polyline": "advlJ_cv_A@m@A{ADaB?M@]@w@@m@?S?C?Q?ET??B?R?B@d@A\\?J@HBQBOFKBG@GCEAG?_A?G@I@CBIGYE[G_@MuAKoAGs@M_AM_AQoAIq@Cm@Cg@@S?K?K@K@IBIBIAG?KAG@G?IBIBEBADCD?t@EJ_@Jc@LiAPcAH]L]LWLSLO`AkAFG\\g@TY@CN[Le@TuAH_ADs@@e@EyB?CAc@CeAGq@K{@Ga@AIAIWoBGk@|@{@@DBBD@BA@C",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

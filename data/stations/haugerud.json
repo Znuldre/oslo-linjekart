@@ -1,0 +1,142 @@
+{
+  "id": "NSR:StopPlace:58213",
+  "slug": "haugerud",
+  "name": "Haugerud",
+  "lat": 59.92203,
+  "lon": 10.85475,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6180"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:6197",
+        "next": "NSR:StopPlace:59517"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:59517",
+        "next": "NSR:StopPlace:6197"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 16,
+    "majorstuen": 22
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58213",
+      "name": "Haugerud",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2B",
+          "name": "Buss for linje 2",
+          "lineId": "RUT:Line:3002"
+        },
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "25",
+          "name": "Majorstuen-Haugerud",
+          "lineId": "RUT:Line:25"
+        },
+        {
+          "publicCode": "69",
+          "name": "Tveita-Lutvann",
+          "lineId": "RUT:Line:69"
+        },
+        {
+          "publicCode": "79",
+          "name": "Grorud T - Åsbråten",
+          "lineId": "RUT:Line:79"
+        },
+        {
+          "publicCode": "FB10",
+          "name": "Mortensrud - Oslo lufthavn Gardermoen",
+          "lineId": "UNI:Line:UE1"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6180",
+        "name": "Haugerud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11342",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11340",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/154762904",
+      "name": {
+        "nb": "Haugerud kirke",
+        "en": "Haugerud Church"
+      },
+      "category": "church",
+      "lat": 59.921497,
+      "lon": 10.857796,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297197",
+      "wikipedia": {
+        "nb": "Haugerud kirke"
+      },
+      "summary": {
+        "nb": "Haugerud kirke er en soknekirke i Østre Aker og Haugerud menighet i Groruddalen prosti i Oslo bispedømme i Oslo kommune. Den er en arbeidskirke fra 1975 og har navn etter Haugerud gård som ligger tett intil. Byggverket har 370 sitteplasser og er bygd i kalksandstein i en kvadratisk funkisstil. Kirkerommet har et 9 meter høyt alterteppe av Else Marie Jakobsen, Fra mørket til lyset. Teppet regnes som et hovedverk i ny norsk kirkekunst. Speidergruppa 1. Haugerud har møtelokaler i underetasjen. Kirkens orgel med 20 stemmer bygget av Vestlandske Orgelverksted, Hareid, er ikke lenger i bruk og blitt erstattet av et digitalt orgel av merke Allen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Haugerud_kirke_nord.jpg/640px-Haugerud_kirke_nord.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 271,
+        "distanceM": 304,
+        "polyline": "wovlJ{`gaAAAMO}@iASWJa@TmABMBI@KBKHYLm@b@_CZ{AHa@@C@CVuAR_ABEL^EPI^",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "id": "NSR:StopPlace:58291",
+  "slug": "homansbyen",
+  "name": "Homansbyen",
+  "lat": 59.923035,
+  "lon": 10.726366,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "17",
+    "18",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:4495"
+  ],
+  "neighbours": {
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "prev": "NSR:StopPlace:58353",
+        "next": "NSR:StopPlace:58407"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:60179",
+        "next": "NSR:StopPlace:58353"
+      }
+    ],
+    "18": [
+      {
+        "directionType": "inbound",
+        "towards": "Grefsen stasjon",
+        "prev": "NSR:StopPlace:58353",
+        "next": "NSR:StopPlace:58407"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:60179",
+        "next": "NSR:StopPlace:58353"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58403",
+        "next": "NSR:StopPlace:58407"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:60179",
+        "next": "NSR:StopPlace:58403"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 9,
+    "majorstuen": 4
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58291",
+      "name": "Homansbyen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "1N",
+          "name": "Jernbanetorget - Ullerntoppen",
+          "lineId": "RUT:Line:3901"
+        },
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "21",
+          "name": "Tjuvholmen - Helsfyr T",
+          "lineId": "RUT:Line:21"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:4495",
+        "name": "Homansbyen",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:8119",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:8120",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:slottsparken",
+      "name": {
+        "nb": "Slottsparken",
+        "en": "Palace Park"
+      },
+      "category": "park",
+      "lat": 59.917698,
+      "lon": 10.728467,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q4583462",
+      "wikipedia": {
+        "nb": "Slottsparken",
+        "en": "Palace Park (Oslo)"
+      },
+      "summary": {
+        "nb": "Slottsparken er Oslos sentrale bypark, som dekker et samlet areal på 225 dekar eller mål. Parken omkranser Det kongelige slott og Slottsplassen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Air_uranienborg.jpg/640px-Air_uranienborg.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.920139,
+        "lon": 10.726366
+      },
+      "walk": {
+        "durationS": 356,
+        "distanceM": 429,
+        "polyline": "{uvlJo~m`AHC?D@D@Dv@[t@YLEHCB?DD@CDCb@`A`@z@`AtBXl@DJZp@FJh@lADO@??E??@?@A@A@EBIdA_DL_@Na@DMJg@H]Nm@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:slottet",
+      "name": {
+        "nb": "Det kongelige slott",
+        "en": "The Royal Palace"
+      },
+      "category": "attraction",
+      "lat": 59.917193,
+      "lon": 10.727236,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q863932",
+      "website": "https://www.kongehuset.no/",
+      "wikipedia": {
+        "nb": "Det kongelige slott (Oslo)",
+        "en": "Royal Palace, Oslo"
+      },
+      "summary": {
+        "nb": "",
+        "en": "The Royal Palace in Oslo is the official residence of the Norwegian monarch. It was built in the first half of the 19th century as the Norwegian residence of the French-born Charles XIV John, who reigned as king of Norway and Sweden."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Slottet_i_Oslo_1.jpg/640px-Slottet_i_Oslo_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.917732,
+        "lon": 10.726366
+      },
+      "walk": {
+        "durationS": 607,
+        "distanceM": 726,
+        "polyline": "{uvlJo~m`AHC?D@D@Dv@[t@YLEHCB?DD@CDCFCDA?GDCzAk@JEHEJEFGHMr@wAbAqBJODEFAB?D@DDXf@@BBD@@@@HNJRR^@EBIBGBI@GAI?EAOf@Fl@CJBFFROxB_BDRFXLl@Lr@FLJPNVJPJLJLNJLDLDFBBBFALAHCXj@@@?BHvA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:bislett-stadion",
+      "name": {
+        "nb": "Bislett stadion",
+        "en": "Bislett Stadium"
+      },
+      "category": "attraction",
+      "lat": 59.924973,
+      "lon": 10.733289,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q866409",
+      "wikipedia": {
+        "nb": "Bislett stadion",
+        "en": "Bislett Stadium"
+      },
+      "summary": {
+        "nb": "Bislett stadion er en idrettsplass på Bislett i bydel St. Hanshaugen sentralt i Oslo. Stadionet er, sammen med Holmenkollbakken, Norges internasjonalt mest kjente idrettsanlegg, og åsted for 14 verdensrekorder på skøyter og mer enn 50 i friidrett. Stadionet er i nyere tid mest kjent for friidrettsarrangementet Bislett Games. Bislett har en høy stjerne internasjonalt, og har blant annet blitt kåret til det tyvende århundrets femte beste stadion av det amerikanske sportsbladet Sports Illustrated.",
+        "en": "Bislett Stadium is a sports stadium in Oslo, Norway. Bislett is Norway's most well known sports arena internationally, with 15 speed skating world records and more than 50 track and field world records having been set here. The original stadium was demolished in 2004 and construction of a new stadium was completed by the summer of 2005. The New Bislett Stadium was designed by C.F. Møller Architects."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Bislett_Stadion_exterior_views.jpg/640px-Bislett_Stadion_exterior_views.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.924036,
+        "lon": 10.731833
+      },
+      "walk": {
+        "durationS": 482,
+        "distanceM": 529,
+        "polyline": "{uvlJo~m`AHCAE?EAMQHA???ACAAQe@]_ACKISSk@AA]_AEMa@kAAA?C?ACGAE?ACA??AAACy@aCEGCIoBsFYu@CMAM?IBGBC?EAG?E?E?E?ENEn@QJEFCM}Bj@WPSN_@NKDj@NI",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:bogstadveien",
+      "name": {
+        "nb": "Bogstadveien",
+        "en": "Bogstadveien"
+      },
+      "category": "attraction",
+      "lat": 59.927222,
+      "lon": 10.720278,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Bogstadveien (Oslo)",
+        "en": "Bogstadveien"
+      },
+      "summary": {
+        "nb": "Bogstadveien er en travel handlegate og innfartsåre i Oslo.",
+        "en": "Bogstadveien is a street in the district of Frogner in Oslo, Norway. It is considered a central business district and features many of the city's wide range of exclusive shops as well as entertainment, hotels and restaurants. The road is known for the frequent Farmer's Markets on weekends as well as its biannual car-free shopping events."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bogstadveien.jpg/640px-Bogstadveien.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 567,
+        "distanceM": 593,
+        "polyline": "{uvlJo~m`AIBEBACCEEMA@EBC?AD?@A@A@i@RGBIDEBGDOLMLKJCDKPU`@Qb@kAjCSf@GNCDEHCJA@?D?BAH_@x@A@A@A@ELCHCFAFABCDA?ABQ`@Yl@s@rAADAD?BC@A@ABEHEHCBADABA@C@A@q@nAEHCBCHEFADA@ADC@CDq@lACDCFAFABCDA@A?ABEFEHCD?DABABC@C@A@e@x@aAfB??",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:kunstnernes-hus",
+      "name": {
+        "nb": "Kunstnernes Hus",
+        "en": "Kunstnernes Hus"
+      },
+      "category": "gallery",
+      "lat": 59.919571,
+      "lon": 10.730827,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1772519",
+      "wikipedia": {
+        "nb": "Kunstnernes Hus",
+        "en": "Kunstnernes Hus"
+      },
+      "summary": {
+        "nb": "Kunstnernes Hus er en kunstnerdrevet stiftelse i Wergelandsveien ved Slottsparken i Oslo. Det er Norges største kunstnerdrevne visningssted for norsk og internasjonal samtidskunst.",
+        "en": "Kunstnernes Hus is an art gallery in Oslo, Norway. It is Norway's largest gallery under the direction of artists, and has served as a major center for exhibits of Norwegian and international contemporary art. It is also a prominent example of Functionalist architecture situated in Wergelandsveien 17, across the Royal palace park."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Oslo%2C_Kunstnernes_Hus_%283%29.JPG/640px-Oslo%2C_Kunstnernes_Hus_%283%29.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 503,
+        "distanceM": 606,
+        "polyline": "{uvlJo~m`AHC?D@D@Dv@[t@YDAFCHCB?DD@CDCFCDA?GDCzAk@JEHEJEFGHMr@wAbAqBJODEFAB?D@DDXf@DK@E@C@G@GBG@E@BBBD?HGDGBIFQ@C@G@Cx@kC`BiFf@cBCEA@??A?AA?AAA?C?A@CGICHKXA@A@A?E?Wk@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:historisk-museum",
+      "name": {
+        "nb": "Historisk museum",
+        "en": "Historical Museum"
+      },
+      "category": "museum",
+      "lat": 59.916783,
+      "lon": 10.73554,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1405469",
+      "website": "https://www.khm.uio.no/",
+      "wikipedia": {
+        "nb": "Historisk museum",
+        "en": "Historical Museum, Oslo"
+      },
+      "summary": {
+        "nb": "Historisk museum er en museumsbygning på Tullinløkka i Oslo som ble åpnet for publikum i 1904."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Historisk_museum_oslo.jpg/640px-Historisk_museum_oslo.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 801,
+        "distanceM": 980,
+        "polyline": "{uvlJo~m`AHC?D@D@Dv@[t@YLEHCB?DD@CDCFCDA?GDCzAk@JEHEJEFGHMr@wAbAqBJODEFAB?D@DDXf@DK@E@C@G@GBG@E@BBBD?HGDGBIFQ@C@G@ClBiGl@kBf@cBJ[BK@EAEAC@ABGBGBC@APi@FQN[FIBGBADCFCBA@BB@d@EFCLKDCPE@?DC|@uAHS??DEDG@A@W?UGgFC_B?ILEPOP[JUJ[DW@E@GBI@KDQ@G@Cd@h@JHLP",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ibsenmuseet",
+      "name": {
+        "nb": "Ibsen museum & teater",
+        "en": "Ibsen Museum & Theatre"
+      },
+      "category": "museum",
+      "lat": 59.915031,
+      "lon": 10.727046,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1519078",
+      "website": "https://ibsenmt.no",
+      "wikipedia": {
+        "nb": "IBSEN Museum & Teater",
+        "en": "Ibsen Museum"
+      },
+      "summary": {
+        "nb": "IBSEN Museum & Teater, tidligere Ibsenmuseet, er et litterært museum i Oslo. Museet er nyrenovert og utvidet med nytt amfiteater, tilliggende teaterfasiliteter og et stadig mer oppdatert og velutstyrt forfatterhjem. Gjenåpning av det nye museet skjedde 1. juli 2023 etter ekstra midler over revidert Statsbudsjett. IMT holder åpent alle dager med utvidete åpningstider i sommerhalvåret, og er i vinterhalvåret åpent fra 11 til 16 på mandag, torsdag, lørdag og søndag. Det mangler fremdeles driftsmidler til å spille teater, mens museet på forespørsel gir foredrag for ulike grupper og foreninger i teatersalen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Arbins_gate_1_Oslo.jpg/640px-Arbins_gate_1_Oslo.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 920,
+        "distanceM": 1082,
+        "polyline": "{uvlJo~m`AHC?D@D@Dv@[t@YLEHCB?DD@CDCFCDA?GDCzAk@JEHEJEFGHMr@wAbAqBJODEFAB?D@DDXf@@BBD@@@@HNJRR^@EBIBGBI@GAI?EAOf@Fl@CJBFFROxB_B\\WdAs@ZSp@_@PILETGNAH?B?D@FBJBLLTVn@x@`@h@d@n@n@x@r@z@BDtB|CTXB@B@AV?JB?@@H?B?@@H?D?@@?ED_E?C@?X`@JN",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/29500484",
+      "name": {
+        "nb": "Uranienborgparken",
+        "en": "Uranienborg Park"
+      },
+      "category": "park",
+      "lat": 59.921779,
+      "lon": 10.721318,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12008563",
+      "wikipedia": {
+        "nb": "Uranienborgparken"
+      },
+      "summary": {
+        "nb": "Uranienborgparken er en park på en høyde på Uranienborg i Oslo. Uranienborg kirke ligger i parken."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Uranienborgparken1.JPG/640px-Uranienborgparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.922399,
+        "lon": 10.722683
+      },
+      "walk": {
+        "durationS": 344,
+        "distanceM": 353,
+        "polyline": "{uvlJo~m`AIBEB[J@D?D?Bm@TC@IFKJEBIHOPKNEHCJ?L?T???b@?D@D?F@t@?H?RFH~@tAjBrCf@v@@H@HTb@b@|@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4218904",
+      "name": {
+        "nb": "Stensparken"
+      },
+      "category": "park",
+      "lat": 59.928836,
+      "lon": 10.730579,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q7703624",
+      "wikipedia": {
+        "nb": "Stensparken"
+      },
+      "summary": {
+        "nb": "Stensparken er en høyde på Fagerborg i bydel St. Hanshaugen i Oslo. Høyden er langstrakt og består av «knollekalk», dvs. kalkstein i en mørkere skifermasse. Sydlige del av høyden er opparbeidet park, mens nordlige del (Blåsen) er en fjellknaus med utsikt over byen. Parken ble opparbeidet fra 1890-tallet til 1940-tallet. Omtrent midt i parken er det om sommeren et vannspeil. Der er det en liten kafé og et bordtennisbord. I parken er det et inngjerdet område som tidligere var barnepark. "
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Stensparken1.JPG/640px-Stensparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.926635,
+        "lon": 10.72869
+      },
+      "walk": {
+        "durationS": 531,
+        "distanceM": 578,
+        "polyline": "{uvlJo~m`AIBEBACCEEMA@EBC??CAC?EAEc@kAEOACEMGO??Uo@q@mBKW}@eC]_AEMYy@o@gBEKWu@CGM]IUEQCIMMAAC@A@KJEBIDI@I@C@AH?D?@E@GBA?A@ABCBCDA@GJKNGJmAlBe@t@E@?@EHEF??CAE?MLUTMJHr@@H",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/841080898",
+      "name": {
+        "nb": "Studenterlunden"
+      },
+      "category": "park",
+      "lat": 59.914598,
+      "lon": 10.734412,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q7627912",
+      "wikipedia": {
+        "nb": "Studenterlunden",
+        "en": "Studenterlunden"
+      },
+      "summary": {
+        "nb": "Studenterlunden er et parkanlegg i Oslo avgrenset av Karl Johans gate, Roald Amundsens gate, Stortingsgata og Frederiks gate.",
+        "en": "Studenterlunden is a park in the city center of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Studenterlunden1.JPG/640px-Studenterlunden1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915321,
+        "lon": 10.732761
+      },
+      "walk": {
+        "durationS": 857,
+        "distanceM": 1049,
+        "polyline": "{uvlJo~m`AHC?D@D@Dv@[t@YLEHCB?DD@CDCFCDA?GDCzAk@JEHEJEFGHMr@wAbAqBJODEFAB?D@DDXf@@BBD@@@@HNJRR^@EBIBGBI@GAI?EAOf@Fl@CJBFFROxB_B\\WdAs@ZSp@_@PILETGNAH?B?D@FBJBXAB?BABCvE{HDSDStAgH??BOVmADUFJFJ@C@IBDDLFP",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/30439166",
+      "name": {
+        "nb": "Hydroparken"
+      },
+      "category": "park",
+      "lat": 59.914519,
+      "lon": 10.715989,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11976301",
+      "wikipedia": {
+        "nb": "Hydroparken"
+      },
+      "summary": {
+        "nb": "Hydroparken er en park ved Norsk Hydros høye kontorbygning, kjent som Hydrobygget, ved Solli plass i Oslo. Bygningen er tegnet av Erling Viksjø og oppført 1960. Viksjø knyttet til seg landskapsarkitektene Grindaker og Gabrielsen som utformet parken. Murene er laget av billedkunstneren Odd Tandberg."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Hydroparken1.JPG/640px-Hydroparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915027,
+        "lon": 10.717149
+      },
+      "walk": {
+        "durationS": 892,
+        "distanceM": 1142,
+        "polyline": "{uvlJo~m`AHC?D@D@Dv@[t@YLEHCB?DDJTVh@@F`@x@n@tAj@lADJb@~@\\v@FJ@B?D?B@BDHDJ@@@???@@|DlGh@z@T\\f@x@FJ`A~A??PT@B@B?B?B?J@?@@B@@BFB@@@???B?|AlCrArB?@FH?@HLDBvCxEBT@BDDDD@@F?`CzDx@nA\\d@FRFIFKDCtAaBn@w@DA@D@H@D@D@D?BC@_@d@@B",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

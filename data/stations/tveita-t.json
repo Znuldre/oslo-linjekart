@@ -1,0 +1,124 @@
+{
+  "id": "NSR:StopPlace:59517",
+  "slug": "tveita-t",
+  "name": "Tveita T",
+  "lat": 59.913948,
+  "lon": 10.842264,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6163"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:58213",
+        "next": "NSR:StopPlace:58198"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58198",
+        "next": "NSR:StopPlace:58213"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 14,
+    "majorstuen": 20
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59517",
+      "name": "Tveita T",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "58",
+          "name": "Nydalen - Tveita (- Bøler) via Bjerke",
+          "lineId": "RUT:Line:58"
+        },
+        {
+          "publicCode": "69",
+          "name": "Tveita-Lutvann",
+          "lineId": "RUT:Line:69"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:6167",
+      "name": "Tveita",
+      "distanceM": 199,
+      "lines": [
+        {
+          "publicCode": "2B",
+          "name": "Buss for linje 2",
+          "lineId": "RUT:Line:3002"
+        },
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "76",
+          "name": "Helsfyr T - Mortensrud T",
+          "lineId": "RUT:Line:76"
+        },
+        {
+          "publicCode": "79",
+          "name": "Grorud T - Åsbråten",
+          "lineId": "RUT:Line:79"
+        },
+        {
+          "publicCode": "FB10",
+          "name": "Mortensrud - Oslo lufthavn Gardermoen",
+          "lineId": "UNI:Line:UE1"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6163",
+        "name": "Tveita",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11309",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11310",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": []
+}

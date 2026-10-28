@@ -1,0 +1,155 @@
+{
+  "id": "NSR:StopPlace:58227",
+  "slug": "skullerud",
+  "name": "Skullerud",
+  "lat": 59.866685,
+  "lon": 10.840032,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5885"
+  ],
+  "neighbours": {
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58226",
+        "next": "NSR:StopPlace:58228"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58228",
+        "next": "NSR:StopPlace:58226"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 23,
+    "majorstuen": 29
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58227",
+      "name": "Skullerud",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "3B",
+          "name": "Buss for linje 3",
+          "lineId": "RUT:Line:3003"
+        },
+        {
+          "publicCode": "3N",
+          "name": "Jernbanetorget - Skullerud T",
+          "lineId": "RUT:Line:3903"
+        },
+        {
+          "publicCode": "70",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:70"
+        },
+        {
+          "publicCode": "70E",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:3969"
+        },
+        {
+          "publicCode": "70N",
+          "name": "Jernbanetorget - Bjørndal",
+          "lineId": "RUT:Line:3970"
+        },
+        {
+          "publicCode": "76",
+          "name": "Helsfyr T - Mortensrud T",
+          "lineId": "RUT:Line:76"
+        },
+        {
+          "publicCode": "79",
+          "name": "Grorud T - Åsbråten",
+          "lineId": "RUT:Line:79"
+        },
+        {
+          "publicCode": "FB10",
+          "name": "Mortensrud - Oslo lufthavn Gardermoen",
+          "lineId": "UNI:Line:UE1"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5885",
+        "name": "Skullerud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10787",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10788",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/23761672",
+      "name": {
+        "nb": "Skraperudtjern"
+      },
+      "category": "park",
+      "lat": 59.868988,
+      "lon": 10.851474,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19389070",
+      "wikipedia": {
+        "nb": "Skraperudtjern"
+      },
+      "summary": {
+        "nb": "Skraperudtjern er et vann i Østmarka i Oslo, like ved Skullerud skole i boligstrøkene Bogerud og Skullerud."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Skraperudtjern.jpg/640px-Skraperudtjern.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.867031,
+        "lon": 10.850045
+      },
+      "walk": {
+        "durationS": 798,
+        "distanceM": 889,
+        "polyline": "wuklJeedaAW@?D?B?B?BB?PD@@h@@b@N@@X?B@B?DA@C@C?E@E?Q@S?G@c@Bu@B_A@u@@q@?[?Y@Q@}A@aA?k@C?CCCGAE?CAO?GA]?_@A_@C_BAGBE@I?W@U@S@I@G@MFm@Pi@Tk@J[DI@OOSI]EQCUIc@GUQc@IQVU?IBg@?UAU?EGy@E]COEKEIIMMUS_@S_@Sc@Sg@OSGIKO}Aw@Ce@EUYIKAGGMOCYBQVBDGRYTPh@CDE",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

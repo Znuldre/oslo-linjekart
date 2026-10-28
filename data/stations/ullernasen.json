@@ -1,0 +1,120 @@
+{
+  "id": "NSR:StopPlace:6509",
+  "slug": "ullernasen",
+  "name": "Ullernåsen",
+  "lat": 59.931488,
+  "lon": 10.655979,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2",
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6509"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Avløs",
+        "prev": "NSR:StopPlace:6503",
+        "next": "NSR:StopPlace:58278"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58278",
+        "next": "NSR:StopPlace:6503"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58278",
+        "next": "NSR:StopPlace:6503"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:6503",
+        "next": "NSR:StopPlace:58278"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 14,
+    "majorstuen": 9
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6509",
+        "name": "Ullernåsen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:12012",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12011",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/92720810",
+      "name": {
+        "nb": "Ullern kirke",
+        "en": "Ullern Church"
+      },
+      "category": "church",
+      "lat": 59.925681,
+      "lon": 10.654666,
+      "score": 10,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q2217371",
+      "wikipedia": {
+        "nb": "Ullern kirke (Oslo)",
+        "en": "Ullern Church (Oslo)"
+      },
+      "summary": {
+        "nb": "Ullern kirke er soknekirke for Ullern menighet i Vestre Aker prosti i Oslo bispedømme i Bydel Ullern i Oslo kommune.",
+        "en": "Ullern Church is a cruciform Romanesque church on the Holgerslyst property in the Ullern borough of Oslo, Norway. It is the parish church for the Ullern congregation in the Vestre Aker Deanery of the Diocese of Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/UllernKirke.jpg/640px-UllernKirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 931,
+        "distanceM": 993,
+        "polyline": "ujxlJeg``A??JA@GACGI?AEGEGBKBD@C?A??GKEE@CBITwA@MZRVPTNZLNFl@PXFb@JB@`@BX@VAtBONAJ@LBJFNLRRTTTVRTp@|@CJ`@f@X`@JNDHFNLf@L`Ar@lEHZBErAqBDSLmAHm@JDe@bEFFDHFFj@AD?d@Af@?AKGe@EMHK@I?C?M?IAWAYBAPATJ?EFBRJCW?]?a@?M",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

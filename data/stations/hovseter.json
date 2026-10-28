@@ -1,0 +1,180 @@
+{
+  "id": "NSR:StopPlace:58275",
+  "slug": "hovseter",
+  "name": "Hovseter",
+  "lat": 59.946404,
+  "lon": 10.655462,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6360"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:6350",
+        "next": "NSR:StopPlace:59520"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:59520",
+        "next": "NSR:StopPlace:6350"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 15,
+    "majorstuen": 10
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58275",
+      "name": "Hovseter",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "1N",
+          "name": "Jernbanetorget - Ullerntoppen",
+          "lineId": "RUT:Line:3901"
+        },
+        {
+          "publicCode": "46",
+          "name": "Majorstuen - Ullerntoppen",
+          "lineId": "RUT:Line:46"
+        },
+        {
+          "publicCode": "46X",
+          "name": "Ullerntoppen - Voksen skog Holmenkollstafetten",
+          "lineId": "RUT:Line:2046"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:6359",
+      "name": "Huseby skole",
+      "distanceM": 176,
+      "lines": [
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "FB3",
+          "name": "Radiumhospitalet via Økern-Storo-Tåsen",
+          "lineId": "NBU:Line:cb7b555c-f96e-42d5-84bf-a5e08c0145c2"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6360",
+        "name": "Hovseter",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11687",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11686",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/220645990",
+      "name": {
+        "nb": "Gardeparken"
+      },
+      "category": "park",
+      "lat": 59.942164,
+      "lon": 10.66212,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q29955009",
+      "wikipedia": {
+        "nb": "Gardeparken"
+      },
+      "summary": {
+        "nb": "Gardeparken er en park på Huseby i Oslo. Parken ligger ved Husebyskogen og Sørkedalsveien, mellom Huseby leir og USAs ambassade i Oslo. Parken ble anlagt i 2012 av Forsvarsbygg, som et kompenserende tiltak for byggingen av ambassaden i friområdet Husebyskogen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Gardeparken_plakett.jpg/640px-Gardeparken_plakett.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.943024,
+        "lon": 10.660281
+      },
+      "walk": {
+        "durationS": 790,
+        "distanceM": 901,
+        "polyline": "{g{lJsc``AFDFA@?FEr@]BCDMD?BCBAZOBEBCJMDEDAFAH?F@JBJDHJDDDD?EBUNNH@FBJJJFBS@G?E?GF@RBT?T@Z[HIFEFCFCF?H?D@D?B?@ABCBE@G@IH?F?@B?B@@BB@?BP@P@F?D@B@BJJFFDFDHBHDHBLHZBLBHDHBFFFDDFBFBFBH@F?D?vBAZAV??G?yDLAJ??]@E?g@E?UBWDEiHY??cJ[?kA?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/150071632",
+      "name": {
+        "nb": "Røa kirke",
+        "en": "Røa Church"
+      },
+      "category": "church",
+      "lat": 59.949591,
+      "lon": 10.643146,
+      "score": 7.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10361271",
+      "wikipedia": {
+        "nb": "Røa kirke",
+        "en": "Røa Church"
+      },
+      "summary": {
+        "nb": "Røa kirke er soknekirke for Røa menighet i Vestre Aker prosti i Oslo bispedømmme i Bydel Vestre Aker i Oslo kommune. Det er en langkirke fra 1939 i funkisjonalistisk stil. Den ligger 200 meter nord for Røakrysset, i Sørkedalsveien/Nordengveien. Røa kirke har egen barnehage på eiendommen.",
+        "en": "Røa Church is a church center in Oslo, Norway. The church room has 300 seats, but this can be increased to 500 by opening the sliding doors to the parish hall. The church building also includes offices, a wing of verger housing and daycare. There is an almost separate bell tower."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Roakirke01.jpg/640px-Roakirke01.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 882,
+        "distanceM": 1013,
+        "polyline": "{g{lJsc``ADz@R~ERbFJCP|C?F@R@jB?tABtAAlA?NBLGPIRGTCJCHCNCJ_@bAM`@Md@Ut@ADKZWz@]jAW`A]lAENITI\\GVQz@EF?HALAPAFD@@D?DA^Aj@CrACn@GhCElAAh@AFAHEFEBCBG?IAKESICCCIAEwAi@QGi@SE@A@C@EAWK?DAPAN?BCLmAhCEr@i@Q",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

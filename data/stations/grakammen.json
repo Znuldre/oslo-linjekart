@@ -1,0 +1,72 @@
+{
+  "id": "NSR:StopPlace:6289",
+  "slug": "grakammen",
+  "name": "Gråkammen",
+  "lat": 59.955038,
+  "lon": 10.701613,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6289"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58268",
+        "next": "NSR:StopPlace:6294"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:6298",
+        "next": "NSR:StopPlace:58268"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 19,
+    "majorstuen": 14
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6289",
+        "name": "Gråkammen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11553",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11552",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": []
+}

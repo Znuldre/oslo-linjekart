@@ -1,0 +1,326 @@
+{
+  "id": "NSR:StopPlace:58406",
+  "slug": "sinsenkrysset",
+  "name": "Sinsenkrysset",
+  "lat": 59.938133,
+  "lon": 10.784755,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "17"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6045"
+  ],
+  "neighbours": {
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "prev": "NSR:StopPlace:6024",
+        "next": "NSR:StopPlace:59643"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:59643",
+        "next": "NSR:StopPlace:6024"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 16,
+    "majorstuen": null
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58406",
+      "name": "Sinsenkrysset",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "4B",
+          "name": "Buss for linje 4",
+          "lineId": "RUT:Line:3004"
+        },
+        {
+          "publicCode": "23",
+          "name": "Lysaker - Simensbråten",
+          "lineId": "RUT:Line:23"
+        },
+        {
+          "publicCode": "24",
+          "name": "Fornebu vest - Brynseng T",
+          "lineId": "RUT:Line:24"
+        },
+        {
+          "publicCode": "26",
+          "name": "Ellingsrudåsen - Bislett",
+          "lineId": "RUT:Line:26"
+        },
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        },
+        {
+          "publicCode": "58",
+          "name": "Nydalen - Tveita (- Bøler) via Bjerke",
+          "lineId": "RUT:Line:58"
+        },
+        {
+          "publicCode": "380",
+          "name": "Lillestrøm - Rv4 - Oslo bussterminal",
+          "lineId": "RUT:Line:380"
+        },
+        {
+          "publicCode": "390",
+          "name": "Kongskog/Hellerudhaugen - Oslo bussterminal",
+          "lineId": "RUT:Line:390"
+        },
+        {
+          "publicCode": "390E",
+          "name": "Hellerudhaugen - Oslo bussterminal",
+          "lineId": "RUT:Line:2390"
+        },
+        {
+          "publicCode": "FB1",
+          "name": "Majorstuen via Torshov-Sagene",
+          "lineId": "NBU:Line:a7cafc59-feaf-4e61-9fa1-b7dce4ffe970"
+        },
+        {
+          "publicCode": "FB3",
+          "name": "Radiumhospitalet via Økern-Storo-Tåsen",
+          "lineId": "NBU:Line:cb7b555c-f96e-42d5-84bf-a5e08c0145c2"
+        }
+      ]
+    },
+    {
+      "mode": "metro",
+      "stopPlaceId": "NSR:StopPlace:61268",
+      "name": "Sinsen T",
+      "distanceM": 298,
+      "lines": [
+        {
+          "publicCode": "1",
+          "name": "Frognerseteren - Bergkrystallen",
+          "lineId": "RUT:Line:1"
+        },
+        {
+          "publicCode": "3",
+          "name": "Kolsås - Mortensrud",
+          "lineId": "RUT:Line:3"
+        },
+        {
+          "publicCode": "4",
+          "name": "Vestli - Bergkrystallen",
+          "lineId": "RUT:Line:4"
+        },
+        {
+          "publicCode": "5",
+          "name": "Sognsvann - Vestli",
+          "lineId": "RUT:Line:5"
+        }
+      ]
+    },
+    {
+      "mode": "rail",
+      "stopPlaceId": "NSR:StopPlace:61268",
+      "name": "Sinsen T",
+      "distanceM": 298,
+      "lines": [
+        {
+          "publicCode": "R31",
+          "name": "Skøyen-Jaren-Gjøvik",
+          "lineId": "VYG:Line:R31"
+        },
+        {
+          "publicCode": "RE30",
+          "name": "Oslo S-Gjøvik",
+          "lineId": "VYG:Line:RE30"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6045",
+        "name": "Sinsenkrysset",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11095",
+            "publicCode": "H",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11094",
+            "publicCode": "G",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:104534",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:torshovdalen",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "lat": 59.934963,
+      "lon": 10.776707,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19392835",
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      },
+      "summary": {
+        "nb": "Torshovdalen er et parkområde i Oslo. Parken ligger mellom Torshov i vest, Sinsen i øst (Trondheimsveien), Rosenhoff og Rodeløkka i sørøst og sør (Mailundveien) og Gjøvikbanen i nord, og har skateboardramp i den sydlige delen. Parken forvaltes av Bymiljøetaten i Oslo kommune, som også preparerer langrennsløype om vinteren."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Torshovdalen4.JPG/640px-Torshovdalen4.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.938133,
+        "lon": 10.781886
+      },
+      "walk": {
+        "durationS": 413,
+        "distanceM": 453,
+        "polyline": "etylJiky`AGHGDEBGBEBG?E@GAGCGCEEEEECCACAC?A?I??NARATCPCPEPGNGNGLGLBD@FBF@D@@@@CBGFIPs@pAGFMPST@B@JDCFIFED?B@@@DDBFDVLbABXDXDCBA?D?D?D?HBn@NhCB?zA]ZKHM^M",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/110586542",
+      "name": {
+        "nb": "Sinsenparken"
+      },
+      "category": "park",
+      "lat": 59.933244,
+      "lon": 10.785884,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19388524",
+      "wikipedia": {
+        "nb": "Sinsenparken",
+        "en": "Sinsenparken"
+      },
+      "summary": {
+        "nb": "Sinsenparken er en park mellom Lørenveien og Gjøvikbanen på Sinsen i Oslo. Oslo kommune bruker Sinsenparken også om et område ved Schouterrassen lenger syd på Sinsen.",
+        "en": "Sinsenparken is a park between Lørenveien road and the Gjøvik Line at Sinsen, in Oslo, Norway. The 21.2-acre park is used for recreational purposes. The area is bounded by 6 storey residential buildings on three sides, and has Sinsen Church framing the south. There is a leisure and recreation area for the community, which is used for exercise, dog walking, games, sunbathing, barbecuing, social gatherings and other recreation. The entire surface is covered with grass, and in the northeastern part of the park are some tall trees. In the park stands a memorial in remembrance of the 24 Sinsen residents who fell during World War II. The monument was unveiled by Alfred Seland in September 1949."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Sinsenparken2.JPG/640px-Sinsenparken2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934043,
+        "lon": 10.784755
+      },
+      "walk": {
+        "durationS": 457,
+        "distanceM": 572,
+        "polyline": "etylJiky`A@AJOBGD?HADAJANCFEFIFMDHZ|@DLJUDGBAHCJALADALHJJR\\Nt@HF@LDTHTJRFHF@JG^]\\Yn@m@`@]zAuAbA}@vAoAt@q@FCF@Jj@F^\\`C",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/27012015",
+      "name": {
+        "nb": "Torshov kirkepark"
+      },
+      "category": "park",
+      "lat": 59.938137,
+      "lon": 10.773215,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12007133",
+      "wikipedia": {
+        "nb": "Torshov kirkepark"
+      },
+      "summary": {
+        "nb": "Torshov kirkepark er en park på Torshov i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Torshov_kirkepark.JPG/640px-Torshov_kirkepark.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.938133,
+        "lon": 10.774425
+      },
+      "walk": {
+        "durationS": 656,
+        "distanceM": 798,
+        "polyline": "etylJiky`AGHGDEBGBEBG?E@GAGCGCEEEEECCACAC?A?I??NARATCPCPEPGNGNGLGLBD@FBF@D@@@@KJIPs@pAGFMPST@B@J@JBJBJBH@H@H@J@H?J@J@J?BBJ@J?DDAB?B?@BFL@FBH@LBj@NxCB^Dr@@V?X?j@CfAExA?ZARA\\QfJAH?JAB?@AL?H?L?F?B?DIvEE~@B?H@@?@@H?Xd@pAn@B?@?@?DBD@@@@B@@t@`@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/252260743",
+      "name": {
+        "nb": "Torshovparken"
+      },
+      "category": "park",
+      "lat": 59.935297,
+      "lon": 10.77098,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19392836",
+      "wikipedia": {
+        "nb": "Torshovparken",
+        "en": "Torshovparken"
+      },
+      "summary": {
+        "nb": "Torshovparken er en stor park på Torshov i Oslo, anlagt på 1920-tallet som en del av Torshovbyen, boligområdet som ble bygget ut i kommunal regi.",
+        "en": "Torshovparken is a large park located in Torshov, Oslo, Norway, that was established in the 1920s as part of Torshovbyen, a residential area developed by the municipality."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Torshovparken1.JPG/640px-Torshovparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.936397,
+        "lon": 10.773276
+      },
+      "walk": {
+        "durationS": 787,
+        "distanceM": 938,
+        "polyline": "etylJiky`A@AJOBGD?HADAJANCFEFIFMDHZ|@DLMZABCDCTAVA\\?D?F?D@H?LBNBLH^Hh@XCLFFFDDNXl@~A@D\\dA?@Pf@JVFJZh@@@JVt@~Av@|At@tAn@fAFdAPtAHr@P~AJzAD`BC`@Ej@_@~AI`@EDGPMd@C@AFCFCHAB?FQj@g@`BC@C?A?CHAFCHAF?@@DADu@bCCBBDFLFL@BGLIPKPMLMLQLMDA@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

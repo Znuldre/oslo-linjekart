@@ -1,0 +1,238 @@
+{
+  "id": "NSR:StopPlace:58224",
+  "slug": "ulsrud",
+  "name": "Ulsrud",
+  "lat": 59.889627,
+  "lon": 10.849372,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5847"
+  ],
+  "neighbours": {
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:59575",
+        "next": "NSR:StopPlace:58225"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58225",
+        "next": "NSR:StopPlace:59575"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 18,
+    "majorstuen": 24
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58224",
+      "name": "Ulsrud",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "78A",
+          "name": "Østensjø ring",
+          "lineId": "RUT:Line:78"
+        },
+        {
+          "publicCode": "78B",
+          "name": "Østensjø ring",
+          "lineId": "RUT:Line:2078"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:5859",
+      "name": "Olav Nygards veg",
+      "distanceM": 268,
+      "lines": [
+        {
+          "publicCode": "3B",
+          "name": "Buss for linje 3",
+          "lineId": "RUT:Line:3003"
+        },
+        {
+          "publicCode": "3N",
+          "name": "Jernbanetorget - Skullerud T",
+          "lineId": "RUT:Line:3903"
+        },
+        {
+          "publicCode": "58",
+          "name": "Nydalen - Tveita (- Bøler) via Bjerke",
+          "lineId": "RUT:Line:58"
+        },
+        {
+          "publicCode": "76",
+          "name": "Helsfyr T - Mortensrud T",
+          "lineId": "RUT:Line:76"
+        },
+        {
+          "publicCode": "79",
+          "name": "Grorud T - Åsbråten",
+          "lineId": "RUT:Line:79"
+        },
+        {
+          "publicCode": "FB10",
+          "name": "Mortensrud - Oslo lufthavn Gardermoen",
+          "lineId": "UNI:Line:UE1"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5847",
+        "name": "Ulsrud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10716",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10717",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:noklevann",
+      "name": {
+        "nb": "Nøklevann",
+        "en": "Nøklevann Lake"
+      },
+      "category": "park",
+      "lat": 59.883574,
+      "lon": 10.869868,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q75466",
+      "wikipedia": {
+        "nb": "Nøklevann",
+        "en": "Nøklevann"
+      },
+      "summary": {
+        "nb": "Nøklevann er et drøyt 3 kilometer langt vann som ligger i Østmarka i Oslo, i nærheten av Bydel Østensjø. Vannet ligger 163 meter over havet. Inntil marka ved vannet grenser drabantbyene Bøler og Bogerud. Vannet har regulert utløp i sørvest. Her faller Ljanselva bratt ned mot Skraperudtjern på 125 moh.",
+        "en": "Nøklevann is a lake in Østmarka in Oslo, Norway. It has a surface area of 0.8 km2, and is 163 meters above sea level. The lake drains through Ljanselva to Bunnefjorden. It is a former drinking water supply for Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/N%C3%B8klevann.svg/langnb-330px-N%C3%B8klevann.svg.png?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.889627,
+        "lon": 10.85813
+      },
+      "walk": {
+        "durationS": 700,
+        "distanceM": 710,
+        "polyline": "geplJi_faAOWGOGM?WAM?G@E@C@CDEFCLEFCLGRKLILEFCFEFEBGFIBMFU?AFYHi@Lk@r@aDH[BDBB?CDW@Q@CEECG?IAI??IIIGA?JUHOJMHGBQ@YGOKMc@g@cA{@k@i@]w@Mq@Ei@Co@EcAAUAi@@c@BSDQHQHKGKACc@_@DOFMDQDQECEGYKCCEKG@E@@O@IF]Jm@@G?SAaA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ostensjovannet",
+      "name": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet Lake"
+      },
+      "category": "park",
+      "lat": 59.886902,
+      "lon": 10.830399,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q47494417",
+      "wikipedia": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet"
+      },
+      "summary": {
+        "nb": "Østensjøvannet er en innsjø som ligger midt i bydelen Østensjø i Oslo kommune. Innsjøen har et areal på 0,33 km² og ligger 107 meter over havet. Innsjøen er omkranset av drabantbyene og boligstrøkene Bogerud, Abildsø, Manglerud, Rognerud, Oppsal, Ulsrud og Bøler. Den regnes som en av Norges mest artsrike innsjøer for vann- og sumpvegetasjon, noe som videre danner grunnlag for et rikt fugle- og dyreliv der. Artsrikdommen og den sentrale beliggenheten gjør dessuten vannet til et av landets mest benyttede rekreasjonsområder.",
+        "en": "Østensjøvannet is a lake located in the Østensjø borough in Oslo, Norway. It is well known for the wide variety of birds and other wildlife that can be found there. It is currently a wildlife preserve, though urban development posed a serious threat to the lake and its environs during the 1980s and early 1990s."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%C3%98stensj%C3%B8vannet_%285._mai_2018%29.jpg/640px-%C3%98stensj%C3%B8vannet_%285._mai_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.889627,
+        "lon": 10.836564
+      },
+      "walk": {
+        "durationS": 908,
+        "distanceM": 1079,
+        "polyline": "geplJi_faAHRHPLXN`@L`@H^HZBJ@BBBB@@BBLDT?@??IJGHA@BHBJ\\|AVhARbABFF^DV@RBV@V@X?V?JAj@Ah@EjAGjBKnD?NATA^?FALCJIBECAGA?CBEB?@RjB@N@TAJQ`GEpAG|BALEDG@CAEDXlA?VMAA?F|@Dd@Dj@BT@HRtBHh@Ff@Jj@F^J`@Nf@HV@DPj@X~@BH?H?J?J?FCDABC@E@O@a@BG@W@YAGCEGAEAQA]GCAW?EAIESIa@GSS_@CAEAKDOHGBK@OC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/28201860",
+      "name": {
+        "nb": "Ulsrudvannet",
+        "en": "Ulsrudvann"
+      },
+      "category": "park",
+      "lat": 59.887956,
+      "lon": 10.864576,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12008333",
+      "wikipedia": {
+        "nb": "Ulsrudvann"
+      },
+      "summary": {
+        "nb": "Ulsrudvann er en innsjø i Østmarka i Oslo kommune, mellom Ulsrud og Nøklevann. Vannet har et lite nedslagsfelt uten bekker av betydning og drenerer via bekk til Østensjøvannet. Denne bekken er lagt i rør fra der den forsvinner under General Ruges vei."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ulsrudvann_%2818._juli_2018_bilde01%29.jpg/640px-Ulsrudvann_%2818._juli_2018_bilde01%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.889113,
+        "lon": 10.860545
+      },
+      "walk": {
+        "durationS": 934,
+        "distanceM": 961,
+        "polyline": "geplJi_faAOWGOGM?WAM?G@E@C@CDEFCLEFCLGRKLILEFCFEFEBGFIBMFU?AFYHi@Lk@r@aDH[BDBB?CDW@Q@CEECG?IAI??IIIGA?JUHOJMHGBQ@YGOKMc@g@cA{@k@i@]w@Mq@Ei@Co@EcAAUAi@@c@BSDQHQHKGKACc@_@DOFMDQDQECEGYKCCEKTGj@Y@A@ABA@A@AHGJKHMFOFYB]?_A@I?EFc@D]FS~@kDH_@BQ?UCg@Ge@M}@KLQN]JSk@CA",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

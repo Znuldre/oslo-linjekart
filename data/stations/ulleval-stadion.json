@@ -1,0 +1,203 @@
+{
+  "id": "NSR:StopPlace:58265",
+  "slug": "ulleval-stadion",
+  "name": "Ullevål stadion",
+  "lat": 59.947956,
+  "lon": 10.732505,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6149"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:59605",
+        "next": "NSR:StopPlace:59600"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59600",
+        "next": "NSR:StopPlace:59605"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59738",
+        "next": "NSR:StopPlace:59600"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:59600",
+        "next": "NSR:StopPlace:59605"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:59600",
+        "next": "NSR:StopPlace:59738"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 11,
+    "majorstuen": 6
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58265",
+      "name": "Ullevål stadion",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "19N",
+          "name": "Kringsjå - Åsbråten",
+          "lineId": "RUT:Line:3919"
+        },
+        {
+          "publicCode": "23",
+          "name": "Lysaker - Simensbråten",
+          "lineId": "RUT:Line:23"
+        },
+        {
+          "publicCode": "24",
+          "name": "Fornebu vest - Brynseng T",
+          "lineId": "RUT:Line:24"
+        },
+        {
+          "publicCode": "25",
+          "name": "Majorstuen-Haugerud",
+          "lineId": "RUT:Line:25"
+        },
+        {
+          "publicCode": "260E",
+          "name": "Bødalen - Slemmestad - Holmen - Sandvika- Ullevål",
+          "lineId": "RUT:Line:5260"
+        },
+        {
+          "publicCode": "FB3",
+          "name": "Radiumhospitalet via Økern-Storo-Tåsen",
+          "lineId": "NBU:Line:cb7b555c-f96e-42d5-84bf-a5e08c0145c2"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6149",
+        "name": "Ullevål stadion",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11289",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11287",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:ullevaal-stadion",
+      "name": {
+        "nb": "Ullevaal Stadion",
+        "en": "Ullevaal Stadium"
+      },
+      "category": "attraction",
+      "lat": 59.949136,
+      "lon": 10.734329,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q680291",
+      "wikipedia": {
+        "nb": "Ullevaal Stadion",
+        "en": "Ullevaal Stadion"
+      },
+      "summary": {
+        "nb": "Ullevaal Stadion er et fotballstadion i Oslo i Norge. Det er hjemmebanen til herrelandslaget og damelandslaget i tillegg til at cupfinalen i herrefotball og damefotball blir arrangert der hvert år. Fra åpningen i 1926 til 2009 var stadionet også hjemmebanen til Lyn Toppfotball. Med en kapasitet på ca. 27 182 er det det største fotballstadionet i Norge. Det er eid av Norges Fotballforbund (NFF).",
+        "en": "Ullevaal Stadion is an all-seater football stadium located in Oslo, Norway. It is the home ground of the Norway national football team, and the site of the Norwegian Cup Final. From its opening in 1926 to 2009 it was the home ground of FK Lyn and from 1999 to 2017 was a home ground of Vålerenga IF. With a capacity of approximately 28,000, it is the largest football stadium in Norway. The national stadium is fully owned by the Football Association of Norway (NFF)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Ullev%C3%A5l_Stadium_from_air.jpg/640px-Ullev%C3%A5l_Stadium_from_air.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.948299,
+        "lon": 10.732505
+      },
+      "walk": {
+        "durationS": 47,
+        "distanceM": 49,
+        "polyline": "uq{lJeeo`AK@OFGFCSAECKU\\?C",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/115886381",
+      "name": {
+        "nb": "Harald Hals park"
+      },
+      "category": "park",
+      "lat": 59.944567,
+      "lon": 10.735194,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11974204",
+      "wikipedia": {
+        "nb": "Harald Hals’ park"
+      },
+      "summary": {
+        "nb": "Harald Hals' park er en park nordøst for Damplassen i Ullevål Hageby i bydel Nordre Aker i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Harald_Hals_park1.JPG/640px-Harald_Hals_park1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.945063,
+        "lon": 10.734054
+      },
+      "walk": {
+        "durationS": 514,
+        "distanceM": 565,
+        "polyline": "uq{lJeeo`AD?DHEVCFCBJAJ@F?FGFEBCHSFIFIb@KLCLCJAR?TAD@F@D?h@H@@RDZFZHLDZHVHNFHBLH@E@S?K?E@?B?@CB@HBFB@@?KBSBGBEFAHGJSNEb@Ox@W\\Cb@DLMLSNQaAaBoAaB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,845 @@
+{
+  "id": "NSR:StopPlace:61444",
+  "slug": "storgata",
+  "name": "Storgata",
+  "lat": 59.913938,
+  "lon": 10.75142,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "15",
+    "17",
+    "18"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:61422"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58366",
+        "next": "NSR:StopPlace:61989"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:61989",
+        "next": "NSR:StopPlace:58366"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:61989",
+        "next": "NSR:StopPlace:58366"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58366",
+        "next": "NSR:StopPlace:61989"
+      }
+    ],
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "prev": "NSR:StopPlace:58366",
+        "next": "NSR:StopPlace:61989"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:61989",
+        "next": "NSR:StopPlace:58366"
+      }
+    ],
+    "18": [
+      {
+        "directionType": "inbound",
+        "towards": "Grefsen stasjon",
+        "prev": "NSR:StopPlace:58366",
+        "next": "NSR:StopPlace:61989"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:61989",
+        "next": "NSR:StopPlace:58366"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 2,
+    "majorstuen": 20
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:61444",
+      "name": "Storgata",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        },
+        {
+          "publicCode": "34",
+          "name": "Tåsen - Ekeberg hageby",
+          "lineId": "RUT:Line:34"
+        },
+        {
+          "publicCode": "54",
+          "name": "Kværnerbyen - Kjelsås stasjon",
+          "lineId": "RUT:Line:54"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58366",
+      "name": "Jernbanetorget",
+      "distanceM": 226,
+      "lines": [
+        {
+          "publicCode": "1N",
+          "name": "Jernbanetorget - Ullerntoppen",
+          "lineId": "RUT:Line:3901"
+        },
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "3N",
+          "name": "Jernbanetorget - Skullerud T",
+          "lineId": "RUT:Line:3903"
+        },
+        {
+          "publicCode": "4N",
+          "name": "Jernbanetorget - Bergkrystallen T",
+          "lineId": "RUT:Line:3904"
+        },
+        {
+          "publicCode": "5N",
+          "name": "Jernbanetorget - Vestli T",
+          "lineId": "RUT:Line:3905"
+        },
+        {
+          "publicCode": "19N",
+          "name": "Kringsjå - Åsbråten",
+          "lineId": "RUT:Line:3919"
+        },
+        {
+          "publicCode": "30",
+          "name": "Bygdøy - Nydalen",
+          "lineId": "RUT:Line:30"
+        },
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        },
+        {
+          "publicCode": "31E",
+          "name": "Fornebu - Kalbakken",
+          "lineId": "RUT:Line:2031"
+        },
+        {
+          "publicCode": "37",
+          "name": "Nydalen T - Helsfyr",
+          "lineId": "RUT:Line:37"
+        },
+        {
+          "publicCode": "42N",
+          "name": "Voksen skog - Jernbanetorget",
+          "lineId": "RUT:Line:9842"
+        },
+        {
+          "publicCode": "60",
+          "name": "Vippetangen-Tonsenhagen",
+          "lineId": "RUT:Line:60"
+        },
+        {
+          "publicCode": "70",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:70"
+        },
+        {
+          "publicCode": "70E",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:3969"
+        },
+        {
+          "publicCode": "70N",
+          "name": "Jernbanetorget - Bjørndal",
+          "lineId": "RUT:Line:3970"
+        },
+        {
+          "publicCode": "71",
+          "name": "Bjørndal - Mortensrud T (-Jernbanetorget)",
+          "lineId": "RUT:Line:71"
+        },
+        {
+          "publicCode": "74",
+          "name": "Jernbanetorget - Mortensrud T",
+          "lineId": "RUT:Line:74"
+        },
+        {
+          "publicCode": "81",
+          "name": "Fornebu - Myrvoll stasjon",
+          "lineId": "RUT:Line:81"
+        },
+        {
+          "publicCode": "81N",
+          "name": "Nationaltheatret - Ski",
+          "lineId": "RUT:Line:3981"
+        },
+        {
+          "publicCode": "83N",
+          "name": "Nationaltheatret - Fløysbonn",
+          "lineId": "RUT:Line:3983"
+        },
+        {
+          "publicCode": "84E",
+          "name": "Jernbanetorget-Oppegård st.",
+          "lineId": "RUT:Line:84"
+        },
+        {
+          "publicCode": "85",
+          "name": "Jernbanetorget - Ulvøya",
+          "lineId": "RUT:Line:85"
+        },
+        {
+          "publicCode": "FB5",
+          "name": "Oslo sentrum via Helsfyr-Hasle-Bislett",
+          "lineId": "NBU:Line:a7c15243-8873-4aee-a8b4-8d22e8ad31dc"
+        }
+      ]
+    },
+    {
+      "mode": "metro",
+      "stopPlaceId": "NSR:StopPlace:58366",
+      "name": "Jernbanetorget",
+      "distanceM": 226,
+      "lines": [
+        {
+          "publicCode": "1",
+          "name": "Frognerseteren - Bergkrystallen",
+          "lineId": "RUT:Line:1"
+        },
+        {
+          "publicCode": "2",
+          "name": "Østerås - Ellingsrudåsen",
+          "lineId": "RUT:Line:2"
+        },
+        {
+          "publicCode": "3",
+          "name": "Kolsås - Mortensrud",
+          "lineId": "RUT:Line:3"
+        },
+        {
+          "publicCode": "4",
+          "name": "Vestli - Bergkrystallen",
+          "lineId": "RUT:Line:4"
+        },
+        {
+          "publicCode": "5",
+          "name": "Sognsvann - Vestli",
+          "lineId": "RUT:Line:5"
+        }
+      ]
+    },
+    {
+      "mode": "tram",
+      "stopPlaceId": "NSR:StopPlace:58366",
+      "name": "Jernbanetorget",
+      "distanceM": 226,
+      "lines": [
+        {
+          "publicCode": "13",
+          "name": "Bekkestua - Ljabru",
+          "lineId": "RUT:Line:13"
+        },
+        {
+          "publicCode": "19",
+          "name": "Ljabru - Majorstuen",
+          "lineId": "RUT:Line:19"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:61422",
+        "name": "Storgata",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:105273",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:105274",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:domkirken",
+      "name": {
+        "nb": "Oslo domkirke",
+        "en": "Oslo Cathedral"
+      },
+      "category": "church",
+      "lat": 59.91252,
+      "lon": 10.746867,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1063209",
+      "website": "http://www.oslodomkirke.no",
+      "wikipedia": {
+        "nb": "Oslo domkirke",
+        "en": "Oslo Cathedral"
+      },
+      "summary": {
+        "nb": "Oslo domkirke, tidligere Vår Frelsers kirke, er domkirke og hovedkirke for Oslo bispedømme og soknekirke for Oslo domkirkes menighet i Oslo domprosti. Med form som en korskirke ligger kirken ved Stortorvet i Oslo sentrum. Domkirken er også landets rikskirke som benyttes av kongehuset og staten ved offisielle begivenheter, som vielser og gravferder. Kirken stod ferdig i 1697",
+        "en": "Oslo Cathedral — formerly Our Savior's Church — is the main church for the Church of Norway Diocese of Oslo, as well as the parish church for downtown Oslo. The present building dates from 1694 to 1697."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2012.11.09.Oslodomkirke.jpg/640px-2012.11.09.Oslodomkirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 351,
+        "distanceM": 363,
+        "polyline": "c}tlJi{r`Ar@hDBNBL@D?@A@CBABRbABJ?BBF@H@D@?@B@B@D@HJh@b@vBt@nDF~@@^??@BB@@@@B@@ALZvDRRX[@m@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:youngstorget",
+      "name": {
+        "nb": "Youngstorget",
+        "en": "Youngstorget"
+      },
+      "category": "attraction",
+      "lat": 59.914943,
+      "lon": 10.748826,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Youngstorget (Oslo)",
+        "en": "Youngstorget"
+      },
+      "summary": {
+        "nb": "Youngstorget er et torg i sentrum av Oslo. Det ligger mellom Storgata og Møllergata, midt i Torggata.\nDet ble anlagt i 1846.",
+        "en": "Youngstorget is a square and public space located in downtown Oslo. It lies at the junction of the streets Storgata and Møllergata and alongside Torggata. Constructed in 1846, it has become a symbol of political power in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Youngstorget_panorama.jpg/640px-Youngstorget_panorama.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 252,
+        "distanceM": 271,
+        "polyline": "c}tlJi{r`ATfA\\`BBNBL@D?@A@CBABAEEUMm@IQA@WX]^[b@Yh@Wp@M\\ABKXM`@AB@B@J?J?H?@CFCDA?CBC?Ap@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:oslo-spektrum",
+      "name": {
+        "nb": "Oslo Spektrum",
+        "en": "Oslo Spektrum"
+      },
+      "category": "theatre",
+      "lat": 59.912987,
+      "lon": 10.75472,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1508325",
+      "website": "https://www.oslospektrum.no",
+      "wikipedia": {
+        "nb": "Oslo Spektrum",
+        "en": "Oslo Spektrum"
+      },
+      "summary": {
+        "nb": "Oslo Spektrum, fullt navn Oslo Spektrum Arena AS, er en innendørs flerbruksarena for konserter, idrettskonkurranser og store messer i Norge. Arenaen åpnet i desember 1990 og hadde sitt første hele driftsår i 1991. I desember 2005 tok Nova Spektrum over som eiere. Med inntil 11 500 stå- og sitteplasser brukes Oslo Spektrum regelmessig som konsertarena når internasjonale artister gjester Oslo. I tillegg huser arenaen en rekke andre typer arrangementer – som idrettskonkurranser, messer og konferanser. Spektrum ligger sentralt i Oslo sentrum, like ved Oslo sentralstasjon og Oslo bussterminal. I 2017 annonserte Nova Spektrum at arenaen skulle pusses opp og bygges ut med 20 000 ekstra kvadratmeter med oppstart i 2020, men arbeidet kom i gang først i 2025 etter flere års forsinkelser og har forventet ferdigstilling høsten 2028.",
+        "en": "Oslo Spektrum is a multi-purpose indoor arena located in east central Oslo, Norway. It was opened in December 1990 under ownership and operation of Nova Spektrum, formerly Norges Varemesse. It is located in Downtown Oslo, next to the Central Station, long and medium haul bus terminal, Jernbanetorget public transportation hub and the international ferry terminals."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Oslo_Spektrum_-_Sittende_oppsett.jpg/640px-Oslo_Spektrum_-_Sittende_oppsett.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 276,
+        "distanceM": 273,
+        "polyline": "c}tlJi{r`A?Ay@_E?C@C@CFGCIAKACCMCID?`@BL?HCFAb@e@LQFMFOBIVYDI@I@MAMBAFELEBGECCKACAKEe@KsA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:basarhallene",
+      "name": {
+        "nb": "Basarhallene",
+        "en": "The Bazaar Halls"
+      },
+      "category": "attraction",
+      "lat": 59.912222,
+      "lon": 10.747722,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Basarene"
+      },
+      "summary": {
+        "nb": "Basarene ved Oslo domkirke, også kalt Stortorgets basar og Basarhallene, ble oppført i årene 1840–1859 i upusset tegl i nyromansk stil. Arkitekt var Christian H. Grosch."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Basareneforside.JPG/640px-Basareneforside.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 342,
+        "distanceM": 368,
+        "polyline": "c}tlJi{r`ATfA\\`BBNBL@D?@A@CBABRbABJ?BBF@H@D@?@B@B@D@H@DHb@b@vBn@|CDPFD@xA??@BB@@@@B@@ALBBV{AHYDKDGFE@?DAH?FDPL\\Z",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:jodisk-museum",
+      "name": {
+        "nb": "Jødisk museum",
+        "en": "Jewish Museum Oslo"
+      },
+      "category": "museum",
+      "lat": 59.916338,
+      "lon": 10.755421,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q6189888",
+      "wikipedia": {
+        "nb": "Jødisk museum i Oslo",
+        "en": "Oslo Jewish Museum"
+      },
+      "summary": {
+        "nb": "",
+        "en": "\nThe Oslo Jewish Museum aims to inform about Jews in Norway. It was established as a foundation in 2003, supported by Det Mosaiske Trossamfund and Oslo City Museum."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/J%C3%B8disk_Museum_i_Oslo_-_2010-07-05_at_15-21-17.jpg/640px-J%C3%B8disk_Museum_i_Oslo_-_2010-07-05_at_15-21-17.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 392,
+        "distanceM": 434,
+        "polyline": "c}tlJi{r`A?Ay@_E?CI[EQKg@C@ABIHGF}@lAUZk@v@EFC?AAOe@[aAAEM]?C?AAA?CGQEQAAAA?Ag@}A?C?CAEGOCKACA??AAAo@uBAC?AACCMEK?CA?A?AA?C]eA]gA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ostbanehallen",
+      "name": {
+        "nb": "Østbanehallen",
+        "en": "Østbanehallen"
+      },
+      "category": "attraction",
+      "lat": 59.910602,
+      "lon": 10.751361,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Østbanehallen"
+      },
+      "summary": {
+        "nb": "Østbanehallen er vognhallen til Østbanestasjonen i Oslo. Siden har navnet blitt tatt i bruk av kjøpesenteret som ble opprettet i hallen etter at Oslo S tok over jernbanefunksjonene. Den er på 8 000 m²."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Oslo_%C3%98stbanestasjonen_2005-08-30.jpg/640px-Oslo_%C3%98stbanestasjonen_2005-08-30.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 454,
+        "distanceM": 483,
+        "polyline": "c}tlJi{r`ATfA\\`BBNBL@DBADGBC@CBBF@DAHC@ALOpA}AJQDIBC@ADE@A@?BADAjAh@??D@@?@?B@B?@?B???B@@?D@B?B??N?JBHBD@BHFRRPPBBJFlAhAZXBDB@HDPqATq@@E?C?AFk@D[PMJeA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:22-juli-senteret",
+      "name": {
+        "nb": "22. juli-senteret",
+        "en": "22 July Centre"
+      },
+      "category": "museum",
+      "lat": 59.915254,
+      "lon": 10.744647,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q20669453",
+      "wikipedia": {
+        "nb": "22. juli-senteret",
+        "en": "22 July Centre"
+      },
+      "summary": {
+        "nb": "22. juli-senteret er et norsk statlig læringssenter som formidler minne og kunnskap om terrorangrepet 22. juli 2011. Senteret åpnet 22. juli 2015 i første etasje i H-blokken i Regjeringskvartalet, og etter å ha vært stengt fra 2019, gjenåpnet senteret 22. juli 2026."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/22._juli-senteret_i_juli_2026.jpg/640px-22._juli-senteret_i_juli_2026.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 531,
+        "distanceM": 534,
+        "polyline": "c}tlJi{r`Ar@hDBNBL@D?@A@CBABRbABJIJYZu@~@UV[^GFABCHGPM\\EJCFCFGNGPUj@Yt@CJEHA@@@BHENGKcAtFDDvAbBmA~G",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:operaen",
+      "name": {
+        "nb": "Operahuset",
+        "en": "Oslo Opera House"
+      },
+      "category": "attraction",
+      "lat": 59.907484,
+      "lon": 10.752681,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q43280",
+      "website": "https://operaen.no/",
+      "wikipedia": {
+        "nb": "Operahuset i Oslo",
+        "en": "Oslo Opera House"
+      },
+      "summary": {
+        "nb": "Operahuset i Oslo er Den Norske Opera & Balletts operahus i Bjørvika innerst i Oslofjorden. Det har adresse Kirsten Flagstads plass 1 etter operaens første sjef Kirsten Flagstad. Huset er tegnet av arkitekt- og designkontoret Snøhetta, som vant en arkitektkonkurranse i 2000. Det ble høytidelig åpnet 12. april 2008. Bygningen har fått mange priser, og er fredet av Riksantikvaren.",
+        "en": "The Oslo Opera House is the home of the Norwegian National Opera and Ballet, and the national opera house in Norway. The building is situated in the Bjørvika neighbourhood of central Oslo, at the head of the Oslofjord. It is operated by Norwegian Directorate of Public Construction and Property, the government agency which manages property for the Norwegian government. The structure contains 1,100 rooms in a total area of 49,000 m2 (530,000 sq ft). The main auditorium seats 1,364 and two other performance spaces can seat 200 and 400. The main stage is 16 m (52 ft) wide and 40 m (130 ft) deep. The angled exterior surfaces of the building are covered with marble from Carrara, Italy and white granite and make it appear to rise from the water. It is the largest cultural building constructed in Norway since Nidaros Cathedral was completed circa 1300."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Operahuset_i_Oslo_1.jpg/640px-Operahuset_i_Oslo_1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.908314,
+        "lon": 10.75142
+      },
+      "walk": {
+        "durationS": 740,
+        "distanceM": 784,
+        "polyline": "c}tlJi{r`ATfA\\`BBNBL@DBADGBC@CBBF@DAHC@ALOpA}AJQDIBC@ADE@A@?BADAjAh@??D@@?@?B@B?@?B???B@@?D@B?B??N?JBHBD@BHFRRPPBBJFlAhAZXBDB@HDHDFBF@DCFEDGFSHMHIFCHCD@BMBUJa@FW?ADS`Aj@FBD?DCDEDKZmBBBNLHFZuBRmADBFBDBBB@@B@@@B@BBBBHDDBHFp@?L?F?@@NHB@HDFDDBJFZP",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:karl-johans-gate",
+      "name": {
+        "nb": "Karl Johans gate",
+        "en": "Karl Johans gate"
+      },
+      "category": "attraction",
+      "lat": 59.913056,
+      "lon": 10.740833,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Karl Johans gate",
+        "en": "Karl Johans gate"
+      },
+      "summary": {
+        "nb": "Karl Johans gate, uformelt også omtalt som «Karl Johan», er oppkalt etter kong Karl III Johan og regnes som hovedgaten i Oslo. Den strekker seg nå fra Oslo sentralstasjon i sydøst til Slottet i nordvest. Gaten er nå gågate fra Oslo Sentralstasjon til Stortingsbygningen. Langs gaten ligger kjente institusjoner som Oslo domkirke, Basarene med Brannvakten, Stortingsbygningen, Nationaltheatret og Universitetsbygningene.",
+        "en": "Karl Johans gate is the main street of the city of Oslo, Norway. The street was named in honor of King Charles III John, who was also King of Sweden as Charles XIV John."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Karl_Johans_gate.jpg/640px-Karl_Johans_gate.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 606,
+        "distanceM": 697,
+        "polyline": "c}tlJi{r`ATfA\\`BBNBL@D?@A@CBABRbABJ?BBF@H@D@?@B@B@D@HJh@b@vBn@|CDPFD@xA??@BB@@@@B@@AL?z@ZzBp@hAJJl@x@@DLL?DAFAB?FAH_@jCWtBA@?DAFCJ?Di@zDe@nD[lDAJCLAHC?A@Kd@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:kulturkirken-jakob",
+      "name": {
+        "nb": "Kulturkirken Jakob",
+        "en": "Jakob Church of Culture"
+      },
+      "category": "theatre",
+      "lat": 59.91815,
+      "lon": 10.754419,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1773529",
+      "website": "https://jakob.no/",
+      "wikipedia": {
+        "nb": "Kulturkirken Jakob",
+        "en": "Jakob Church"
+      },
+      "summary": {
+        "nb": "Kulturkirken Jakob er en kirke i Hausmanns gate i strøket Hausmannsområdet i Oslo. Jakob kirke ble tegnet av arkitekt Georg Andreas Bull og oppført i 1880. Den har sitt navn etter apostelen St. Jakob. Altertavlen er «Hyrdenes tilbedelse» av Eilif Peterssen (1880). I våpenhuset henger et relieff av Erkeengelen Mikael. Den har plass til 550."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Kulturkirken_Jakob-1.jpg/640px-Kulturkirken_Jakob-1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 631,
+        "distanceM": 648,
+        "polyline": "c}tlJi{r`A?Ay@_E?CI[EQKg@C@ABIHGF}@lAUZk@v@EFC??BGJGJC@GRo@l@KFM@KFCIWm@A?Ys@A@CACEA@A?ABAB?CEICGACA@A??ACCq@_BA?a@}@]y@ABCDISISCBCFAE??_AsBm@sAAAAECAAAC?CDAACKCGACCIAGACAC?@ADc@x@_@p@_@oA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:deichman-bjorvika",
+      "name": {
+        "nb": "Deichman Bjørvika",
+        "en": "Deichman Bjørvika Library"
+      },
+      "category": "attraction",
+      "lat": 59.908658,
+      "lon": 10.752697,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Deichman Bjørvika",
+        "en": "Deichman Bjørvika"
+      },
+      "summary": {
+        "nb": "Deichman Bjørvika er hovedbibliotek for Deichman, folkebiblioteket i Oslo kommune. Det ligger i Bjørvika, mellom Oslo S og Operahuset i Oslo. Byggearbeidene tok til i 2013 og ble ferdige i desember 2019. Det nye biblioteket planla å åpne med samlingene fra det gamle hovedbiblioteket på Hammersborg og et utvidet publikumstilbud 28. mars 2020, men åpninga ble utsatt på grunn av nedstengninga av offentlige samlingsarenaer som følge av koronaviruspandemien i 2019–2020. Den offisielle åpningen var 18. juni 2020. Biblioteket har vunnet en rekke priser, blant andre Norsk Bibliotekforenings pris for Årets bibliotek 2020, den internasjonale bibliotekføderasjonen IFLAs pris Public Library of the Year 2021 og prisen Trend Brand of the Year 2020."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Deichman_Bj%C3%B8rvika_og_Operaen_med_Dronning_Eufemias_gate_og_Operagata.jpg/640px-Deichman_Bj%C3%B8rvika_og_Operaen_med_Dronning_Eufemias_gate_og_Operagata.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 735,
+        "distanceM": 792,
+        "polyline": "c}tlJi{r`ATfA\\`BBNBL@DBADGBC@CBBF@DAHC@ALOpA}AJQDIBC@ADE@A@?BADAjAh@??D@B?B@B?@?B???B@@?D@B?B??N?JBHBD@BHFRRPPBBJFlAhAZXBDB@HDHDFBF@DCFEDGFSHMHIFCHCD@BMBUJa@FW?ADS`Aj@FBD?DCDEDKZmBBBNLHFZuBRmADBFBDBBB@@B@@@B@BBBBHDDBHFp@?L?F?@@NHBO^iC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:stortinget",
+      "name": {
+        "nb": "Stortingsbygningen",
+        "en": "Parliament Building"
+      },
+      "category": "attraction",
+      "lat": 59.913056,
+      "lon": 10.74,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Stortingsbygningen",
+        "en": "Storting building"
+      },
+      "summary": {
+        "nb": "Stortingsbygningen er sete for Norges nasjonalforsamling, Stortinget.",
+        "en": "The Storting building is the seat of the Storting, the parliament of Norway. The building is located at Karl Johans gate 22 in central Oslo, Norway. It was taken into use on 5 March 1866 and was designed by the Swedish architect Emil Victor Langlet."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Sp%C3%B8rretimen_i_Stortinget_22._november_2007.jpg/640px-Sp%C3%B8rretimen_i_Stortinget_22._november_2007.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 728,
+        "distanceM": 832,
+        "polyline": "c}tlJi{r`ATfA\\`BBNBL@D?@A@CBABRbABJ?BBF@H@D@?@B@B@D@HJh@b@vBn@|CDPFD@xA??@BB@@@@B@@AL?z@ZzBp@hAJJl@x@@DLL?DAFAB?FAH_@jCWtBA@?DAFCJ?Di@zDe@nD[lDAJCLAHC?A@kAzFDFn@r@??F]CCCMCO?Q@M",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:akershus-festning",
+      "name": {
+        "nb": "Akershus festning",
+        "en": "Akershus Fortress"
+      },
+      "category": "attraction",
+      "lat": 59.9076,
+      "lon": 10.737263,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Akershus slott og festning",
+        "en": "Akershus Fortress"
+      },
+      "summary": {
+        "nb": "Akershus slott og festning er en av de mest betydningsfulle festningene i norgeshistorien. Den ble opprinnelig bygget på slutten av 1200-tallet som en middelaldersk kongeborg med sete for kongens representanter, strategisk beliggende på Akersneset i Oslo. På 1600-tallet ble den bygget om til et renessanseslott omgitt av en bastionfestning. Den over 700 år gamle borgen har overlevd flere beleiringer, men har aldri blitt inntatt med makt av en fiendtlig, utenlandsk hær. Den ble først lagt ned som militært anlegg i 1815, men reetablert i perioden 1820–1850. Den gikk endelig ut av operativ militær drift i perioden 1850–1900 og ble da et militært hovedkvarter, skole og depot- og forlegningsområde. Deler av anlegget ble også benyttet som fengsel og straffarbeidsanstalt fra 1820 og var på 1800-tallet det strengeste fengselet i Norge.",
+        "en": "Akershus Fortress or Akershus Castle is a medieval castle in the Norwegian capital Oslo that was built to protect and provide a royal residence for the city. It is located on the banks of the Oslofjord. Since the Middle Ages the fortress has been the namesake and centre of the main fief and later main county of Akershus, which was originally one of Norway's four main regions and which included most of Eastern Norway. The fortress itself was located within the Akershus main county until 1919, and within the smaller Akershus sub-county until 1842."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Akershus_festning_by_night.jpg/640px-Akershus_festning_by_night.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.90998,
+        "lon": 10.739547
+      },
+      "walk": {
+        "durationS": 791,
+        "distanceM": 938,
+        "polyline": "c}tlJi{r`ATfA\\`BBNBL@D?@A@CBABRbABJ?BBF@H@D@?@B@B@D@HJh@VnAJf@n@|CDPFD@xA??@BB@@@@B@@AL?z@ZzBp@hAJJl@x@@DLL?DAFAB?FAH_@jCWtBA@?DAFCJ?DJHLJp@p@d@b@n@n@NL@@?B@B?D?DAHAF?BADAHCPStAAFER@@@@B@@@HH@@bB~AJJLLCLADh@f@nAlAbA~@FfD",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:reptilparken",
+      "name": {
+        "nb": "Oslo Reptilpark",
+        "en": "Oslo Reptile Park"
+      },
+      "category": "zoo",
+      "lat": 59.918079,
+      "lon": 10.743289,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q11994240",
+      "website": "https://www.reptilpark.no/",
+      "wikipedia": {
+        "nb": "Oslo Reptilpark"
+      },
+      "summary": {
+        "nb": "Oslo Reptilpark er en privateid norsk dyrepark, og Norges eneste reptilpark."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Brillekaiman_i_Oslo_Reptilpark.jpg/640px-Brillekaiman_i_Oslo_Reptilpark.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 814,
+        "distanceM": 866,
+        "polyline": "c}tlJi{r`Ar@hD?BBJBL@D?@A@CBABRbABJIJYZu@~@WXY\\GFABCHGPM\\EJCFCFGNGPk@xACFCJEHA@@@@D@BENGKQ~@q@tDg@m@gAtG?fCQAM?cBVK@K@s@JQB?F@PM@MNG@@H?D??YDoANQB[FOD[RQFCFAF?B?D@b@@j@?F@VTE",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4245701",
+      "name": {
+        "nb": "Kristparken"
+      },
+      "category": "park",
+      "lat": 59.917561,
+      "lon": 10.748641,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11982177",
+      "wikipedia": {
+        "nb": "Kristparken"
+      },
+      "summary": {
+        "nb": "Kristparken er en park på Hammersborg nær Oslo sentrum."
+      },
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristparken_i_mai.JPG?width=640",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.917189,
+        "lon": 10.749891
+      },
+      "walk": {
+        "durationS": 474,
+        "distanceM": 491,
+        "polyline": "c}tlJi{r`A?Ay@_E?CGWACEQKg@C@ABIHGFSVi@t@UZk@v@EFC??BGJGJoBzACECGo@oAAEABABADCFAAAAA?A@GJ{AvC?@?@?@ABEJCH?@C?A?A@sAhCAD?B?B@B@BB@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/547688836",
+      "name": {
+        "nb": "Elgsletta",
+        "en": "Elgsletta aktivitetspark"
+      },
+      "category": "park",
+      "lat": 59.915901,
+      "lon": 10.761247,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q97794288",
+      "wikipedia": {
+        "nb": "Elgsletta aktivitetspark"
+      },
+      "summary": {
+        "nb": "Elgsletta aktivitetspark er en park langs Akerselva på Grønland i Oslo, ferdig i 2009. Parken inneholder blant annet sandvolleyballbaner."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Elgsletta_aktivitetspark_2014.jpg/640px-Elgsletta_aktivitetspark_2014.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915223,
+        "lon": 10.760124
+      },
+      "walk": {
+        "durationS": 567,
+        "distanceM": 647,
+        "polyline": "c}tlJi{r`A?Ay@_E?CGWACEQKg@@C@A@CMo@BS@IRcBBU~AuOAe@@S@O?GBA@A@CXcDBG@A@EBSH{@@Ig@[K_@MOMEGCMIOKQQi@i@KKIKKOIOSWOQIQKSGIKGEAg@c@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "NSR:StopPlace:58301",
+  "slug": "kastellet",
+  "name": "Kastellet",
+  "lat": 59.870706,
+  "lon": 10.790782,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "13",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6671"
+  ],
+  "neighbours": {
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:58302",
+        "next": "NSR:StopPlace:58300"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58300",
+        "next": "NSR:StopPlace:58302"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58300",
+        "next": "NSR:StopPlace:58302"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58302",
+        "next": "NSR:StopPlace:58300"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 17,
+    "majorstuen": 32
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58301",
+      "name": "Kastellet",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "19N",
+          "name": "Kringsjå - Åsbråten",
+          "lineId": "RUT:Line:3919"
+        },
+        {
+          "publicCode": "75A",
+          "name": "Nordstrand ring",
+          "lineId": "RUT:Line:75"
+        },
+        {
+          "publicCode": "75B",
+          "name": "Nordstrand ring",
+          "lineId": "RUT:Line:2075"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6671",
+        "name": "Kastellet",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:12323",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12322",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": []
+}

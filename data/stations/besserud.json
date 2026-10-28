@@ -1,0 +1,162 @@
+{
+  "id": "NSR:StopPlace:58267",
+  "slug": "besserud",
+  "name": "Besserud",
+  "lat": 59.957763,
+  "lon": 10.67387,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6311"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:6302",
+        "next": "NSR:StopPlace:59766"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:59766",
+        "next": "NSR:StopPlace:6302"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 25,
+    "majorstuen": 20
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58267",
+      "name": "Besserud",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "1N",
+          "name": "Jernbanetorget - Ullerntoppen",
+          "lineId": "RUT:Line:3901"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6311",
+        "name": "Besserud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11594",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11593",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:holmenkollbakken",
+      "name": {
+        "nb": "Holmenkollbakken",
+        "en": "Holmenkollen Ski Jump"
+      },
+      "category": "attraction",
+      "lat": 59.964448,
+      "lon": 10.665972,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q33572",
+      "wikipedia": {
+        "nb": "Holmenkollbakken",
+        "en": "Holmenkollbakken"
+      },
+      "summary": {
+        "nb": "Holmenkollbakken er en hoppbakke som er en del av Holmenkollen nasjonalanlegg på Holmenkollen i Oslo. Bakken er et landemerke i Oslo, Norges mest besøkte turistattraksjon, og er trolig en av verdens mest kjente hoppbakker. Med historie tilbake til 1892 er den også en av verdens eldste hoppbakker som fremdeles er i bruk. Etter siste ombygging har Holmenkollbakken K-punkt 120 meter og bakkestørrelse 134 meter. Den ble brukt under OL i 1952 og VM i 1930, 1966, 1982 og 2011. Bakken brukes også årlig i verdenscupen i spesialhopp og kombinert.",
+        "en": "Holmenkollbakken is a large ski jumping hill located at Holmenkollen in Oslo, Norway. It has a hill size of HS134, a construction point of K-120, and a capacity for 70,000 spectators. Holmenkollen has hosted the Holmenkollen Ski Festival since 1892, which since 1980 have been part of the FIS Ski Jumping World Cup and 1983 the FIS Nordic Combined World Cup. It has also hosted the 1952 Winter Olympics and the FIS Nordic World Ski Championships in 1930, 1966, 1982 and 2011."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/New_Holmenkollen_ski_jump.jpg/640px-New_Holmenkollen_ski_jump.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.9628,
+        "lon": 10.6672
+      },
+      "walk": {
+        "durationS": 1125,
+        "distanceM": 1019,
+        "polyline": "_o}lJuvc`AAHEFEDEFKc@CACJEbAALE@Al@Bl@C@C@CDCDCHCLAH?L?ZJAAfAG|@SfAe@pBOb@OVMJKDq@POPSb@KZSnAQ~AKvAGlB?b@IK@a@IAIPMb@]fBUx@]h@o@l@G^SnAKQOUIKEGGEIIIEOKKIGGEIGGGOESCOC@CDCBCBC@CBA@CKCECCAAAE?IAG?EAGAK?CCDCBKFIDI?QAMCG?K?I?I@MBKDMFGDEDGHCBGHGJCFCFCJCLCLAJAJAPAN@N?PIEWMS]@UL_DCGG\\",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:skimuseet",
+      "name": {
+        "nb": "Skimuseet i Holmenkollen",
+        "en": "Holmenkollen Ski Museum"
+      },
+      "category": "museum",
+      "lat": 59.964611,
+      "lon": 10.666613,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1633217",
+      "website": "https://www.skiforeningen.no/holmenkollen/",
+      "wikipedia": {
+        "nb": "Skimuseet",
+        "en": "Holmenkollen Ski Museum"
+      },
+      "summary": {
+        "nb": "Skimuseet i Oslo er en samling av ski og annet vinterutstyr. Det ble åpnet i 1923 og eies av Foreningen til Ski-Idrettens Fremme. Frem til 1951 holdt det til i en egen fin bygning ved Frognerseteren. I forbindelse med ombyggingen av Holmenkollbakken i 1951 ble samlingene flyttet til nye lokaler i selve hoppet. Her hadde det tilhold frem til 1983 da nye lokaler ble sprengt inn i fjellet ved siden av hoppet.",
+        "en": "Holmenkollen Ski Museum is located at the base of the Holmenkollen ski jump in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Holmenkollen_with_visitors_centre.jpg/640px-Holmenkollen_with_visitors_centre.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.9628,
+        "lon": 10.6672
+      },
+      "walk": {
+        "durationS": 1125,
+        "distanceM": 1019,
+        "polyline": "_o}lJuvc`AAHEFEDEFKc@CACJEbAALE@Al@Bl@C@C@CDCDCHCLAH?L?ZJAAfAG|@SfAe@pBOb@OVMJKDq@POPSb@KZSnAQ~AKvAGlB?b@IK@a@IAIPMb@]fBUx@]h@o@l@G^SnAKQOUIKEGGEIIIEOKKIGGEIGGGOESCOC@CDCBCBC@CBA@CKCECCAAAE?IAG?EAGAK?CCDCBKFIDI?QAMCG?K?I?I@MBKDMFGDEDGHCBGHGJCFCFCJCLCLAJAJAPAN@N?PIEWMS]@UL_DCGG\\",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

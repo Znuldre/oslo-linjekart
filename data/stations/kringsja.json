@@ -1,0 +1,156 @@
+{
+  "id": "NSR:StopPlace:59706",
+  "slug": "kringsja",
+  "name": "Kringsjå",
+  "lat": 59.963797,
+  "lon": 10.734689,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6211"
+  ],
+  "neighbours": {
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59705",
+        "next": "NSR:StopPlace:59765"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:59765",
+        "next": "NSR:StopPlace:59705"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 17,
+    "majorstuen": 12
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59706",
+      "name": "Kringsjå",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "19N",
+          "name": "Kringsjå - Åsbråten",
+          "lineId": "RUT:Line:3919"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6211",
+        "name": "Kringsjå",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11401",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11400",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:sognsvann",
+      "name": {
+        "nb": "Sognsvann",
+        "en": "Sognsvann Lake"
+      },
+      "category": "park",
+      "lat": 59.975214,
+      "lon": 10.728248,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q2297840",
+      "wikipedia": {
+        "nb": "Sognsvann",
+        "en": "Sognsvann"
+      },
+      "summary": {
+        "nb": "Sognsvann er en innsjø i Oslomarka, beliggende ved markagrensen, rett nord for Oslo. Sognsvann var drikkevann for Oslo fra 1876 til 1967. Ved sørenden ligger Sognsvann gård, anlagt på endemorenen etter siste istid, da havnivået nådde nesten helt opp til det som nå er Sognsvann. Vannet er vurdert som en «viktig» lokalitet, blant annet på grunn av forekomsten av istidskreps, et lite krepsdyr som hadde sin største utbredelse i bredemte sjøer på slutten av siste istid. De finnes nå bare i noen få vann.",
+        "en": "Sognsvann is a 3.3 km circumference lake just north of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Sognsvann.jpg/640px-Sognsvann.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.969928,
+        "lon": 10.733222
+      },
+      "walk": {
+        "durationS": 574,
+        "distanceM": 736,
+        "polyline": "ut~lJwro`AWDq@LC@SDm@L{AViARu@PcAP}@Jo@Jm@NOBODKDIBOFGBGBA@MLEBKJGHUZURGDKF?@EDEDCBS[IKGKUa@CECCYOECEASCe@G]GDu@MM]e@_@RGBi@RCBk@f@c@ZSDQB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/150567480",
+      "name": {
+        "nb": "Nordberg kirke",
+        "en": "Nordberg Church"
+      },
+      "category": "church",
+      "lat": 59.963001,
+      "lon": 10.742593,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10358207",
+      "wikipedia": {
+        "nb": "Nordberg kirke (Oslo)",
+        "en": "Nordberg Church (Oslo)"
+      },
+      "summary": {
+        "nb": "Nordberg kirke er soknekirke for Nordberg menighet i Vestre Aker prosti i Oslo bispedømme i Bydel Nordre Aker i Oslo kommune. Den ligger på Nordberg i Oslo og er en sekskantet kirke med 620 sitteplasser. Kirken sto ferdig i 1962 og ble restaurert og utvidet med en kirkestue i 1982. Fasaden er i hvitslammet tegl og har et karakteristisk tårn som kan ses fra store deler av Oslo. Nordberg menighet ble opprettet i 1946. Før kirken ble bygget holdt menigheten til i et kapell kalt \"tømmerhuset\" som ligger rett nedenfor kirken. Etter at det permanente kirkebygget sto ferdig, ble \"tømmerhuset\" omdøpt til \"ungdomshuset\" og brukes i dag av Nordberg menighets barnehage.",
+        "en": "Nordberg Church is a hexagonal church, located in the neighbourhood of Nordberg in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Nordberg_Kirke.jpg/640px-Nordberg_Kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 524,
+        "distanceM": 588,
+        "polyline": "ut~lJwro`AWDq@LC@?UA?MBE@Ac@?E?G?C@ArAWNCPEFAFIDMBMHYP{@DUDUDY@[@o@?Y?_@BeABuB@WLaHBkB@q@B[FeAHw@Je@N]Ga@Kg@BIBEBS?i@QyB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

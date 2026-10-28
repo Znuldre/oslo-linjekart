@@ -1,0 +1,120 @@
+{
+  "id": "NSR:StopPlace:58274",
+  "slug": "makrellbekken",
+  "name": "Makrellbekken",
+  "lat": 59.941707,
+  "lon": 10.673722,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6336"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:58273",
+        "next": "NSR:StopPlace:6350"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:6350",
+        "next": "NSR:StopPlace:58273"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 12,
+    "majorstuen": 7
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58274",
+      "name": "Makrellbekken",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6336",
+        "name": "Makrellbekken",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11643",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11644",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/220645990",
+      "name": {
+        "nb": "Gardeparken"
+      },
+      "category": "park",
+      "lat": 59.942164,
+      "lon": 10.66212,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q29955009",
+      "wikipedia": {
+        "nb": "Gardeparken"
+      },
+      "summary": {
+        "nb": "Gardeparken er en park på Huseby i Oslo. Parken ligger ved Husebyskogen og Sørkedalsveien, mellom Huseby leir og USAs ambassade i Oslo. Parken ble anlagt i 2012 av Forsvarsbygg, som et kompenserende tiltak for byggingen av ambassaden i friområdet Husebyskogen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Gardeparken_plakett.jpg/640px-Gardeparken_plakett.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.941707,
+        "lon": 10.66396
+      },
+      "walk": {
+        "durationS": 676,
+        "distanceM": 717,
+        "polyline": "sjzlJwuc`Aj@MADEBODG@??GBAL?D?LCr@EnAA~@ALCzAC|@?J?D?DBP@J@HAR?FAVAH?LCPCPATAREfAK|DC|@Aj@Az@Ap@Al@A\\Q|CC`@Cv@Al@Cj@Ap@Ar@AtBA|AAr@?`@d@oBJQNM^KGVE\\?l@@n@Fp@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

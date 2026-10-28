@@ -1,0 +1,106 @@
+{
+  "id": "NSR:StopPlace:59767",
+  "slug": "skogen",
+  "name": "Skogen",
+  "lat": 59.975188,
+  "lon": 10.647557,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6321"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:59763",
+        "next": "NSR:StopPlace:61604"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:61604",
+        "next": "NSR:StopPlace:59763"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 32,
+    "majorstuen": 27
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6321",
+        "name": "Skogen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11611",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11612",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:relation/2089082",
+      "name": {
+        "nb": "Strømsdammen"
+      },
+      "category": "park",
+      "lat": 59.981833,
+      "lon": 10.648029,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19390968",
+      "wikipedia": {
+        "nb": "Strømsdammen"
+      },
+      "summary": {
+        "nb": "Strømsdammen er et tjern som ligger vest i Voksenåsen og like nedstrøms Lillevann. Tjernet er et oppdemmet, grunt vann på ca. 125 dekar, som tidligere var en del av vannforsyningsanlegget til Voksen gård"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Stromsdammen.JPG/640px-Stromsdammen.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.980304,
+        "lon": 10.647557
+      },
+      "walk": {
+        "durationS": 952,
+        "distanceM": 1107,
+        "polyline": "{{`mJcr~_Ag@G?SMCKAK?IDCLCR?r@?PCLENCF??EDEBG@Q?K?GBEDADGLBJBNDJ@DD@D@FAFAJAP?TBTBVDx@JPDPL\\TNHNBFAVSJK@LM\\i@~@SRSFi@F]Di@FG?MAwBG]CYCGAECEEECSGICE@EBG@EAWIYKWQGEIGICG@ENCV@ZJXf@XQJKFQ@OCMCQMk@g@a@C]COHO@QAUBq@MIIIDCHQAc@Ae@EUCe@]e@u@a@OKC[E",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

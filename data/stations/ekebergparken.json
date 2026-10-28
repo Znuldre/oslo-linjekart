@@ -1,0 +1,212 @@
+{
+  "id": "NSR:StopPlace:58297",
+  "slug": "ekebergparken",
+  "name": "Ekebergparken",
+  "lat": 59.897763,
+  "lon": 10.759647,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "13",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6573"
+  ],
+  "neighbours": {
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:6580",
+        "next": "NSR:StopPlace:58296"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58296",
+        "next": "NSR:StopPlace:58298"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58296",
+        "next": "NSR:StopPlace:58298"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:6580",
+        "next": "NSR:StopPlace:58296"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 9,
+    "majorstuen": 24
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6573",
+        "name": "Ekebergparken",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:12138",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12139",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:ekebergparken",
+      "name": {
+        "nb": "Ekebergparken skulpturpark",
+        "en": "Ekebergparken Sculpture Park"
+      },
+      "category": "attraction",
+      "lat": 59.898599,
+      "lon": 10.759637,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Ekebergparken skulpturpark",
+        "en": "Ekebergparken Sculpture Park"
+      },
+      "summary": {
+        "nb": "",
+        "en": "Ekebergparken Sculpture Park is a sculpture park and a national heritage park close to Ekebergrestauranten with a panoramic view of the city at Ekeberg in the southeast of the city of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Ekebergparken_open_park_landscape.JPG/640px-Ekebergparken_open_park_landscape.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 249,
+        "distanceM": 211,
+        "polyline": "_xqlJwnt`AGf@@f@?F?RHA?i@?O?I?K@K?G@I@GIKECCCE@KIC?CAK?GACGCMGME]EMM\\KP]`@e@@EA?f@?@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ekebergrestauranten",
+      "name": {
+        "nb": "Ekebergrestauranten",
+        "en": "Ekeberg Restaurant"
+      },
+      "category": "viewpoint",
+      "lat": 59.899205,
+      "lon": 10.761677,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Ekebergrestauranten",
+        "en": "Ekebergrestauranten"
+      },
+      "summary": {
+        "nb": "Ekebergrestauranten er en restaurant i Ekebergåsen med utsikt ned mot Bjørvika i Oslo, oppført for Oslo kommune 1927–1929. Bygningen ble tegnet av arkitekt Lars Backer og er et av de fineste eksempler på klassisk funksjonalisme i Norge.",
+        "en": "\nEkebergrestauranten is a restaurant and banquet facility in a hillside overlooking downtown Oslo, Norway. Ekebergparken Sculpture Park is the nearest neighbor. The restaurant has been owned by Christian Ringnes since 2005."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Ekebergrestauranten_fra_nord.JPG/640px-Ekebergrestauranten_fra_nord.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 339,
+        "distanceM": 287,
+        "polyline": "_xqlJwnt`AGf@@f@?F?RHA?i@?O?I?K@K?G@I@GIKECCCE@KIC?CAK?GACGCMGME]@OIQEGCECAEAIAUAOEOIEAQMIGKKOOEIIKEMEIIMCLAAIEBSBKEEACAAAAC?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/13363583",
+      "name": {
+        "nb": "Ekebergskråningen naturreservat",
+        "en": "Ekebergskråningen"
+      },
+      "category": "park",
+      "lat": 59.891795,
+      "lon": 10.764855,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17769381",
+      "wikipedia": {
+        "nb": "Ekebergskråningen"
+      },
+      "summary": {
+        "nb": "Ekebergskråningen, eller Ekebergskråninga, er et naturområde på cirka 800 dekar (mål) i tilknytning til Oslo indre by. Skråningen ligger dels i bydel Gamle Oslo, dels i bydel Nordstrand og utgjør den solfylte vesthellinga av Ekeberg, som skråner ned mot Oslofjorden og Bjørvika. Skråningen er for en stor del skogkledt, og ligger nær Oslo sentrum. Nedre del av skogen, dvs. omtrent det området som ligger innenfor bygrensa av 1878, kalles gjerne Ekebergskauen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Ekeberg_Sj%C3%B8mannsskolen_Oslofjorden.jpeg/640px-Ekeberg_Sj%C3%B8mannsskolen_Oslofjorden.jpeg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.897763,
+        "lon": 10.759647
+      },
+      "walk": {
+        "durationS": 0,
+        "distanceM": 0,
+        "source": "estimate"
+      }
+    },
+    {
+      "id": "osm:relation/15937521",
+      "name": {
+        "nb": "Ballsletta"
+      },
+      "category": "park",
+      "lat": 59.891527,
+      "lon": 10.773209,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11960097",
+      "wikipedia": {
+        "nb": "Ballsletta"
+      },
+      "summary": {
+        "nb": "Ballsletta er navn på et område på Ekeberg i Oslo."
+      },
+      "access": {
+        "lat": 59.893129,
+        "lon": 10.77162
+      },
+      "walk": {
+        "durationS": 1237,
+        "distanceM": 1173,
+        "polyline": "_xqlJwnt`AGf@@f@?F?RHA?i@?O?I?K@K?G@I@GIKECCCE@KIC?CAK?GACGCMGME]@OIQEGCECAEAIAUAOEOIEACUA]C[Gk@Co@Gc@AKAWG]CMEUO[NCVAJ?LALMBMDCDIBEFODYJ[@BJTBAHCBA\\MF?JHJUFMHYHSFQJODGTm@DIHMFQNa@J]La@Jg@Le@L]DO@CDKTOPGRSDGXYTWv@_Av@{@^c@`@k@Ta@DIVm@p@yAPc@JWJQh@_Ap@mATa@H]Jk@Dk@D_AFs@Ba@Fa@N_@JUJSFQFOJSFQDKBMBOBKDSJu@BQ@E",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,790 @@
+{
+  "id": "NSR:StopPlace:61633",
+  "slug": "ovre-slottsgate",
+  "name": "Øvre Slottsgate",
+  "lat": 59.911798,
+  "lon": 10.741697,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "13",
+    "15"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:4036"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:4245",
+        "next": "NSR:StopPlace:59601"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:59601",
+        "next": "NSR:StopPlace:4245"
+      }
+    ],
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:59601",
+        "next": "NSR:StopPlace:58404"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58404",
+        "next": "NSR:StopPlace:59601"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:59601",
+        "next": "NSR:StopPlace:58404"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58404",
+        "next": "NSR:StopPlace:59601"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 4,
+    "majorstuen": 15
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:4055",
+      "name": "Wessels plass",
+      "distanceM": 158,
+      "lines": [
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        },
+        {
+          "publicCode": "30",
+          "name": "Bygdøy - Nydalen",
+          "lineId": "RUT:Line:30"
+        },
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        },
+        {
+          "publicCode": "37",
+          "name": "Nydalen T - Helsfyr",
+          "lineId": "RUT:Line:37"
+        },
+        {
+          "publicCode": "42N",
+          "name": "Voksen skog - Jernbanetorget",
+          "lineId": "RUT:Line:9842"
+        },
+        {
+          "publicCode": "70",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:70"
+        },
+        {
+          "publicCode": "70E",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:3969"
+        },
+        {
+          "publicCode": "81",
+          "name": "Fornebu - Myrvoll stasjon",
+          "lineId": "RUT:Line:81"
+        },
+        {
+          "publicCode": "81N",
+          "name": "Nationaltheatret - Ski",
+          "lineId": "RUT:Line:3981"
+        },
+        {
+          "publicCode": "83N",
+          "name": "Nationaltheatret - Fløysbonn",
+          "lineId": "RUT:Line:3983"
+        }
+      ]
+    },
+    {
+      "mode": "metro",
+      "stopPlaceId": "NSR:StopPlace:4029",
+      "name": "Stortinget",
+      "distanceM": 245,
+      "lines": [
+        {
+          "publicCode": "1",
+          "name": "Frognerseteren - Bergkrystallen",
+          "lineId": "RUT:Line:1"
+        },
+        {
+          "publicCode": "2",
+          "name": "Østerås - Ellingsrudåsen",
+          "lineId": "RUT:Line:2"
+        },
+        {
+          "publicCode": "3",
+          "name": "Kolsås - Mortensrud",
+          "lineId": "RUT:Line:3"
+        },
+        {
+          "publicCode": "4",
+          "name": "Vestli - Bergkrystallen",
+          "lineId": "RUT:Line:4"
+        },
+        {
+          "publicCode": "5",
+          "name": "Sognsvann - Vestli",
+          "lineId": "RUT:Line:5"
+        }
+      ]
+    },
+    {
+      "mode": "tram",
+      "stopPlaceId": "NSR:StopPlace:58358",
+      "name": "Stortorvet",
+      "distanceM": 300,
+      "lines": [
+        {
+          "publicCode": "17",
+          "name": "Rikshospitalet - Sinsen o/ Carl Berner",
+          "lineId": "RUT:Line:17"
+        },
+        {
+          "publicCode": "18",
+          "name": "Grefsen st [4311] - Rikshospitalet",
+          "lineId": "RUT:Line:18"
+        },
+        {
+          "publicCode": "19",
+          "name": "Ljabru - Majorstuen",
+          "lineId": "RUT:Line:19"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58358",
+      "name": "Stortorvet",
+      "distanceM": 300,
+      "lines": [
+        {
+          "publicCode": "1N",
+          "name": "Jernbanetorget - Ullerntoppen",
+          "lineId": "RUT:Line:3901"
+        },
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "19N",
+          "name": "Kringsjå - Åsbråten",
+          "lineId": "RUT:Line:3919"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:4036",
+        "name": "Øvre Slottsgate",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:7279",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:7277",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:akershus-festning",
+      "name": {
+        "nb": "Akershus festning",
+        "en": "Akershus Fortress"
+      },
+      "category": "attraction",
+      "lat": 59.9076,
+      "lon": 10.737263,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Akershus slott og festning",
+        "en": "Akershus Fortress"
+      },
+      "summary": {
+        "nb": "Akershus slott og festning er en av de mest betydningsfulle festningene i norgeshistorien. Den ble opprinnelig bygget på slutten av 1200-tallet som en middelaldersk kongeborg med sete for kongens representanter, strategisk beliggende på Akersneset i Oslo. På 1600-tallet ble den bygget om til et renessanseslott omgitt av en bastionfestning. Den over 700 år gamle borgen har overlevd flere beleiringer, men har aldri blitt inntatt med makt av en fiendtlig, utenlandsk hær. Den ble først lagt ned som militært anlegg i 1815, men reetablert i perioden 1820–1850. Den gikk endelig ut av operativ militær drift i perioden 1850–1900 og ble da et militært hovedkvarter, skole og depot- og forlegningsområde. Deler av anlegget ble også benyttet som fengsel og straffarbeidsanstalt fra 1820 og var på 1800-tallet det strengeste fengselet i Norge.",
+        "en": "Akershus Fortress or Akershus Castle is a medieval castle in the Norwegian capital Oslo that was built to protect and provide a royal residence for the city. It is located on the banks of the Oslofjord. Since the Middle Ages the fortress has been the namesake and centre of the main fief and later main county of Akershus, which was originally one of Norway's four main regions and which included most of Eastern Norway. The fortress itself was located within the Akershus main county until 1919, and within the smaller Akershus sub-county until 1842."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Akershus_festning_by_night.jpg/640px-Akershus_festning_by_night.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.90998,
+        "lon": 10.739547
+      },
+      "walk": {
+        "durationS": 196,
+        "distanceM": 256,
+        "polyline": "wotlJs~p`AMx@G\\B@@@DFf@d@~@`A@@FFFF???@NL@B@?`@`@BBf@h@TTHHDDVTpAd@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:karl-johans-gate",
+      "name": {
+        "nb": "Karl Johans gate",
+        "en": "Karl Johans gate"
+      },
+      "category": "attraction",
+      "lat": 59.913056,
+      "lon": 10.740833,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Karl Johans gate",
+        "en": "Karl Johans gate"
+      },
+      "summary": {
+        "nb": "Karl Johans gate, uformelt også omtalt som «Karl Johan», er oppkalt etter kong Karl III Johan og regnes som hovedgaten i Oslo. Den strekker seg nå fra Oslo sentralstasjon i sydøst til Slottet i nordvest. Gaten er nå gågate fra Oslo Sentralstasjon til Stortingsbygningen. Langs gaten ligger kjente institusjoner som Oslo domkirke, Basarene med Brannvakten, Stortingsbygningen, Nationaltheatret og Universitetsbygningene.",
+        "en": "Karl Johans gate is the main street of the city of Oslo, Norway. The street was named in honor of King Charles III John, who was also King of Sweden as Charles XIV John."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Karl_Johans_gate.jpg/640px-Karl_Johans_gate.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 178,
+        "distanceM": 204,
+        "polyline": "wotlJs~p`AMx@G\\AAAAAAGGIKm@k@sAmASn@QPO|@ENAJCLAHC?A@Kd@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:stortinget",
+      "name": {
+        "nb": "Stortingsbygningen",
+        "en": "Parliament Building"
+      },
+      "category": "attraction",
+      "lat": 59.913056,
+      "lon": 10.74,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Stortingsbygningen",
+        "en": "Storting building"
+      },
+      "summary": {
+        "nb": "Stortingsbygningen er sete for Norges nasjonalforsamling, Stortinget.",
+        "en": "The Storting building is the seat of the Storting, the parliament of Norway. The building is located at Karl Johans gate 22 in central Oslo, Norway. It was taken into use on 5 March 1866 and was designed by the Swedish architect Emil Victor Langlet."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Sp%C3%B8rretimen_i_Stortinget_22._november_2007.jpg/640px-Sp%C3%B8rretimen_i_Stortinget_22._november_2007.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 254,
+        "distanceM": 266,
+        "polyline": "wotlJs~p`AMx@G\\AAAAAAG\\a@`CEDA?A?AACA?BAHADADAHADENEJIHGHMLWNIHIHIJEJGTIl@AHCLACCACGII]e@@CF]CCCMCO?Q@M",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:domkirken",
+      "name": {
+        "nb": "Oslo domkirke",
+        "en": "Oslo Cathedral"
+      },
+      "category": "church",
+      "lat": 59.91252,
+      "lon": 10.746867,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1063209",
+      "website": "http://www.oslodomkirke.no",
+      "wikipedia": {
+        "nb": "Oslo domkirke",
+        "en": "Oslo Cathedral"
+      },
+      "summary": {
+        "nb": "Oslo domkirke, tidligere Vår Frelsers kirke, er domkirke og hovedkirke for Oslo bispedømme og soknekirke for Oslo domkirkes menighet i Oslo domprosti. Med form som en korskirke ligger kirken ved Stortorvet i Oslo sentrum. Domkirken er også landets rikskirke som benyttes av kongehuset og staten ved offisielle begivenheter, som vielser og gravferder. Kirken stod ferdig i 1697",
+        "en": "Oslo Cathedral — formerly Our Savior's Church — is the main church for the Church of Norway Diocese of Oslo, as well as the parish church for downtown Oslo. The present building dates from 1694 to 1697."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2012.11.09.Oslodomkirke.jpg/640px-2012.11.09.Oslodomkirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 327,
+        "distanceM": 391,
+        "polyline": "wotlJs~p`ALw@F]CAAAAADS@GVgBBO?C@G@I?E?EAC?C@E?E@CCCwBuBk@g@KK@G?E@AVuB^kC@I?G@C@G?EMMAEm@y@[[?OAC@CLwA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:radhuset",
+      "name": {
+        "nb": "Oslo rådhus",
+        "en": "Oslo City Hall"
+      },
+      "category": "attraction",
+      "lat": 59.912049,
+      "lon": 10.733691,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q373850",
+      "website": "https://www.oslo.kommune.no/politikk-og-administrasjon/radhuset/",
+      "wikipedia": {
+        "nb": "Oslo rådhus",
+        "en": "Oslo City Hall"
+      },
+      "summary": {
+        "nb": "Oslo rådhus er en kommunal bygning i Oslo som huser bystyret, byrådet og visse andre kommunale organer. Dagens rådhus ble oppført 1931–1950 etter tegninger av arkitektene Arnstein Arneberg og Magnus Poulsson. Rådhuset ligger i Oslo sentrum på nordsiden av Pipervika, det vil si ut mot Rådhusplassen, rådhusbryggene og honnørbryggen ved Oslofjorden. Foran Rådhuset ligger Fridtjof Nansens plass, langs vestveggen ligger Kronprinsesse Märthas plass (Rådhushagen).",
+        "en": "Oslo City Hall is a municipal building in Oslo, the capital of Norway. It houses the city council, the city's administration and various other municipal organisations. The building as it stands today was constructed between 1931 and 1950, with an interruption during the Second World War. It was designed by architects Arnstein Arneberg and Magnus Poulsson. The building is located in the city center, in the northern part of the Pipervika neighbourhood, and it faces Oslofjord."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Oslo_R%C3%A5dhus_1.jpg/640px-Oslo_R%C3%A5dhus_1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 511,
+        "distanceM": 583,
+        "polyline": "wotlJs~p`AMx@G\\AAAAAAG\\a@`CEDA?A?AACA?BAHADADAHADENEJIHGHMLWNIHIHIJEJGTIl@AH@B@@BB@?DFB@CHEXADFDFNR`@FNBH@J@N@N?JCh@Ex@C^AB@BA@EPCJ?Dn@bA@@?D?DAD?Da@fCADAB?@A@CA?BCLAL?@?B?F?FOfA?B@BFDCJEZJlBBH@BdB`D",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:nationaltheatret",
+      "name": {
+        "nb": "Nationaltheatret",
+        "en": "National Theatre"
+      },
+      "category": "theatre",
+      "lat": 59.914366,
+      "lon": 10.734254,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q565382",
+      "website": "https://www.nationaltheatret.no/",
+      "wikipedia": {
+        "nb": "Nationaltheatret",
+        "en": "National Theatre (Oslo)"
+      },
+      "summary": {
+        "nb": "Nationaltheatret i Oslo er, ved siden av Den Nationale Scene og Det norske teatret, en av Norges tre hovedscener for teaterkunst. Nationaltheatrets første sjef var Bjørn Bjørnson, sønn av Bjørnstjerne Bjørnson. Nåværende teatersjef er Kristian Seltun. Den administrative delen av Torshovteatret ligger under Nationaltheatret.",
+        "en": "The National Theatre in Oslo is one of Norway's largest and most prominent venues for performance of dramatic arts."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/NOR-2016-Oslo-National_Theatre.jpg/640px-NOR-2016-Oslo-National_Theatre.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 466,
+        "distanceM": 529,
+        "polyline": "wotlJs~p`AMx@G\\AAAAAAG\\a@`CEDA?A?AACA?BAHADADAHADENEJIHGHMLWNIHIHIJEJGTIl@AHCLCVER_@bCADADC@A@A?AACAADAHAHADCRAD??WzAMx@O~@M~@O~@OdAEXALCHALCJALAF@@@B@@?D?B?BABa@hCG`@Or@ET",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:basarhallene",
+      "name": {
+        "nb": "Basarhallene",
+        "en": "The Bazaar Halls"
+      },
+      "category": "attraction",
+      "lat": 59.912222,
+      "lon": 10.747722,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Basarene"
+      },
+      "summary": {
+        "nb": "Basarene ved Oslo domkirke, også kalt Stortorgets basar og Basarhallene, ble oppført i årene 1840–1859 i upusset tegl i nyromansk stil. Arkitekt var Christian H. Grosch."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Basareneforside.JPG/640px-Basareneforside.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 374,
+        "distanceM": 459,
+        "polyline": "wotlJs~p`ALw@F]CAAAAADS@GVgB@I@E?C@G@I?E?EAC?C@E?E@CCCcAcAs@q@k@g@KK@G?E@ATkB@I^kC@I?G@C@G?EVcBFe@BQNeAKIACHi@D[?WCWCMEIEKGEm@i@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:22-juli-senteret",
+      "name": {
+        "nb": "22. juli-senteret",
+        "en": "22 July Centre"
+      },
+      "category": "museum",
+      "lat": 59.915254,
+      "lon": 10.744647,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q20669453",
+      "wikipedia": {
+        "nb": "22. juli-senteret",
+        "en": "22 July Centre"
+      },
+      "summary": {
+        "nb": "22. juli-senteret er et norsk statlig læringssenter som formidler minne og kunnskap om terrorangrepet 22. juli 2011. Senteret åpnet 22. juli 2015 i første etasje i H-blokken i Regjeringskvartalet, og etter å ha vært stengt fra 2019, gjenåpnet senteret 22. juli 2026."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/22._juli-senteret_i_juli_2026.jpg/640px-22._juli-senteret_i_juli_2026.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 432,
+        "distanceM": 493,
+        "polyline": "wotlJs~p`AMx@G\\AAAAAAGGIKm@k@sAmAWF_ArAGDkC_EOSACACAG?EBEACCAACACACCA??A@C@CACAEGMO{@aAY_@SWQUGIOOcAqARkA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:operaen",
+      "name": {
+        "nb": "Operahuset",
+        "en": "Oslo Opera House"
+      },
+      "category": "attraction",
+      "lat": 59.907484,
+      "lon": 10.752681,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q43280",
+      "website": "https://operaen.no/",
+      "wikipedia": {
+        "nb": "Operahuset i Oslo",
+        "en": "Oslo Opera House"
+      },
+      "summary": {
+        "nb": "Operahuset i Oslo er Den Norske Opera & Balletts operahus i Bjørvika innerst i Oslofjorden. Det har adresse Kirsten Flagstads plass 1 etter operaens første sjef Kirsten Flagstad. Huset er tegnet av arkitekt- og designkontoret Snøhetta, som vant en arkitektkonkurranse i 2000. Det ble høytidelig åpnet 12. april 2008. Bygningen har fått mange priser, og er fredet av Riksantikvaren.",
+        "en": "The Oslo Opera House is the home of the Norwegian National Opera and Ballet, and the national opera house in Norway. The building is situated in the Bjørvika neighbourhood of central Oslo, at the head of the Oslofjord. It is operated by Norwegian Directorate of Public Construction and Property, the government agency which manages property for the Norwegian government. The structure contains 1,100 rooms in a total area of 49,000 m2 (530,000 sq ft). The main auditorium seats 1,364 and two other performance spaces can seat 200 and 400. The main stage is 16 m (52 ft) wide and 40 m (130 ft) deep. The angled exterior surfaces of the building are covered with marble from Carrara, Italy and white granite and make it appear to rise from the water. It is the largest cultural building constructed in Norway since Nidaros Cathedral was completed circa 1300."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Operahuset_i_Oslo_1.jpg/640px-Operahuset_i_Oslo_1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.908314,
+        "lon": 10.750549
+      },
+      "walk": {
+        "durationS": 681,
+        "distanceM": 726,
+        "polyline": "wotlJs~p`ALw@F]CAAAAADS@GVgB@I@E?C@G@I?E?EAC?C@E?E@C@C@I?C@@@?@A@A@A@I@@@@@@B@@@@@t@wE?C@C@?@??CBOBK?E?A?C?C?Cr@sEXkB@G@C@AB??CDS@M@EAA?E?CT{ABK@KBO@E@C??@A@CBOBO?C?E?C?C@G\\{BBO@A@A?CBKDO?CAC?E@CZoB?C@ABA@?@B~AzA@?@?@@@I@EDY@C??@?@A@@FFDD@BDS\\sBDYBO?A@A@A??@EDSBS@C?G@G?EBQDU|@|@JH",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:slottsparken",
+      "name": {
+        "nb": "Slottsparken",
+        "en": "Palace Park"
+      },
+      "category": "park",
+      "lat": 59.917698,
+      "lon": 10.728467,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q4583462",
+      "wikipedia": {
+        "nb": "Slottsparken",
+        "en": "Palace Park (Oslo)"
+      },
+      "summary": {
+        "nb": "Slottsparken er Oslos sentrale bypark, som dekker et samlet areal på 225 dekar eller mål. Parken omkranser Det kongelige slott og Slottsplassen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Air_uranienborg.jpg/640px-Air_uranienborg.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915257,
+        "lon": 10.734204
+      },
+      "walk": {
+        "durationS": 544,
+        "distanceM": 628,
+        "polyline": "wotlJs~p`AMx@G\\AAAAAAG\\a@`CEDA?A?AACA?BAHADADAHADENEJIHGHMLWNIHIHIJEJGTIl@AHCLCVEAG?IBa@Le@Le@NA?KDCB?BCHAHAFCCA?A???ABAFy@vEgArFEGGEEEACCDA@A?AAADAHCJAB@B?@?B?B?Bk@vCCEgApF",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:det-norske-teatret",
+      "name": {
+        "nb": "Det Norske Teatret",
+        "en": "Det Norske Teatret"
+      },
+      "category": "theatre",
+      "lat": 59.915219,
+      "lon": 10.738625,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1201058",
+      "website": "https://www.detnorsketeatret.no/",
+      "wikipedia": {
+        "nb": "Det Norske Teatret",
+        "en": "Det Norske Teatret"
+      },
+      "summary": {
+        "nb": "Det Norske Teatret er et teater som spiller dramatikk på nynorsk og norske dialekter. Teatret ligger i Oslo og ble grunnlagt 22. november 1912 med Hulda Garborg som styreformann. 6. oktober 1913 hadde det sin første forestilling, Jeppe på Bjerget av Ludvig Holberg, oversatt av Arne Garborg. Åpningen skjedde med kong Haakon VII til stede. En av de første forestillingene var preget av teaterslag i selve teatret, der riksmålsungdommer og nynorsktilhengere havnet i et blodig slagsmål. Noe av det samme hendte også i 1948, da teatret fremførte Peer Gynt i nynorsk oversettelse.",
+        "en": "Det Norske Teatret is a theatre in Oslo. It was founded in 1912, after an initiative from Hulda Garborg and Edvard Drabløs. It opened in 1913, touring with two plays, Ervingen by Ivar Aasen and Rationelt Fjøsstell by Hulda Garborg. Its first official performance was Ludvig Holberg's comedy Jeppe på berget, with Haakon VII of Norway and the prime minister of Norway among the spectators. Hulda Garborg was the first board manager, and Rasmus Rasmussen was the first theatre director. The theatre primarily performs plays written in or translated into Nynorsk."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/DetNorskeTeatret.JPG/640px-DetNorskeTeatret.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 487,
+        "distanceM": 539,
+        "polyline": "wotlJs~p`AMx@G\\AAAAAAG\\a@`CEDA?A?AACA?BAHADADAHADENEJIHGHMLWNIHIHIJEJGTIl@AHCLCVEAG?IBa@Le@Le@NA?KDCB?BCHAHAFCCA?A???ABAFCCEEEGAC?E?E?CACCGuA}AgBsBAA?AA???A@?@?@q@jDCJEJENCHCFAF",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:nasjonalmuseet",
+      "name": {
+        "nb": "Nasjonalmuseet",
+        "en": "National Museum of Norway"
+      },
+      "category": "museum",
+      "lat": 59.911608,
+      "lon": 10.728821,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q112339532",
+      "website": "https://www.nasjonalmuseet.no/",
+      "wikipedia": {
+        "nb": "Nasjonalmuseet",
+        "en": "National Museum of Norway"
+      },
+      "summary": {
+        "nb": "Nasjonalmuseet for kunst, arkitektur og design er et norsk offentlig museum etablert i 2003 gjennom sammenslåingen av museene Arkitekturmuseet, Kunstindustrimuseet, Museet for samtidskunst, Nasjonalgalleriet og Riksutstillinger. Nasjonalmuseets bygning på Brynjulf Bulls plass i Oslo ble åpnet 11. juni 2022.",
+        "en": "The National Museum is a museum in Oslo, Norway which holds the Norwegian state's public collection of art, architecture, and design objects. The collection totals over 400,000 works, amongst them the first copy of Edvard Munch's The Scream from 1893. The museum is state-owned and managed by the Norwegian Ministry of Culture."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Nasjonalmuseet_logo.svg/langnb-330px-Nasjonalmuseet_logo.svg.png?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.911798,
+        "lon": 10.730337
+      },
+      "walk": {
+        "durationS": 613,
+        "distanceM": 792,
+        "polyline": "wotlJs~p`AMx@G\\B@@@DFf@d@~@`A@@FFFF???@PP@?`@`@BBf@h@TT@@FFDDVT^nCMt@AFAB?B@B?@FJ@?HN@BBFFHKl@AHsA`JM`Aa@lCAFWtBEb@i@nDWfB}@xGHRWbG",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:hjemmefrontmuseet",
+      "name": {
+        "nb": "Norges hjemmefrontmuseum",
+        "en": "Norway's Resistance Museum"
+      },
+      "category": "museum",
+      "lat": 59.907803,
+      "lon": 10.735762,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1781522",
+      "website": "https://kultur.forsvaret.no/museer/norges-hjemmefrontmuseum",
+      "wikipedia": {
+        "nb": "Norges Hjemmefrontmuseum",
+        "en": "Norway's Resistance Museum"
+      },
+      "summary": {
+        "nb": "Norges Hjemmefrontmuseum, (NHM), ofte omtalt som Hjemmefrontmuseet, er et museum på Akershus festning i Oslo som åpnet 8. mai 1970. Museet tar for seg den tyske okkupasjonen av Norge under andre verdenskrig 1940–1945 med spesielt fokus på motstandskampen i landet.",
+        "en": "Norway's Resistance Museum also known as the Norwegian Home Front Museum is a museum located at the Akershus Fortress in Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Hjemmefrontmuseet_Akershus.jpg/640px-Hjemmefrontmuseet_Akershus.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 625,
+        "distanceM": 703,
+        "polyline": "wotlJs~p`ALw@F]@@HH@@bB~AJJLLCLADh@f@nAlAbA~@@@TT@Bp@l@x@v@`@\\ZXz@v@PN?@@@Mx@DDu@|ECNbAdAHJLTNP?h@?R@N@LDLD@dBJBT@ZBf@?FAJALAHBH",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:youngstorget",
+      "name": {
+        "nb": "Youngstorget",
+        "en": "Youngstorget"
+      },
+      "category": "attraction",
+      "lat": 59.914943,
+      "lon": 10.748826,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Youngstorget (Oslo)",
+        "en": "Youngstorget"
+      },
+      "summary": {
+        "nb": "Youngstorget er et torg i sentrum av Oslo. Det ligger mellom Storgata og Møllergata, midt i Torggata.\nDet ble anlagt i 1846.",
+        "en": "Youngstorget is a square and public space located in downtown Oslo. It lies at the junction of the streets Storgata and Møllergata and alongside Torggata. Constructed in 1846, it has become a symbol of political power in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Youngstorget_panorama.jpg/640px-Youngstorget_panorama.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 581,
+        "distanceM": 673,
+        "polyline": "wotlJs~p`ALw@F]CAAAAADS@GVgB@I@E?C@G@I?E?EAC?C@E?E@CCCcAcAs@q@k@g@KKWWGGY[IIw@y@QQGEA?GCDQDW?CAACCLg@b@_BF]uHwOEKAEGMe@cACDA?CBC?Ap@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/545698008",
+      "name": {
+        "nb": "Kontraskjæret"
+      },
+      "category": "park",
+      "lat": 59.910225,
+      "lon": 10.736508,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q10547827",
+      "wikipedia": {
+        "nb": "Kontraskjæret",
+        "en": "Kontraskjæret"
+      },
+      "summary": {
+        "nb": "Kontraskjæret er en park som ligger på forterrenget til Akershus festning i Oslo. Parken har et areal på mer enn 17 mål.",
+        "en": "Kontraskjæret is an area in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Kontraskjaret1.JPG/640px-Kontraskjaret1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.910962,
+        "lon": 10.738401
+      },
+      "walk": {
+        "durationS": 310,
+        "distanceM": 380,
+        "polyline": "wotlJs~p`AMx@G\\B@@@DFf@d@~@`A@@FFFF???@PP@?`@`@BBf@h@TT@@FFDDVTN`CMz@AFA@A?A?AAAB?@AB?DABAB?D@B?B?B?BGb@AD[rBABA@A@A?AACAAECEAAm@m@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/841080898",
+      "name": {
+        "nb": "Studenterlunden"
+      },
+      "category": "park",
+      "lat": 59.914598,
+      "lon": 10.734412,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q7627912",
+      "wikipedia": {
+        "nb": "Studenterlunden",
+        "en": "Studenterlunden"
+      },
+      "summary": {
+        "nb": "Studenterlunden er et parkanlegg i Oslo avgrenset av Karl Johans gate, Roald Amundsens gate, Stortingsgata og Frederiks gate.",
+        "en": "Studenterlunden is a park in the city center of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Studenterlunden1.JPG/640px-Studenterlunden1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.913874,
+        "lon": 10.736063
+      },
+      "walk": {
+        "durationS": 366,
+        "distanceM": 424,
+        "polyline": "wotlJs~p`AMx@G\\AAAAAAG\\a@`CEDA?A?AACA?BAHADADAHADENEJIHGHMLWNIHIHIJEJGTIl@AHCLCVER_@bCADADC@A@A?AACAADAHAHADCRADOz@G^Mx@O~@M~@Mx@ADEGOICLGX@P",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

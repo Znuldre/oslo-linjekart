@@ -1,0 +1,656 @@
+{
+  "id": "NSR:StopPlace:58381",
+  "slug": "majorstuen",
+  "name": "Majorstuen",
+  "lat": 59.929213,
+  "lon": 10.71634,
+  "modes": [
+    "metro",
+    "tram"
+  ],
+  "lineCodes": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "12",
+    "15",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:4452",
+    "NSR:StopPlace:4468",
+    "NSR:StopPlace:61191"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58404",
+        "next": "NSR:StopPlace:6233"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:6233",
+        "next": "NSR:StopPlace:58404"
+      }
+    ],
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:58404",
+        "next": "NSR:StopPlace:58272"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58272",
+        "next": "NSR:StopPlace:58404"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58272",
+        "next": "NSR:StopPlace:58404"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58404",
+        "next": "NSR:StopPlace:58272"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:6332",
+        "next": "NSR:StopPlace:58404"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58404",
+        "next": "NSR:StopPlace:6332"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:6332",
+        "next": "NSR:StopPlace:58404"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58404",
+        "next": "NSR:StopPlace:6332"
+      }
+    ],
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "next": "NSR:StopPlace:58354"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58354"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58354"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "next": "NSR:StopPlace:58354"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "next": "NSR:StopPlace:58403"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58403"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 5,
+    "majorstuen": 0
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58381",
+      "name": "Majorstuen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "1N",
+          "name": "Jernbanetorget - Ullerntoppen",
+          "lineId": "RUT:Line:3901"
+        },
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        },
+        {
+          "publicCode": "20",
+          "name": "Skøyen - Galgeberg",
+          "lineId": "RUT:Line:20"
+        },
+        {
+          "publicCode": "25",
+          "name": "Majorstuen-Haugerud",
+          "lineId": "RUT:Line:25"
+        },
+        {
+          "publicCode": "28",
+          "name": "Fornebu vest - Økern T",
+          "lineId": "RUT:Line:28"
+        },
+        {
+          "publicCode": "45",
+          "name": "Majorstuen - Voksen skog",
+          "lineId": "RUT:Line:45"
+        },
+        {
+          "publicCode": "46",
+          "name": "Majorstuen - Ullerntoppen",
+          "lineId": "RUT:Line:46"
+        },
+        {
+          "publicCode": "46X",
+          "name": "Ullerntoppen - Voksen skog Holmenkollstafetten",
+          "lineId": "RUT:Line:2046"
+        },
+        {
+          "publicCode": "FB1",
+          "name": "Majorstuen via Torshov-Sagene",
+          "lineId": "NBU:Line:a7cafc59-feaf-4e61-9fa1-b7dce4ffe970"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:4452",
+        "name": "Majorstuen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:8028",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:8027",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:102023",
+            "publicCode": "4",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      },
+      {
+        "id": "NSR:StopPlace:4468",
+        "name": "Majorstuen",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:104413",
+            "publicCode": "B",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:104414",
+            "publicCode": "A",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      },
+      {
+        "id": "NSR:StopPlace:61191",
+        "name": "Majorstuen",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:8058",
+            "publicCode": "C",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:sporveismuseet",
+      "name": {
+        "nb": "Sporveismuseet",
+        "en": "Oslo Tramway Museum"
+      },
+      "category": "museum",
+      "lat": 59.931273,
+      "lon": 10.716363,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q7107052",
+      "website": "https://www.sporveismuseet.no/",
+      "wikipedia": {
+        "nb": "Lokaltrafikkhistorisk forening",
+        "en": "Oslo Tramway Museum"
+      },
+      "summary": {
+        "nb": "Sporveismuseet i Vognhall 5 på Majorstuen viser Oslos trikke-, buss- og T-banehistorie med rundt 20 vogner fra hestesporvognen i 1875 til nyere tid. Drives av Lokaltrafikkhistorisk forening, åpent i helgene.",
+        "en": "The Oslo Tramway Museum in Vognhall 5 at Majorstuen tells the story of Oslo's trams, buses and metro with around 20 vehicles from the 1875 horse tram onwards. Run by volunteers, open at weekends."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Old_Tram_in_Oslo_TRS_050515_008.jpg/640px-Old_Tram_in_Oslo_TRS_050515_008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 321,
+        "distanceM": 358,
+        "polyline": "o|wlJ_`l`AA@A@?@ABA@A@CFGHADCKEECAC?QZC?i@fAGLa@r@e@v@EOCMEOCM?E@GAGAIW{@Y}@i@mB]n@EHgAtBM@I?GEJSKc@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:frognerparken",
+      "name": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "category": "park",
+      "lat": 59.926659,
+      "lon": 10.701656,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q1126911",
+      "wikipedia": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "summary": {
+        "nb": "Frognerparken er en offentlig park i Oslo. Den tilhørte historisk Frogner Hovedgård, som har gitt navn til parken, strøket Frogner, Bydel Frogner og Frognerseteren.",
+        "en": "Frogner Park is a public park in the central West End borough of Frogner in Oslo, Norway. The park is historically part of Frogner Manor and is Oslo's largest park, open to the public at all times. It includes the manor house which is the seat of Oslo Museum, the nearby Henriette Wegner Pavilion, the Vigeland installation of sculptures created by sculptor Gustav Vigeland, Frogner Baths, Frogner stadion, Frognerparken Café, the restaurant Herregårdskroen and the largest collection of roses in the country with 14,000 plants of 150 species. Frogner Park is the most visited tourist attraction in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg/640px-NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.929213,
+        "lon": 10.708628
+      },
+      "walk": {
+        "durationS": 462,
+        "distanceM": 503,
+        "polyline": "o|wlJ_`l`AA@A@?@ABA@DL\\jABHXbA?@AJCLAFBFDLCRGf@ERETGPWp@iAbC@F@DERGTCJCDMRBFAn@?^CnAAT?F?D?^AHBFBJ\\hAICCDEHATFFPl@t@fC@@Tt@HXFP@Hj@hB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:bogstadveien",
+      "name": {
+        "nb": "Bogstadveien",
+        "en": "Bogstadveien"
+      },
+      "category": "attraction",
+      "lat": 59.927222,
+      "lon": 10.720278,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Bogstadveien (Oslo)",
+        "en": "Bogstadveien"
+      },
+      "summary": {
+        "nb": "Bogstadveien er en travel handlegate og innfartsåre i Oslo.",
+        "en": "Bogstadveien is a street in the district of Frogner in Oslo, Norway. It is considered a central business district and features many of the city's wide range of exclusive shops as well as entertainment, hotels and restaurants. The road is known for the frequent Farmer's Markets on weekends as well as its biannual car-free shopping events."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bogstadveien.jpg/640px-Bogstadveien.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 312,
+        "distanceM": 333,
+        "polyline": "o|wlJ_`l`ABG@CBEDE@ELyAx@{ANO??BG@CDI@ABCCICIACEMAEHM`ByC\\o@R_@@E@CHQDGDG@@@?@C@C?C@EHMp@oA@ABA@A@CBGDIDI@C@?BEDG@C?E@A@E",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:colosseum",
+      "name": {
+        "nb": "Colosseum kino",
+        "en": "Colosseum Cinema"
+      },
+      "category": "attraction",
+      "lat": 59.92963,
+      "lon": 10.710651,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Colosseum kino",
+        "en": "Colosseum kino"
+      },
+      "summary": {
+        "nb": "Colosseum kino er Nordisk Films største kino. Kinoen ligger på Majorstuen i Oslo og har fire saler i ulike størrelser hvorav den største, «Colosseum 1», har 978 sitteplasser.",
+        "en": "The Colosseum Kino in Oslo, Norway is the largest cinema in Northern Europe and the largest THX cinema in the world. It is distinguished by its large spherical dome."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Colosseum_kino.jpg/640px-Colosseum_kino.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 375,
+        "distanceM": 386,
+        "polyline": "o|wlJ_`l`AA@A@?@ABA@DL\\jABHXbA?@AJCLAFBFDLCRGf@ERETGPWp@iAbC@F@DERGTCJCDMRBFAn@?^CnAAT?F?D?^AHBFBJINMTBFBHBJDN@T@HINGxA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:skoytemuseet",
+      "name": {
+        "nb": "Skøytemuseet",
+        "en": "Skating Museum"
+      },
+      "category": "museum",
+      "lat": 59.927723,
+      "lon": 10.709451,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q12001332",
+      "website": "https://skoytemuseet.no/",
+      "wikipedia": {
+        "nb": "Skøytemuseet"
+      },
+      "summary": {
+        "nb": "Skøytemuseet har sitt opphav fra 1914 og ligger ved Frogner stadion i Oslo. Museet oppsto i sin nåværende form i 1985. Skøytemuseet inneholder i dag store prissamlinger etter både Axel Paulsen og Oscar Mathisen. Museet har også et stort utvalg av forskjellige bilder og skriftlig dokumentasjon om historien til skøyteløp og kunstløp."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Norwegian_icescating_museum.jpg/640px-Norwegian_icescating_museum.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 496,
+        "distanceM": 549,
+        "polyline": "o|wlJ_`l`AA@A@?@ABA@DL\\jABHXbA?@AJCLAFBFDLFJHTBHBH@DBAB?@@T`@r@pAbClEDLBFHVTd@tAdC?@@B?B?B?BEP@BFJHN@BHGDHs@zB[hA}@hDQn@ABM^",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:barnekunstmuseet",
+      "name": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "category": "museum",
+      "lat": 59.935755,
+      "lon": 10.711526,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q11960263",
+      "website": "https://barnekunst.no/",
+      "wikipedia": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "summary": {
+        "nb": "Det Internasjonale barnekunstmuseet er et museum for barnetegninger og annen barnekunst. Museets oppgave er å samle, bevare og formidle kunst fra hele verden laget av barn og unge opptil 18 år."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Barnekunstmuseet.jpg/640px-Barnekunstmuseet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 810,
+        "distanceM": 912,
+        "polyline": "o|wlJ_`l`AA@A@?@ABA@A@CFGHADCKEECAC?QZC?i@fAGLa@r@e@v@KPe@x@GHGD??GHA@S^KNIJGLKTCEEOEQACaD`GINcAjBgArBw@vAaAjBCBCBC?CAAAAFCFAFA@AGIOOYc@w@mAkBgAyAg@i@CBKp@U`BADC@A@A?CAu@[i@GOAE?CB?BA?E?G???CECAUBa@B",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:vigelandsanlegget",
+      "name": {
+        "nb": "Vigelandsanlegget",
+        "en": "Vigeland Sculpture Park"
+      },
+      "category": "attraction",
+      "lat": 59.926903,
+      "lon": 10.701208,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q23878032",
+      "wikipedia": {
+        "nb": "Vigelandsanlegget",
+        "en": "Vigeland Installation"
+      },
+      "summary": {
+        "nb": "Vigelandsanlegget er skulpturanlegget i Frognerparken i Oslo. Skulptursamlingen ble skapt av Gustav Vigeland mellom 1920-årene og 1943 i etterkant av bruken av Frognerparken som folkepark under Jubileumsutstillingen på Frogner 1914. Skulpturanlegget dekker en stor del av, men ikke hele Frognerparken, som også omfatter herregårdsbebyggelsen Frogner Hovedgård med Bymuseet og Henriette Wegners paviljong, øvrige parkarealer, Frognerbadet, Frogner stadion, Frogner tennis og serveringssteder. Frognerparken med Vigelandsanlegget er en av Oslos – og Norges – mest besøkte attraksjoner, med over en million besøkende hvert år."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Frogner_Park_with_Vigeland_Sculpture_Arrangement.jpg/640px-Frogner_Park_with_Vigeland_Sculpture_Arrangement.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 962,
+        "distanceM": 1155,
+        "polyline": "o|wlJ_`l`AA@A@?@ABA@DL\\jABHXbA?@AJCLAFBFDLFJHTBHBH@DBAB?@@T`@r@pAbClEDLBFHVTd@tAdC?@@B?B?B?BEP@BFJHN@BHGDHdAlBDHPZhArBBHFH|DjICXk@|BAFGT?ZD?LTLn@?j@_@|ACNuAbGOxBaBfHGv@I`@CH?DSt@AFGXIVAFKb@CJABAFCHa@TMf@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:bymuseet",
+      "name": {
+        "nb": "Oslo Museum (Bymuseet)",
+        "en": "Oslo City Museum"
+      },
+      "category": "museum",
+      "lat": 59.923918,
+      "lon": 10.703014,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q2578922",
+      "website": "https://www.oslomuseum.no/besok-oss/bymuseet/",
+      "wikipedia": {
+        "nb": "Oslo Museum",
+        "en": "Oslo City Museum"
+      },
+      "summary": {
+        "nb": "Oslo Museum er et kulturhistorisk museum i Oslo som ble opprettet 1. januar 2006 gjennom sammenslutning av tre eksisterende museer: Oslo Bymuseum, Interkulturelt Museum og Teatermuseet. Arbeidermuseet ble åpnet som del av Oslo Museum i 2013. Museets administrasjon er lokalisert sammen med Bymuseet og Teatermuseet på Frogner hovedgård i Frognerparken. I 2010 hadde museet samlet 79 888 besøkende. I 2019 ble Oslo Museum kåret til årets museum av Norges museumsforbund.",
+        "en": "Oslo City Museum is a department of Oslo Museum in Oslo, Norway since 2006. The museum is located at Frogner Manor in Frogner Park (Frognerparken)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Oslo_Museum_logo.svg/langnb-330px-Oslo_Museum_logo.svg.png?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 943,
+        "distanceM": 1075,
+        "polyline": "o|wlJ_`l`ABG@CBEp@`CFV@D@BBL@BDTFTDNFPFNTb@t@tALRlAvBNZPXNRFHDHDFdB`DBJDJDLDNDFfBdDx@`BTf@lB`EvAvCr@tARb@AD?@CDCFADA@ADADABJRVh@HRJT|@jBP^f@fABj@Az@Ij@Ch@Il@Kj@CRI\\M~@j@r@HRDdBGBATE\\MEMv@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/855363036",
+      "name": {
+        "nb": "Marienlystparken",
+        "en": "Marienlystparken, Oslo"
+      },
+      "category": "park",
+      "lat": 59.933552,
+      "lon": 10.722461,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19381059",
+      "wikipedia": {
+        "nb": "Marienlystparken"
+      },
+      "summary": {
+        "nb": "Marienlystparken er en stor park på Marienlyst i Oslo, beliggende mellom Kirkeveien og NRK."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Marienlystparken1.JPG/640px-Marienlystparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.931877,
+        "lon": 10.718329
+      },
+      "walk": {
+        "durationS": 432,
+        "distanceM": 454,
+        "polyline": "o|wlJ_`l`AA@A@?@ABA@A@CFGQCO?AAQ?MCKAMEOK_@EQIWa@uAc@_Bg@eBMa@Uu@}@}CILCFaCnEGLGUCDABAEYcAgApB??",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/29500484",
+      "name": {
+        "nb": "Uranienborgparken",
+        "en": "Uranienborg Park"
+      },
+      "category": "park",
+      "lat": 59.921779,
+      "lon": 10.721318,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12008563",
+      "wikipedia": {
+        "nb": "Uranienborgparken"
+      },
+      "summary": {
+        "nb": "Uranienborgparken er en park på en høyde på Uranienborg i Oslo. Uranienborg kirke ligger i parken."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Uranienborgparken1.JPG/640px-Uranienborgparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.922399,
+        "lon": 10.719954
+      },
+      "walk": {
+        "durationS": 899,
+        "distanceM": 1006,
+        "polyline": "o|wlJ_`l`ABG@CBEp@`CFV@D@BBL@BDTFTDNFPFNJGFL@@D??A@CTMf@UZQTK@A@?@??@BAHEFCDA?A@C@AhB_AB?@A@@B@BAJEJGBA?C?C?A?A?C@AFKh@}@@A??@?@CHMFK@A?C@C@AFKtAaC~@_B@ADIDG?C@A@CNWXe@P]@A@?B?@@BCDGHM@A@EnAiAhC{BZYF@DDZn@@D@@D?D@B@?C?A@CBEDI@CFKpAaCBEBA@A@@@CDIFMBC?C@E@C|@cBJQBC@A@?@@HLDJZr@@?~@nB_@hA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4218904",
+      "name": {
+        "nb": "Stensparken"
+      },
+      "category": "park",
+      "lat": 59.928836,
+      "lon": 10.730579,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q7703624",
+      "wikipedia": {
+        "nb": "Stensparken"
+      },
+      "summary": {
+        "nb": "Stensparken er en høyde på Fagerborg i bydel St. Hanshaugen i Oslo. Høyden er langstrakt og består av «knollekalk», dvs. kalkstein i en mørkere skifermasse. Sydlige del av høyden er opparbeidet park, mens nordlige del (Blåsen) er en fjellknaus med utsikt over byen. Parken ble opparbeidet fra 1890-tallet til 1940-tallet. Omtrent midt i parken er det om sommeren et vannspeil. Der er det en liten kafé og et bordtennisbord. I parken er det et inngjerdet område som tidligere var barnepark. "
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Stensparken1.JPG/640px-Stensparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.929213,
+        "lon": 10.72869
+      },
+      "walk": {
+        "durationS": 852,
+        "distanceM": 971,
+        "polyline": "o|wlJ_`l`ABG@CBEDE@ELyA`AoB??CE?CACCKCE@CBEDIFK@AGIQq@_@qA@G?Ip@yATm@bAaCDC?CDKDK@C@IbAaCFE?ADMDI@C???C?EZs@LWFMJWPa@JW^{@@A@A@ADKDI@A?C?A?A^}@h@mAACAICKAIAG}@wCaB_FOc@CAAEEMESCA?ICKs@uBqAaE@CFKGSIMCCBK@AME_@OSIcA_@J_B",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

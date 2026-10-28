@@ -1,0 +1,605 @@
+{
+  "id": "NSR:StopPlace:58189",
+  "slug": "carl-berners-plass",
+  "name": "Carl Berners plass",
+  "lat": 59.926144,
+  "lon": 10.7763,
+  "modes": [
+    "metro",
+    "tram"
+  ],
+  "lineCodes": [
+    "5",
+    "17"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6009",
+    "NSR:StopPlace:6017"
+  ],
+  "neighbours": {
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:61268"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:58191"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58191",
+        "next": "NSR:StopPlace:59604"
+      }
+    ],
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "prev": "NSR:StopPlace:58190",
+        "next": "NSR:StopPlace:58255"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58255",
+        "next": "NSR:StopPlace:58190"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 6,
+    "majorstuen": 12
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58189",
+      "name": "Carl Berners plass",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "20",
+          "name": "Skøyen - Galgeberg",
+          "lineId": "RUT:Line:20"
+        },
+        {
+          "publicCode": "21",
+          "name": "Tjuvholmen - Helsfyr T",
+          "lineId": "RUT:Line:21"
+        },
+        {
+          "publicCode": "26",
+          "name": "Ellingsrudåsen - Bislett",
+          "lineId": "RUT:Line:26"
+        },
+        {
+          "publicCode": "28",
+          "name": "Fornebu vest - Økern T",
+          "lineId": "RUT:Line:28"
+        },
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        },
+        {
+          "publicCode": "31E",
+          "name": "Fornebu - Kalbakken",
+          "lineId": "RUT:Line:2031"
+        },
+        {
+          "publicCode": "126",
+          "name": "Dokka-Hov-Brandbu-Oslo",
+          "lineId": "INN:Line:126"
+        },
+        {
+          "publicCode": "380",
+          "name": "Lillestrøm - Rv4 - Oslo bussterminal",
+          "lineId": "RUT:Line:380"
+        },
+        {
+          "publicCode": "390",
+          "name": "Kongskog/Hellerudhaugen - Oslo bussterminal",
+          "lineId": "RUT:Line:390"
+        },
+        {
+          "publicCode": "390E",
+          "name": "Hellerudhaugen - Oslo bussterminal",
+          "lineId": "RUT:Line:2390"
+        },
+        {
+          "publicCode": "FB1",
+          "name": "Majorstuen via Torshov-Sagene",
+          "lineId": "NBU:Line:a7cafc59-feaf-4e61-9fa1-b7dce4ffe970"
+        },
+        {
+          "publicCode": "FB5",
+          "name": "Oslo sentrum via Helsfyr-Hasle-Bislett",
+          "lineId": "NBU:Line:a7c15243-8873-4aee-a8b4-8d22e8ad31dc"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6017",
+        "name": "Carl Berners plass",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11043",
+            "publicCode": "D",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11044",
+            "publicCode": "E",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      },
+      {
+        "id": "NSR:StopPlace:6009",
+        "name": "Carl Berners plass",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11027",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11026",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:toyenparken",
+      "name": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "category": "park",
+      "lat": 59.919963,
+      "lon": 10.778272,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q7862388",
+      "wikipedia": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "summary": {
+        "nb": "Tøyenparken er en 93 mål stor park langs et høydedrag på Tøyen i Oslo. Fra 2014 arrangeres Øyafestivalen i parken.",
+        "en": "Tøyen Park is a park in Oslo, Norway. It is located to the north-east of the old Munch Museum and neighbours the University of Oslo Botanical Gardens."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Toyenparken_med_Bellevue.JPG/640px-Toyenparken_med_Bellevue.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.924348,
+        "lon": 10.7763
+      },
+      "walk": {
+        "durationS": 228,
+        "distanceM": 263,
+        "polyline": "kiwlJ}vw`AJ@@GBI?K@IB?D?B@@?@?AbA@H@D@DF@nBJB?BCBI@@D@B@B@@D@@D@L@\\@DFF@zAJA_BDGD@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:rodelokka",
+      "name": {
+        "nb": "Rodeløkka",
+        "en": "Rodeløkka"
+      },
+      "category": "attraction",
+      "lat": 59.9244,
+      "lon": 10.7689,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Rodeløkka",
+        "en": "Rodeløkka"
+      },
+      "summary": {
+        "nb": "Rodeløkka er et strøk i bydel Grünerløkka, i indre by i Oslo. Freia produserer melkesjokoladen sin der.",
+        "en": "Rodeløkka is a neighborhood in Grünerløkka in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Rodel%C3%B8kka_%287._september_2018%29.jpg/640px-Rodel%C3%B8kka_%287._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 441,
+        "distanceM": 558,
+        "polyline": "kiwlJ}vw`AJ@@GBI?K@IB?D?B@ATAPCL@JA\\?T?F?DAX?F?HADCB@H@H?J?NE?CA?T@d@FjAJr@Pz@?JBFBFDFBFYt@ITABa@jA?FjAvCBD@BBN@H@B@Dn@bBTn@p@fBDHEDxBzFb@jA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:botanisk-hage",
+      "name": {
+        "nb": "Botanisk hage",
+        "en": "Botanical Garden"
+      },
+      "category": "park",
+      "lat": 59.918365,
+      "lon": 10.769751,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q3116396",
+      "website": "https://www.nhm.uio.no/utstillinger/botanisk-hage/index.html",
+      "wikipedia": {
+        "nb": "Botanisk hage (Oslo)",
+        "en": "University Botanical Garden (Oslo)"
+      },
+      "summary": {
+        "nb": "Botanisk hage på Tøyen i Oslo er Norges eldste botaniske hage, den ble etablert i 1814. Hagen og samlingene er siden blitt del av Naturhistorisk museum, sammen med blant annet Geologisk museum og Zoologisk museum. Naturhistorisk museum er igjen en del av Universitetet i Oslo (UiO). Botanisk hage har et areal på 150 mål, med rundt 35 000 planter, fordelt på 8 500 arter fra ulike deler av verden. Utvalget er under stadig utvidelse og omlegging.",
+        "en": "The University Botanical Garden is Norway's oldest botanical garden. It was first established in 1814 and is administered by the University of Oslo. It is situated in the neighborhood of Tøyen in Oslo, Norway. \n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Botanisk_hage_Oldemors_have.JPG/640px-Botanisk_hage_Oldemors_have.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.920911,
+        "lon": 10.773277
+      },
+      "walk": {
+        "durationS": 586,
+        "distanceM": 691,
+        "polyline": "kiwlJ}vw`AJ@@GBI?K@IB?D?B@@?@?AbA@H@D@DF@?B?HhAHH@XJN@V@H@xBPzAJb@F?V@L?H@J?NBN@HDHHPBFFJ~@fBBG@GHNzA|CNXpAD^@|@BB?@@?BB?FBF@@?BGBC`CH@?BOH@?V",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:torshovdalen",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "lat": 59.934963,
+      "lon": 10.776707,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19392835",
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      },
+      "summary": {
+        "nb": "Torshovdalen er et parkområde i Oslo. Parken ligger mellom Torshov i vest, Sinsen i øst (Trondheimsveien), Rosenhoff og Rodeløkka i sørøst og sør (Mailundveien) og Gjøvikbanen i nord, og har skateboardramp i den sydlige delen. Parken forvaltes av Bymiljøetaten i Oslo kommune, som også preparerer langrennsløype om vinteren."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Torshovdalen4.JPG/640px-Torshovdalen4.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.931074,
+        "lon": 10.7763
+      },
+      "walk": {
+        "durationS": 653,
+        "distanceM": 656,
+        "polyline": "kiwlJ}vw`AMA??C?EGEGKKAF?@AB?DAFAD?D?@QO{@s@y@i@KI?BAHOMqBsAkAs@u@a@MGOC_@G_BO]EaBQCNG?AA?DADWpA]fBUb@ABKPa@t@[j@GFG@@@JRILGJI[EKQc@KU",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:sofienbergparken",
+      "name": {
+        "nb": "Sofienbergparken",
+        "en": "Sofienberg Park"
+      },
+      "category": "park",
+      "lat": 59.923134,
+      "lon": 10.764245,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q12001727",
+      "wikipedia": {
+        "nb": "Sofienbergparken",
+        "en": "Sofienberg Park"
+      },
+      "summary": {
+        "nb": "Sofienbergparken er en 74 mål stor park i bydel Grünerløkka i Oslo. Sofienberg kirke ligger i parken.",
+        "en": "Sofienberg Park is a large park in the Grünerløkka district of Oslo, Norway, covering an area of 74 ha."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Sofienbergparken_%287._september_2018%29.jpg/640px-Sofienbergparken_%287._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.924406,
+        "lon": 10.767143
+      },
+      "walk": {
+        "durationS": 571,
+        "distanceM": 704,
+        "polyline": "kiwlJ}vw`AJ@@GBI?K@IB?D?B@ATAPCL@JA\\?T?F?DAX?F?HADCB@H@H?J?NE?CA?T@d@FjAJr@Pz@?JWp@Ur@iA~CCD@BFJDJ@@?FFPvAvDN`@X|@V|@?@Vt@Lh@HVVz@Lh@Rf@\\pALZDDA@?HAD?@Nn@Nh@\\rA@DPl@@JADQLSJLL??LPFFBB@@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:naturhistorisk-museum",
+      "name": {
+        "nb": "Naturhistorisk museum",
+        "en": "Natural History Museum"
+      },
+      "category": "museum",
+      "lat": 59.919783,
+      "lon": 10.771714,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1840963",
+      "website": "https://www.nhm.uio.no/",
+      "wikipedia": {
+        "nb": "Naturhistorisk museum (Oslo)",
+        "en": "Natural History Museum at the University of Oslo"
+      },
+      "summary": {
+        "nb": "Naturhistorisk museum (NHM) på Tøyen i Oslo er en del av Universitetet i Oslo og huser universitetets naturhistoriske samlinger og botanisk hage.",
+        "en": "The Natural History Museum at the University of Oslo is Norway's oldest and largest museum of natural history. It is situated in the neighborhood of Tøyen in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/T%C3%B8yen_hovedgaard_Oslo.JPG/640px-T%C3%B8yen_hovedgaard_Oslo.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 897,
+        "distanceM": 1034,
+        "polyline": "kiwlJ}vw`AJ@@GBI?K@IB?D?B@@?@?AbA@H@D@DF@?B?HhAHH@XJN@V@H@xBPzAJb@F?V@L?H@J?NBN@HDHHPBFFJ~@fBDHFPLb@lAbCbCzE\\\\FJNTHNFJHNRb@FHz@fARJJHFDLJRX@G?CFFFDfCdDRVLHHg@?G@C@IBC@A|A}ARKKg@Ck@?}@O}@}@?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:toyenbadet",
+      "name": {
+        "nb": "Tøyenbadet",
+        "en": "Tøyen Baths"
+      },
+      "category": "attraction",
+      "lat": 59.9194,
+      "lon": 10.7789,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Tøyenbadet"
+      },
+      "summary": {
+        "nb": "Tøyenbadet er en offentlig svømmehall på Tøyen i Oslo, med adresse Helgesens gate 90. Det nåværende anlegget ble innviet 6. januar 2025, og erstattet en eldre svømmehall fra 1976 som ble revet i 2020."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/2013-05_T%C3%B8yenbadet.jpg/640px-2013-05_T%C3%B8yenbadet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 846,
+        "distanceM": 959,
+        "polyline": "kiwlJ}vw`AJ@@GBI?K@IB?D?B@@?@?AbA@H@D@DF@?B?HhAHH@XJN@V@H@xBPzAJb@FPB`@FNBRB\\BVBVBN?R?b@BhCRh@D@I?ODA?E@_A@{@B_CDoBF?NE?MDQFOHUNULQNOLI@AFEJCPETCPAT?bABv@D|AJZOJCP?CWI@Q?MC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:birkelunden",
+      "name": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "category": "park",
+      "lat": 59.92635,
+      "lon": 10.760125,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q4916412",
+      "wikipedia": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "summary": {
+        "nb": "Birkelunden er en park på Grünerløkka i Oslo. Parken, Grünerløkka skole, Paulus kirke og 15 omkringliggende kvartaler ble fredet i 2006.",
+        "en": "Birkelunden is a park placed centrally in the Grünerløkka borough of Oslo, Norway. It is formed as a rectangle, more or less like a city block."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Birkelunden_%28121153%29.jpg/640px-Birkelunden_%28121153%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.926144,
+        "lon": 10.760999
+      },
+      "walk": {
+        "durationS": 934,
+        "distanceM": 1192,
+        "polyline": "kiwlJ}vw`AMA??C?C@ABADAB?B?JANAv@?L@L@F@DCBA@CBGR_@bA{BlGGRUl@Ej@K|@CLgAxCiAbDELEJNXP^b@bA^z@?B?DAB@BFLDL?DB?Zl@Xt@l@rA@F?D?@DHFH@BB?lApC\\x@@HAFiAtCOd@@@DJBFBDAHENCFELELp@pAFHjEtIAF@rD?H?D?N?Z?FBdF?lAADA@?D@R?P?@iBB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/70483492",
+      "name": {
+        "nb": "Sofienberg kirke",
+        "en": "Sofienberg Church"
+      },
+      "category": "church",
+      "lat": 59.92241,
+      "lon": 10.766138,
+      "score": 10.5,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q10419611",
+      "wikipedia": {
+        "nb": "Sofienberg kirke",
+        "en": "Sofienberg Church"
+      },
+      "summary": {
+        "nb": "Sofienberg kirke er en tidligere soknekirke for Sofienberg menighet som ligger på Sofienberg i Oslo, med adresse Rathkes gate 18. Kirken ble tatt ut av drift som menighetskirke i 2019, og ble frem til 2024 brukt kun som utleiekirke. Våren 2024 ble bygget tatt i bruk av Sofienbergprosjektet, som skal utvikle det til å bli en møteplass og kulturarena med fokus på barn, unge og nabolag med støtte fra DNB Sparebankstiftelsen og Bufdir.",
+        "en": "Sofienberg Church is located at Sofienberg in Oslo, Norway and is designed by the Danish-born architect Jacob Wilhelm Nordan. It was first known as Paulus Kirke but its name was changed to Petrus Kirke in 1892 and finally to Sofienberg Kirke in 1962. The church is surrounded by Sofienberg Park, where it was previously a cemetery. The church was consecrated in 1877 and seats approximately 500."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Sofienberg_kirke.jpg/640px-Sofienberg_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 681,
+        "distanceM": 865,
+        "polyline": "kiwlJ}vw`AJ@@GBI?K@IB?D?B@ATAPCL@JA\\?T?F?DAX?F?HADCB@H@H?J?NE?CA?T@d@FjAJr@Pz@?JBFBFDFBFc@jAABa@jA?FjAvCBD@BBN@H@B@Dn@bBTn@p@fBDHDJ@BPf@d@nAtApDl@|AL^DHh@xABHn@c@CJDDBBFH|@~@LJLBBBBBDD@@G^CPCNVXX\\ETDJRl@XF^^",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/110586542",
+      "name": {
+        "nb": "Sinsenparken"
+      },
+      "category": "park",
+      "lat": 59.933244,
+      "lon": 10.785884,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19388524",
+      "wikipedia": {
+        "nb": "Sinsenparken",
+        "en": "Sinsenparken"
+      },
+      "summary": {
+        "nb": "Sinsenparken er en park mellom Lørenveien og Gjøvikbanen på Sinsen i Oslo. Oslo kommune bruker Sinsenparken også om et område ved Schouterrassen lenger syd på Sinsen.",
+        "en": "Sinsenparken is a park between Lørenveien road and the Gjøvik Line at Sinsen, in Oslo, Norway. The 21.2-acre park is used for recreational purposes. The area is bounded by 6 storey residential buildings on three sides, and has Sinsen Church framing the south. There is a leisure and recreation area for the community, which is used for exercise, dog walking, games, sunbathing, barbecuing, social gatherings and other recreation. The entire surface is covered with grass, and in the northeastern part of the park are some tall trees. In the park stands a memorial in remembrance of the 24 Sinsen residents who fell during World War II. The monument was unveiled by Alfred Seland in September 1949."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Sinsenparken2.JPG/640px-Sinsenparken2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.932445,
+        "lon": 10.784551
+      },
+      "walk": {
+        "durationS": 889,
+        "distanceM": 908,
+        "polyline": "kiwlJ}vw`AMA??C?EGEGKK?E@CEEKIGEq@m@UUe@YIGAAAC?M@GACCACCGECAAHCDC@C?EAIGsA_ASi@Oa@A?Wu@]_AEGEGAAAGACCIi@{@MQe@u@u@kAEIQWQa@K[ACEKAMEU?IAKAUAAIAICEAANADE@E@AAA?CCGMWy@So@AEIU[y@o@gBWy@K]gAaDEq@Ei@@E@C?G?K@I?EG?AAEAMKKSMMGCGAIAG?I@KDGHMPGJEDI@MWGKGBu@|A",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/25999030",
+      "name": {
+        "nb": "Hallénparken"
+      },
+      "category": "park",
+      "lat": 59.930985,
+      "lon": 10.763377,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17781948",
+      "wikipedia": {
+        "nb": "Hallénparken"
+      },
+      "summary": {
+        "nb": "Hallénparken er en park i bydel Grünerløkka, i Oslo, rett syd for ring 2. Den delen av parken som vender mot krysset Christian Michelsens gate / Vogts gate heter Johan Sverdrups plass."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Hallenparken_sett_mot_krysset_Vogts_gate_Christian_Michelsens_gate.jpg/640px-Hallenparken_sett_mot_krysset_Vogts_gate_Christian_Michelsens_gate.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.930178,
+        "lon": 10.764666
+      },
+      "walk": {
+        "durationS": 743,
+        "distanceM": 899,
+        "polyline": "kiwlJ}vw`AMA??C?C@ABADAB?B?JANAv@?L@L@F@DCBA@CBGR_@bA{BlGGRUl@Ej@K|@CLgAxCiAbDELEJs@tBy@vBELe@rAI\\KVYv@Yv@EHEDKVIRAHM^o@bBELENQl@_AhCGPABEJM`@KT?BIRGNABINMRQRv@n@JTdAx@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/252260743",
+      "name": {
+        "nb": "Torshovparken"
+      },
+      "category": "park",
+      "lat": 59.935297,
+      "lon": 10.77098,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19392836",
+      "wikipedia": {
+        "nb": "Torshovparken",
+        "en": "Torshovparken"
+      },
+      "summary": {
+        "nb": "Torshovparken er en stor park på Torshov i Oslo, anlagt på 1920-tallet som en del av Torshovbyen, boligområdet som ble bygget ut i kommunal regi.",
+        "en": "Torshovparken is a large park located in Torshov, Oslo, Norway, that was established in the 1920s as part of Torshovbyen, a residential area developed by the municipality."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Torshovparken1.JPG/640px-Torshovparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934196,
+        "lon": 10.773276
+      },
+      "walk": {
+        "durationS": 1059,
+        "distanceM": 1082,
+        "polyline": "kiwlJ}vw`AMA??C?EGEGKKAF?@AB?DAFAD?D?@QO{@s@y@i@KI?BAHOMqBsAkAs@u@a@MGOC_@G_BO]EaBQCNG?AA?DADWpA]fBUb@ABKPa@t@[j@GFG@@@JRILGJSZWJA?C@]NEDEDAHCNCd@@VBVGF[^OPg@^m@\\eBg@YF]Ba@@]A[Gm@O_@KEBGDEBA?AFoA|DAFCHBFAPENAD",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

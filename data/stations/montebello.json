@@ -1,0 +1,121 @@
+{
+  "id": "NSR:StopPlace:6503",
+  "slug": "montebello",
+  "name": "Montebello",
+  "lat": 59.93483,
+  "lon": 10.666415,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2",
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6503"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Avløs",
+        "prev": "NSR:StopPlace:58273",
+        "next": "NSR:StopPlace:6509"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:6509",
+        "next": "NSR:StopPlace:58273"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:6509",
+        "next": "NSR:StopPlace:58273"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58273",
+        "next": "NSR:StopPlace:6509"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 13,
+    "majorstuen": 8
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6503",
+        "name": "Montebello",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11964",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11965",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/220645990",
+      "name": {
+        "nb": "Gardeparken"
+      },
+      "category": "park",
+      "lat": 59.942164,
+      "lon": 10.66212,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q29955009",
+      "wikipedia": {
+        "nb": "Gardeparken"
+      },
+      "summary": {
+        "nb": "Gardeparken er en park på Huseby i Oslo. Parken ligger ved Husebyskogen og Sørkedalsveien, mellom Huseby leir og USAs ambassade i Oslo. Parken ble anlagt i 2012 av Forsvarsbygg, som et kompenserende tiltak for byggingen av ambassaden i friområdet Husebyskogen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Gardeparken_plakett.jpg/640px-Gardeparken_plakett.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.941304,
+        "lon": 10.66396
+      },
+      "walk": {
+        "durationS": 944,
+        "distanceM": 1008,
+        "polyline": "q_ylJihb`A??@CH@@EwAyCACAAC?A@C@ABMT?@CDCFEICGGFEBMDEBIFMFC@I?CNETGXGTIXMKSSGBG@GBC@}BfA}@b@mAp@gAl@s@^MHkB`AKKa@a@WUWYQS]i@M[M_@Ii@YMg@Wa@b@IOQGQ@SLSZUf@EVI^IXAHSZQP]T_@H_A^GVE\\?l@@n@Hx@Jj@LX`@`@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

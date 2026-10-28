@@ -1,0 +1,135 @@
+{
+  "id": "NSR:StopPlace:5968",
+  "slug": "godlia",
+  "name": "Godlia",
+  "lat": 59.907148,
+  "lon": 10.835914,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5968"
+  ],
+  "neighbours": {
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58198",
+        "next": "NSR:StopPlace:58223"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58223",
+        "next": "NSR:StopPlace:58198"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 13,
+    "majorstuen": 19
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5968",
+        "name": "Godlia",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10948",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10949",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/575896567",
+      "name": {
+        "nb": "Søndre Skøyen kapell",
+        "en": "Søndre Skøyen Chapel"
+      },
+      "category": "church",
+      "lat": 59.904319,
+      "lon": 10.830069,
+      "score": 6,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10421534",
+      "wikipedia": {
+        "nb": "Søndre Skøyen kapell"
+      },
+      "summary": {
+        "nb": "Søndre Skøyen kapell er en arbeidskirke fra 1980. Den ligger like ved Søndre Skøyen gård i Bydel Østensjø i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Sondre_Skoyen_kapell_-_2010.JPG/640px-Sondre_Skoyen_kapell_-_2010.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 758,
+        "distanceM": 876,
+        "polyline": "urslJykcaA???CAI?C?CBAl@_@DP@@?D?@?DB?HAJA@l@@D?B?JFID~ABxAc@FS@e@FWB[DG@e@LOBSHg@XFTBDx@d@ZPPLl@^j@b@f@b@HHd@d@fAhANRXn@DNHd@@LBRBd@Bj@@NBrA~@OZEVCD?TCPCJ?jA??tB?pA@zBR?RC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/178994474",
+      "name": {
+        "nb": "Oppsal kirke",
+        "en": "Oppsal Church"
+      },
+      "category": "church",
+      "lat": 59.899715,
+      "lon": 10.843078,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10359489",
+      "wikipedia": {
+        "nb": "Oppsal kirke",
+        "en": "Oppsal Church"
+      },
+      "summary": {
+        "nb": "Oppsal kirke er soknekirke for Oppsal menighet i Søndre Aker prosti i Oslo bispedømme i Bydel Østensjø i Oslo kommune. Den er bygget som en langkirke fra 1961 og ligger på Oppsal i Oslo.",
+        "en": "Oppsal Church in Oslo, Norway is the parish church for the Oppsal congregation. It is a church center erected in concrete and natural stone, according to drawings by the architects H. W. Simers and H. Chr. Gaaserud. Oppsal Church was consecrated in 1961. It has a high freestanding bell tower. 400 seats, in addition to an adjacent church hall with 200 seats, separated from the church room by a folding door, as well as a kitchen. The great crucifix in the altar wall acts as an altarpiece, and is made by Victor Sparre, together with the church's other stained glass windows. The stained glass measure a total of 220 m², which is the largest area of glass art in any Norwegian church that was built after 1945. The pulpit of wood and the altar and the baptismal font is in soapstone were designed by the architects. The new digital church organ is from 2013."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Oppsal_kirke_%285._mai_2018%2C_bilde02%29.jpg/640px-Oppsal_kirke_%285._mai_2018%2C_bilde02%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1033,
+        "distanceM": 1059,
+        "polyline": "urslJykcaA???CAI?C?CBAl@_@HW@CBAHALACcA?c@C_AAq@AQ?S?K@SBGJSHGz@Y`@O\\MZK\\O\\WTOd@Yf@WRODK@M@K?O?S?IDSBKBGLC|@ZdAVz@V^JZDV@X?XE@XHGr@WZQx@o@vAcBHKLWHMd@u@t@sAXm@P_@DEBAD@@CFMFQ@E?E@GBMLa@HUBIPm@V_AP{@TLFBJDPBj@@@q@R?D???",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

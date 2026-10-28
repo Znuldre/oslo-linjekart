@@ -1,0 +1,658 @@
+{
+  "id": "NSR:StopPlace:58253",
+  "slug": "heimdalsgata",
+  "name": "Heimdalsgata",
+  "lat": 59.91837,
+  "lon": 10.760891,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "17"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:62031"
+  ],
+  "neighbours": {
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "prev": "NSR:StopPlace:61989",
+        "next": "NSR:StopPlace:58254"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58254",
+        "next": "NSR:StopPlace:61989"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 6,
+    "majorstuen": null
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:61989",
+      "name": "Nybrua",
+      "distanceM": 189,
+      "lines": [
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        }
+      ]
+    },
+    {
+      "mode": "tram",
+      "stopPlaceId": "NSR:StopPlace:61989",
+      "name": "Nybrua",
+      "distanceM": 189,
+      "lines": [
+        {
+          "publicCode": "18",
+          "name": "Grefsen st [4311] - Rikshospitalet",
+          "lineId": "RUT:Line:18"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59675",
+      "name": "Herslebs gate",
+      "distanceM": 195,
+      "lines": [
+        {
+          "publicCode": "30",
+          "name": "Bygdøy - Nydalen",
+          "lineId": "RUT:Line:30"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:62031",
+        "name": "Heimdalsgata",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:104054",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:104055",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:botanisk-hage",
+      "name": {
+        "nb": "Botanisk hage",
+        "en": "Botanical Garden"
+      },
+      "category": "park",
+      "lat": 59.918365,
+      "lon": 10.769751,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q3116396",
+      "website": "https://www.nhm.uio.no/utstillinger/botanisk-hage/index.html",
+      "wikipedia": {
+        "nb": "Botanisk hage (Oslo)",
+        "en": "University Botanical Garden (Oslo)"
+      },
+      "summary": {
+        "nb": "Botanisk hage på Tøyen i Oslo er Norges eldste botaniske hage, den ble etablert i 1814. Hagen og samlingene er siden blitt del av Naturhistorisk museum, sammen med blant annet Geologisk museum og Zoologisk museum. Naturhistorisk museum er igjen en del av Universitetet i Oslo (UiO). Botanisk hage har et areal på 150 mål, med rundt 35 000 planter, fordelt på 8 500 arter fra ulike deler av verden. Utvalget er under stadig utvidelse og omlegging.",
+        "en": "The University Botanical Garden is Norway's oldest botanical garden. It was first established in 1814 and is administered by the University of Oslo. It is situated in the neighborhood of Tøyen in Oslo, Norway. \n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Botanisk_hage_Oldemors_have.JPG/640px-Botanisk_hage_Oldemors_have.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.91837,
+        "lon": 10.766224
+      },
+      "walk": {
+        "durationS": 393,
+        "distanceM": 423,
+        "polyline": "{xulJmvt`A?EMo@Os@AGAUAGNOCK?EECAIWsAACWuAAGBEACCMEO?CC?AC{@qE@CDEtAiB@A@?ACEKGSFGBIBCBABCTYSg@c@qAxAeB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:sofienbergparken",
+      "name": {
+        "nb": "Sofienbergparken",
+        "en": "Sofienberg Park"
+      },
+      "category": "park",
+      "lat": 59.923134,
+      "lon": 10.764245,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q12001727",
+      "wikipedia": {
+        "nb": "Sofienbergparken",
+        "en": "Sofienberg Park"
+      },
+      "summary": {
+        "nb": "Sofienbergparken er en 74 mål stor park i bydel Grünerløkka i Oslo. Sofienberg kirke ligger i parken.",
+        "en": "Sofienberg Park is a large park in the Grünerløkka district of Oslo, Norway, covering an area of 74 ha."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Sofienbergparken_%287._september_2018%29.jpg/640px-Sofienbergparken_%287._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.921861,
+        "lon": 10.761347
+      },
+      "walk": {
+        "durationS": 401,
+        "distanceM": 473,
+        "polyline": "{xulJmvt`A?EMo@Os@ABA@A@I_@Mo@AIk@sCAAAAcBnBo@v@iBvBCB?CCOEO?CC?AAAAC?C?E@G@I@A@A?yA@_@?y@?CC?BKAI?A?A@C?{@?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:kulturkirken-jakob",
+      "name": {
+        "nb": "Kulturkirken Jakob",
+        "en": "Jakob Church of Culture"
+      },
+      "category": "theatre",
+      "lat": 59.91815,
+      "lon": 10.754419,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1773529",
+      "website": "https://jakob.no/",
+      "wikipedia": {
+        "nb": "Kulturkirken Jakob",
+        "en": "Jakob Church"
+      },
+      "summary": {
+        "nb": "Kulturkirken Jakob er en kirke i Hausmanns gate i strøket Hausmannsområdet i Oslo. Jakob kirke ble tegnet av arkitekt Georg Andreas Bull og oppført i 1880. Den har sitt navn etter apostelen St. Jakob. Altertavlen er «Hyrdenes tilbedelse» av Eilif Peterssen (1880). I våpenhuset henger et relieff av Erkeengelen Mikael. Den har plass til 550."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Kulturkirken_Jakob-1.jpg/640px-Kulturkirken_Jakob-1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 402,
+        "distanceM": 478,
+        "polyline": "{xulJmvt`ANp@FX@FABC@ABH^DVFX@N?TANCJABELGHGDK@c@@?H?D?D?B?F?DC?CBA?I?AvAA|E?H?H@D?B@FFh@FLFRVhA|@vDPp@EHABCVQ`@OXCB_@h@GJj@jB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:jodisk-museum",
+      "name": {
+        "nb": "Jødisk museum",
+        "en": "Jewish Museum Oslo"
+      },
+      "category": "museum",
+      "lat": 59.916338,
+      "lon": 10.755421,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q6189888",
+      "wikipedia": {
+        "nb": "Jødisk museum i Oslo",
+        "en": "Oslo Jewish Museum"
+      },
+      "summary": {
+        "nb": "",
+        "en": "\nThe Oslo Jewish Museum aims to inform about Jews in Norway. It was established as a foundation in 2003, supported by Det Mosaiske Trossamfund and Oslo City Museum."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/J%C3%B8disk_Museum_i_Oslo_-_2010-07-05_at_15-21-17.jpg/640px-J%C3%B8disk_Museum_i_Oslo_-_2010-07-05_at_15-21-17.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 471,
+        "distanceM": 500,
+        "polyline": "{xulJmvt`ANp@FX@FH^BJJp@@J?D?B@D?DAD?D?D?DAD?DABB@BB?\\?B?D?D?FABFBFDRRf@j@FDH?FDFHD@Z`@lBnCDLb@p@FHHL~@tACFAB@FBHBHBFBH@D@B@DEHGHIP_BbD?BAD?B?B@@HXZbA??",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:olaf-ryes-plass",
+      "name": {
+        "nb": "Olaf Ryes plass",
+        "en": "Olaf Ryes plass"
+      },
+      "category": "park",
+      "lat": 59.922882,
+      "lon": 10.758259,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q4993079",
+      "wikipedia": {
+        "nb": "Olaf Ryes plass (Oslo)",
+        "en": "Olaf Ryes plass"
+      },
+      "summary": {
+        "nb": "Olaf Ryes plass er en plass på Grünerløkka i Oslo, oppkalt etter den dansk-norske offiseren og idrettsmannen Olaf Rye.",
+        "en": "Olaf Ryes plass is a square and park placed centrally in the Grünerløkka borough of Oslo, Norway. It is more or less square in shape."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Olaf_Ryes_plass.JPG/640px-Olaf_Ryes_plass.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 558,
+        "distanceM": 646,
+        "polyline": "{xulJmvt`ANp@FX@FABC@ABH^DVFX@N?TANCJABELGHGDK@c@@]GcA@G?oDDA?EDG?A?G?G?C??BAD?F?D?D?H?BACE?{A@{@@A?GB?@C?G?E?C?CAAAu@@mBBy@?C@A@AB?DA?E?E?C??EOZc@`Ac@`A@D?D?D?FABCBC@A?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:naturhistorisk-museum",
+      "name": {
+        "nb": "Naturhistorisk museum",
+        "en": "Natural History Museum"
+      },
+      "category": "museum",
+      "lat": 59.919783,
+      "lon": 10.771714,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1840963",
+      "website": "https://www.nhm.uio.no/",
+      "wikipedia": {
+        "nb": "Naturhistorisk museum (Oslo)",
+        "en": "Natural History Museum at the University of Oslo"
+      },
+      "summary": {
+        "nb": "Naturhistorisk museum (NHM) på Tøyen i Oslo er en del av Universitetet i Oslo og huser universitetets naturhistoriske samlinger og botanisk hage.",
+        "en": "The Natural History Museum at the University of Oslo is Norway's oldest and largest museum of natural history. It is situated in the neighborhood of Tøyen in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/T%C3%B8yen_hovedgaard_Oslo.JPG/640px-T%C3%B8yen_hovedgaard_Oslo.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 780,
+        "distanceM": 787,
+        "polyline": "{xulJmvt`A?EMo@Os@AGAUAGNOCK?EECAIWsAACWuAAGBEACCMEO?CC?AC{@qE@CCMAEAGCIA@AIu@wDaAgFGUMm@Q_AJKLq@EK}@uBBSn@mFBSEKAAEEFSDQGIDQHg@?G@C@IBC@A|A}ARKKg@Ck@?}@O}@}@?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:oslo-spektrum",
+      "name": {
+        "nb": "Oslo Spektrum",
+        "en": "Oslo Spektrum"
+      },
+      "category": "theatre",
+      "lat": 59.912987,
+      "lon": 10.75472,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1508325",
+      "website": "https://www.oslospektrum.no",
+      "wikipedia": {
+        "nb": "Oslo Spektrum",
+        "en": "Oslo Spektrum"
+      },
+      "summary": {
+        "nb": "Oslo Spektrum, fullt navn Oslo Spektrum Arena AS, er en innendørs flerbruksarena for konserter, idrettskonkurranser og store messer i Norge. Arenaen åpnet i desember 1990 og hadde sitt første hele driftsår i 1991. I desember 2005 tok Nova Spektrum over som eiere. Med inntil 11 500 stå- og sitteplasser brukes Oslo Spektrum regelmessig som konsertarena når internasjonale artister gjester Oslo. I tillegg huser arenaen en rekke andre typer arrangementer – som idrettskonkurranser, messer og konferanser. Spektrum ligger sentralt i Oslo sentrum, like ved Oslo sentralstasjon og Oslo bussterminal. I 2017 annonserte Nova Spektrum at arenaen skulle pusses opp og bygges ut med 20 000 ekstra kvadratmeter med oppstart i 2020, men arbeidet kom i gang først i 2025 etter flere års forsinkelser og har forventet ferdigstilling høsten 2028.",
+        "en": "Oslo Spektrum is a multi-purpose indoor arena located in east central Oslo, Norway. It was opened in December 1990 under ownership and operation of Nova Spektrum, formerly Norges Varemesse. It is located in Downtown Oslo, next to the Central Station, long and medium haul bus terminal, Jernbanetorget public transportation hub and the international ferry terminals."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Oslo_Spektrum_-_Sittende_oppsett.jpg/640px-Oslo_Spektrum_-_Sittende_oppsett.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 704,
+        "distanceM": 785,
+        "polyline": "{xulJmvt`ANp@FX@F@A@A@A@C@ABCBCF`@@RBLZbBF`@BHBFDFf@h@DH@?B@BABIJYFWHUFILQROPMFE?@DDRSd@GR?J?RN~AfAHHFJh@`@^\\FDFDPHHDDBCPAD@?@@LLLLl@t@d@p@P\\Jb@HVhBdDBDZ\\T`@F@H?B@AP?R?@?T@Z@^B\\RbCD`@B\\Hz@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:interkulturelt-museum",
+      "name": {
+        "nb": "Interkulturelt museum",
+        "en": "Intercultural Museum"
+      },
+      "category": "museum",
+      "lat": 59.913048,
+      "lon": 10.763251,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q18663554",
+      "website": "https://www.oslomuseum.no/interkulturelt-museum/",
+      "wikipedia": {
+        "nb": "Interkulturelt Museum",
+        "en": "Intercultural Museum"
+      },
+      "summary": {
+        "nb": "Interkulturelt Museum (IKM), tidligere Internasjonalt kultursenter og museum eller Internasjonalt kulturmuseum, er siden 2006 en avdeling ved Oslo Museum.",
+        "en": "The Intercultural Museum is located at Tøyenbekken 5 in Oslo, Norway. \nThe Intercultural Museum is a migration museum, and is primarily concerned with the collection, preservation and dissemination of Norwegian immigration history.\nSince 2006, the Intercultural Museum has been part of the Oslo Museum. It is situated in the district of Grønland and housed in a former police station which was built in 1900–1902 under design by architect Balthazar Lange (1854-1937).\n\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG/640px-Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 671,
+        "distanceM": 807,
+        "polyline": "{xulJmvt`A?EMo@Os@@ABC@A?ABABC@C?E?E@Cr@{@~AmBBABAB?FBDBDBHBf@Jl@LZFB@@@@@DDNNFDh@LD@B?HABAFAFE@BBDn@h@ZVPLv@b@B?X~@@CDGBE@AFD??@CBCBGDGAE?A?G@GVmABSVcAb@kBDMFM|@eB@C@?B?BBBC@EDG@CAE@C?E@CBE~@eBp@oABFBBBBDHDJHRHRDLn@zA\\v@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:birkelunden",
+      "name": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "category": "park",
+      "lat": 59.92635,
+      "lon": 10.760125,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q4916412",
+      "wikipedia": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "summary": {
+        "nb": "Birkelunden er en park på Grünerløkka i Oslo. Parken, Grünerløkka skole, Paulus kirke og 15 omkringliggende kvartaler ble fredet i 2006.",
+        "en": "Birkelunden is a park placed centrally in the Grünerløkka borough of Oslo, Norway. It is formed as a rectangle, more or less like a city block."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Birkelunden_%28121153%29.jpg/640px-Birkelunden_%28121153%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.925588,
+        "lon": 10.760891
+      },
+      "walk": {
+        "durationS": 812,
+        "distanceM": 910,
+        "polyline": "{xulJmvt`A?EMo@Os@ABA@A@I_@Mo@AIk@sCAAAAcBnBo@v@iBvBCB?CCOEO?CC?AAAAC?C?E@G@I@A@A?yA@_@?y@?CC?B?T?R?@iDBA??@A?G?G?A??GACCAkDBQ?I?G???I?mDDQ?C?A@C?E?I?A?AAiDBC@A?K?E?C?@D?L?D",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:youngstorget",
+      "name": {
+        "nb": "Youngstorget",
+        "en": "Youngstorget"
+      },
+      "category": "attraction",
+      "lat": 59.914943,
+      "lon": 10.748826,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Youngstorget (Oslo)",
+        "en": "Youngstorget"
+      },
+      "summary": {
+        "nb": "Youngstorget er et torg i sentrum av Oslo. Det ligger mellom Storgata og Møllergata, midt i Torggata.\nDet ble anlagt i 1846.",
+        "en": "Youngstorget is a square and public space located in downtown Oslo. It lies at the junction of the streets Storgata and Møllergata and alongside Torggata. Constructed in 1846, it has become a symbol of political power in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Youngstorget_panorama.jpg/640px-Youngstorget_panorama.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 792,
+        "distanceM": 912,
+        "polyline": "{xulJmvt`ANp@FX@FABC@ABH^DVFX@N?TANCJABELGHGDK@c@@?H?D?D?B?F?DC?CBA?I?AvAA|E?H?H@D?B@FFh@FLFRVhA|@vDPp@DLj@~BNf@BJFVHVBH@DBFtBtEHRHRABA@ADfAdCDHb@`ABD???@?@BFBFBDBH@?@@@@JVP\\@D?B@@BFBD?@@A@?@?@@Zt@Xn@@B?BAB@@@B@DJR@B@B@BBBf@bAVj@@B@BAD@@FH@DBB@EHR`@~@AD?H@J@FDFB@@@Ap@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:mathallen",
+      "name": {
+        "nb": "Mathallen",
+        "en": "Mathallen Food Hall"
+      },
+      "category": "attraction",
+      "lat": 59.923417,
+      "lon": 10.751677,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Mathallen Oslo",
+        "en": "Mathallen Oslo"
+      },
+      "summary": {
+        "nb": "Mathallen Oslo er et matmarked i en tidligere industrihall på Vulkan ved nedre Akerselva i Oslo. Hallen ble reist i 1908 for Vulkan Jernstøperi. Stedet hadde ved åpningen 2. oktober 2012 drøyt 30 matbutikker, serveringssteder og andre bedrifter. Mathallen arrangerer konferanser, kurs, messer, konkurranser, festivaler og andre arrangementer som handler om mat og drikke. Adressen er Vulkan 5."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Mathallen_Oslo_entrance_south.JPG/640px-Mathallen_Oslo_entrance_south.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 882,
+        "distanceM": 1059,
+        "polyline": "{xulJmvt`ANp@FX@FABC@ABH^DVFX@N?TANCJABELGHGDK@c@@]GcA@G?oDDA?EDG?A?G?G?C??BAD?F?D?D?H?BACE?{A@{@@A?GB?@AFAFAxH@L?D?J?D?DABA?E?I???AbB?dB?h@?HAZ?h@?`@?vAAfA???F?FAH?ZI@MFWRIFw@r@a@ZoAjA_@~@?P?jB?\\Ch@CnAw@SYGq@SKCUGG?GBABEBCFERCV@BBFBF@D",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:rodelokka",
+      "name": {
+        "nb": "Rodeløkka",
+        "en": "Rodeløkka"
+      },
+      "category": "attraction",
+      "lat": 59.9244,
+      "lon": 10.7689,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Rodeløkka",
+        "en": "Rodeløkka"
+      },
+      "summary": {
+        "nb": "Rodeløkka er et strøk i bydel Grünerløkka, i indre by i Oslo. Freia produserer melkesjokoladen sin der.",
+        "en": "Rodeløkka is a neighborhood in Grünerløkka in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Rodel%C3%B8kka_%287._september_2018%29.jpg/640px-Rodel%C3%B8kka_%287._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 892,
+        "distanceM": 997,
+        "polyline": "{xulJmvt`A?EMo@Os@ABA@A@I_@Mo@AIk@sCAAAAcBnBo@v@iBvBCB?CCOEO?CC?AAAAESy@eE?ACMCKAKYuAQaABi@?MAIGUEAKECCACCGg@sCAIAECBOP?@aAmFC?GCKEAA@GsDgEY]WYCACCCCCAHm@DWMCMK}@_AGICCEEBKo@b@IDAIAKi@uAu@qB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/547688836",
+      "name": {
+        "nb": "Elgsletta",
+        "en": "Elgsletta aktivitetspark"
+      },
+      "category": "park",
+      "lat": 59.915901,
+      "lon": 10.761247,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q97794288",
+      "wikipedia": {
+        "nb": "Elgsletta aktivitetspark"
+      },
+      "summary": {
+        "nb": "Elgsletta aktivitetspark er en park langs Akerselva på Grønland i Oslo, ferdig i 2009. Parken inneholder blant annet sandvolleyballbaner."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Elgsletta_aktivitetspark_2014.jpg/640px-Elgsletta_aktivitetspark_2014.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.916579,
+        "lon": 10.760891
+      },
+      "walk": {
+        "durationS": 297,
+        "distanceM": 311,
+        "polyline": "{xulJmvt`ANp@FX@F@A@A@A@C@ABCBCF`@@RBLZbBF`@BHBFDFf@h@DH@?B@BABIJYFWHUFILQROPMFE?@DDRSd@G@WD?B?CI?M?k@@}@?M",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/70186922",
+      "name": {
+        "nb": "Grünerhagen"
+      },
+      "category": "park",
+      "lat": 59.921816,
+      "lon": 10.755136,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11973102",
+      "wikipedia": {
+        "nb": "Grünerhagen"
+      },
+      "summary": {
+        "nb": "Grünerhagen er en park på Grünerløkka i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Rigmor_Luihns_vei_nedre_del.JPG/640px-Rigmor_Luihns_vei_nedre_del.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.921162,
+        "lon": 10.755825
+      },
+      "walk": {
+        "durationS": 502,
+        "distanceM": 607,
+        "polyline": "{xulJmvt`ANp@FX@FABC@ABH^DVFX@N?TANCJABELGHGDK@c@@]GcA@G?oDDA?EDG?A?G?G?C??BAD?F?D?D?H?BACE?{A@{@@A?GB?@AFAFAxH@L?D?J?D?DABA?E?I???AbB?dB?h@?HAZ?L",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4245701",
+      "name": {
+        "nb": "Kristparken"
+      },
+      "category": "park",
+      "lat": 59.917561,
+      "lon": 10.748641,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11982177",
+      "wikipedia": {
+        "nb": "Kristparken"
+      },
+      "summary": {
+        "nb": "Kristparken er en park på Hammersborg nær Oslo sentrum."
+      },
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristparken_i_mai.JPG?width=640",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.917933,
+        "lon": 10.749891
+      },
+      "walk": {
+        "durationS": 738,
+        "distanceM": 832,
+        "polyline": "{xulJmvt`ANp@FX@FABC@ABH^DVFX@N?TANCJABELGHGDK@c@@?H?D?D?B?F?DC?CBA?I?AvAA|E?H?H@D?B@FFh@FLFRVhA|@vDPp@DLj@~BNf@BJFVHVOVBJ@@ABuAfC?B?DA@EJvBhFDLHNGH?@A?A@A?oClFA@?B?B?@@B?@r@f@ABANAHABHHM|@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/511229553",
+      "name": {
+        "nb": "Nedre foss park",
+        "en": "Nedre Foss park"
+      },
+      "category": "park",
+      "lat": 59.921918,
+      "lon": 10.753595,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q66313522",
+      "wikipedia": {
+        "nb": "Nedre Foss park"
+      },
+      "summary": {
+        "nb": "Nedre Foss park er en bypark fra 2017 ved bredden av Akerselva syd på Grünerløkka i Oslo. Parken ligger ved Nedre Foss gård og nedenfor fossefallet som har gitt gården navn."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Nedre_Foss_park_med_hovedbygningen_og_siloen_Gr%C3%BCnerl%C3%B8kka_studenhus.jpg/640px-Nedre_Foss_park_med_hovedbygningen_og_siloen_Gr%C3%BCnerl%C3%B8kka_studenhus.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.921343,
+        "lon": 10.754457
+      },
+      "walk": {
+        "durationS": 571,
+        "distanceM": 698,
+        "polyline": "{xulJmvt`ANp@FX@FABC@ABH^DVFX@N?TANCJABELGHGDK@c@@]GcA@G?oDDA?EDG?A?G?G?C??BAD?F?D?D?H?BACE?{A@{@@A?GB?@AFAFAxH@L?D?J?D?DABA?E?I???AbB?dB?h@?HAZ?h@?`@?vAAfA???F?FAHAFABCBWLA?",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

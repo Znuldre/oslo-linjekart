@@ -1,0 +1,186 @@
+{
+  "id": "NSR:StopPlace:58299",
+  "slug": "holtet",
+  "name": "Holtet",
+  "lat": 59.881627,
+  "lon": 10.784465,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "13",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6618"
+  ],
+  "neighbours": {
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:58300",
+        "next": "NSR:StopPlace:58298"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58298",
+        "next": "NSR:StopPlace:58300"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58298",
+        "next": "NSR:StopPlace:58300"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58300",
+        "next": "NSR:StopPlace:58298"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 13,
+    "majorstuen": 28
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58299",
+      "name": "Holtet",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "19N",
+          "name": "Kringsjå - Åsbråten",
+          "lineId": "RUT:Line:3919"
+        },
+        {
+          "publicCode": "74",
+          "name": "Jernbanetorget - Mortensrud T",
+          "lineId": "RUT:Line:74"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6618",
+        "name": "Holtet",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:108700",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:101951",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12220",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:102353",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12219",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/141513850",
+      "name": {
+        "nb": "Bekkelaget kirke",
+        "en": "Bekkelaget Church"
+      },
+      "category": "church",
+      "lat": 59.884859,
+      "lon": 10.788268,
+      "score": 8.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297093",
+      "wikipedia": {
+        "nb": "Bekkelaget kirke",
+        "en": "Bekkelaget Church"
+      },
+      "summary": {
+        "nb": "Bekkelaget kirke er soknekirke for Bekkelaget og Ormøy menighet i Søndre Aker prosti i Oslo bispedømme i Oslo kommune. Det er en langkirke fra 1923 som ligger på Bekkelaget i bydel Nordstrand.",
+        "en": "Bekkelaget Church is a long church located in Bekkelaget in Nordstrand, a district of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Bekkelaget_church_in_2025.jpg/640px-Bekkelaget_church_in_2025.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 572,
+        "distanceM": 532,
+        "polyline": "csnlJ{iy`ACPERCVCLADEVAHCCECEECAABABCBE@E@G?E?w@BG?sABACCECOAECICQGYACOe@Q[IMQMQI_@GSCGCECEGCKEOASOcCAG@IC@C?C@A?AEACAEAAAAC?A?KB?CAK?K?CG@A{AC_BGIIQQc@[y@K]CQAIG?C?K?IAICU?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/13363583",
+      "name": {
+        "nb": "Ekebergskråningen naturreservat",
+        "en": "Ekebergskråningen"
+      },
+      "category": "park",
+      "lat": 59.891795,
+      "lon": 10.764855,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17769381",
+      "wikipedia": {
+        "nb": "Ekebergskråningen"
+      },
+      "summary": {
+        "nb": "Ekebergskråningen, eller Ekebergskråninga, er et naturområde på cirka 800 dekar (mål) i tilknytning til Oslo indre by. Skråningen ligger dels i bydel Gamle Oslo, dels i bydel Nordstrand og utgjør den solfylte vesthellinga av Ekeberg, som skråner ned mot Oslofjorden og Bjørvika. Skråningen er for en stor del skogkledt, og ligger nær Oslo sentrum. Nedre del av skogen, dvs. omtrent det området som ligger innenfor bygrensa av 1878, kalles gjerne Ekebergskauen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Ekeberg_Sj%C3%B8mannsskolen_Oslofjorden.jpeg/640px-Ekeberg_Sj%C3%B8mannsskolen_Oslofjorden.jpeg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.88441,
+        "lon": 10.773467
+      },
+      "walk": {
+        "durationS": 771,
+        "distanceM": 905,
+        "polyline": "csnlJ{iy`ACPERCVCLADEVAHAJ?@EPCRIf@Kx@Mt@?DAD?BAFCPCN?DABABg@dD?H?D?BCJCLCJCJGd@ATC\\?P?X?H@J@RD`@DVFj@@X@R?T@TAXARCTAN@L?HALGz@ALECMrAIr@MlAE^Ix@CLAJKp@CRIXKl@C\\?J?N@\\@P?H@FDj@D\\H|@@R?NCPGLQ\\Yl@CLAL?L?B?JDHNJJBJ?JCB??J@LEHCFIFQTINCIGCUF_Af@m@^c@TQDM@ACAGEu@AKAICIACCCCAC?M@GBIB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

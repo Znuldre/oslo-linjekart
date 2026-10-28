@@ -1,0 +1,2529 @@
+[
+  {
+    "id": "NSR:StopPlace:58262",
+    "slug": "adamstuen",
+    "name": "Adamstuen",
+    "lat": 59.932713,
+    "lon": 10.73474,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58382",
+    "slug": "aker-brygge",
+    "name": "Aker brygge",
+    "lat": 59.910729,
+    "lon": 10.729592,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59518",
+    "slug": "ammerud",
+    "name": "Ammerud",
+    "lat": 59.95768,
+    "lon": 10.871752,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58278",
+    "slug": "asjordet",
+    "name": "Åsjordet",
+    "lat": 59.92884,
+    "lon": 10.647613,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59895",
+    "slug": "avlos",
+    "name": "Avløs",
+    "lat": 59.914026,
+    "lon": 10.550276,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58281",
+    "slug": "bekkestua",
+    "name": "Bekkestua",
+    "lat": 59.917247,
+    "lon": 10.589651,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59738",
+    "slug": "berg",
+    "name": "Berg",
+    "lat": 59.951481,
+    "lon": 10.744747,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58243",
+    "slug": "bergkrystallen",
+    "name": "Bergkrystallen",
+    "lat": 59.866897,
+    "lon": 10.821753,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58267",
+    "slug": "besserud",
+    "name": "Besserud",
+    "lat": 59.957763,
+    "lon": 10.67387,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58257",
+    "slug": "biermanns-gate",
+    "name": "Biermanns gate",
+    "lat": 59.930444,
+    "lon": 10.761052,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58357",
+    "slug": "birkelunden",
+    "name": "Birkelunden",
+    "lat": 59.927173,
+    "lon": 10.760961,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58353",
+    "slug": "bislett",
+    "name": "Bislett",
+    "lat": 59.9257,
+    "lon": 10.731151,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58279",
+    "slug": "bjornsletta",
+    "name": "Bjørnsletta",
+    "lat": 59.927023,
+    "lon": 10.636729,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58367",
+    "slug": "bjorvika",
+    "name": "Bjørvika",
+    "lat": 59.908077,
+    "lon": 10.7569,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "13",
+      "15",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6332",
+    "slug": "blindern",
+    "name": "Blindern",
+    "lat": 59.940205,
+    "lon": 10.716174,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58226",
+    "slug": "bogerud",
+    "name": "Bogerud",
+    "lat": 59.875663,
+    "lon": 10.841956,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58403",
+    "slug": "bogstadveien",
+    "name": "Bogstadveien",
+    "lat": 59.926222,
+    "lon": 10.721508,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58225",
+    "slug": "boler",
+    "name": "Bøler",
+    "lat": 59.883942,
+    "lon": 10.84475,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58272",
+    "slug": "borgen",
+    "name": "Borgen",
+    "lat": 59.93464,
+    "lon": 10.696102,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58302",
+    "slug": "braten",
+    "name": "Bråten",
+    "lat": 59.867288,
+    "lon": 10.793131,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58247",
+    "slug": "brattlikollen",
+    "name": "Brattlikollen",
+    "lat": 59.886574,
+    "lon": 10.800408,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58197",
+    "slug": "brynseng",
+    "name": "Brynseng",
+    "lat": 59.909427,
+    "lon": 10.813497,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58189",
+    "slug": "carl-berners-plass",
+    "name": "Carl Berners plass",
+    "lat": 59.926144,
+    "lon": 10.7763,
+    "modes": [
+      "metro",
+      "tram"
+    ],
+    "lineCodes": [
+      "5",
+      "17"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58305",
+    "slug": "disen",
+    "name": "Disen",
+    "lat": 59.946291,
+    "lon": 10.787606,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15",
+      "17"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58306",
+    "slug": "doktor-smiths-vei",
+    "name": "Doktor Smiths vei",
+    "lat": 59.949791,
+    "lon": 10.790149,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59601",
+    "slug": "dronningens-gate",
+    "name": "Dronningens gate",
+    "lat": 59.910525,
+    "lon": 10.746901,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "13",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58276",
+    "slug": "eiksmarka",
+    "name": "Eiksmarka",
+    "lat": 59.947043,
+    "lon": 10.622964,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58297",
+    "slug": "ekebergparken",
+    "name": "Ekebergparken",
+    "lat": 59.897763,
+    "lon": 10.759647,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59764",
+    "slug": "ekraveien",
+    "name": "Ekraveien",
+    "lat": 59.950611,
+    "lon": 10.637662,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58361",
+    "slug": "elisenberg",
+    "name": "Elisenberg",
+    "lat": 59.919455,
+    "lon": 10.70876,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58220",
+    "slug": "ellingsrudasen",
+    "name": "Ellingsrudåsen",
+    "lat": 59.936486,
+    "lon": 10.916859,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59762",
+    "slug": "ensjo",
+    "name": "Ensjø",
+    "lat": 59.914059,
+    "lon": 10.787276,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59600",
+    "slug": "forskningsparken",
+    "name": "Forskningsparken",
+    "lat": 59.943756,
+    "lon": 10.721023,
+    "modes": [
+      "metro",
+      "tram"
+    ],
+    "lineCodes": [
+      "4",
+      "5",
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6233",
+    "slug": "froen",
+    "name": "Frøen",
+    "lat": 59.934582,
+    "lon": 10.709103,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58356",
+    "slug": "frogner-plass",
+    "name": "Frogner plass",
+    "lat": 59.922167,
+    "lon": 10.704905,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58354",
+    "slug": "frogner-stadion",
+    "name": "Frogner stadion",
+    "lat": 59.927227,
+    "lon": 10.712719,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59768",
+    "slug": "frognerseteren",
+    "name": "Frognerseteren",
+    "lat": 59.978602,
+    "lon": 10.676345,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58405",
+    "slug": "frydenlund",
+    "name": "Frydenlund",
+    "lat": 59.920872,
+    "lon": 10.733114,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58221",
+    "slug": "furuset",
+    "name": "Furuset",
+    "lat": 59.940893,
+    "lon": 10.897515,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59519",
+    "slug": "gaustad",
+    "name": "Gaustad",
+    "lat": 59.946103,
+    "lon": 10.71093,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6261",
+    "slug": "gaustadalleen",
+    "name": "Gaustadalléen",
+    "lat": 59.945686,
+    "lon": 10.717591,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:4007",
+    "slug": "gjettum",
+    "name": "Gjettum",
+    "lat": 59.908516,
+    "lon": 10.530621,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:64352",
+    "slug": "gjonnes",
+    "name": "Gjønnes",
+    "lat": 59.914909,
+    "lon": 10.580488,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58307",
+    "slug": "glads-vei",
+    "name": "Glads vei",
+    "lat": 59.952301,
+    "lon": 10.785331,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:5968",
+    "slug": "godlia",
+    "name": "Godlia",
+    "lat": 59.907148,
+    "lon": 10.835914,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6289",
+    "slug": "grakammen",
+    "name": "Gråkammen",
+    "lat": 59.955038,
+    "lon": 10.701613,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58309",
+    "slug": "grefsen-stadion",
+    "name": "Grefsen stadion",
+    "lat": 59.960075,
+    "lon": 10.784728,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59643",
+    "slug": "grefsen-stasjon",
+    "name": "Grefsen stasjon",
+    "lat": 59.94168,
+    "lon": 10.78079,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58308",
+    "slug": "grefsenplataet",
+    "name": "Grefsenplatået",
+    "lat": 59.955962,
+    "lon": 10.785736,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58196",
+    "slug": "grefsenveien",
+    "name": "Grefsenveien",
+    "lat": 59.942626,
+    "lon": 10.773224,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6488",
+    "slug": "gronland",
+    "name": "Grønland",
+    "lat": 59.912806,
+    "lon": 10.760162,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58216",
+    "slug": "grorud",
+    "name": "Grorud",
+    "lat": 59.961166,
+    "lon": 10.882537,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6294",
+    "slug": "gullerasen",
+    "name": "Gulleråsen",
+    "lat": 59.955753,
+    "lon": 10.696762,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58191",
+    "slug": "hasle",
+    "name": "Hasle",
+    "lat": 59.923903,
+    "lon": 10.793032,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58282",
+    "slug": "haslum",
+    "name": "Haslum",
+    "lat": 59.914994,
+    "lon": 10.563869,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58283",
+    "slug": "hauger",
+    "name": "Hauger",
+    "lat": 59.910449,
+    "lon": 10.509464,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58213",
+    "slug": "haugerud",
+    "name": "Haugerud",
+    "lat": 59.92203,
+    "lon": 10.85475,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58253",
+    "slug": "heimdalsgata",
+    "name": "Heimdalsgata",
+    "lat": 59.91837,
+    "lon": 10.760891,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58198",
+    "slug": "hellerud",
+    "name": "Hellerud",
+    "lat": 59.910298,
+    "lon": 10.830996,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59516",
+    "slug": "helsfyr",
+    "name": "Helsfyr",
+    "lat": 59.912673,
+    "lon": 10.801052,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58407",
+    "slug": "holbergs-plass",
+    "name": "Holbergs plass",
+    "lat": 59.918739,
+    "lon": 10.734538,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6350",
+    "slug": "holmen",
+    "name": "Holmen",
+    "lat": 59.946029,
+    "lon": 10.667379,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59766",
+    "slug": "holmenkollen",
+    "name": "Holmenkollen",
+    "lat": 59.960263,
+    "lon": 10.662881,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59765",
+    "slug": "holstein",
+    "name": "Holstein",
+    "lat": 59.960666,
+    "lon": 10.739865,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58299",
+    "slug": "holtet",
+    "name": "Holtet",
+    "lat": 59.881627,
+    "lon": 10.784465,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58291",
+    "slug": "homansbyen",
+    "name": "Homansbyen",
+    "lat": 59.923035,
+    "lon": 10.726366,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58275",
+    "slug": "hovseter",
+    "name": "Hovseter",
+    "lat": 59.946404,
+    "lon": 10.655462,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58250",
+    "slug": "hoyenhall",
+    "name": "Høyenhall",
+    "lat": 59.9065,
+    "lon": 10.819554,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58280",
+    "slug": "jar",
+    "name": "Jar",
+    "lat": 59.926162,
+    "lon": 10.619059,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58366",
+    "slug": "jernbanetorget",
+    "name": "Jernbanetorget",
+    "lat": 59.911898,
+    "lon": 10.75038,
+    "modes": [
+      "metro",
+      "tram"
+    ],
+    "lineCodes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "12",
+      "13",
+      "15",
+      "17",
+      "18",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58264",
+    "slug": "john-colletts-plass",
+    "name": "John Colletts plass",
+    "lat": 59.940291,
+    "lon": 10.729592,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6580",
+    "slug": "jomfrubraten",
+    "name": "Jomfrubråten",
+    "lat": 59.888213,
+    "lon": 10.770829,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:5810",
+    "slug": "kalbakken",
+    "name": "Kalbakken",
+    "lat": 59.954565,
+    "lon": 10.8668,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58246",
+    "slug": "karlsrud",
+    "name": "Karlsrud",
+    "lat": 59.879726,
+    "lon": 10.805161,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58301",
+    "slug": "kastellet",
+    "name": "Kastellet",
+    "lat": 59.870706,
+    "lon": 10.790782,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59615",
+    "slug": "kjelsas",
+    "name": "Kjelsås",
+    "lat": 59.964219,
+    "lon": 10.784937,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58310",
+    "slug": "kjelsasalleen",
+    "name": "Kjelsåsalléen",
+    "lat": 59.962898,
+    "lon": 10.783821,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58284",
+    "slug": "kolsas",
+    "name": "Kolsås",
+    "lat": 59.914582,
+    "lon": 10.500843,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:4245",
+    "slug": "kontraskjaeret",
+    "name": "Kontraskjæret",
+    "lat": 59.91089,
+    "lon": 10.735779,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6428",
+    "slug": "korsgata",
+    "name": "Korsgata",
+    "lat": 59.918698,
+    "lon": 10.759362,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59706",
+    "slug": "kringsja",
+    "name": "Kringsjå",
+    "lat": 59.963797,
+    "lon": 10.734689,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58254",
+    "slug": "lakkegata-skole",
+    "name": "Lakkegata skole",
+    "lat": 59.920591,
+    "lon": 10.768439,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58245",
+    "slug": "lambertseter",
+    "name": "Lambertseter",
+    "lat": 59.87353,
+    "lon": 10.810273,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:3700",
+    "slug": "lijordet",
+    "name": "Lijordet",
+    "lat": 59.941136,
+    "lon": 10.616618,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58362",
+    "slug": "lille-frogner-alle",
+    "name": "Lille Frogner allé",
+    "lat": 59.917923,
+    "lon": 10.712201,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:61604",
+    "slug": "lillevann",
+    "name": "Lillevann",
+    "lat": 59.980583,
+    "lon": 10.652967,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58222",
+    "slug": "lindeberg",
+    "name": "Lindeberg",
+    "lat": 59.93292,
+    "lon": 10.881797,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:61582",
+    "slug": "linderud-t",
+    "name": "Linderud T",
+    "lat": 59.94132,
+    "lon": 10.838868,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58304",
+    "slug": "ljabru",
+    "name": "Ljabru",
+    "lat": 59.853464,
+    "lon": 10.801186,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:63284",
+    "slug": "loren",
+    "name": "Løren",
+    "lat": 59.929501,
+    "lon": 10.791315,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58381",
+    "slug": "majorstuen",
+    "name": "Majorstuen",
+    "lat": 59.929213,
+    "lon": 10.71634,
+    "modes": [
+      "metro",
+      "tram"
+    ],
+    "lineCodes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "12",
+      "15",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58274",
+    "slug": "makrellbekken",
+    "name": "Makrellbekken",
+    "lat": 59.941707,
+    "lon": 10.673722,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58249",
+    "slug": "manglerud",
+    "name": "Manglerud",
+    "lat": 59.897521,
+    "lon": 10.812113,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:61066",
+    "slug": "middelalderparken",
+    "name": "Middelalderparken",
+    "lat": 59.906258,
+    "lon": 10.764453,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6302",
+    "slug": "midtstuen",
+    "name": "Midtstuen",
+    "lat": 59.961323,
+    "lon": 10.68302,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6503",
+    "slug": "montebello",
+    "name": "Montebello",
+    "lat": 59.93483,
+    "lon": 10.666415,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58228",
+    "slug": "mortensrud",
+    "name": "Mortensrud",
+    "lat": 59.849385,
+    "lon": 10.829376,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58244",
+    "slug": "munkelia",
+    "name": "Munkelia",
+    "lat": 59.868208,
+    "lon": 10.813143,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58404",
+    "slug": "nationaltheatret",
+    "name": "Nationaltheatret",
+    "lat": 59.914994,
+    "lon": 10.7322,
+    "modes": [
+      "metro",
+      "tram"
+    ],
+    "lineCodes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "13",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58363",
+    "slug": "niels-juels-gate",
+    "name": "Niels Juels gate",
+    "lat": 59.916332,
+    "lon": 10.715221,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59603",
+    "slug": "nobels-gate",
+    "name": "Nobels gate",
+    "lat": 59.917652,
+    "lon": 10.698248,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:61989",
+    "slug": "nybrua",
+    "name": "Nybrua",
+    "lat": 59.917044,
+    "lon": 10.758279,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15",
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59605",
+    "slug": "nydalen",
+    "name": "Nydalen",
+    "lat": 59.949063,
+    "lon": 10.766848,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58194",
+    "slug": "okern",
+    "name": "Økern",
+    "lat": 59.928324,
+    "lon": 10.806609,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58258",
+    "slug": "olaf-ryes-plass",
+    "name": "Olaf Ryes plass",
+    "lat": 59.922938,
+    "lon": 10.759215,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59575",
+    "slug": "oppsal",
+    "name": "Oppsal",
+    "lat": 59.892749,
+    "lon": 10.840609,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58296",
+    "slug": "oslo-hospital",
+    "name": "Oslo Hospital",
+    "lat": 59.903165,
+    "lon": 10.767495,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58277",
+    "slug": "osteras",
+    "name": "Østerås",
+    "lat": 59.939461,
+    "lon": 10.608845,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6196",
+    "slug": "osthorn",
+    "name": "Østhorn",
+    "lat": 59.956649,
+    "lon": 10.750155,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:61633",
+    "slug": "ovre-slottsgate",
+    "name": "Øvre Slottsgate",
+    "lat": 59.911798,
+    "lon": 10.741697,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "13",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:63808",
+    "slug": "ringstabekk",
+    "name": "Ringstabekk",
+    "lat": 59.920146,
+    "lon": 10.604157,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58269",
+    "slug": "ris",
+    "name": "Ris",
+    "lat": 59.948069,
+    "lon": 10.7046,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:5922",
+    "slug": "rislokka",
+    "name": "Risløkka",
+    "lat": 59.932473,
+    "lon": 10.822987,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59520",
+    "slug": "roa",
+    "name": "Røa",
+    "lat": 59.947382,
+    "lon": 10.643027,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58214",
+    "slug": "rodtvet",
+    "name": "Rødtvet",
+    "lat": 59.950895,
+    "lon": 10.858333,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58217",
+    "slug": "rommen",
+    "name": "Rommen",
+    "lat": 59.962916,
+    "lon": 10.908651,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:5780",
+    "slug": "romsas",
+    "name": "Romsås",
+    "lat": 59.962536,
+    "lon": 10.892702,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58255",
+    "slug": "rosenhoff",
+    "name": "Rosenhoff",
+    "lat": 59.930345,
+    "lon": 10.778199,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59602",
+    "slug": "ruselokka",
+    "name": "Ruseløkka",
+    "lat": 59.912856,
+    "lon": 10.724107,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58248",
+    "slug": "ryen",
+    "name": "Ryen",
+    "lat": 59.895516,
+    "lon": 10.804785,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "4"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58303",
+    "slug": "saeter",
+    "name": "Sæter",
+    "lat": 59.860931,
+    "lon": 10.799759,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58185",
+    "slug": "sandaker-senter",
+    "name": "Sandaker senter",
+    "lat": 59.939031,
+    "lon": 10.768812,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58259",
+    "slug": "schous-plass",
+    "name": "Schous plass",
+    "lat": 59.920837,
+    "lon": 10.759309,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:61268",
+    "slug": "sinsen-t",
+    "name": "Sinsen T",
+    "lat": 59.936978,
+    "lon": 10.781837,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58406",
+    "slug": "sinsenkrysset",
+    "name": "Sinsenkrysset",
+    "lat": 59.938133,
+    "lon": 10.784755,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6024",
+    "slug": "sinsenterrassen",
+    "name": "Sinsenterrassen",
+    "lat": 59.934152,
+    "lon": 10.779141,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6299",
+    "slug": "skadalen",
+    "name": "Skådalen",
+    "lat": 59.961823,
+    "lon": 10.690739,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58365",
+    "slug": "skarpsno",
+    "name": "Skarpsno",
+    "lat": 59.914323,
+    "lon": 10.702414,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58364",
+    "slug": "skillebekk",
+    "name": "Skillebekk",
+    "lat": 59.912814,
+    "lon": 10.711096,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59767",
+    "slug": "skogen",
+    "name": "Skogen",
+    "lat": 59.975188,
+    "lon": 10.647557,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58223",
+    "slug": "skoyenasen",
+    "name": "Skøyenåsen",
+    "lat": 59.89966,
+    "lon": 10.836596,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58227",
+    "slug": "skullerud",
+    "name": "Skullerud",
+    "lat": 59.866685,
+    "lon": 10.840032,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58268",
+    "slug": "slemdal",
+    "name": "Slemdal",
+    "lat": 59.951011,
+    "lon": 10.694123,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58273",
+    "slug": "smestad",
+    "name": "Smestad",
+    "lat": 59.937306,
+    "lon": 10.684011,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58190",
+    "slug": "sofienberg",
+    "name": "Sofienberg",
+    "lat": 59.922996,
+    "lon": 10.771759,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59705",
+    "slug": "sognsvann",
+    "name": "Sognsvann",
+    "lat": 59.96732,
+    "lon": 10.73375,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58289",
+    "slug": "solli",
+    "name": "Solli",
+    "lat": 59.914768,
+    "lon": 10.717914,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "13",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58300",
+    "slug": "sorli",
+    "name": "Sørli",
+    "lat": 59.875058,
+    "lon": 10.787877,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58298",
+    "slug": "sportsplassen",
+    "name": "Sportsplassen",
+    "lat": 59.886077,
+    "lon": 10.774136,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58271",
+    "slug": "steinerud",
+    "name": "Steinerud",
+    "lat": 59.939141,
+    "lon": 10.704374,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58261",
+    "slug": "stensgata",
+    "name": "Stensgata",
+    "lat": 59.929552,
+    "lon": 10.733015,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:61444",
+    "slug": "storgata",
+    "name": "Storgata",
+    "lat": 59.913938,
+    "lon": 10.75142,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15",
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58195",
+    "slug": "storo",
+    "name": "Storo",
+    "lat": 59.94527,
+    "lon": 10.778637,
+    "modes": [
+      "metro",
+      "tram"
+    ],
+    "lineCodes": [
+      "4",
+      "5",
+      "12",
+      "15",
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:4029",
+    "slug": "stortinget",
+    "name": "Stortinget",
+    "lat": 59.913437,
+    "lon": 10.743256,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58358",
+    "slug": "stortorvet",
+    "name": "Stortorvet",
+    "lat": 59.912961,
+    "lon": 10.745452,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "17",
+      "18",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58219",
+    "slug": "stovner",
+    "name": "Stovner",
+    "lat": 59.961987,
+    "lon": 10.922846,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59573",
+    "slug": "tasen",
+    "name": "Tåsen",
+    "lat": 59.952802,
+    "lon": 10.751501,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58288",
+    "slug": "thune",
+    "name": "Thune",
+    "lat": 59.921848,
+    "lon": 10.687656,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "13"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59833",
+    "slug": "tinghuset",
+    "name": "Tinghuset",
+    "lat": 59.915183,
+    "lon": 10.741268,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58256",
+    "slug": "torshov",
+    "name": "Torshov",
+    "lat": 59.934992,
+    "lon": 10.76489,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59604",
+    "slug": "toyen",
+    "name": "Tøyen",
+    "lat": 59.915031,
+    "lon": 10.776247,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6197",
+    "slug": "trosterud",
+    "name": "Trosterud",
+    "lat": 59.927175,
+    "lon": 10.865165,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:60322",
+    "slug": "tullinlokka",
+    "name": "Tullinløkka",
+    "lat": 59.916817,
+    "lon": 10.737197,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18",
+      "19"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59517",
+    "slug": "tveita-t",
+    "name": "Tveita T",
+    "lat": 59.913948,
+    "lon": 10.842264,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6509",
+    "slug": "ullernasen",
+    "name": "Ullernåsen",
+    "lat": 59.931488,
+    "lon": 10.655979,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "2",
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58265",
+    "slug": "ulleval-stadion",
+    "name": "Ullevål stadion",
+    "lat": 59.947956,
+    "lon": 10.732505,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58263",
+    "slug": "ulleval-sykehus",
+    "name": "Ullevål sykehus",
+    "lat": 59.936013,
+    "lon": 10.732532,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58224",
+    "slug": "ulsrud",
+    "name": "Ulsrud",
+    "lat": 59.889627,
+    "lon": 10.849372,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "3"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6340",
+    "slug": "universitetet-blindern",
+    "name": "Universitetet Blindern",
+    "lat": 59.94205,
+    "lon": 10.72481,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58215",
+    "slug": "veitvet",
+    "name": "Veitvet",
+    "lat": 59.94491,
+    "lon": 10.845587,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58218",
+    "slug": "vestli",
+    "name": "Vestli",
+    "lat": 59.972383,
+    "lon": 10.92887,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:6298",
+    "slug": "vettakollen",
+    "name": "Vettakollen",
+    "lat": 59.959888,
+    "lon": 10.695705,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58355",
+    "slug": "vigelandsparken",
+    "name": "Vigelandsparken",
+    "lat": 59.924564,
+    "lon": 10.708159,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "12",
+      "15"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58270",
+    "slug": "vinderen",
+    "name": "Vinderen",
+    "lat": 59.942425,
+    "lon": 10.704643,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:58266",
+    "slug": "voksenkollen",
+    "name": "Voksenkollen",
+    "lat": 59.980057,
+    "lon": 10.664729,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59763",
+    "slug": "voksenlia",
+    "name": "Voksenlia",
+    "lat": 59.967027,
+    "lon": 10.654611,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "1"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:59704",
+    "slug": "vollebekk",
+    "name": "Vollebekk",
+    "lat": 59.936139,
+    "lon": 10.831954,
+    "modes": [
+      "metro"
+    ],
+    "lineCodes": [
+      "4",
+      "5"
+    ],
+    "linked": []
+  },
+  {
+    "id": "NSR:StopPlace:60179",
+    "slug": "welhavens-gate",
+    "name": "Welhavens gate",
+    "lat": 59.921511,
+    "lon": 10.730075,
+    "modes": [
+      "tram"
+    ],
+    "lineCodes": [
+      "17",
+      "18",
+      "19"
+    ],
+    "linked": []
+  }
+]

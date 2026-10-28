@@ -1,0 +1,400 @@
+{
+  "id": "NSR:StopPlace:58256",
+  "slug": "torshov",
+  "name": "Torshov",
+  "lat": 59.934992,
+  "lon": 10.76489,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "15",
+    "18"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6382"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58257",
+        "next": "NSR:StopPlace:58185"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58185",
+        "next": "NSR:StopPlace:58257"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58185",
+        "next": "NSR:StopPlace:58257"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58257",
+        "next": "NSR:StopPlace:58185"
+      }
+    ],
+    "18": [
+      {
+        "directionType": "inbound",
+        "towards": "Grefsen stasjon",
+        "prev": "NSR:StopPlace:58257",
+        "next": "NSR:StopPlace:58185"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58185",
+        "next": "NSR:StopPlace:58257"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 13,
+    "majorstuen": 31
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58256",
+      "name": "Torshov",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        },
+        {
+          "publicCode": "20",
+          "name": "Skøyen - Galgeberg",
+          "lineId": "RUT:Line:20"
+        },
+        {
+          "publicCode": "FB1",
+          "name": "Majorstuen via Torshov-Sagene",
+          "lineId": "NBU:Line:a7cafc59-feaf-4e61-9fa1-b7dce4ffe970"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6382",
+        "name": "Torshov",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11727",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11728",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:torshovdalen",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "lat": 59.934963,
+      "lon": 10.776707,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19392835",
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      },
+      "summary": {
+        "nb": "Torshovdalen er et parkområde i Oslo. Parken ligger mellom Torshov i vest, Sinsen i øst (Trondheimsveien), Rosenhoff og Rodeløkka i sørøst og sør (Mailundveien) og Gjøvikbanen i nord, og har skateboardramp i den sydlige delen. Parken forvaltes av Bymiljøetaten i Oslo kommune, som også preparerer langrennsløype om vinteren."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Torshovdalen4.JPG/640px-Torshovdalen4.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934992,
+        "lon": 10.771529
+      },
+      "walk": {
+        "durationS": 423,
+        "distanceM": 462,
+        "polyline": "s`ylJqou`AEE@EBQGGAA@G^qC?CAG@CDU@M@E@A??@CPoA?C?EACCCACAGGi@?E?EDWBS@EBCNKDC@?D@@?@?@Cf@sD?E?C@A?CDUBS?EBEF_AFaCCMCSs@cEKDKBKASEG[[iBI]",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:arbeidermuseet",
+      "name": {
+        "nb": "Arbeidermuseet",
+        "en": "Labour Museum"
+      },
+      "category": "museum",
+      "lat": 59.930892,
+      "lon": 10.75576,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q13577872",
+      "website": "https://www.oslomuseum.no/arbeidermuseet/",
+      "wikipedia": {
+        "nb": "Arbeidermuseet (Oslo)"
+      },
+      "summary": {
+        "nb": "Arbeidermuseet er en avdeling av Oslo Museum som ligger på Sagene. Museet åpnet i juni 2013 og viser industri- og arbeiderhistorie fra områdene langs Akerselva, som var svært viktig i utviklingen av norsk industri fra 1840-årene."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Arbeidermuseet_Oslo.JPG/640px-Arbeidermuseet_Oslo.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 727,
+        "distanceM": 885,
+        "polyline": "s`ylJqou`ADD?DAFAJDB@D@B@Dd@b@r@p@HHLJBDFFB?JJDHBDBAD@VTBB@D?FAHAFWjC?F?D@DAJAROrACFADCDCJAHABFJHNHJ`@n@v@fAv@hA~@nAj@v@BBx@NBB@H@?JBPDB@@ABED?j@L\\LNLPPDLHn@FV@H@F@FTn@HRFFFHHJPPHJh@zAD?ARGjADJA@GnA?F?H?F@F@LBPDTBP?@@N@H?L?R?V?ROPKPGNINCD@FHKVi@@AFDBB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:birkelunden",
+      "name": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "category": "park",
+      "lat": 59.92635,
+      "lon": 10.760125,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q4916412",
+      "wikipedia": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "summary": {
+        "nb": "Birkelunden er en park på Grünerløkka i Oslo. Parken, Grünerløkka skole, Paulus kirke og 15 omkringliggende kvartaler ble fredet i 2006.",
+        "en": "Birkelunden is a park placed centrally in the Grünerløkka borough of Oslo, Norway. It is formed as a rectangle, more or less like a city block."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Birkelunden_%28121153%29.jpg/640px-Birkelunden_%28121153%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.927113,
+        "lon": 10.760999
+      },
+      "walk": {
+        "durationS": 805,
+        "distanceM": 966,
+        "polyline": "s`ylJqou`ADD?DAFAJDB@D@B@Dd@b@r@p@HHLJBDFFB?JJDHBDBAD@VTBB@D?FB@F@FBBB@C@A@?B?lBvABD?B@?FDFD@@@?|BdBBD@@DDFD@@B?x@l@@B@B@F@@HFJJ@@@EB?@@|@n@BD@@FDFF@@B?zBdBXTHDLHBBBD@@FBFB@@BAD?d@@~CClBAl@A@?@??@@@?@B?HAFAB???@A?A@A@?@?NAzAAJ?H?lAAB@@@@D@D?`@@@F@D@@?AY?M@G@C@A@ADAB?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/252260743",
+      "name": {
+        "nb": "Torshovparken"
+      },
+      "category": "park",
+      "lat": 59.935297,
+      "lon": 10.77098,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19392836",
+      "wikipedia": {
+        "nb": "Torshovparken",
+        "en": "Torshovparken"
+      },
+      "summary": {
+        "nb": "Torshovparken er en stor park på Torshov i Oslo, anlagt på 1920-tallet som en del av Torshovbyen, boligområdet som ble bygget ut i kommunal regi.",
+        "en": "Torshovparken is a large park located in Torshov, Oslo, Norway, that was established in the 1920s as part of Torshovbyen, a residential area developed by the municipality."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Torshovparken1.JPG/640px-Torshovparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934992,
+        "lon": 10.768683
+      },
+      "walk": {
+        "durationS": 263,
+        "distanceM": 273,
+        "polyline": "s`ylJqou`AEE@EBQGGAA@G^qC?CAG@CDU@M@E@A??@CPoA?C?EACCCACAGGi@?E?EDWCAQMGGJ{@BGBEOi@LoABQFe@DYm@c@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/25999030",
+      "name": {
+        "nb": "Hallénparken"
+      },
+      "category": "park",
+      "lat": 59.930985,
+      "lon": 10.763377,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17781948",
+      "wikipedia": {
+        "nb": "Hallénparken"
+      },
+      "summary": {
+        "nb": "Hallénparken er en park i bydel Grünerløkka, i Oslo, rett syd for ring 2. Den delen av parken som vender mot krysset Christian Michelsens gate / Vogts gate heter Johan Sverdrups plass."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Hallenparken_sett_mot_krysset_Vogts_gate_Christian_Michelsens_gate.jpg/640px-Hallenparken_sett_mot_krysset_Vogts_gate_Christian_Michelsens_gate.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.931792,
+        "lon": 10.764666
+      },
+      "walk": {
+        "durationS": 400,
+        "distanceM": 487,
+        "polyline": "s`ylJqou`ADD@E?E@E?ELH|@r@p@l@x@v@`@c@NaB@@FD@???HDB@LmAZ}CzBjBJHLNVU@IFEDGBAFGHj@^`CBF?@@DBP@J@D@GDMLWLm@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4648305",
+      "name": {
+        "nb": "Myraløkka"
+      },
+      "category": "park",
+      "lat": 59.935354,
+      "lon": 10.758464,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19370963",
+      "wikipedia": {
+        "nb": "Myraløkka"
+      },
+      "summary": {
+        "nb": "Myraløkka er en park langs Akerselva på Sagene i Oslo, med en lang historie som friområde."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Myralokka.JPG/640px-Myralokka.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934992,
+        "lon": 10.76082
+      },
+      "walk": {
+        "durationS": 293,
+        "distanceM": 352,
+        "polyline": "s`ylJqou`ADD?DAFAJDB@D@B@Dd@b@r@p@HHLJBDFFB?JJDHBDBAD@VTBB@D?FAHAFWjC?F?D@DAJAROrACFADCDCJAHABFJOl@CHEDIDA@wBlA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/147978315",
+      "name": {
+        "nb": "Bjølsenparken"
+      },
+      "category": "park",
+      "lat": 59.940759,
+      "lon": 10.756004,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11961272",
+      "wikipedia": {
+        "nb": "Bjølsenparken"
+      },
+      "summary": {
+        "nb": "Bjølsenparken er en park på Bjølsen i bydel Sagene i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Bjolsenparken1.JPG/640px-Bjolsenparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.939587,
+        "lon": 10.757773
+      },
+      "walk": {
+        "durationS": 687,
+        "distanceM": 717,
+        "polyline": "s`ylJqou`ADD?DAFAJA???G^Mx@[dCc@xC?F?B@@@??BBL?B@DBJ?DWVCDADCBGHGDABAAA?CBqAxAe@d@OPMJIHKJIHk@n@a@b@s@v@OLCFCDABEJAJ?J?LA?I@I@A?AGCEACCAC@C@??]RiBlAABAD?BE?EDGDA?CAE@oA|@GDEJCLAJANAJC|A?JC@A@C?GBC?C@ABAEABe@LEDG??VETCL",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/113519280",
+      "name": {
+        "nb": "Sagene kirke",
+        "en": "Sagene Church"
+      },
+      "category": "church",
+      "lat": 59.937645,
+      "lon": 10.753121,
+      "score": 10,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q2113262",
+      "wikipedia": {
+        "nb": "Sagene kirke",
+        "en": "Sagene Church"
+      },
+      "summary": {
+        "nb": "Sagene kirke er sognekirke for Sagene og Iladalen menighet i Nordre Aker prosti i Oslo bispedømme i Oslo i Bydel Sagene i Oslo kommune. Den ligger på Sagene syd for Arendalsgata med adresse Dannevigsveien 17. Øst for kirken dekker Sagene kirkepark hele kvartalet. Kirken ligger nær den gamle grensen mellom Kristiania og Aker i byens ytterkant mot nord. Fra den stod ferdig ble kirken i mange år omtalt også som Nordkantkatedralen, på samme måte som Grønland kirke ble omtalt som Østkantkatedralen.",
+        "en": "Sagene Church is located in Oslo, Norway. The church is one of the most rugged and prominent in Oslo. The church was built in gothic revival style and it was consecrated in 1891. It was designed by architect Christian Fürst in neo-Gothic style. There are 600 seats."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Sagene_kirke2.JPG/640px-Sagene_kirke2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 765,
+        "distanceM": 821,
+        "polyline": "s`ylJqou`ADD?DAFAJA???G^Mx@[dCc@xC?F?B@@@??BBL?B@DBJ?DWVCDADCBGHGDABAAA?CBMNcAhAe@d@OPMJIHKJIHk@n@a@b@s@v@OLCFCDABEJAJ?J?L?dF?fE?`@?F?|@?b@?X?jB?~@AH@F?J?@AJ?HABA@?BAJ?F?F?D]nD?DABAB?DAD?B@B?B?DCNAPAFA@A@AB?BO`B\\\\YhB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "id": "NSR:StopPlace:58257",
+  "slug": "biermanns-gate",
+  "name": "Biermanns gate",
+  "lat": 59.930444,
+  "lon": 10.761052,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "15",
+    "18"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6456"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58357",
+        "next": "NSR:StopPlace:58256"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58256",
+        "next": "NSR:StopPlace:58357"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58256",
+        "next": "NSR:StopPlace:58357"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58357",
+        "next": "NSR:StopPlace:58256"
+      }
+    ],
+    "18": [
+      {
+        "directionType": "inbound",
+        "towards": "Grefsen stasjon",
+        "prev": "NSR:StopPlace:58357",
+        "next": "NSR:StopPlace:58256"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58256",
+        "next": "NSR:StopPlace:58357"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 11,
+    "majorstuen": 29
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58257",
+      "name": "Biermanns gate",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:6387",
+      "name": "Vogts gate",
+      "distanceM": 221,
+      "lines": [
+        {
+          "publicCode": "28",
+          "name": "Fornebu vest - Økern T",
+          "lineId": "RUT:Line:28"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:6449",
+      "name": "Sannergata",
+      "distanceM": 291,
+      "lines": [
+        {
+          "publicCode": "21",
+          "name": "Tjuvholmen - Helsfyr T",
+          "lineId": "RUT:Line:21"
+        },
+        {
+          "publicCode": "26",
+          "name": "Ellingsrudåsen - Bislett",
+          "lineId": "RUT:Line:26"
+        },
+        {
+          "publicCode": "FB5",
+          "name": "Oslo sentrum via Helsfyr-Hasle-Bislett",
+          "lineId": "NBU:Line:a7c15243-8873-4aee-a8b4-8d22e8ad31dc"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6456",
+        "name": "Biermanns gate",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11867",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11866",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:arbeidermuseet",
+      "name": {
+        "nb": "Arbeidermuseet",
+        "en": "Labour Museum"
+      },
+      "category": "museum",
+      "lat": 59.930892,
+      "lon": 10.75576,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q13577872",
+      "website": "https://www.oslomuseum.no/arbeidermuseet/",
+      "wikipedia": {
+        "nb": "Arbeidermuseet (Oslo)"
+      },
+      "summary": {
+        "nb": "Arbeidermuseet er en avdeling av Oslo Museum som ligger på Sagene. Museet åpnet i juni 2013 og viser industri- og arbeiderhistorie fra områdene langs Akerselva, som var svært viktig i utviklingen av norsk industri fra 1840-årene."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Arbeidermuseet_Oslo.JPG/640px-Arbeidermuseet_Oslo.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 337,
+        "distanceM": 372,
+        "polyline": "edxlJowt`A??AVSzCY~DAJ@J?NBTWb@GHCFATAPIrAGjBA@GnA?F?H?F@F@LBPDTBP?@@N@H?L?R?V?ROPKPGNINCD@FHKVi@@AFDBB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:birkelunden",
+      "name": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "category": "park",
+      "lat": 59.92635,
+      "lon": 10.760125,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q4916412",
+      "wikipedia": {
+        "nb": "Birkelunden",
+        "en": "Birkelunden"
+      },
+      "summary": {
+        "nb": "Birkelunden er en park på Grünerløkka i Oslo. Parken, Grünerløkka skole, Paulus kirke og 15 omkringliggende kvartaler ble fredet i 2006.",
+        "en": "Birkelunden is a park placed centrally in the Grünerløkka borough of Oslo, Norway. It is formed as a rectangle, more or less like a city block."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Birkelunden_%28121153%29.jpg/640px-Birkelunden_%28121153%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.927113,
+        "lon": 10.760999
+      },
+      "walk": {
+        "durationS": 350,
+        "distanceM": 405,
+        "polyline": "edxlJowt`A??AVFB@@BAD?d@@~CClBAl@A@?@??@@@?@B?HAFAB???@A?A@A@?@?NAzAAJ?H?lAAB@@@@D@D?`@@@F@D@@?AY?M@G@C@A@ADAB?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:sofienbergparken",
+      "name": {
+        "nb": "Sofienbergparken",
+        "en": "Sofienberg Park"
+      },
+      "category": "park",
+      "lat": 59.923134,
+      "lon": 10.764245,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q12001727",
+      "wikipedia": {
+        "nb": "Sofienbergparken",
+        "en": "Sofienberg Park"
+      },
+      "summary": {
+        "nb": "Sofienbergparken er en 74 mål stor park i bydel Grünerløkka i Oslo. Sofienberg kirke ligger i parken.",
+        "en": "Sofienberg Park is a large park in the Grünerløkka district of Oslo, Norway, covering an area of 74 ha."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Sofienbergparken_%287._september_2018%29.jpg/640px-Sofienbergparken_%287._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.924406,
+        "lon": 10.761347
+      },
+      "walk": {
+        "durationS": 571,
+        "distanceM": 687,
+        "polyline": "edxlJowt`A?E?E@UHBB@@DB@F?@?|@A`BA@ABC@?H?F?@?@B@@dBAf@ABA@A@?JAHA@??@@@@@@@??B@PA|ACH@J?lAABA@A@C@?H?F?@?BB@BF?fAA@A??@AB?F?DAB??B@?b@?HAh@?@A@C@?F?D?B?BB@@jAA@A@A@AB?HAF?B?@B@@@@jDGD?B?HAN??G??",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:torshovdalen",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "lat": 59.934963,
+      "lon": 10.776707,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19392835",
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      },
+      "summary": {
+        "nb": "Torshovdalen er et parkområde i Oslo. Parken ligger mellom Torshov i vest, Sinsen i øst (Trondheimsveien), Rosenhoff og Rodeløkka i sørøst og sør (Mailundveien) og Gjøvikbanen i nord, og har skateboardramp i den sydlige delen. Parken forvaltes av Bymiljøetaten i Oslo kommune, som også preparerer langrennsløype om vinteren."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Torshovdalen4.JPG/640px-Torshovdalen4.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.931074,
+        "lon": 10.771529
+      },
+      "walk": {
+        "durationS": 668,
+        "distanceM": 754,
+        "polyline": "edxlJowt`A?E?E@URgCDq@?ICGEIBk@Jq@RyCRsCBOF}@B]@EJu@F]BGyAeAa@Y@c@AE?C?AEIJULa@DK@CFQ~@iCPm@DODMn@cB@I?G?S?C?CAEGOIQCOCMmA}BAEKSGOAAaBmDSs@SaAOu@I}@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:olaf-ryes-plass",
+      "name": {
+        "nb": "Olaf Ryes plass",
+        "en": "Olaf Ryes plass"
+      },
+      "category": "park",
+      "lat": 59.922882,
+      "lon": 10.758259,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q4993079",
+      "wikipedia": {
+        "nb": "Olaf Ryes plass (Oslo)",
+        "en": "Olaf Ryes plass"
+      },
+      "summary": {
+        "nb": "Olaf Ryes plass er en plass på Grünerløkka i Oslo, oppkalt etter den dansk-norske offiseren og idrettsmannen Olaf Rye.",
+        "en": "Olaf Ryes plass is a square and park placed centrally in the Grünerløkka borough of Oslo, Norway. It is more or less square in shape."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Olaf_Ryes_plass.JPG/640px-Olaf_Ryes_plass.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 753,
+        "distanceM": 939,
+        "polyline": "edxlJowt`A??AVFB@@BAD?d@@~CClBAl@A@?@??@@@?@B?HAFAB???@A?A@A@?@?NAzAAJ?H?lAAB@@@@D@D?`@@@F@D@@?B?LAD?BBDJTf@Xt@@C@?@?@?@@?B@B?B?BABXr@P?B?n@AB?H?N?PAD?XAd@lAL`@F?F?D?B?B@zCIB?D?BA@?D?D?@?@?D@@?dBAtAAJ?@?H??F?L?D?D?RF@B?FHNXTh@b@`A?DAD?D@D@DBB@@@?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:mathallen",
+      "name": {
+        "nb": "Mathallen",
+        "en": "Mathallen Food Hall"
+      },
+      "category": "attraction",
+      "lat": 59.923417,
+      "lon": 10.751677,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Mathallen Oslo",
+        "en": "Mathallen Oslo"
+      },
+      "summary": {
+        "nb": "Mathallen Oslo er et matmarked i en tidligere industrihall på Vulkan ved nedre Akerselva i Oslo. Hallen ble reist i 1908 for Vulkan Jernstøperi. Stedet hadde ved åpningen 2. oktober 2012 drøyt 30 matbutikker, serveringssteder og andre bedrifter. Mathallen arrangerer konferanser, kurs, messer, konkurranser, festivaler og andre arrangementer som handler om mat og drikke. Adressen er Vulkan 5."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Mathallen_Oslo_entrance_south.JPG/640px-Mathallen_Oslo_entrance_south.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 973,
+        "distanceM": 1192,
+        "polyline": "edxlJowt`A??AVFB@@BAD?d@@~CClBAl@A@?@??@@@?@@B?BLxDBz@?H@T@V?L?B?DAB?F?L?J?F@@@D@F@LDvI@`@?R?R@?D?DAD?B??T?ZBdDL@LBLFNHPLPLTPLLLL@DBHLFJHLJHLHNDLFTDVRdAj@xCDRDJDHFFHDHDD@zAz@FDn@\\HDLJHLPXFJHHFDFBH@H@JABHBDBDJBHBR@NBHBF?@?D?D?D?J@P@h@JL@D@b@Hv@JD@@iBFA@?FE?~ADL@BBFBF@D",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:rodelokka",
+      "name": {
+        "nb": "Rodeløkka",
+        "en": "Rodeløkka"
+      },
+      "category": "attraction",
+      "lat": 59.9244,
+      "lon": 10.7689,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Rodeløkka",
+        "en": "Rodeløkka"
+      },
+      "summary": {
+        "nb": "Rodeløkka er et strøk i bydel Grünerløkka, i indre by i Oslo. Freia produserer melkesjokoladen sin der.",
+        "en": "Rodeløkka is a neighborhood in Grünerløkka in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Rodel%C3%B8kka_%287._september_2018%29.jpg/640px-Rodel%C3%B8kka_%287._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 953,
+        "distanceM": 1153,
+        "polyline": "edxlJowt`A?E?E@URgCDq@?ICGEIBk@Jq@RyCRsCBOFAJLJsABGL?DA`@@b@CB?L?H?D?n@Ch@?D@@B?@@B@?HAHA@???@CDCz@AzDE@@@B?G?S?O?IAcA?A@C?AB?F?FA@??M?C@CLi@Ja@Py@BEBC@ADMDMBGDO@IRk@DK~@}BJWDM?C@GDKDKz@{BDEAAGKFOd@n@f@r@Z^z@bAjArABQ@A@?@@RKPM@E@?BCDCBCf@]d@[HEDI@G?KEKEI[}@@ABGu@qB",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:toyenparken",
+      "name": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "category": "park",
+      "lat": 59.919963,
+      "lon": 10.778272,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q7862388",
+      "wikipedia": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "summary": {
+        "nb": "Tøyenparken er en 93 mål stor park langs et høydedrag på Tøyen i Oslo. Fra 2014 arrangeres Øyafestivalen i parken.",
+        "en": "Tøyen Park is a park in Oslo, Norway. It is located to the north-east of the old Munch Museum and neighbours the University of Oslo Botanical Gardens."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Toyenparken_med_Bellevue.JPG/640px-Toyenparken_med_Bellevue.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.924348,
+        "lon": 10.775017
+      },
+      "walk": {
+        "durationS": 987,
+        "distanceM": 1158,
+        "polyline": "edxlJowt`A?E?E@URgCDq@?ICGEIBk@Jq@RyCRsCBOF}@B]@EJu@F]BG@G\\mADO@EDGBGBGRi@b@qAt@wBLg@?CDG@G@C?ABGBI@CFDBMN_@X{@Xu@b@oAJ]DIBI~AqE?C@C?E@ABGBI@A??@?Rg@n@iBNa@DOr@mBh@{AXw@?E@C@GBIBE?@BEhA_DTs@Vq@BFBFDFBF@CBEBG@EDE?IBGlAgDTm@@?@@BI@E@C@C@CDMVh@@}@vBRAd@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/25999030",
+      "name": {
+        "nb": "Hallénparken"
+      },
+      "category": "park",
+      "lat": 59.930985,
+      "lon": 10.763377,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17781948",
+      "wikipedia": {
+        "nb": "Hallénparken"
+      },
+      "summary": {
+        "nb": "Hallénparken er en park i bydel Grünerløkka, i Oslo, rett syd for ring 2. Den delen av parken som vender mot krysset Christian Michelsens gate / Vogts gate heter Johan Sverdrups plass."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Hallenparken_sett_mot_krysset_Vogts_gate_Christian_Michelsens_gate.jpg/640px-Hallenparken_sett_mot_krysset_Vogts_gate_Christian_Michelsens_gate.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.930444,
+        "lon": 10.762089
+      },
+      "walk": {
+        "durationS": 86,
+        "distanceM": 81,
+        "polyline": "edxlJowt`A?E?E@UIEA?BGF{@NqBEKKC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4648305",
+      "name": {
+        "nb": "Myraløkka"
+      },
+      "category": "park",
+      "lat": 59.935354,
+      "lon": 10.758464,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19370963",
+      "wikipedia": {
+        "nb": "Myraløkka"
+      },
+      "summary": {
+        "nb": "Myraløkka er en park langs Akerselva på Sagene i Oslo, med en lang historie som friområde."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Myralokka.JPG/640px-Myralokka.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.933361,
+        "lon": 10.76082
+      },
+      "walk": {
+        "durationS": 424,
+        "distanceM": 424,
+        "polyline": "edxlJowt`A??AVGCAACECCMIIEYU{BeBC?AAGGGEAACE}@o@AAC?ADAAKKIGAAAGACACy@m@C?CFWrAwAnH?ACEIGACABA?ADAHy@gA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4709618",
+      "name": {
+        "nb": "Iladalen park",
+        "en": "Iladalen Park"
+      },
+      "category": "park",
+      "lat": 59.931534,
+      "lon": 10.752272,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11976942",
+      "wikipedia": {
+        "nb": "Iladalen park (Oslo)",
+        "en": "Iladalen Park (Oslo)"
+      },
+      "summary": {
+        "nb": "Iladalen park er en park i funksjonalistisk stil på Ila i Oslo, ferdigstilt i 1948.",
+        "en": "Iladalen Park is a park in the borough of Iladalen in the district of Sagene in Oslo, Norway. The 27.9-acre park was established in 1948. The park is the centerpiece of the overall planned residential facility in Iladalen, and is the city's best preserved park in the functionalist style, with simplicity and objectivity in design."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Iladalen_park2.JPG/640px-Iladalen_park2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.930444,
+        "lon": 10.754156
+      },
+      "walk": {
+        "durationS": 566,
+        "distanceM": 662,
+        "polyline": "edxlJowt`A??AVSzCY~DAJ@J?NBTWb@GHCFATAPIrAGjBA@GnA?F?H?F@F@LBPDTBP?@@N@H?L?R?V?R@H@FBHHHBITJ`@R^TXVLRRb@Vj@Rf@DHFHd@pAb@rA@H?b@@FC?GCKCCAEAa@Om@Wy@[ALo@W",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/252260743",
+      "name": {
+        "nb": "Torshovparken"
+      },
+      "category": "park",
+      "lat": 59.935297,
+      "lon": 10.77098,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19392836",
+      "wikipedia": {
+        "nb": "Torshovparken",
+        "en": "Torshovparken"
+      },
+      "summary": {
+        "nb": "Torshovparken er en stor park på Torshov i Oslo, anlagt på 1920-tallet som en del av Torshovbyen, boligområdet som ble bygget ut i kommunal regi.",
+        "en": "Torshovparken is a large park located in Torshov, Oslo, Norway, that was established in the 1920s as part of Torshovbyen, a residential area developed by the municipality."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Torshovparken1.JPG/640px-Torshovparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934196,
+        "lon": 10.768683
+      },
+      "walk": {
+        "durationS": 695,
+        "distanceM": 713,
+        "polyline": "edxlJowt`A?E?E@UIEA??@A?C?iDiCAC?AACA?GEEECACAUQc@[AEAC?C@IAAKKKKCAAHADC?C?g@a@ECAEE?KKIEAABGNcAP{ADY@QUaBCOo@iEYoBs@yECWAEACAAa@YCABU@I@MBQKECCGEAAE@s@e@yAeA]WACAC??CAGED[",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

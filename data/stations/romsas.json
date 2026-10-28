@@ -1,0 +1,154 @@
+{
+  "id": "NSR:StopPlace:5780",
+  "slug": "romsas",
+  "name": "Romsås",
+  "lat": 59.962536,
+  "lon": 10.892702,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5780"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58217",
+        "next": "NSR:StopPlace:58216"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58216",
+        "next": "NSR:StopPlace:58217"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58216",
+        "next": "NSR:StopPlace:58217"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58217",
+        "next": "NSR:StopPlace:58216"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 34,
+    "majorstuen": 29
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5780",
+        "name": "Romsås",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10603",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10602",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/95200947",
+      "name": {
+        "nb": "Røverkollen naturreservat",
+        "en": "Røverkollen"
+      },
+      "category": "park",
+      "lat": 59.974543,
+      "lon": 10.894921,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11998942",
+      "wikipedia": {
+        "nb": "Røverkollen"
+      },
+      "summary": {
+        "nb": "Røverkollen er en høyde på grensa mellom Oslo og Nittedal kommuner. Toppen på 404 meter over havet ligger i Oslo, ca. 70 meter sør for kommunegrensa. Her står en TV-mast som et landemerke godt synlig i vid omkrets. Like nord for TV-masta står et utsiktstårn i betong, med utvendig vindeltrapp og takoverbygg."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Groruddalen_Roms%C3%A5s.jpg/640px-Groruddalen_Roms%C3%A5s.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.965468,
+        "lon": 10.892702
+      },
+      "walk": {
+        "durationS": 754,
+        "distanceM": 566,
+        "polyline": "sl~lJonnaA\\lD@AEcADC??@A@C?A@C?A?C?A?CWeCa@TC@E@G?G@C@Q?u@??EK?????F??DB??i@?A?YE[KAk@?G?{@?Y?A?Q?A^?rA?LEC?JCFADEJU^CFCFAF?FMMEIKQEO?IAK[FWHm@Bg@C]S[]GH",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/45981946",
+      "name": {
+        "nb": "Romsås kirke",
+        "en": "Romsås Church"
+      },
+      "category": "church",
+      "lat": 59.969347,
+      "lon": 10.89033,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10361167",
+      "wikipedia": {
+        "nb": "Romsås kirke",
+        "en": "Romsås Church"
+      },
+      "summary": {
+        "nb": "Romsås kirke er en kirke i Grorud menighet i Groruddalen prosti i Oslo bispedømme i Bydel Grorud i Oslo kommune. Kirken er bygget i 1995 etter at den tidligere kirken brant i 1986.",
+        "en": "Romsås Church is a church in Oslo, Norway. The church is built of granite and yellow brick in a postmodern style and was consecrated in 1995. The former wooden church that stood on the same site burned to the ground in 1986."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/2007-11-04_Roms%C3%A5s_kirke.jpg/640px-2007-11-04_Roms%C3%A5s_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1229,
+        "distanceM": 1134,
+        "polyline": "sl~lJonnaA\\lD@AEcADC??@A@C?A@C?A?C?A?CWeCa@TC@E@G?G@C@Q?u@??EK?????F??DB??k@?G?QE[KAk@?G?{@?Y?A?Q?A^?hA?H?LEC?JCFADEJU^CFCFAF?FAH?J?H?v@?D?DA@A@DJIDy@r@IHa@\\SPUTKFGDC@C@C?m@?O?E?M?_@?E?E@A@C@EBSJEDE@C?I?U?CAC?CCACAEAEAE?GGm@AEAECECCAAAAA?OCUC[EMCc@GQCSEi@IKCGCGEKIGGi@m@IIABYl@A?GJAXCr@EhACr@Cd@OEKCICIGEAA???ALOIQIMISQQOIGIr@ICYQ]D",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

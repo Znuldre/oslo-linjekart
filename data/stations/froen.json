@@ -1,0 +1,331 @@
+{
+  "id": "NSR:StopPlace:6233",
+  "slug": "froen",
+  "name": "Frøen",
+  "lat": 59.934582,
+  "lon": 10.709103,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6233"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58381",
+        "next": "NSR:StopPlace:58271"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58271",
+        "next": "NSR:StopPlace:58381"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 7,
+    "majorstuen": 2
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:6235",
+      "name": "Frøensalléen",
+      "distanceM": 111,
+      "lines": [
+        {
+          "publicCode": "1N",
+          "name": "Jernbanetorget - Ullerntoppen",
+          "lineId": "RUT:Line:3901"
+        },
+        {
+          "publicCode": "46",
+          "name": "Majorstuen - Ullerntoppen",
+          "lineId": "RUT:Line:46"
+        },
+        {
+          "publicCode": "46X",
+          "name": "Ullerntoppen - Voksen skog Holmenkollstafetten",
+          "lineId": "RUT:Line:2046"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6233",
+        "name": "Frøen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11439",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11441",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:barnekunstmuseet",
+      "name": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "category": "museum",
+      "lat": 59.935755,
+      "lon": 10.711526,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q11960263",
+      "website": "https://barnekunst.no/",
+      "wikipedia": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "summary": {
+        "nb": "Det Internasjonale barnekunstmuseet er et museum for barnetegninger og annen barnekunst. Museets oppgave er å samle, bevare og formidle kunst fra hele verden laget av barn og unge opptil 18 år."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Barnekunstmuseet.jpg/640px-Barnekunstmuseet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 304,
+        "distanceM": 298,
+        "polyline": "i~xlJ}sj`AEEGDFy@?E?G@M?E?M?O?CI?kAGUCC?_@@CCCAM?I?G@?CAEAC@INiAH{@@EFgA@Y@a@?Q?K?g@A?E?G???CECAUBa@B",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:frognerparken",
+      "name": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "category": "park",
+      "lat": 59.926659,
+      "lon": 10.701656,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q1126911",
+      "wikipedia": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "summary": {
+        "nb": "Frognerparken er en offentlig park i Oslo. Den tilhørte historisk Frogner Hovedgård, som har gitt navn til parken, strøket Frogner, Bydel Frogner og Frognerseteren.",
+        "en": "Frogner Park is a public park in the central West End borough of Frogner in Oslo, Norway. The park is historically part of Frogner Manor and is Oslo's largest park, open to the public at all times. It includes the manor house which is the seat of Oslo Museum, the nearby Henriette Wegner Pavilion, the Vigeland installation of sculptures created by sculptor Gustav Vigeland, Frogner Baths, Frogner stadion, Frognerparken Café, the restaurant Herregårdskroen and the largest collection of roses in the country with 14,000 plants of 150 species. Frogner Park is the most visited tourist attraction in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg/640px-NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.930489,
+        "lon": 10.708628
+      },
+      "walk": {
+        "durationS": 669,
+        "distanceM": 765,
+        "polyline": "i~xlJ}sj`AEEGDAHAHAHANALAT?B?H?B@h@?lAANCLBHDBNDR@VHb@Lb@PPHVLhAr@NLl@d@f@^|@jAXr@PVDFFFJBD@HDLDBEBCHYBKBKDUBUHo@DBB@EVB@B@DBFFQzA@F@@H?LE`@]HITUX]BE@AJOLWPYP[HOHQBE@E@ET}@v@}CJc@DWDOGIQCKA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:sporveismuseet",
+      "name": {
+        "nb": "Sporveismuseet",
+        "en": "Oslo Tramway Museum"
+      },
+      "category": "museum",
+      "lat": 59.931273,
+      "lon": 10.716363,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q7107052",
+      "website": "https://www.sporveismuseet.no/",
+      "wikipedia": {
+        "nb": "Lokaltrafikkhistorisk forening",
+        "en": "Oslo Tramway Museum"
+      },
+      "summary": {
+        "nb": "Sporveismuseet i Vognhall 5 på Majorstuen viser Oslos trikke-, buss- og T-banehistorie med rundt 20 vogner fra hestesporvognen i 1875 til nyere tid. Drives av Lokaltrafikkhistorisk forening, åpent i helgene.",
+        "en": "The Oslo Tramway Museum in Vognhall 5 at Majorstuen tells the story of Oslo's trams, buses and metro with around 20 vehicles from the 1875 horse tram onwards. Run by volunteers, open at weekends."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Old_Tram_in_Oslo_TRS_050515_008.jpg/640px-Old_Tram_in_Oslo_TRS_050515_008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 559,
+        "distanceM": 680,
+        "polyline": "i~xlJ}sj`AEEGDFy@?E?G@M?E?MF?B@RG^@N@NAL?NANCNENGLILKNMLOJOP[VWLSHQEQAEBCBC?AxBaEJSz@_BbAkBHO`DaGBEDIoAkESo@EKAECMBGJSKc@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:colosseum",
+      "name": {
+        "nb": "Colosseum kino",
+        "en": "Colosseum Cinema"
+      },
+      "category": "attraction",
+      "lat": 59.92963,
+      "lon": 10.710651,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Colosseum kino",
+        "en": "Colosseum kino"
+      },
+      "summary": {
+        "nb": "Colosseum kino er Nordisk Films største kino. Kinoen ligger på Majorstuen i Oslo og har fire saler i ulike størrelser hvorav den største, «Colosseum 1», har 978 sitteplasser.",
+        "en": "The Colosseum Kino in Oslo, Norway is the largest cinema in Northern Europe and the largest THX cinema in the world. It is distinguished by its large spherical dome."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Colosseum_kino.jpg/640px-Colosseum_kino.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 727,
+        "distanceM": 899,
+        "polyline": "i~xlJ}sj`AEEGDFw@?A?M@MRH`@FZ@V?RAPENELGJEJIRUTWLQLUNUb@u@~BmEtCmFhBkDFTXe@T~@[j@?D@V@z@DfCP|@Ql@BDHJBFBBDFDFDFNk@Na@BMPa@DKVe@P]HQBAB@@?Rt@Pj@BJBLJ\\BFBHBJDN@J@RINGxA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:bogstadveien",
+      "name": {
+        "nb": "Bogstadveien",
+        "en": "Bogstadveien"
+      },
+      "category": "attraction",
+      "lat": 59.927222,
+      "lon": 10.720278,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Bogstadveien (Oslo)",
+        "en": "Bogstadveien"
+      },
+      "summary": {
+        "nb": "Bogstadveien er en travel handlegate og innfartsåre i Oslo.",
+        "en": "Bogstadveien is a street in the district of Frogner in Oslo, Norway. It is considered a central business district and features many of the city's wide range of exclusive shops as well as entertainment, hotels and restaurants. The road is known for the frequent Farmer's Markets on weekends as well as its biannual car-free shopping events."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bogstadveien.jpg/640px-Bogstadveien.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 924,
+        "distanceM": 1087,
+        "polyline": "i~xlJ}sj`AEEGDFw@?A?M@M?E?MF?B@RG^@N@NAL?NANCNENGLILKNMLOJOP[VWLSHQEQAEBCBC`AkBv@wAfAsBbAkBHO`DaGBEDIJQFQhAoB\\o@@C?EH?@?FMBCBEBG@EB?BCR]@CTe@z@{AFM@C@G?E?I?AFKFI@CBGDG@C@FB@@ADIb@w@j@gAFK@CBEDIFK@A?AHM`ByC\\o@R_@@E@CHQDGDG@@@?@C@C?C@Ez@}A@ABA@A@CBGDIDI@C@?BEDG@C?E@A@E",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:skoytemuseet",
+      "name": {
+        "nb": "Skøytemuseet",
+        "en": "Skating Museum"
+      },
+      "category": "museum",
+      "lat": 59.927723,
+      "lon": 10.709451,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q12001332",
+      "website": "https://skoytemuseet.no/",
+      "wikipedia": {
+        "nb": "Skøytemuseet"
+      },
+      "summary": {
+        "nb": "Skøytemuseet har sitt opphav fra 1914 og ligger ved Frogner stadion i Oslo. Museet oppsto i sin nåværende form i 1985. Skøytemuseet inneholder i dag store prissamlinger etter både Axel Paulsen og Oscar Mathisen. Museet har også et stort utvalg av forskjellige bilder og skriftlig dokumentasjon om historien til skøyteløp og kunstløp."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Norwegian_icescating_museum.jpg/640px-Norwegian_icescating_museum.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 972,
+        "distanceM": 1199,
+        "polyline": "i~xlJ}sj`AEEGDFy@?E?G@MRH`@FZ@V?RAPENELGJEJIRUTWLQLUNUb@u@~BmEtCmF|@cBj@gAFTXe@T~@CFWb@?D@V@z@DfCP|@Ql@BDHJBFBBDFDFDFNk@Na@BMPa@DKb@{@DGHQBAB@@?Rt@DJNj@Nj@BFBHBJDNB^HGFFPl@t@fCFNNf@HXFPrB|GBH@GDGFK@CDE?EDHDDBHDFPo@VaATa@\\gA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/855363036",
+      "name": {
+        "nb": "Marienlystparken",
+        "en": "Marienlystparken, Oslo"
+      },
+      "category": "park",
+      "lat": 59.933552,
+      "lon": 10.722461,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19381059",
+      "wikipedia": {
+        "nb": "Marienlystparken"
+      },
+      "summary": {
+        "nb": "Marienlystparken er en stor park på Marienlyst i Oslo, beliggende mellom Kirkeveien og NRK."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Marienlystparken1.JPG/640px-Marienlystparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934582,
+        "lon": 10.718329
+      },
+      "walk": {
+        "durationS": 724,
+        "distanceM": 794,
+        "polyline": "i~xlJ}sj`AEEGDFw@?A?M@M?E?M?O?CI?kAGUCC?_@@CCQAI?G@?CCI@INiAH{@@EFgA@Y@a@?Q?K?g@?C?E?I?I?CAA?EAE?u@AoB?mCBuA@A?A?S?K?IGKAE?EFYHUHWPm@J[La@Lc@Vs@Ro@Pi@DODKEKdC_IAKIw@GD?@EMCGCCEC?G?Y?W?IGi@CKCGQl@MTIPEHGBCDDZ",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

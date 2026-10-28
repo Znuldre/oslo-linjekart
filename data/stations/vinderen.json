@@ -1,0 +1,229 @@
+{
+  "id": "NSR:StopPlace:58270",
+  "slug": "vinderen",
+  "name": "Vinderen",
+  "lat": 59.942425,
+  "lon": 10.704643,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6245"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58271",
+        "next": "NSR:StopPlace:59519"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:59519",
+        "next": "NSR:StopPlace:58271"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 12,
+    "majorstuen": 7
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58270",
+      "name": "Vinderen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "1N",
+          "name": "Jernbanetorget - Ullerntoppen",
+          "lineId": "RUT:Line:3901"
+        },
+        {
+          "publicCode": "46",
+          "name": "Majorstuen - Ullerntoppen",
+          "lineId": "RUT:Line:46"
+        },
+        {
+          "publicCode": "46X",
+          "name": "Ullerntoppen - Voksen skog Holmenkollstafetten",
+          "lineId": "RUT:Line:2046"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6245",
+        "name": "Vinderen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11461",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11460",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:villa-stenersen",
+      "name": {
+        "nb": "Villa Stenersen",
+        "en": "Villa Stenersen"
+      },
+      "category": "museum",
+      "lat": 59.939263,
+      "lon": 10.69867,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q14375801",
+      "website": "https://www.nasjonalmuseet.no/besok/visningssteder/villa-stenersen/",
+      "wikipedia": {
+        "nb": "Villa Stenersen",
+        "en": "Villa Stenersen"
+      },
+      "summary": {
+        "nb": "Villa Stenersen i Tuengen allé 10c i Oslo er tegnet av arkitekt Arne Korsmo og ble bygget i 1937–1939 for finansmannen, kunstsamleren og forfatteren Rolf Stenersen og hans familie. Huset skulle tjene både som bolig og som ramme for den store kunstsamlingen, og regnes som ett av hovedverkene i norsk funksjonalisme.",
+        "en": "Villa Stenersen in Oslo was designed by architect Arne Korsmo for the financier, art collector and author Rolf Stenersen and his family in 1939. The house was intended to serve both as a residence and as a gallery for his large art collection, and is considered as one of the main works of architecture in the Norwegian functionalist style. It is also the only Norwegian member of Iconic Houses. It is currently undergoing restoration headed by Statsbygg, in collaboration with the National Gallery and the Stenersen family. The villa is operated by the National Gallery of Norway and is open to the public every Sunday during the summer."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Villa_Stenersen3.JPG/640px-Villa_Stenersen3.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 575,
+        "distanceM": 683,
+        "polyline": "aozlJ}vi`ACH?HFF@@CLEXO`AG`@AH?B?D@DDB|@|@HH`@`@XVABAD?FADCBAH?F?D@BF\\Lv@FVP~@b@fBRx@JXVz@Rr@Tp@Rl@HRRh@Zt@^x@Vh@Zp@b@t@\\l@`@h@Z^\\\\XZXiBLeAJq@@K?GAGCECCOM",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:emanuel-vigeland",
+      "name": {
+        "nb": "Emanuel Vigelands museum",
+        "en": "Emanuel Vigeland Museum"
+      },
+      "category": "museum",
+      "lat": 59.947118,
+      "lon": 10.692591,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q17769549",
+      "website": "http://www.emanuelvigeland.museum.no/",
+      "wikipedia": {
+        "nb": "Emanuel Vigelands Museum",
+        "en": "Emanuel Vigeland Museum"
+      },
+      "summary": {
+        "nb": "Emanuel Vigelands museum på Slemdal i Oslo består av mausoleet etter Emanuel Vigeland (1875–1948), og et siderom som tidligere fungerte som galleri. Gravkammeret er et tønnehvelvet rom fullstendig dekket av fresker, og i dag er det kun denne delen som er åpen for publikum."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Emanuel_Vigelands_Museum.jpg/640px-Emanuel_Vigelands_Museum.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1113,
+        "distanceM": 1138,
+        "polyline": "aozlJ}vi`ACH?HANCPIh@ObAAFI^AJAPGEAAGD@D?FGfB?J?H?J@HAHA^AVEb@Cf@Eh@KnAEl@ALI|@AFEd@AFCXGf@AFE^Q`BK~@?FADABC@?HE\\CTAD?H@JAJ?DAHIz@MhAAFAFCBC@?DCNAL?B@F?B?@?H?FStCAFAVCVCRAJCLCLELEPGNILEJc@z@KRABa@|@CBA@ABCHEJA?GLELILEHCHEJCJAHAJ?HAH?N?PAl@?VAt@?T?P@T@^@R@PBP@N@FBRBVLt@@F?D?DCD?@ADK?KAWIOEQESCMGeBgAy@k@ECk@[KCcAYi@GiAD?FF^D?D??HJ?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:barnekunstmuseet",
+      "name": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "category": "museum",
+      "lat": 59.935755,
+      "lon": 10.711526,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q11960263",
+      "website": "https://barnekunst.no/",
+      "wikipedia": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "summary": {
+        "nb": "Det Internasjonale barnekunstmuseet er et museum for barnetegninger og annen barnekunst. Museets oppgave er å samle, bevare og formidle kunst fra hele verden laget av barn og unge opptil 18 år."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Barnekunstmuseet.jpg/640px-Barnekunstmuseet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 862,
+        "distanceM": 1069,
+        "polyline": "aozlJ}vi`A?A@KF[PLDQ@CDJDHVP^T^P`@N^JPFTDPD\\FXBXBZ@V?V@RA\\CTCXC\\ITGPIJERKJGLI\\WRMZWTURSRUd@o@lFcI@A?EAOCGCC@G@K?CBDJHJM`AyABG@CBGBO@AB?HCDGDIBSPkBDc@Fe@H[FUDOFMHOHKHMHKLKHGFEPIJEHC?CAEAC@INiAH{@@EFgA@Y@a@?Q?K?g@A?E?G???CECAUBa@B",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/123460929",
+      "name": {
+        "nb": "Ris kirke",
+        "en": "Ris Church"
+      },
+      "category": "church",
+      "lat": 59.947538,
+      "lon": 10.701259,
+      "score": 10,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q7335797",
+      "wikipedia": {
+        "nb": "Ris kirke",
+        "en": "Ris Church"
+      },
+      "summary": {
+        "nb": "Ris kirke er soknekirke for Ris menighet i Vestre Aker prosti i Oslo bispedømme i Bydel Vestre Aker i Oslo kommune. Den er en langkirke innviet 12. juni 1932. Kostnadene beløp seg til 723 000 kroner inkludert gaver til en sum av 284 000.",
+        "en": "Ris Church is a church in Oslo, Norway. The Romanesque Revival style church is situated in a neighborhood of Ris in the borough of Vestre Aker in Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Ris_kirke_TRS_070501_015.jpg/640px-Ris_kirke_TRS_070501_015.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 763,
+        "distanceM": 786,
+        "polyline": "aozlJ}vi`ACH?HANCPIh@ObAAFI^SGAL??CNGI??GG??o@o@KEEA_A}@GHIFK?IGKMECGCKEKr@mAGEMC?Y?GFK?k@r@[m@ECGBALBHLJDTCXu@~@BJOP_@x@GJAHALCDAAC?A@KVSh@GPITCF]vA?FADGPADEHABCAA@CBA@CHACCICEAC?C@E?A?CAC?CACCCo@y@WWo@w@AAA?CBA@GGOh@GNIZQf@Ob@INEFE?GCGG",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

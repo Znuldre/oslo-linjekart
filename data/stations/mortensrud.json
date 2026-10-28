@@ -1,0 +1,159 @@
+{
+  "id": "NSR:StopPlace:58228",
+  "slug": "mortensrud",
+  "name": "Mortensrud",
+  "lat": 59.849385,
+  "lon": 10.829376,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5687"
+  ],
+  "neighbours": {
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58227"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "next": "NSR:StopPlace:58227"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 25,
+    "majorstuen": 31
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58228",
+      "name": "Mortensrud",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "3B",
+          "name": "Buss for linje 3",
+          "lineId": "RUT:Line:3003"
+        },
+        {
+          "publicCode": "70N",
+          "name": "Jernbanetorget - Bjørndal",
+          "lineId": "RUT:Line:3970"
+        },
+        {
+          "publicCode": "71",
+          "name": "Bjørndal - Mortensrud T (-Jernbanetorget)",
+          "lineId": "RUT:Line:71"
+        },
+        {
+          "publicCode": "72",
+          "name": "Mortensrud T - Seterbråten",
+          "lineId": "RUT:Line:72"
+        },
+        {
+          "publicCode": "73",
+          "name": "Holmlia stasjon - Brenna",
+          "lineId": "RUT:Line:73"
+        },
+        {
+          "publicCode": "73X",
+          "name": "Hauketo stasjon - Maikollen",
+          "lineId": "RUT:Line:4073"
+        },
+        {
+          "publicCode": "74",
+          "name": "Jernbanetorget - Mortensrud T",
+          "lineId": "RUT:Line:74"
+        },
+        {
+          "publicCode": "76",
+          "name": "Helsfyr T - Mortensrud T",
+          "lineId": "RUT:Line:76"
+        },
+        {
+          "publicCode": "FB10",
+          "name": "Mortensrud - Oslo lufthavn Gardermoen",
+          "lineId": "UNI:Line:UE1"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5687",
+        "name": "Mortensrud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10423",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10421",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:mortensrud-kirke",
+      "name": {
+        "nb": "Mortensrud kirke",
+        "en": "Mortensrud Church"
+      },
+      "category": "church",
+      "lat": 59.847094,
+      "lon": 10.831981,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q10357878",
+      "website": "https://www.oslo.kirken.no/mortensrud",
+      "wikipedia": {
+        "nb": "Mortensrud kirke",
+        "en": "Mortensrud Church"
+      },
+      "summary": {
+        "nb": "Mortensrud kirke er soknekirke for Klemetsrud og Mortensrud menighet i Søndre Aker prosti i Oslo bispedømme i Bydel Søndre Nordstrand i Oslo kommune. Den ligger på Mortensrud sørøst i Oslo og ble vigslet 28. april 2002.",
+        "en": "Mortensrud Church is a modern church at Mortensrud in the borough of Søndre Nordstrand in Oslo, Norway.\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Mortensrud_kirke_%2815._juli_2018%2C_bilde02%29.jpg/640px-Mortensrud_kirke_%2815._juli_2018%2C_bilde02%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 435,
+        "distanceM": 495,
+        "polyline": "sihlJqbbaALS^a@|@_@DFBFBFBRRtA@I?E?GAEWeBHOEYG_@b@]WiBUeBKw@E[AQNC\\ENCNCZGRGRE\\K\\KZKDAb@Qv@[BABA@@B?BDBBDBB?",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "NSR:StopPlace:58307",
+  "slug": "glads-vei",
+  "name": "Glads vei",
+  "lat": 59.952301,
+  "lon": 10.785331,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "15"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6095"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58306",
+        "next": "NSR:StopPlace:58308"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58308",
+        "next": "NSR:StopPlace:58306"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58308",
+        "next": "NSR:StopPlace:58306"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58306",
+        "next": "NSR:StopPlace:58308"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 21,
+    "majorstuen": 39
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58307",
+      "name": "Glads vei",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6095",
+        "name": "Glads vei",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11196",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11195",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/66136796",
+      "name": {
+        "nb": "Grefsen kirke",
+        "en": "Grefsen Church"
+      },
+      "category": "church",
+      "lat": 59.954216,
+      "lon": 10.77924,
+      "score": 10.5,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q10297163",
+      "wikipedia": {
+        "nb": "Grefsen kirke",
+        "en": "Grefsen Church"
+      },
+      "summary": {
+        "nb": "Grefsen kirke er soknekirke for Grefsen menighet i Vestre Aker prosti i Oslo bispedømme i Oslo kommune. Den er en langkirke fra 1940 på Grefsen i Oslo. Den ble innviet av biskop Eivind Berggrav 3. mars samme år.",
+        "en": "Grefsen Church is a long church located in Grefsen, a neighborhood of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Grefsen_kirke_20080531-1.jpg/640px-Grefsen_kirke_20080531-1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 386,
+        "distanceM": 457,
+        "polyline": "{l|lJioy`AE?[CSA?DAZAHAHO|@DFWtAQ~@Y|AMn@Q`A[bB_@lBOz@Kd@CPAF@D?BBNSMi@zCI\\GVQnAo@A?|@Al@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/107063803",
+      "name": {
+        "nb": "Grefsen kapell"
+      },
+      "category": "church",
+      "lat": 59.95537,
+      "lon": 10.771113,
+      "score": 6,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q17778416",
+      "wikipedia": {
+        "nb": "Grefsen kapell"
+      },
+      "summary": {
+        "nb": "Grefsen kapell ligger ved Grefsen kirkegård i Kapellveien 75 i Oslo. Kapellet er et lite, hvitt bygg. Det stod klart samtidig med kirkegården, og ble innviet 6. februar 1904."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/2013-11_Grefsen_kapell.JPG/640px-2013-11_Grefsen_kapell.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 787,
+        "distanceM": 977,
+        "polyline": "{l|lJioy`AE?[CSA?DAZAHAHO|@DFWpA?BQ~@Y|A_@pB[bB_@lBOz@Kd@AJADAF@D?BBNSMi@zCI\\GVQnAAl@?bCALELO@?bGSx@YjAS~@Kd@[jAQr@I`@AF@D@@EPCJM\\]LE?KAEGEHEHBB?^@bB@|@?dA?`A@nA@nC?nDGMIAIDEHCN?H",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

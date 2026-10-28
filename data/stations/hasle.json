@@ -1,0 +1,248 @@
+{
+  "id": "NSR:StopPlace:58191",
+  "slug": "hasle",
+  "name": "Hasle",
+  "lat": 59.923903,
+  "lon": 10.793032,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6029"
+  ],
+  "neighbours": {
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58189",
+        "next": "NSR:StopPlace:58194"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58194",
+        "next": "NSR:StopPlace:58189"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 8,
+    "majorstuen": 14
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58191",
+      "name": "Hasle",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "5N",
+          "name": "Jernbanetorget - Vestli T",
+          "lineId": "RUT:Line:3905"
+        },
+        {
+          "publicCode": "21",
+          "name": "Tjuvholmen - Helsfyr T",
+          "lineId": "RUT:Line:21"
+        },
+        {
+          "publicCode": "28",
+          "name": "Fornebu vest - Økern T",
+          "lineId": "RUT:Line:28"
+        },
+        {
+          "publicCode": "60",
+          "name": "Vippetangen-Tonsenhagen",
+          "lineId": "RUT:Line:60"
+        },
+        {
+          "publicCode": "126",
+          "name": "Dokka-Hov-Brandbu-Oslo",
+          "lineId": "INN:Line:126"
+        },
+        {
+          "publicCode": "FB5",
+          "name": "Oslo sentrum via Helsfyr-Hasle-Bislett",
+          "lineId": "NBU:Line:a7c15243-8873-4aee-a8b4-8d22e8ad31dc"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6029",
+        "name": "Hasle",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11066",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11065",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:toyenparken",
+      "name": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "category": "park",
+      "lat": 59.919963,
+      "lon": 10.778272,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q7862388",
+      "wikipedia": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "summary": {
+        "nb": "Tøyenparken er en 93 mål stor park langs et høydedrag på Tøyen i Oslo. Fra 2014 arrangeres Øyafestivalen i parken.",
+        "en": "Tøyen Park is a park in Oslo, Norway. It is located to the north-east of the old Munch Museum and neighbours the University of Oslo Botanical Gardens."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Toyenparken_med_Bellevue.JPG/640px-Toyenparken_med_Bellevue.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.923903,
+        "lon": 10.781527
+      },
+      "walk": {
+        "durationS": 679,
+        "distanceM": 788,
+        "polyline": "i{vlJm_{`Ab@fCHZILKLIHIDIFKLEFCBCFEDABGHGHA@BP?NANCXEVIp@a@fCKn@CRCJCBA?AR?LCRDN?NA|@Cn@Ah@Aj@A`AAHAF?T?N@D?D?\\?TApA?H?\\?f@?j@?H@h@DbD?b@?T@?F?FAB??L?d@Ah@Cr@Ch@]hGCVAb@Ab@?\\?`Aj@RLFHD~@p@VV",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:intility-arena",
+      "name": {
+        "nb": "Intility Arena",
+        "en": "Intility Arena"
+      },
+      "category": "attraction",
+      "lat": 59.91799,
+      "lon": 10.806553,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q20078531",
+      "wikipedia": {
+        "nb": "Intility Arena",
+        "en": "Intility Arena"
+      },
+      "summary": {
+        "nb": "Intility Arena er en fotballstadion på Valle Hovin i Oslo. Arenaen er hjemmebane for Vålerenga Fotball og Vålerenga Fotball Damer, og har en tilskuerkapasitet på 16 555. Arenaen inngår i konseptet Vålerenga kultur- og idrettspark, som dekker hele området med Vallhall Arena og treningsfeltet.",
+        "en": "Intility Arena, also referred to as Vålerenga Stadion, is an association football stadium in Oslo, Norway. The stadium is the home stadium for Vålerenga Fotball, currently playing in the Eliteserien, and Vålerenga Fotball Damer, currently playing in the Toppserien. It has a seating capacity of 16,555 people."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Intility_Arena_%28bilde05%29_%288._september_2018%29.jpg/640px-Intility_Arena_%28bilde05%29_%288._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.919158,
+        "lon": 10.804606
+      },
+      "walk": {
+        "durationS": 840,
+        "distanceM": 990,
+        "polyline": "i{vlJm_{`AESEWAKFIPUvA_BrBeCDIDEFKb@i@JM@ANQBC@MAWA]?W@U@UDYBQD[DKDMFOFOFKD@B?HABCDIJQh@}@DILUDIBIBI@G@I?G?K?G?GAKCMCGCGBK@IHc@Fe@BUBY@]@UZgEReCJ_BNkAJ{@XiCDa@Sc@Eu@?YLc@|@_CJIJ?JMHQTk@`@cAN_@Na@Ng@HAHBHTBVPC?BBf@Db@D\\FV@F",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:valle-hovin",
+      "name": {
+        "nb": "Valle Hovin",
+        "en": "Valle Hovin"
+      },
+      "category": "park",
+      "lat": 59.918,
+      "lon": 10.8061,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Valle Hovin",
+        "en": "Valle Hovin stadion"
+      },
+      "summary": {
+        "nb": "Valle Hovin, eller Valle-Hovin, er et strøk i Oslo mellom Grenseveien og Ring 3, som har fått sitt navn etter gårdene Valle og Hovin. Strøket omkranser flere idrettsanlegg; Valle Hovin idrettspark, Valle Hovin stadion, Vallhall Arena og Intility Arena.",
+        "en": "Valle Hovin stadion is both a bandy and speed skating rink in cold weather, and an outdoor stadium for concerts in warm weather, in Valle-Hovin, Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Intility_Arena%2C_Valle_Hovin_%28bilde01%29_%288._september_2018%29.jpg/640px-Intility_Arena%2C_Valle_Hovin_%28bilde01%29_%288._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 949,
+        "distanceM": 1137,
+        "polyline": "i{vlJm_{`AESEWAKFIPUvA_BrBeCDIDEFKb@i@JM@ANQBC@MAWA]?W@U@UDYBQD[DKDMFOFOFKD@B?HABCDIJQh@}@DILUDIBIBI@G@I?G?K?G?GAKCMCGCGBK@IHc@Fe@BUBY@]@UZgEReCJ_BNkAJ{@XiCDa@Sc@Eu@?YLc@|@_CJIJ?JMHQTk@`@cAN_@Na@Ng@DKTu@Vs@x@yBBGDOZXjBbB~@x@FF",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:toyenbadet",
+      "name": {
+        "nb": "Tøyenbadet",
+        "en": "Tøyen Baths"
+      },
+      "category": "attraction",
+      "lat": 59.9194,
+      "lon": 10.7789,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Tøyenbadet"
+      },
+      "summary": {
+        "nb": "Tøyenbadet er en offentlig svømmehall på Tøyen i Oslo, med adresse Helgesens gate 90. Det nåværende anlegget ble innviet 6. januar 2025, og erstattet en eldre svømmehall fra 1976 som ble revet i 2020."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/2013-05_T%C3%B8yenbadet.jpg/640px-2013-05_T%C3%B8yenbadet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1016,
+        "distanceM": 1186,
+        "polyline": "i{vlJm_{`Ab@fCHZILKLIHIDIFKLEFCBCFH^F^Jd@BJDI@ADT`@`BLd@V|@fArD`@rAPp@Pl@^rAf@fBFV@@l@xBT|@Nf@Nb@BJJVRl@fCbH@DL\\Nb@Rp@FVFPF\\FZN`ABVFXHXJ\\JZJXVl@FNABEJEJA@DPDTDXBT@NBv@?N@F@DEF?@ILEHGJKHMPGHEHCHGPCHCHAJAF?D?D?HX@F?N?D?DB@@?B@D?DADAHQh@CJITGNPGPCNARDC`BRDDJH@DB@FLA\\DNB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

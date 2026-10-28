@@ -1,0 +1,208 @@
+{
+  "id": "NSR:StopPlace:6261",
+  "slug": "gaustadalleen",
+  "name": "Gaustadalléen",
+  "lat": 59.945686,
+  "lon": 10.717591,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "17",
+    "18"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6261"
+  ],
+  "neighbours": {
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "next": "NSR:StopPlace:59600"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:59600"
+      }
+    ],
+    "18": [
+      {
+        "directionType": "inbound",
+        "towards": "Grefsen stasjon",
+        "next": "NSR:StopPlace:59600"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:59600"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 19,
+    "majorstuen": null
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59519",
+      "name": "Gaustad",
+      "distanceM": 206,
+      "lines": [
+        {
+          "publicCode": "1N",
+          "name": "Jernbanetorget - Ullerntoppen",
+          "lineId": "RUT:Line:3901"
+        },
+        {
+          "publicCode": "23",
+          "name": "Lysaker - Simensbråten",
+          "lineId": "RUT:Line:23"
+        },
+        {
+          "publicCode": "24",
+          "name": "Fornebu vest - Brynseng T",
+          "lineId": "RUT:Line:24"
+        },
+        {
+          "publicCode": "40",
+          "name": "Øvre Sogn - Skøyen",
+          "lineId": "RUT:Line:40"
+        },
+        {
+          "publicCode": "46X",
+          "name": "Ullerntoppen - Voksen skog Holmenkollstafetten",
+          "lineId": "RUT:Line:2046"
+        },
+        {
+          "publicCode": "260E",
+          "name": "Bødalen - Slemmestad - Holmen - Sandvika- Ullevål",
+          "lineId": "RUT:Line:5260"
+        },
+        {
+          "publicCode": "FB3",
+          "name": "Radiumhospitalet via Økern-Storo-Tåsen",
+          "lineId": "NBU:Line:cb7b555c-f96e-42d5-84bf-a5e08c0145c2"
+        }
+      ]
+    },
+    {
+      "mode": "metro",
+      "stopPlaceId": "NSR:StopPlace:59519",
+      "name": "Gaustad",
+      "distanceM": 206,
+      "lines": [
+        {
+          "publicCode": "1",
+          "name": "Frognerseteren - Bergkrystallen",
+          "lineId": "RUT:Line:1"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6261",
+        "name": "Gaustadalléen",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11490",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11489",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:ullevaal-stadion",
+      "name": {
+        "nb": "Ullevaal Stadion",
+        "en": "Ullevaal Stadium"
+      },
+      "category": "attraction",
+      "lat": 59.949136,
+      "lon": 10.734329,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q680291",
+      "wikipedia": {
+        "nb": "Ullevaal Stadion",
+        "en": "Ullevaal Stadion"
+      },
+      "summary": {
+        "nb": "Ullevaal Stadion er et fotballstadion i Oslo i Norge. Det er hjemmebanen til herrelandslaget og damelandslaget i tillegg til at cupfinalen i herrefotball og damefotball blir arrangert der hvert år. Fra åpningen i 1926 til 2009 var stadionet også hjemmebanen til Lyn Toppfotball. Med en kapasitet på ca. 27 182 er det det største fotballstadionet i Norge. Det er eid av Norges Fotballforbund (NFF).",
+        "en": "Ullevaal Stadion is an all-seater football stadium located in Oslo, Norway. It is the home ground of the Norway national football team, and the site of the Norwegian Cup Final. From its opening in 1926 to 2009 it was the home ground of FK Lyn and from 1999 to 2017 was a home ground of Vålerenga IF. With a capacity of approximately 28,000, it is the largest football stadium in Norway. The national stadium is fully owned by the Football Association of Norway (NFF)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Ullev%C3%A5l_Stadium_from_air.jpg/640px-Ullev%C3%A5l_Stadium_from_air.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.948299,
+        "lon": 10.732446
+      },
+      "walk": {
+        "durationS": 882,
+        "distanceM": 1111,
+        "polyline": "qc{lJsgl`A^THB?G@K@O?EAIAIYkAQw@Me@ACA@EBAGGa@G[Ki@]aBMm@Ig@M_AI}@ASAc@AUAe@GwCA_@A_@CUCYIWIKMOMIMESKSQOOO[GS]qAUu@Qq@U_A]}AMm@o@yDcAkGq@mDc@{BCMGa@q@iEEWAW?Y?YBUAK?YBCDCDEBIDIDGJMdBuApAkAC]AGCSAECKU\\A@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/123460929",
+      "name": {
+        "nb": "Ris kirke",
+        "en": "Ris Church"
+      },
+      "category": "church",
+      "lat": 59.947538,
+      "lon": 10.701259,
+      "score": 10,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q7335797",
+      "wikipedia": {
+        "nb": "Ris kirke",
+        "en": "Ris Church"
+      },
+      "summary": {
+        "nb": "Ris kirke er soknekirke for Ris menighet i Vestre Aker prosti i Oslo bispedømme i Bydel Vestre Aker i Oslo kommune. Den er en langkirke innviet 12. juni 1932. Kostnadene beløp seg til 723 000 kroner inkludert gaver til en sum av 284 000.",
+        "en": "Ris Church is a church in Oslo, Norway. The Romanesque Revival style church is situated in a neighborhood of Ris in the borough of Vestre Aker in Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Ris_kirke_TRS_070501_015.jpg/640px-Ris_kirke_TRS_070501_015.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1025,
+        "distanceM": 1174,
+        "polyline": "qc{lJsgl`A^THB@@ABAJ?HAHXLNFAXAvAAV?j@?|AANCJ?J@p@?nACp@CNEXAVGDKFGDIp@M|@Mx@E\\EZEv@Cj@Ez@GJAH?LKxAEn@?^AT@T@TA?CBE@GAA?EAE?A?A@CBC?C?ICMEA?UAI?G@I?E?ACACA?C@CBEB@H@F@F?@@J@H?@QJKJOPMRINGRGTGTEVE\\CZAXAT?V?T@T@d@H|A@b@@^@Z?\\A\\AXAXEb@CVEXERENGToBtHADMf@IZ@BBDDFDF??FJBB@BK\\Kh@AD?F?D?D@F?BBD\\b@?@CHAHGCGDMFCJ?J?H?HDRDNHNFLHXBR@^Av@@N@ZDZL^FJHDNRPP",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

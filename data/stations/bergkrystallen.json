@@ -1,0 +1,135 @@
+{
+  "id": "NSR:StopPlace:58243",
+  "slug": "bergkrystallen",
+  "name": "Bergkrystallen",
+  "lat": 59.866897,
+  "lon": 10.821753,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1",
+    "4"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5823"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "next": "NSR:StopPlace:58244"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58244"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58244"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "next": "NSR:StopPlace:58244"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 22,
+    "majorstuen": 28
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58243",
+      "name": "Bergkrystallen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "4B",
+          "name": "Buss for linje 4",
+          "lineId": "RUT:Line:3004"
+        },
+        {
+          "publicCode": "4N",
+          "name": "Jernbanetorget - Bergkrystallen T",
+          "lineId": "RUT:Line:3904"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5823",
+        "name": "Bergkrystallen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10681",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10682",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/159967599",
+      "name": {
+        "nb": "Lambertseter kirke",
+        "en": "Lambertseter Church"
+      },
+      "category": "church",
+      "lat": 59.870075,
+      "lon": 10.81362,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10355937",
+      "wikipedia": {
+        "nb": "Lambertseter kirke",
+        "en": "Lambertseter Church"
+      },
+      "summary": {
+        "nb": "Lambertseter kirke er soknekirke for Lambertseter menighet i Søndre Aker prosti i Oslo bispedømme i bydel Nordstrand i Oslo kommune. Den er en langkirke fra 1966 på Lambertseter i Oslo. Byggverket er i betong og tegl og har 600 plasser. Lambertseter kirke er tegnet av Harald Hille, og ble vigslet den 15. mai 1966 av daværende Oslo biskop Johannes Smemo.",
+        "en": "Lambertseter Church is a church center in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Lambertseter_kirke_%282016-07-24%29.jpg/640px-Lambertseter_kirke_%282016-07-24%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 692,
+        "distanceM": 833,
+        "polyline": "_wklJqr`aADAEs@Ew@uAb@_AZq@VCBADAF?JLrC?Z?XA\\AVCLCLELGTS`@EHGJIHIHSPIBKDQDe@Fe@D[@gAHWDWFOFo@XEDCHAL?JDj@@X@ZJjBLdC@f@A@E@E@A@@\\Bt@@h@@rA@l@@z@?Z?J?HALANCNALGTEPGLCJ@BFDHB@HDFABCRCPADKGEDEFIFEBADAF?JAN",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

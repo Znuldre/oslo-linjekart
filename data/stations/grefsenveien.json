@@ -1,0 +1,320 @@
+{
+  "id": "NSR:StopPlace:58196",
+  "slug": "grefsenveien",
+  "name": "Grefsenveien",
+  "lat": 59.942626,
+  "lon": 10.773224,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "15",
+    "18"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6405"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58185",
+        "next": "NSR:StopPlace:58195"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58195",
+        "next": "NSR:StopPlace:58185"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58195",
+        "next": "NSR:StopPlace:58185"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58185",
+        "next": "NSR:StopPlace:58195"
+      }
+    ],
+    "18": [
+      {
+        "directionType": "inbound",
+        "towards": "Grefsen stasjon",
+        "prev": "NSR:StopPlace:58185",
+        "next": "NSR:StopPlace:58195"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58195",
+        "next": "NSR:StopPlace:58185"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 15,
+    "majorstuen": 33
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58196",
+      "name": "Grefsenveien",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:6409",
+      "name": "Sandaker",
+      "distanceM": 217,
+      "lines": [
+        {
+          "publicCode": "30",
+          "name": "Bygdøy - Nydalen",
+          "lineId": "RUT:Line:30"
+        },
+        {
+          "publicCode": "58",
+          "name": "Nydalen - Tveita (- Bøler) via Bjerke",
+          "lineId": "RUT:Line:58"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6405",
+        "name": "Grefsenveien",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11769",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:104501",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11770",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:104502",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:torshovdalen",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "lat": 59.934963,
+      "lon": 10.776707,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19392835",
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      },
+      "summary": {
+        "nb": "Torshovdalen er et parkområde i Oslo. Parken ligger mellom Torshov i vest, Sinsen i øst (Trondheimsveien), Rosenhoff og Rodeløkka i sørøst og sør (Mailundveien) og Gjøvikbanen i nord, og har skateboardramp i den sydlige delen. Parken forvaltes av Bymiljøetaten i Oslo kommune, som også preparerer langrennsløype om vinteren."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Torshovdalen4.JPG/640px-Torshovdalen4.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.938851,
+        "lon": 10.773224
+      },
+      "walk": {
+        "durationS": 454,
+        "distanceM": 549,
+        "polyline": "mpzlJocw`AVb@DHBHPZ@C@C?Eh@|@HLdBvCJP@E?C@CNTf@z@B@B?BEFIrBiEDIXo@jAaCp@wA?C?C@ADIBFDJLKJWLYLXtAbDBENW",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:akerselva-nydalen",
+      "name": {
+        "nb": "Akerselva ved Nydalen",
+        "en": "Akerselva river at Nydalen"
+      },
+      "category": "park",
+      "lat": 59.94906,
+      "lon": 10.76685,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Akerselva",
+        "en": "Akerselva"
+      },
+      "summary": {
+        "nb": "Akerselva, eller Akerselven, i middelalderen kalt Frysja, er en elv som renner gjennom Oslo. Den er nederste del av Nordmarksvassdraget, som i sin tur tilhører Oslomarkavassdragene.",
+        "en": "The Akerselva or Akerselven is a river which flows through Oslo, Norway. It starts at Maridalsvannet in Oslomarka, and traverses the boroughs of Nordre Aker, Sagene, Grünerløkka, central Oslo and Grønland, finally ending at Paulsenkaien and Oset in Bjørvika. The river is considered to be a part of the Nordmarkvassdraget, and has the Norwegian watercourse number 006.Z. The entire river is about 9.8 kilometres (6.1 mi) long, and the difference in elevation between source and mouth is approximately 149 metres (489 ft)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Gronvolds.jpg/640px-Gronvolds.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.94906,
+        "lon": 10.76685
+      },
+      "walk": {
+        "durationS": 869,
+        "distanceM": 1035,
+        "polyline": "mpzlJocw`AOWABk@aA?BABADADS]EIUa@CCEIcAbDGNGK}@zCELGTKZAHE\\AFCFCBE?EAuB{AUQYSIGWQ?BAFAFAF?DAF?BA@Mf@IH??q@b@}@p@EDIFUVm@b@_B~@?AAKEFEFKLAB?BABCFEDEBEACAAAKFMH@HBHs@f@OJIFWNIFA@EBEBEBmD|BUN]RGDKF??ABAB?JH|@Hx@PbB@HBL@HJdAJ`AA@KFIDA@?H?DAFCDCDC@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/27012015",
+      "name": {
+        "nb": "Torshov kirkepark"
+      },
+      "category": "park",
+      "lat": 59.938137,
+      "lon": 10.773215,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12007133",
+      "wikipedia": {
+        "nb": "Torshov kirkepark"
+      },
+      "summary": {
+        "nb": "Torshov kirkepark er en park på Torshov i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Torshov_kirkepark.JPG/640px-Torshov_kirkepark.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.938954,
+        "lon": 10.773224
+      },
+      "walk": {
+        "durationS": 449,
+        "distanceM": 541,
+        "polyline": "mpzlJocw`AVb@DHBHPZ@C@C?Eh@|@HLdBvCJP@E?C@CNTf@z@B@B?BEFIrBiEDIXo@jAaCp@wA?C?C@ADIBFDJLKJWLYLXtAbD@IBI",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/252260743",
+      "name": {
+        "nb": "Torshovparken"
+      },
+      "category": "park",
+      "lat": 59.935297,
+      "lon": 10.77098,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19392836",
+      "wikipedia": {
+        "nb": "Torshovparken",
+        "en": "Torshovparken"
+      },
+      "summary": {
+        "nb": "Torshovparken er en stor park på Torshov i Oslo, anlagt på 1920-tallet som en del av Torshovbyen, boligområdet som ble bygget ut i kommunal regi.",
+        "en": "Torshovparken is a large park located in Torshov, Oslo, Norway, that was established in the 1920s as part of Torshovbyen, a residential area developed by the municipality."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Torshovparken1.JPG/640px-Torshovparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.936397,
+        "lon": 10.773224
+      },
+      "walk": {
+        "durationS": 652,
+        "distanceM": 830,
+        "polyline": "mpzlJocw`AVb@DHBHPZ@C@C?Eh@|@HLdBvCJP@E?C@CNTf@z@B@B?BEFIrBiEDIXo@jAaCp@wA?C?C@ADIBFDJLKJWLYLXBG@CBEAI?IDKDKFM@CJYDG`@]xAr@FDv@^JFt@^D@JFd@Th@XJFDB@@FD`@R^PPFLDJBH?L?JAHA@Z",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/147978315",
+      "name": {
+        "nb": "Bjølsenparken"
+      },
+      "category": "park",
+      "lat": 59.940759,
+      "lon": 10.756004,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11961272",
+      "wikipedia": {
+        "nb": "Bjølsenparken"
+      },
+      "summary": {
+        "nb": "Bjølsenparken er en park på Bjølsen i bydel Sagene i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Bjolsenparken1.JPG/640px-Bjolsenparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.941931,
+        "lon": 10.757773
+      },
+      "walk": {
+        "durationS": 849,
+        "distanceM": 1038,
+        "polyline": "mpzlJocw`AVb@DHBHPZ?BABADAD\\h@@D?B@@DFBDBB@@DDjB`D@D?BIZCJAJ?LD`B?F?D?@?H@P?P@LB?@@@B?@TbFBLBNBJ?H?D@DBJ@F@FDAB@DHDRh@~At@pCCZAZC\\E\\EPENS^Yl@Sd@Up@I\\GNELERENCPCRCLEf@?BC`@EACAQ?Cx@?J?DAT?^KT?BGLDLAPCV?@AVAR?FADDNDJBH?DAVB??TClAAf@EpBIfEAr@CxBJ@@A@?@?H@AV?VE~AG~E",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

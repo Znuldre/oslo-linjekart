@@ -1,0 +1,218 @@
+{
+  "id": "NSR:StopPlace:6024",
+  "slug": "sinsenterrassen",
+  "name": "Sinsenterrassen",
+  "lat": 59.934152,
+  "lon": 10.779141,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "17"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6024"
+  ],
+  "neighbours": {
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "prev": "NSR:StopPlace:58255",
+        "next": "NSR:StopPlace:58406"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58406",
+        "next": "NSR:StopPlace:58255"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 15,
+    "majorstuen": null
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6024",
+        "name": "Sinsenterrassen",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11058",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:98636",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:98637",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11057",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:torshovdalen",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "lat": 59.934963,
+      "lon": 10.776707,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19392835",
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      },
+      "summary": {
+        "nb": "Torshovdalen er et parkområde i Oslo. Parken ligger mellom Torshov i vest, Sinsen i øst (Trondheimsveien), Rosenhoff og Rodeløkka i sørøst og sør (Mailundveien) og Gjøvikbanen i nord, og har skateboardramp i den sydlige delen. Parken forvaltes av Bymiljøetaten i Oslo kommune, som også preparerer langrennsløype om vinteren."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Torshovdalen4.JPG/640px-Torshovdalen4.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934152,
+        "lon": 10.779141
+      },
+      "walk": {
+        "durationS": 0,
+        "distanceM": 0,
+        "source": "estimate"
+      }
+    },
+    {
+      "id": "osm:way/110586542",
+      "name": {
+        "nb": "Sinsenparken"
+      },
+      "category": "park",
+      "lat": 59.933244,
+      "lon": 10.785884,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19388524",
+      "wikipedia": {
+        "nb": "Sinsenparken",
+        "en": "Sinsenparken"
+      },
+      "summary": {
+        "nb": "Sinsenparken er en park mellom Lørenveien og Gjøvikbanen på Sinsen i Oslo. Oslo kommune bruker Sinsenparken også om et område ved Schouterrassen lenger syd på Sinsen.",
+        "en": "Sinsenparken is a park between Lørenveien road and the Gjøvik Line at Sinsen, in Oslo, Norway. The 21.2-acre park is used for recreational purposes. The area is bounded by 6 storey residential buildings on three sides, and has Sinsen Church framing the south. There is a leisure and recreation area for the community, which is used for exercise, dog walking, games, sunbathing, barbecuing, social gatherings and other recreation. The entire surface is covered with grass, and in the northeastern part of the park are some tall trees. In the park stands a memorial in remembrance of the 24 Sinsen residents who fell during World War II. The monument was unveiled by Alfred Seland in September 1949."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Sinsenparken2.JPG/640px-Sinsenparken2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934043,
+        "lon": 10.784551
+      },
+      "walk": {
+        "durationS": 426,
+        "distanceM": 482,
+        "polyline": "m{xlJihx`Am@]ADw@e@Jc@Pu@DKr@eBGMIO@CTg@DMTq@\\u@p@aBLYHS@CN_@h@sAVi@JI@G?K?IEIGMWe@KEKS]u@_@w@MYM[G]G_@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/252260743",
+      "name": {
+        "nb": "Torshovparken"
+      },
+      "category": "park",
+      "lat": 59.935297,
+      "lon": 10.77098,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19392836",
+      "wikipedia": {
+        "nb": "Torshovparken",
+        "en": "Torshovparken"
+      },
+      "summary": {
+        "nb": "Torshovparken er en stor park på Torshov i Oslo, anlagt på 1920-tallet som en del av Torshovbyen, boligområdet som ble bygget ut i kommunal regi.",
+        "en": "Torshovparken is a large park located in Torshov, Oslo, Norway, that was established in the 1920s as part of Torshovbyen, a residential area developed by the municipality."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Torshovparken1.JPG/640px-Torshovparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934196,
+        "lon": 10.773276
+      },
+      "walk": {
+        "durationS": 441,
+        "distanceM": 515,
+        "polyline": "m{xlJihx`Am@]ADw@e@Kr@AJEZO?A@E?IDMRITP~AJzAD`BC`@Ej@b@d@r@^AhA@r@Fp@Dj@?TDBFFC@w@jC?LbBhD@?AFCHBFAPENAD",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/27012015",
+      "name": {
+        "nb": "Torshov kirkepark"
+      },
+      "category": "park",
+      "lat": 59.938137,
+      "lon": 10.773215,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12007133",
+      "wikipedia": {
+        "nb": "Torshov kirkepark"
+      },
+      "summary": {
+        "nb": "Torshov kirkepark er en park på Torshov i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Torshov_kirkepark.JPG/640px-Torshov_kirkepark.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.93732,
+        "lon": 10.774425
+      },
+      "walk": {
+        "durationS": 526,
+        "distanceM": 640,
+        "polyline": "m{xlJihx`Am@]ADw@e@Kr@AJEZO?A@E?IDMRITP~AJzAD`BC`@Ej@_@~AI`@EDGPMd@C@AFCFCHAB?FQj@g@`BC@C?A?CHAFCHAF?@@DADu@bCCB?DEJCJAB?EAEAAmEiGCCu@hC",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

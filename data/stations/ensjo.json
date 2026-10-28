@@ -1,0 +1,504 @@
+{
+  "id": "NSR:StopPlace:59762",
+  "slug": "ensjo",
+  "name": "Ensjø",
+  "lat": 59.914059,
+  "lon": 10.787276,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6051"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:59516",
+        "next": "NSR:StopPlace:59604"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:59516"
+      }
+    ],
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:59516",
+        "next": "NSR:StopPlace:59604"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:59516"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:59516"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:59516",
+        "next": "NSR:StopPlace:59604"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:59516"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59516",
+        "next": "NSR:StopPlace:59604"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 5,
+    "majorstuen": 11
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59762",
+      "name": "Ensjø",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "5N",
+          "name": "Jernbanetorget - Vestli T",
+          "lineId": "RUT:Line:3905"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6051",
+        "name": "Ensjø",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11106",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11107",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:kampen-park",
+      "name": {
+        "nb": "Kampen park",
+        "en": "Kampen Park"
+      },
+      "category": "park",
+      "lat": 59.915381,
+      "lon": 10.780319,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19376841",
+      "wikipedia": {
+        "nb": "Kampen park"
+      },
+      "summary": {
+        "nb": "Kampen park er en park på Kampen i Oslo, avgrenset av Økernveien og Ensjøveien i nord, jernbanen i øst, Sons gate i sør og Brinken i vest. Bøgata går gjennom parken i østenden."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Kampen_park1.JPG/640px-Kampen_park1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.914489,
+        "lon": 10.78236
+      },
+      "walk": {
+        "durationS": 442,
+        "distanceM": 443,
+        "polyline": "u}tlJg{y`AIb@MOC?C@ABBJJTFNj@zADJ`@fARj@DEF\\Jf@FZBNCBC@?H?XAJ?JAFAFAJCH@LG@GBGDIDGHUZm@v@KLQVA@@x@FzD?FCB}AF@@BJBJ@D?CJ?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:toyenparken",
+      "name": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "category": "park",
+      "lat": 59.919963,
+      "lon": 10.778272,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q7862388",
+      "wikipedia": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "summary": {
+        "nb": "Tøyenparken er en 93 mål stor park langs et høydedrag på Tøyen i Oslo. Fra 2014 arrangeres Øyafestivalen i parken.",
+        "en": "Tøyen Park is a park in Oslo, Norway. It is located to the north-east of the old Munch Museum and neighbours the University of Oslo Botanical Gardens."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Toyenparken_med_Bellevue.JPG/640px-Toyenparken_med_Bellevue.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915578,
+        "lon": 10.781527
+      },
+      "walk": {
+        "durationS": 576,
+        "distanceM": 615,
+        "polyline": "u}tlJg{y`AIb@MOC?C@ABI?MCq@kAGJKR]l@e@~@e@v@{@|AINCFCAA@A@_@n@CD]n@OXKRELCDIVGTOf@EVERCTCJE^CZCXAZA\\AX?P?R?R?R@V@ZBV@Z@JL`A@F@F@DDVBT?@@D?H@F@L?DJMBEL]HOFIDEFCDAHAH@J@PDLDHFCLCNEPAL",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:jordal-amfi",
+      "name": {
+        "nb": "Jordal Amfi",
+        "en": "Jordal Amfi"
+      },
+      "category": "attraction",
+      "lat": 59.911171,
+      "lon": 10.783961,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1703590",
+      "wikipedia": {
+        "nb": "Jordal Amfi",
+        "en": "Jordal Amfi (1951)"
+      },
+      "summary": {
+        "nb": "",
+        "en": "Jordal Amfi was an indoor ice hockey rink in Oslo, Norway, the first bearing that name. The venue opened in 1951 to host the 1952 Winter Olympics. Jordal was also the site of the 1958 and the 1999 IIHF World Championship. It would in the following decades also serve several boxing matches and concerts."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jordalamfifront.png/640px-Jordalamfifront.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 502,
+        "distanceM": 641,
+        "polyline": "u}tlJg{y`A@EB@Lc@\\kBCCp@_DDBZyAZPBQTr@b@xATv@@HH`@Hf@DZB\\B^@RBVBLDNf@lBVx@DHDHLP@@jBtA@@BPDDNNHFDQHSn@sBBIHMi@hEARAJ@J@J@LBFTZ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:toyenbadet",
+      "name": {
+        "nb": "Tøyenbadet",
+        "en": "Tøyen Baths"
+      },
+      "category": "attraction",
+      "lat": 59.9194,
+      "lon": 10.7789,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Tøyenbadet"
+      },
+      "summary": {
+        "nb": "Tøyenbadet er en offentlig svømmehall på Tøyen i Oslo, med adresse Helgesens gate 90. Det nåværende anlegget ble innviet 6. januar 2025, og erstattet en eldre svømmehall fra 1976 som ble revet i 2020."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/2013-05_T%C3%B8yenbadet.jpg/640px-2013-05_T%C3%B8yenbadet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 854,
+        "distanceM": 994,
+        "polyline": "u}tlJg{y`AIb@MOC?C@ABI?MCq@kAGJKR]l@e@~@e@v@{@|AINCFCAA@A@_@n@CD]n@OXKRELCDIVGTOf@EVERCTCJE^CZCXAZA\\AX?P?RA?G?I@???V?R@Z@\\BZB\\BXHt@RbBBP?T@VAR?TGtACLADCFCDED?@?H?H?D?HAL?DWAO@GVKXKZMd@Id@CRGXMp@Ol@e@~@WTIFKDQFMDO@S?a@Cw@Eq@Cq@C}@ECWI@Q?MC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:botanisk-hage",
+      "name": {
+        "nb": "Botanisk hage",
+        "en": "Botanical Garden"
+      },
+      "category": "park",
+      "lat": 59.918365,
+      "lon": 10.769751,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q3116396",
+      "website": "https://www.nhm.uio.no/utstillinger/botanisk-hage/index.html",
+      "wikipedia": {
+        "nb": "Botanisk hage (Oslo)",
+        "en": "University Botanical Garden (Oslo)"
+      },
+      "summary": {
+        "nb": "Botanisk hage på Tøyen i Oslo er Norges eldste botaniske hage, den ble etablert i 1814. Hagen og samlingene er siden blitt del av Naturhistorisk museum, sammen med blant annet Geologisk museum og Zoologisk museum. Naturhistorisk museum er igjen en del av Universitetet i Oslo (UiO). Botanisk hage har et areal på 150 mål, med rundt 35 000 planter, fordelt på 8 500 arter fra ulike deler av verden. Utvalget er under stadig utvidelse og omlegging.",
+        "en": "The University Botanical Garden is Norway's oldest botanical garden. It was first established in 1814 and is administered by the University of Oslo. It is situated in the neighborhood of Tøyen in Oslo, Norway. \n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Botanisk_hage_Oldemors_have.JPG/640px-Botanisk_hage_Oldemors_have.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.91582,
+        "lon": 10.773277
+      },
+      "walk": {
+        "durationS": 989,
+        "distanceM": 1123,
+        "polyline": "u}tlJg{y`AIb@MOC?C@ABI?MCq@kAGJKR]l@e@~@e@v@{@|AINCFCAA@A@_@n@CD]n@OXKRELCDIVGTOf@EVERCTCJE^CZCXAZA\\AX?P?R?R?R@V@ZBV@Z@JL`A@F@F@DDVBT?@@D?H@F@L?DBP@RDFRd@Nb@HXXnBDb@DZ?J@JHZFTDRDZBXBV@ZFzAJtBBj@DbA@PBNDHC@GBFj@DXF`@F\\Jb@XnAXpALh@FXHf@Db@B`@?\\?XE\\CPAHQp@GXK^YfAIMEECE??ECG?q@Du@F",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/132155227",
+      "name": {
+        "nb": "Kampen kirke",
+        "en": "Kampen Church"
+      },
+      "category": "church",
+      "lat": 59.911945,
+      "lon": 10.78198,
+      "score": 10,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q10297259",
+      "wikipedia": {
+        "nb": "Kampen kirke (Oslo)",
+        "en": "Kampen Church, Oslo"
+      },
+      "summary": {
+        "nb": "Kampen kirke er soknekirke for Kampen menighet i Oslo domprosti i Oslo bispedømme i bydel Gamle Oslo i Oslo kommune. Den er en treskipet langkirke og ble ble innviet 29. november 1882. Kirken het fra først av Betlehems kirke, men navnet festet seg aldri og gikk snart ut av bruk.",
+        "en": "Kampen Church is a church in Oslo, Norway, in the Kampen area. On 29 November 1882, the church was consecrated. Following a fire in Kampen in 1878, a new church became part of the neighborhood's restoration plans. A new congregation was established in the neighborhood in 1880, but it gathered elsewhere until the church finished its construction."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Kampen_kirke.jpg/640px-Kampen_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 538,
+        "distanceM": 591,
+        "polyline": "u}tlJg{y`AIb@MOC?C@ABBJFJBHFNj@zADJ`@fARj@DEF\\BHF\\FZBN@FDZ@Z@HD??d@@bB@P?XTtF@@?@B@B@D?`ACJAH?JAp@CR??J?J?H@H@@?@@DNbEBb@?D?B?B@NFADCB?@?XIEs@?GQBA?CCACAGAIC{@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/158006633",
+      "name": {
+        "nb": "Etterstadparken"
+      },
+      "category": "park",
+      "lat": 59.910126,
+      "lon": 10.799218,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q23042769",
+      "wikipedia": {
+        "nb": "Etterstadparken"
+      },
+      "summary": {
+        "nb": "Etterstadparken er en park i bydel Gamle Oslo. Den ble anlagt som kjerne i boligstrøket Etterstad, som ble anlagt med frittstående lavblokker i siksakkmønster i 1940- og 50-årene. Store grønne områder mellom bygningene går over i parken. Dette dannet mønster for senere drabantbyer."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Etterstadparken_midtpart_sett_mot_nord%C3%B8st.jpg/640px-Etterstadparken_midtpart_sett_mot_nord%C3%B8st.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.911922,
+        "lon": 10.795284
+      },
+      "walk": {
+        "durationS": 579,
+        "distanceM": 656,
+        "polyline": "u}tlJg{y`A@EB@Lc@\\kBCCp@_DDBZyAHYFKEIDGBEBEFKb@w@LQPU\\i@RS`@e@ZYd@c@PQJIPOXSAMCQAOCMDCDCAO_@mCWsB@C}@}F|B_CY}A",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/65072278",
+      "name": {
+        "nb": "Vålerenga park"
+      },
+      "category": "park",
+      "lat": 59.906959,
+      "lon": 10.787363,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12010204",
+      "wikipedia": {
+        "nb": "Vålerenga park"
+      },
+      "summary": {
+        "nb": "Vålerenga park er en park på Vålerenga i Oslo. Parken er 32 mål stor og ble opparbeidet i årene 1903-1916. Vålerenga kirke (1902) står midt i parken. Parken avgrenses av Danmarks gate i nord, Hjaltlandsgata og Vålerenga skole i øst, Hovedbanen i syd og Opplandsgata i vest. Under parken går Vålerengtunnelen. Prestegården tett ved kirken er våningshuset fra tidligere Vålerenga gård."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/V%C3%A5lerenga_park_sett_mot_Opplandgata.JPG/640px-V%C3%A5lerenga_park_sett_mot_Opplandgata.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.907771,
+        "lon": 10.787276
+      },
+      "walk": {
+        "durationS": 776,
+        "distanceM": 983,
+        "polyline": "u}tlJg{y`A@EB@Lc@\\kBCCp@_DDBZyAHYFKEIDGBEBEFKb@w@LQPU\\i@RS`@e@ZYd@c@PQJIPOXSTOHEFGPKVOf@Ud@OHCFCJAHBN@`@@B?B?B@B@DDB@B@BAFCFIDNVrA\\tA@CFGFI@Ap@xCLl@\\~A`@~AVhALn@BLDH@HHh@Fh@?H@F?DBTJbAD`@BR?B@@@@@N@L@B@CTM@Cb@YVQ@?@@@ADCBCBA?A@AfAq@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4874898",
+      "name": {
+        "nb": "Klosterenga"
+      },
+      "category": "park",
+      "lat": 59.908272,
+      "lon": 10.77627,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q15091162",
+      "wikipedia": {
+        "nb": "Klosterenga",
+        "en": "Klosterenga"
+      },
+      "summary": {
+        "nb": "Klosterenga, eller Klosterenga park, er et parkmessig område i Bydel Gamle Oslo som ligger i overgangen mellom Nordre Gamlebyen og Grønland i Oslo. Parkdraget strekker seg opp til Galgeberg.",
+        "en": "Klosterenga or Klosterenga park is a park in Oslo, located in the transition between Old Town and Grønland. The park route extends up to Galgeberg. It was made as part of a housing project."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Klosterenga_skulpturpark2.JPG/640px-Klosterenga_skulpturpark2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.909117,
+        "lon": 10.778335
+      },
+      "walk": {
+        "durationS": 812,
+        "distanceM": 965,
+        "polyline": "u}tlJg{y`AIb@MOC?C@ABBJJTFNj@zADJ`@fARj@DEF\\Jf@FZBN@FDZ@Z@HD??d@@bB@P?XTtF@@?@B@B@D?`ACJAH?JAp@CR??J?J?H@H@@?@@DNbEBb@?D?B?B@N?J?@\\G@?@?@@@AFADABA?D?D?N@DNhD?B@B@@@@@?|Aa@@A?C@?D?F?@??fA?~A?J@B@D@B?@?L?J?B@?B?b@@xAF~@BF@fAd@XL~Ap@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/7951543",
+      "name": {
+        "nb": "Botsparken",
+        "en": "Grønlands park – Botsparken"
+      },
+      "category": "park",
+      "lat": 59.909593,
+      "lon": 10.771116,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11973058",
+      "wikipedia": {
+        "nb": "Grønlands park – Botsparken"
+      },
+      "summary": {
+        "nb": "Grønlands park – Botsparken er en park som ligger rundt Oslo fengsel og Politihuset på Grønland i Oslo. Parken er 27,5 dekar stor, når det 11,6 dekar store arealet langs sydsiden av muren mot Klosterenga ikke regnes med. I parken ligger Egon Olsens allé."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Gronlands_park2.JPG/640px-Gronlands_park2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.911026,
+        "lon": 10.774344
+      },
+      "walk": {
+        "durationS": 927,
+        "distanceM": 1025,
+        "polyline": "u}tlJg{y`AIb@MOC?C@ABBJJTFNj@zADJ`@fARj@DEF\\Jf@FZBN@FDZ@Z@HD??d@@bB@P?XTtF@@?@B@B@D?`ACJAH?JAp@CR??J?J?H@H@@?@@DNbEBb@?D?B?B@N?J?@\\G@?@?@@@BPbE?D?B?BABA@?@?B?L@L?BBB@@@@?B@^J|B@?DCFC@A@D@RBN?BINW`@@B?B@@B?@APW?BEFIN?@AB?@?D?B@B@@@?ATSxBCV?FN??L@H?F?H?F?J@Lb@|@EDb@dA@HAD@DDH@BBDc@dABHP^DL@D?FJBf@hAf@`A",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/111641730",
+      "name": {
+        "nb": "Vålerenga kirke",
+        "en": "Vålerenga Church"
+      },
+      "category": "church",
+      "lat": 59.906775,
+      "lon": 10.787975,
+      "score": 10.5,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q4576471",
+      "wikipedia": {
+        "nb": "Vålerenga kirke",
+        "en": "Vålerenga Church"
+      },
+      "summary": {
+        "nb": "Vålerenga kirke er sognekirke for Vålerenga menighet i Oslo domprosti i Oslo bispedømme i Bydel Gamle Oslo i Oslo kommune. Det er en langkirke fra 1902 på Vålerenga i Oslo. Kirken har et asymmetrisk plassert tårn, som den første i Oslo og en av de første i Norge. Den er bygget i grå granitt med klebersteinsdetaljer, arkitekter Heinrich Jürgensen og Holger Sinding-Larsen. Kirken har et klokkespill med 12 forskjellige kirkeklokker og ligger i Vålerenga park.",
+        "en": "Vålerenga Church is a church located in Oslo, Norway. Vålerenga church stands in the middle of Vålerenga park in the neighborhood of Vålerenga. The church belongs to the parish of Vålerenga of the Oslo arch-deanery within the Diocese of Oslo of the Church of Norway.\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/V%C3%A5lerenga_church%2C_Oslo_2.jpg/640px-V%C3%A5lerenga_church%2C_Oslo_2.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 987,
+        "distanceM": 1180,
+        "polyline": "u}tlJg{y`A@EB@Lc@\\kBCCp@_DDBZyAHYFKEIDGBEBEFKb@w@LQPU\\i@RS`@e@ZYd@c@PQJIPOXSTOHEFGPKVOf@Ud@OHCFCJAHBN@`@@B?B?B@B@DDB@B@BAFCFIDN@ABEBC@A??DCBABA?D@H@J@FR|@@DB@@@@?@?@?BABAHCHE^URMLIHGd@i@LQ?@BF@H@BT]V_@Zc@HM@?B??@@B@BBLBLLlAXhCb@`Eb@|DH|@Hl@@ADCBCFE?A@AJIPM`@Y?N@v@j@|@BC@CBA@@@?@@@BBB?FBAPGFABA?LD?AK@G?G?C?A@A@A\\M@?B@@@@FB@?DDn@IB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

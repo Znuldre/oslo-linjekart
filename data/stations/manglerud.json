@@ -1,0 +1,196 @@
+{
+  "id": "NSR:StopPlace:58249",
+  "slug": "manglerud",
+  "name": "Manglerud",
+  "lat": 59.897521,
+  "lon": 10.812113,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1",
+    "4"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5917"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58248",
+        "next": "NSR:StopPlace:58250"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58250",
+        "next": "NSR:StopPlace:58248"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58250",
+        "next": "NSR:StopPlace:58248"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58248",
+        "next": "NSR:StopPlace:58250"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 12,
+    "majorstuen": 18
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58249",
+      "name": "Manglerud",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "4B",
+          "name": "Buss for linje 4",
+          "lineId": "RUT:Line:3004"
+        },
+        {
+          "publicCode": "4N",
+          "name": "Jernbanetorget - Bergkrystallen T",
+          "lineId": "RUT:Line:3904"
+        },
+        {
+          "publicCode": "23",
+          "name": "Lysaker - Simensbråten",
+          "lineId": "RUT:Line:23"
+        },
+        {
+          "publicCode": "78A",
+          "name": "Østensjø ring",
+          "lineId": "RUT:Line:78"
+        },
+        {
+          "publicCode": "78B",
+          "name": "Østensjø ring",
+          "lineId": "RUT:Line:2078"
+        },
+        {
+          "publicCode": "FB11",
+          "name": "FB11 Fredrikstad-Oslo Lufthavn (OSL)",
+          "lineId": "VYX:Line:56"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5917",
+        "name": "Manglerud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10851",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10850",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:ostensjovannet",
+      "name": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet Lake"
+      },
+      "category": "park",
+      "lat": 59.886902,
+      "lon": 10.830399,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q47494417",
+      "wikipedia": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet"
+      },
+      "summary": {
+        "nb": "Østensjøvannet er en innsjø som ligger midt i bydelen Østensjø i Oslo kommune. Innsjøen har et areal på 0,33 km² og ligger 107 meter over havet. Innsjøen er omkranset av drabantbyene og boligstrøkene Bogerud, Abildsø, Manglerud, Rognerud, Oppsal, Ulsrud og Bøler. Den regnes som en av Norges mest artsrike innsjøer for vann- og sumpvegetasjon, noe som videre danner grunnlag for et rikt fugle- og dyreliv der. Artsrikdommen og den sentrale beliggenheten gjør dessuten vannet til et av landets mest benyttede rekreasjonsområder.",
+        "en": "Østensjøvannet is a lake located in the Østensjø borough in Oslo, Norway. It is well known for the wide variety of birds and other wildlife that can be found there. It is currently a wildlife preserve, though urban development posed a serious threat to the lake and its environs during the 1980s and early 1990s."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%C3%98stensj%C3%B8vannet_%285._mai_2018%29.jpg/640px-%C3%98stensj%C3%B8vannet_%285._mai_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.897521,
+        "lon": 10.824234
+      },
+      "walk": {
+        "durationS": 757,
+        "distanceM": 855,
+        "polyline": "mvqlJsv~`Ab@y@FMHOGOLYXq@Pc@L]Pq@J_@@G@E?G?GAI@EDM@G@E@GBM@CA??u@ASFOMi@CMCMAYASCQCKGa@OeAESCGW}@K_@@sA@y@@W@cAB[B]Hc@BSB]?K?MSDe@F_@FMH?S@qA?e@A_@Ck@A_@C[EgBAI?K?AG@EMESCK?QCYCg@AOOe@Iq@Es@AMLKJKCy@?e@@wG?SPK`@]BI",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/53047384",
+      "name": {
+        "nb": "Manglerud kirke",
+        "en": "Manglerud Church"
+      },
+      "category": "church",
+      "lat": 59.89638,
+      "lon": 10.810685,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10357180",
+      "wikipedia": {
+        "nb": "Manglerud kirke",
+        "en": "Manglerud Church"
+      },
+      "summary": {
+        "nb": "Manglerud kirke er soknekirke for Manglerud menighet i Søndre Aker prosti i Oslo bispedømme i Bydel Østensjø i Oslo kommune. Den er bygget som en langkirke i 1963 og ligger i drabantbyen Manglerud i Oslo kommune.\nArkitekt for kirken var Carl Corwin. Byggverket er i betong og har 310 sitteplasser.",
+        "en": "Manglerud Church is a church in Oslo, Norway. The church was consecrated in December 1963. It is a parish church for Manglerud congregation. 400 seats, in addition to an adjacent church hall with 200 seats, as well as a smaller hall with 50 seats. There are also a small chapel, a baptismal sacristy and a youth activity room attached to the building. Manglerud Church is located above and on the south side of the E 6 highway and the subway at Ryen Station. It is easily visible with its high, steep ceilings and a slender, separate bell tower."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Manglerud_kirke.jpg/640px-Manglerud_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 226,
+        "distanceM": 271,
+        "polyline": "mvqlJsv~`Ab@y@FMHOLYL[JWDJ@@BEBC@?BAB@B@@@@Bh@rARd@Rh@HR@FJ^DX@HBNBPDG\\dCCBGJYf@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "id": "NSR:StopPlace:59604",
+  "slug": "toyen",
+  "name": "Tøyen",
+  "lat": 59.915031,
+  "lon": 10.776247,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6473"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:59762",
+        "next": "NSR:StopPlace:6488"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:6488",
+        "next": "NSR:StopPlace:59762"
+      }
+    ],
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:59762",
+        "next": "NSR:StopPlace:6488"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:6488",
+        "next": "NSR:StopPlace:59762"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:6488",
+        "next": "NSR:StopPlace:59762"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:59762",
+        "next": "NSR:StopPlace:6488"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:6488",
+        "next": "NSR:StopPlace:59762"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59762",
+        "next": "NSR:StopPlace:6488"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:6488",
+        "next": "NSR:StopPlace:58189"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58189",
+        "next": "NSR:StopPlace:6488"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 3,
+    "majorstuen": 9
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59604",
+      "name": "Tøyen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "20",
+          "name": "Skøyen - Galgeberg",
+          "lineId": "RUT:Line:20"
+        },
+        {
+          "publicCode": "60",
+          "name": "Vippetangen-Tonsenhagen",
+          "lineId": "RUT:Line:60"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:6480",
+      "name": "Tøyen skole",
+      "distanceM": 283,
+      "lines": [
+        {
+          "publicCode": "5N",
+          "name": "Jernbanetorget - Vestli T",
+          "lineId": "RUT:Line:3905"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6473",
+        "name": "Tøyen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11895",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11898",
+            "publicCode": "4",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11897",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:toyenparken",
+      "name": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "category": "park",
+      "lat": 59.919963,
+      "lon": 10.778272,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q7862388",
+      "wikipedia": {
+        "nb": "Tøyenparken",
+        "en": "Tøyen Park"
+      },
+      "summary": {
+        "nb": "Tøyenparken er en 93 mål stor park langs et høydedrag på Tøyen i Oslo. Fra 2014 arrangeres Øyafestivalen i parken.",
+        "en": "Tøyen Park is a park in Oslo, Norway. It is located to the north-east of the old Munch Museum and neighbours the University of Oslo Botanical Gardens."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Toyenparken_med_Bellevue.JPG/640px-Toyenparken_med_Bellevue.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915578,
+        "lon": 10.776247
+      },
+      "walk": {
+        "durationS": 162,
+        "distanceM": 129,
+        "polyline": "yculJsvw`A???Gd@kAO@w@DGB?@EBKFGBEBC@C@A@DR_@b@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:botanisk-hage",
+      "name": {
+        "nb": "Botanisk hage",
+        "en": "Botanical Garden"
+      },
+      "category": "park",
+      "lat": 59.918365,
+      "lon": 10.769751,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q3116396",
+      "website": "https://www.nhm.uio.no/utstillinger/botanisk-hage/index.html",
+      "wikipedia": {
+        "nb": "Botanisk hage (Oslo)",
+        "en": "University Botanical Garden (Oslo)"
+      },
+      "summary": {
+        "nb": "Botanisk hage på Tøyen i Oslo er Norges eldste botaniske hage, den ble etablert i 1814. Hagen og samlingene er siden blitt del av Naturhistorisk museum, sammen med blant annet Geologisk museum og Zoologisk museum. Naturhistorisk museum er igjen en del av Universitetet i Oslo (UiO). Botanisk hage har et areal på 150 mål, med rundt 35 000 planter, fordelt på 8 500 arter fra ulike deler av verden. Utvalget er under stadig utvidelse og omlegging.",
+        "en": "The University Botanical Garden is Norway's oldest botanical garden. It was first established in 1814 and is administered by the University of Oslo. It is situated in the neighborhood of Tøyen in Oslo, Norway. \n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Botanisk_hage_Oldemors_have.JPG/640px-Botanisk_hage_Oldemors_have.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.91582,
+        "lon": 10.773277
+      },
+      "walk": {
+        "durationS": 304,
+        "distanceM": 389,
+        "polyline": "yculJsvw`A???Gd@kAHA\\Cf@E@dA?LaA|Cw@rBJb@BLF\\?F@`@CX@n@ABARETGZSv@A?Mf@EECE??ECG?q@Du@F",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:kampen-park",
+      "name": {
+        "nb": "Kampen park",
+        "en": "Kampen Park"
+      },
+      "category": "park",
+      "lat": 59.915381,
+      "lon": 10.780319,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19376841",
+      "wikipedia": {
+        "nb": "Kampen park"
+      },
+      "summary": {
+        "nb": "Kampen park er en park på Kampen i Oslo, avgrenset av Økernveien og Ensjøveien i nord, jernbanen i øst, Sons gate i sør og Brinken i vest. Bøgata går gjennom parken i østenden."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Kampen_park1.JPG/640px-Kampen_park1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915031,
+        "lon": 10.778277
+      },
+      "walk": {
+        "durationS": 576,
+        "distanceM": 528,
+        "polyline": "yculJsvw`A???Gd@kA@YoAJC?AG?EAKCY?KG@ECCCEICOAQEcACk@KuBG{AA[CWCYE[ESGUI[AK?KE[Ec@YoBD@BBDFLRVn@DJJZDNXp@PVFHLb@Et@Hf@PfA@@DBD@HBJBD@A\\@H",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:toyenbadet",
+      "name": {
+        "nb": "Tøyenbadet",
+        "en": "Tøyen Baths"
+      },
+      "category": "attraction",
+      "lat": 59.9194,
+      "lon": 10.7789,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Tøyenbadet"
+      },
+      "summary": {
+        "nb": "Tøyenbadet er en offentlig svømmehall på Tøyen i Oslo, med adresse Helgesens gate 90. Det nåværende anlegget ble innviet 6. januar 2025, og erstattet en eldre svømmehall fra 1976 som ble revet i 2020."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/2013-05_T%C3%B8yenbadet.jpg/640px-2013-05_T%C3%B8yenbadet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 575,
+        "distanceM": 608,
+        "polyline": "yculJsvw`A???Gd@kAO@w@DGB?@EBKFGBEBC@C@A@EGCCCAEBiBv@IDIBYHQFOF_@PSHe@TAGAMAOAEAUSJSKIIKMISi@cAw@eA_AUyA]IEGEGKO[GIGEAAk@YGUMa@?GCWI@Q?MC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:naturhistorisk-museum",
+      "name": {
+        "nb": "Naturhistorisk museum",
+        "en": "Natural History Museum"
+      },
+      "category": "museum",
+      "lat": 59.919783,
+      "lon": 10.771714,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1840963",
+      "website": "https://www.nhm.uio.no/",
+      "wikipedia": {
+        "nb": "Naturhistorisk museum (Oslo)",
+        "en": "Natural History Museum at the University of Oslo"
+      },
+      "summary": {
+        "nb": "Naturhistorisk museum (NHM) på Tøyen i Oslo er en del av Universitetet i Oslo og huser universitetets naturhistoriske samlinger og botanisk hage.",
+        "en": "The Natural History Museum at the University of Oslo is Norway's oldest and largest museum of natural history. It is situated in the neighborhood of Tøyen in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/T%C3%B8yen_hovedgaard_Oslo.JPG/640px-T%C3%B8yen_hovedgaard_Oslo.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 728,
+        "distanceM": 836,
+        "polyline": "yculJsvw`A???Gd@kAO@w@DGB?@EBKFGBEBC@C@A@EGCCCAEBiBv@IDIBYHQFOF_@PSHe@T@V?HAFCBABIBWBKDOFKJQNMRARAzB?FAJC`CTPCRMRGn@?@?PAJ?@C?i@E?BBfABlAEZm@Xg@DQF[TYRk@De@gACCYg@[g@SZER?`@?POz@}@?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:jordal-amfi",
+      "name": {
+        "nb": "Jordal Amfi",
+        "en": "Jordal Amfi"
+      },
+      "category": "attraction",
+      "lat": 59.911171,
+      "lon": 10.783961,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1703590",
+      "wikipedia": {
+        "nb": "Jordal Amfi",
+        "en": "Jordal Amfi (1951)"
+      },
+      "summary": {
+        "nb": "",
+        "en": "Jordal Amfi was an indoor ice hockey rink in Oslo, Norway, the first bearing that name. The venue opened in 1951 to host the 1952 Winter Olympics. Jordal was also the site of the 1958 and the 1999 IIHF World Championship. It would in the following decades also serve several boxing matches and concerts."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jordalamfifront.png/640px-Jordalamfifront.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 906,
+        "distanceM": 1025,
+        "polyline": "yculJsvw`A???Gd@kAHA\\Cf@EB??K?K?GAI?GLApCS?WzCUF?BCBCHK~C}ELS@A?A@CDODS?GDC@C@EK}BA_@?CAAAACC?CAM?M?C?A@A@C?C?C?EQcEACAAA?A?]F?A?KAO?C?C?ECc@OcEAE?AAAAI?I?K?KFAN?@A@CDe@VmBBGBQ@ABADAD@Fm@?G@IBQLq@Nq@D]PsAFc@HFDQHSn@sBBIHMi@hEARAJ@J@J@LBFTZ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:interkulturelt-museum",
+      "name": {
+        "nb": "Interkulturelt museum",
+        "en": "Intercultural Museum"
+      },
+      "category": "museum",
+      "lat": 59.913048,
+      "lon": 10.763251,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q18663554",
+      "website": "https://www.oslomuseum.no/interkulturelt-museum/",
+      "wikipedia": {
+        "nb": "Interkulturelt Museum",
+        "en": "Intercultural Museum"
+      },
+      "summary": {
+        "nb": "Interkulturelt Museum (IKM), tidligere Internasjonalt kultursenter og museum eller Internasjonalt kulturmuseum, er siden 2006 en avdeling ved Oslo Museum.",
+        "en": "The Intercultural Museum is located at Tøyenbekken 5 in Oslo, Norway. \nThe Intercultural Museum is a migration museum, and is primarily concerned with the collection, preservation and dissemination of Norwegian immigration history.\nSince 2006, the Intercultural Museum has been part of the Oslo Museum. It is situated in the district of Grønland and housed in a former police station which was built in 1900–1902 under design by architect Balthazar Lange (1854-1937).\n\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG/640px-Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 800,
+        "distanceM": 1051,
+        "polyline": "yculJsvw`A???Gd@kAHA\\Cf@E@dA?LaA|Cw@rBJb@BLF\\?F@`@CX@n@ABARETGZSv@A?Mf@Md@K^CL?@FLDJBBA@ABc@|A?J?@CJEJ?BC@AB]rAAFAB?D@DhBfF?D@F@FBHB@@DBDDLBF@BAB@BHVBD@BBDPb@`@jAL^xAfEHP@B@@B??B@J@L??@D?@@D@DBHl@`B@Jb@fA@FB@@@BA@D@FDJ@D?B?BDLLh@FXT`A@B??CBEF?@@F@B?DA@AB?@BFBF?@q@|@??A@?B?@?@A@EFGJCB@?@B@B@HF~@@H@HDLn@zA\\v@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/7951543",
+      "name": {
+        "nb": "Botsparken",
+        "en": "Grønlands park – Botsparken"
+      },
+      "category": "park",
+      "lat": 59.909593,
+      "lon": 10.771116,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11973058",
+      "wikipedia": {
+        "nb": "Grønlands park – Botsparken"
+      },
+      "summary": {
+        "nb": "Grønlands park – Botsparken er en park som ligger rundt Oslo fengsel og Politihuset på Grønland i Oslo. Parken er 27,5 dekar stor, når det 11,6 dekar store arealet langs sydsiden av muren mot Klosterenga ikke regnes med. I parken ligger Egon Olsens allé."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Gronlands_park2.JPG/640px-Gronlands_park2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.911026,
+        "lon": 10.774344
+      },
+      "walk": {
+        "durationS": 475,
+        "distanceM": 578,
+        "polyline": "yculJsvw`A???Gd@kAHA\\Cf@EB?zDWjAK@@HDHB@@JQBABAH?B?hDUp@Eb@|@EDb@dA@HAD@DDH@BBDc@dABHP^DL@D?FJBf@hAf@`A",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4874898",
+      "name": {
+        "nb": "Klosterenga"
+      },
+      "category": "park",
+      "lat": 59.908272,
+      "lon": 10.77627,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q15091162",
+      "wikipedia": {
+        "nb": "Klosterenga",
+        "en": "Klosterenga"
+      },
+      "summary": {
+        "nb": "Klosterenga, eller Klosterenga park, er et parkmessig område i Bydel Gamle Oslo som ligger i overgangen mellom Nordre Gamlebyen og Grønland i Oslo. Parkdraget strekker seg opp til Galgeberg.",
+        "en": "Klosterenga or Klosterenga park is a park in Oslo, located in the transition between Old Town and Grønland. The park route extends up to Galgeberg. It was made as part of a housing project."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Klosterenga_skulpturpark2.JPG/640px-Klosterenga_skulpturpark2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.909117,
+        "lon": 10.776247
+      },
+      "walk": {
+        "durationS": 630,
+        "distanceM": 732,
+        "polyline": "yculJsvw`A???Gd@kAHA\\Cf@EB??K?K?GAI?GLApCSlBMn@EFAf@C\\CXCxAM\\CrBMf@E^AVAJ?t@?t@AdCAX?BPBH?VD?@@?F?P?FAHCFADYfA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/547688836",
+      "name": {
+        "nb": "Elgsletta",
+        "en": "Elgsletta aktivitetspark"
+      },
+      "category": "park",
+      "lat": 59.915901,
+      "lon": 10.761247,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q97794288",
+      "wikipedia": {
+        "nb": "Elgsletta aktivitetspark"
+      },
+      "summary": {
+        "nb": "Elgsletta aktivitetspark er en park langs Akerselva på Grønland i Oslo, ferdig i 2009. Parken inneholder blant annet sandvolleyballbaner."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Elgsletta_aktivitetspark_2014.jpg/640px-Elgsletta_aktivitetspark_2014.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915223,
+        "lon": 10.762371
+      },
+      "walk": {
+        "durationS": 818,
+        "distanceM": 1057,
+        "polyline": "yculJsvw`A???Gd@kAHA\\Cf@E@dA?LaA|Cw@rBJb@BLF\\?F@`@CX@h@?DABARETGZSv@A?Mf@Md@K^CLUv@YhAYdAADABCHEBC@AJIRCHABBFAL?JDhA@XBr@?R@XAZATAJObBK~@KbA?JAH?F?J@J@F@B@D@D@D@D@D@Dp@nC@@@@?@@BFTDH?B?Fx@zCRt@@@@?@BBJBF@D?B?B?BlAtELd@A@CDEDCB@BBLkCdEINn@pCF~@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

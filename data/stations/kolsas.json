@@ -1,0 +1,182 @@
+{
+  "id": "NSR:StopPlace:58284",
+  "slug": "kolsas",
+  "name": "Kolsås",
+  "lat": 59.914582,
+  "lon": 10.500843,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:4060"
+  ],
+  "neighbours": {
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "next": "NSR:StopPlace:58283"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58283"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 31,
+    "majorstuen": 26
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58284",
+      "name": "Kolsås",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "160",
+          "name": "Rykkinn -Nationaltheatret",
+          "lineId": "RUT:Line:160"
+        },
+        {
+          "publicCode": "160E",
+          "name": "Rykkinn - Nationaltheatret",
+          "lineId": "RUT:Line:2160"
+        },
+        {
+          "publicCode": "204",
+          "name": "Rykkinn - Kolsås - Sandvika",
+          "lineId": "RUT:Line:204"
+        },
+        {
+          "publicCode": "210A",
+          "name": "Bykrysset - Helset- Sandvika",
+          "lineId": "RUT:Line:1210"
+        },
+        {
+          "publicCode": "210B",
+          "name": "Slalåmveien -Mølledammen- Sandvika",
+          "lineId": "RUT:Line:2210"
+        },
+        {
+          "publicCode": "215A",
+          "name": "Kolsås - Vøyenenga- Sandvika",
+          "lineId": "RUT:Line:1215"
+        },
+        {
+          "publicCode": "215B",
+          "name": "Kolsås - Sandvika",
+          "lineId": "RUT:Line:2215"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:4060",
+        "name": "Kolsås",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:7319",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:7320",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:relation/13364531",
+      "name": {
+        "nb": "Kolsåsstupene naturreservat",
+        "en": "Kolsåsstupene"
+      },
+      "category": "park",
+      "lat": 59.924527,
+      "lon": 10.520445,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q47491664",
+      "wikipedia": {
+        "nb": "Kolsåsstupene naturreservat"
+      },
+      "summary": {
+        "nb": "Kolsåsstupene naturreservat omfatter de bratte skråninger og stup på vest-, sør- og østsiden av Kolsåstoppen i Bærum.\nVerneverdiene er både geologiske forekomster og vegetasjon. I den nedre delen består fjellet av sedimentære bergarter fra silurtiden; kalkstein nederst med sandstein, leirskifer og konglomerat over. Øverst finnes lavabergarter fra permtiden; basalt og rombeporfyr.\nVegetasjonen er rik, med næringskrevende planter på hyller i stupene, og for øvrig mye edelløvskog."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Kols%C3%A5sstupene.jpg/640px-Kols%C3%A5sstupene.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.916386,
+        "lon": 10.507345
+      },
+      "walk": {
+        "durationS": 519,
+        "distanceM": 495,
+        "polyline": "gaulJw|a_AACEIACA@GHEHA@Ic@AM?e@?g@?I@k@?[?I?OAg@?KASAaAQsACSI]Qk@Ug@S_@]c@_@QOGGi@Cm@@s@@sAAcB?k@Ae@Au@?WEIKOYKO?IAIa@C[Aa@CS?MYl@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/186765242",
+      "name": {
+        "nb": "Bryn kirke",
+        "en": "Bryn Church"
+      },
+      "category": "church",
+      "lat": 59.921073,
+      "lon": 10.488125,
+      "score": 7.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q8733240",
+      "website": "https://www.bryn-menighet.no/",
+      "wikipedia": {
+        "nb": "Bryn kirke",
+        "en": "Bryn Church"
+      },
+      "summary": {
+        "nb": "Bryn kirke er en langkirke fra 1861 på Rykkinn i Bærum kommune i Akershus fylke.",
+        "en": "Bryn Church is a long church located in Rykkinn in the municipality of Bærum in Akershus county, Norway. The church functions both as a road church and is the parish church for Bryn."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Bryn_kirke.jpg/640px-Bryn_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1006,
+        "distanceM": 1145,
+        "polyline": "gaulJw|a_AACEIACA@GHEHA@ANCRMf@CDKPYXi@j@w@z@YXKJABUVGDIDA??@GHCDCBEFKLEHs@t@[ZmArAEHcAtAKJ]^w@~@o@bAi@`ASXk@dAM^O~@SrAEZABAFKb@Yx@Ur@]dAINOR?@ABCFCJAD[`BMl@ANi@~DQtAEb@CXOlAIbAA@Gd@AFUT?DAFCHAFAFCFCJ?HF\\EBCCGUGSGKGGMKICEAWF}@`@RpD@RFBBBBFBRBb@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

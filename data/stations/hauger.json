@@ -1,0 +1,166 @@
+{
+  "id": "NSR:StopPlace:58283",
+  "slug": "hauger",
+  "name": "Hauger",
+  "lat": 59.910449,
+  "lon": 10.509464,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:4051"
+  ],
+  "neighbours": {
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58284",
+        "next": "NSR:StopPlace:4007"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:4007",
+        "next": "NSR:StopPlace:58284"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 30,
+    "majorstuen": 25
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58283",
+      "name": "Hauger",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "160",
+          "name": "Rykkinn -Nationaltheatret",
+          "lineId": "RUT:Line:160"
+        },
+        {
+          "publicCode": "204",
+          "name": "Rykkinn - Kolsås - Sandvika",
+          "lineId": "RUT:Line:204"
+        },
+        {
+          "publicCode": "210A",
+          "name": "Bykrysset - Helset- Sandvika",
+          "lineId": "RUT:Line:1210"
+        },
+        {
+          "publicCode": "210B",
+          "name": "Slalåmveien -Mølledammen- Sandvika",
+          "lineId": "RUT:Line:2210"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:4051",
+        "name": "Hauger",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:7304",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:7305",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:relation/13364531",
+      "name": {
+        "nb": "Kolsåsstupene naturreservat",
+        "en": "Kolsåsstupene"
+      },
+      "category": "park",
+      "lat": 59.924527,
+      "lon": 10.520445,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q47491664",
+      "wikipedia": {
+        "nb": "Kolsåsstupene naturreservat"
+      },
+      "summary": {
+        "nb": "Kolsåsstupene naturreservat omfatter de bratte skråninger og stup på vest-, sør- og østsiden av Kolsåstoppen i Bærum.\nVerneverdiene er både geologiske forekomster og vegetasjon. I den nedre delen består fjellet av sedimentære bergarter fra silurtiden; kalkstein nederst med sandstein, leirskifer og konglomerat over. Øverst finnes lavabergarter fra permtiden; basalt og rombeporfyr.\nVegetasjonen er rik, med næringskrevende planter på hyller i stupene, og for øvrig mye edelløvskog."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Kols%C3%A5sstupene.jpg/640px-Kols%C3%A5sstupene.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.916386,
+        "lon": 10.509464
+      },
+      "walk": {
+        "durationS": 785,
+        "distanceM": 781,
+        "polyline": "igtlJesc_AADOd@CIACBQ?GAKCOIm@Im@GWG]Se@GOACKOMQAAIGGEIG_@UGCE?EBEHC?Fe@[KWE]KICIGKIOOMMSOUKYK]E[CYE[CGAKAC?i@Ek@E]Gc@A[BYJ]TONWVYVc@`@}@v@a@d@URQTKREPKd@Kh@IXM^Q^o@lAAD",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/116690750",
+      "name": {
+        "nb": "Helgerud kirke",
+        "en": "Helgerud Church"
+      },
+      "category": "church",
+      "lat": 59.902413,
+      "lon": 10.513187,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q8734012",
+      "wikipedia": {
+        "nb": "Helgerud kirke"
+      },
+      "summary": {
+        "nb": "Helgerud kirke er en arbeidskirke fra 1982 på Gjettum i Bærum kommune i Oslo bispedømme. Den er hovedkirke i Helgerud menighet, opprettet i 1976 ved at det tidligere Vestre Bærum prestegjeld ble delt i de tre nye menighetene Bryn, Helgerud og Tanum kirke. Helgerud menighet omfatter det sentrale området fra Sandvika sentrum mot Valler, Dønski, Rud, Gjettum, Hauger og til Kolsås."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Helgerud_kirke_20080601-1.jpg/640px-Helgerud_kirke_20080601-1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1018,
+        "distanceM": 1123,
+        "polyline": "igtlJesc_AL]DKZy@HSTk@Ra@Vi@\\q@NYd@}@Xe@R[^k@j@s@VYRUXUJURQHGLGLIDADABAFAFALAJ?R@NBL@DAPAPERMJIPMPMRKNIJEVILCJDBd@DA@I@E@ETGLCj@UDAD?D@LEPQ\\Ul@]|@c@t@_@n@]LCFEBAHE|@GJ?\\OtDIN@BDFLBH@F@JEHKb@VFVHZFXPZTXT^d@KTIHEBU@GAEBEFAH",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "jernbanetorget",
+    "name": "Jernbanetorget",
+    "stationId": "NSR:StopPlace:58366"
+  },
+  {
+    "slug": "majorstuen",
+    "name": "Majorstuen",
+    "stationId": "NSR:StopPlace:58381"
+  }
+]

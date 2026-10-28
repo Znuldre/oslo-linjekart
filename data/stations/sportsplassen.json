@@ -1,0 +1,181 @@
+{
+  "id": "NSR:StopPlace:58298",
+  "slug": "sportsplassen",
+  "name": "Sportsplassen",
+  "lat": 59.886077,
+  "lon": 10.774136,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "13",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6598"
+  ],
+  "neighbours": {
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:58299",
+        "next": "NSR:StopPlace:6580"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58297",
+        "next": "NSR:StopPlace:58299"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58297",
+        "next": "NSR:StopPlace:58299"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58299",
+        "next": "NSR:StopPlace:6580"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 12,
+    "majorstuen": 27
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6598",
+        "name": "Sportsplassen",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:12190",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12191",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:relation/13363583",
+      "name": {
+        "nb": "Ekebergskråningen naturreservat",
+        "en": "Ekebergskråningen"
+      },
+      "category": "park",
+      "lat": 59.891795,
+      "lon": 10.764855,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17769381",
+      "wikipedia": {
+        "nb": "Ekebergskråningen"
+      },
+      "summary": {
+        "nb": "Ekebergskråningen, eller Ekebergskråninga, er et naturområde på cirka 800 dekar (mål) i tilknytning til Oslo indre by. Skråningen ligger dels i bydel Gamle Oslo, dels i bydel Nordstrand og utgjør den solfylte vesthellinga av Ekeberg, som skråner ned mot Oslofjorden og Bjørvika. Skråningen er for en stor del skogkledt, og ligger nær Oslo sentrum. Nedre del av skogen, dvs. omtrent det området som ligger innenfor bygrensa av 1878, kalles gjerne Ekebergskauen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Ekeberg_Sj%C3%B8mannsskolen_Oslofjorden.jpeg/640px-Ekeberg_Sj%C3%B8mannsskolen_Oslofjorden.jpeg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.886077,
+        "lon": 10.773467
+      },
+      "walk": {
+        "durationS": 64,
+        "distanceM": 62,
+        "polyline": "wnolJgiw`ABBGXDBBQ@BFFFF@@IZOp@CP",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/15937521",
+      "name": {
+        "nb": "Ballsletta"
+      },
+      "category": "park",
+      "lat": 59.891527,
+      "lon": 10.773209,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11960097",
+      "wikipedia": {
+        "nb": "Ballsletta"
+      },
+      "summary": {
+        "nb": "Ballsletta er navn på et område på Ekeberg i Oslo."
+      },
+      "access": {
+        "lat": 59.889925,
+        "lon": 10.774136
+      },
+      "walk": {
+        "durationS": 452,
+        "distanceM": 479,
+        "polyline": "wnolJgiw`ABBGXEGGGEGGDIDIRSMe@Ck@EIAOEc@Sm@]IEOMOKO[CDGAo@EQAGAECCECECECHEJISEEICE?[La@LGBEHCKCDEHCJCZA^c@LMJUXKVMVW\\]V_@T",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/141513850",
+      "name": {
+        "nb": "Bekkelaget kirke",
+        "en": "Bekkelaget Church"
+      },
+      "category": "church",
+      "lat": 59.884859,
+      "lon": 10.788268,
+      "score": 8.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297093",
+      "wikipedia": {
+        "nb": "Bekkelaget kirke",
+        "en": "Bekkelaget Church"
+      },
+      "summary": {
+        "nb": "Bekkelaget kirke er soknekirke for Bekkelaget og Ormøy menighet i Søndre Aker prosti i Oslo bispedømme i Oslo kommune. Det er en langkirke fra 1923 som ligger på Bekkelaget i bydel Nordstrand.",
+        "en": "Bekkelaget Church is a long church located in Bekkelaget in Nordstrand, a district of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Bekkelaget_church_in_2025.jpg/640px-Bekkelaget_church_in_2025.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 902,
+        "distanceM": 910,
+        "polyline": "wnolJgiw`ABBGXEGGGEG@EBSd@mCHg@F_@Da@BUBY@O@WEM?E@c@DsA?I?IAOAEAG?U?O@M?S@Q@Q@[@M?EBO?C?C?CGO?A?C@ICGCGAMAQEg@EQ@ECK?}@?W?I@w@HaF@Q?ECEKMEEABEG\\}@BIB_BHcEDaDBw@B}A@}@@s@?E?E?CACAACA?GCKAM?C@C@C@C?G@I?G?G?KQgEAY?]AW@M?[D@?AF@D?HIJMLSHOHSFQJ[FWFQFUFSFQBA@?d@A",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

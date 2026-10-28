@@ -1,0 +1,476 @@
+{
+  "id": "NSR:StopPlace:58362",
+  "slug": "lille-frogner-alle",
+  "name": "Lille Frogner allé",
+  "lat": 59.917923,
+  "lon": 10.712201,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "15"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:4336"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58361",
+        "next": "NSR:StopPlace:58363"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58363",
+        "next": "NSR:StopPlace:58361"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58363",
+        "next": "NSR:StopPlace:58361"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58361",
+        "next": "NSR:StopPlace:58363"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 12,
+    "majorstuen": 8
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58362",
+      "name": "Lille Frogner allé",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:4336",
+        "name": "Lille Frogner allé",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:7828",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:7827",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:frognerparken",
+      "name": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "category": "park",
+      "lat": 59.926659,
+      "lon": 10.701656,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q1126911",
+      "wikipedia": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "summary": {
+        "nb": "Frognerparken er en offentlig park i Oslo. Den tilhørte historisk Frogner Hovedgård, som har gitt navn til parken, strøket Frogner, Bydel Frogner og Frognerseteren.",
+        "en": "Frogner Park is a public park in the central West End borough of Frogner in Oslo, Norway. The park is historically part of Frogner Manor and is Oslo's largest park, open to the public at all times. It includes the manor house which is the seat of Oslo Museum, the nearby Henriette Wegner Pavilion, the Vigeland installation of sculptures created by sculptor Gustav Vigeland, Frogner Baths, Frogner stadion, Frognerparken Café, the restaurant Herregårdskroen and the largest collection of roses in the country with 14,000 plants of 150 species. Frogner Park is the most visited tourist attraction in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg/640px-NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.922828,
+        "lon": 10.708628
+      },
+      "walk": {
+        "durationS": 622,
+        "distanceM": 746,
+        "polyline": "_vulJifk`AINGLGLEJENITAAIMCLADAFCLa@|AEJEBE@WGkFuAUGy@SENCFCDABAB@BmAjCCBGLEHCDGNoApCGLA@GLELA@c@{@_AiBo@oAGMAAAAA@??_@hAg@vA?@ABADCJGN?@C@?@}@jCCJDJXj@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:nasjonalbiblioteket",
+      "name": {
+        "nb": "Nasjonalbiblioteket",
+        "en": "National Library of Norway"
+      },
+      "category": "attraction",
+      "lat": 59.914044,
+      "lon": 10.717557,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Nasjonalbiblioteket",
+        "en": "National Library of Norway"
+      },
+      "summary": {
+        "nb": "Nasjonalbiblioteket er Norges nasjonalbibliotek og har ansvar for å samle inn, bevare og tilgjengeliggjøre publisert materiale produsert i Norge. Institusjonen forvalter pliktavleveringsordningen og oppbevarer bøker, aviser, tidsskrifter, digitale dokumenter, film, fotografi, musikk, kart og annet kulturmateriale. Nasjonalbiblioteket har publikumsavdelinger i Oslo.",
+        "en": "The National Library of Norway was established in 1989. Its principal task is \"to preserve the past for the future\". The library is located both in Oslo and in Mo i Rana. The building in Oslo was restored and reopened in 2005."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Nasjonalbiblioteket.JPG/640px-Nasjonalbiblioteket.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 547,
+        "distanceM": 670,
+        "polyline": "_vulJifk`ADINUHK?B@D@BHIHGJEfBk@@@BB@BDFDD@BBCFIHI@A@Ib@uBh@mCBEB?b@b@t@t@BF@EBQBM@KDABCjAgGDQDS^gBjAaGBDBDB@@BB@BDBDH]DE@?JGDEBA@ABC@A@ADER`BJz@b@YZWAKFG",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:slottsparken",
+      "name": {
+        "nb": "Slottsparken",
+        "en": "Palace Park"
+      },
+      "category": "park",
+      "lat": 59.917698,
+      "lon": 10.728467,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q4583462",
+      "wikipedia": {
+        "nb": "Slottsparken",
+        "en": "Palace Park (Oslo)"
+      },
+      "summary": {
+        "nb": "Slottsparken er Oslos sentrale bypark, som dekker et samlet areal på 225 dekar eller mål. Parken omkranser Det kongelige slott og Slottsplassen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Air_uranienborg.jpg/640px-Air_uranienborg.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.917923,
+        "lon": 10.722731
+      },
+      "walk": {
+        "durationS": 722,
+        "distanceM": 847,
+        "polyline": "_vulJifk`ADINUHKAECE?E?ABEDQBKBGJFB?D?bBm@h@QDEBIBM?G?G@EBMBM@CBEd@yB@K?I?GBOBO@IDYNeDPyBEOAEBI@IBM@WIE??CAo@m@OMs@q@OQSWMQAIAO@ILy@\\cC@EDSGKOS{C{EIOIO@M?ABAh@iDV{A@I?EAA@E@M?C@E?E?CCCm@cAIQEEc@y@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:slottet",
+      "name": {
+        "nb": "Det kongelige slott",
+        "en": "The Royal Palace"
+      },
+      "category": "attraction",
+      "lat": 59.917193,
+      "lon": 10.727236,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q863932",
+      "website": "https://www.kongehuset.no/",
+      "wikipedia": {
+        "nb": "Det kongelige slott (Oslo)",
+        "en": "Royal Palace, Oslo"
+      },
+      "summary": {
+        "nb": "",
+        "en": "The Royal Palace in Oslo is the official residence of the Norwegian monarch. It was built in the first half of the 19th century as the Norwegian residence of the French-born Charles XIV John, who reigned as king of Norway and Sweden."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Slottet_i_Oslo_1.jpg/640px-Slottet_i_Oslo_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.917732,
+        "lon": 10.726273
+      },
+      "walk": {
+        "durationS": 901,
+        "distanceM": 1071,
+        "polyline": "_vulJifk`ADINUHKAECE?E?ABEDQBKBGJFB?D?bBm@h@QDEBIBM?G?G@EBMBM@CBEd@yB@K?I?GBOBO@IDYNeDPyBEOAEBI@IBM@WIE??CAo@m@OMs@q@OQSWMQAIAO@ILy@\\cC@EDS@M@CASToH?A@I@k@@SAGDiB@E?C?E?E@E?E?O?A@A?C?ELkFA?EAGAA??CC??G?K@O?CEAK?KCIEIIKKKQeDuFGM?ClA{GO_A",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:bymuseet",
+      "name": {
+        "nb": "Oslo Museum (Bymuseet)",
+        "en": "Oslo City Museum"
+      },
+      "category": "museum",
+      "lat": 59.923918,
+      "lon": 10.703014,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q2578922",
+      "website": "https://www.oslomuseum.no/besok-oss/bymuseet/",
+      "wikipedia": {
+        "nb": "Oslo Museum",
+        "en": "Oslo City Museum"
+      },
+      "summary": {
+        "nb": "Oslo Museum er et kulturhistorisk museum i Oslo som ble opprettet 1. januar 2006 gjennom sammenslutning av tre eksisterende museer: Oslo Bymuseum, Interkulturelt Museum og Teatermuseet. Arbeidermuseet ble åpnet som del av Oslo Museum i 2013. Museets administrasjon er lokalisert sammen med Bymuseet og Teatermuseet på Frogner hovedgård i Frognerparken. I 2010 hadde museet samlet 79 888 besøkende. I 2019 ble Oslo Museum kåret til årets museum av Norges museumsforbund.",
+        "en": "Oslo City Museum is a department of Oslo Museum in Oslo, Norway since 2006. The museum is located at Frogner Manor in Frogner Park (Frognerparken)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Oslo_Museum_logo.svg/langnb-330px-Oslo_Museum_logo.svg.png?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 800,
+        "distanceM": 951,
+        "polyline": "_vulJifk`AINGLGLEJENITAAIMCLADAFCLa@|AEJAFGTET?BAFk@|BSv@M`@IXIRS\\C@CAABGJEHCD?B?B[f@g@x@CBC?CCA@EJIJABABCFcA`BEDE@ABEHEJABADABu@jA_@n@CDA@GHILA@CFqBbDCBC?ABEHEJA@CFU^}@tAINGFEBEAKCq@W?DAF?F_@FM~ACDCBEF@V?H?HATALC\\Gp@a@nDKM_@@ICSCWUQWQUOACAMEMv@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:vigelandmuseet",
+      "name": {
+        "nb": "Vigelandmuseet",
+        "en": "Vigeland Museum"
+      },
+      "category": "museum",
+      "lat": 59.92287,
+      "lon": 10.700061,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q7928869",
+      "website": "https://vigeland.museum.no/",
+      "wikipedia": {
+        "nb": "Vigelandmuseet",
+        "en": "Vigeland Museum"
+      },
+      "summary": {
+        "nb": "Vigelandmuseet ble oppført i 1920-årene av Oslo kommune som atelier, bolig og fremtidig museum for den norske billedhuggeren Gustav Vigeland (1869–1943). Her arbeidet og levde han frem til sin død. Vigelandmuseet er et av de fineste eksemplene på nyklassistisk monumentalarkitektur i Norge, ifølge Kari Hoel, professor i arkitektur ved Universitetet i Oslo. Borggården med fontene, søyleganger og skulpturer er omkranset av museets 13 utstillingssaler. Vigelandmuseet åpnet for publikum i 1947. Museet ligger ved Frognerparken i Oslo, nær Frogner Hovedgård med Bymuseet og Henriette Wegners paviljong.",
+        "en": "The Vigeland Museum is a museum dedicated to Gustav Vigeland in Frogner, Oslo. It is located outside Frogner Park, which includes the Vigeland installation with sculptures by Gustav Vigeland. Inside the park, close to Vigeland Museum, is Frogner Manor with Oslo Museum and the Henriette Wegner Pavilion, a small art gallery."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Vigelandsmuseet.JPG/640px-Vigelandsmuseet.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 786,
+        "distanceM": 951,
+        "polyline": "_vulJifk`AINGLGLEJENITAAIMCLADAFCLa@|AEJAFGTET?BAFk@|BSv@M`@IXIRS\\C@CAABGJEHCD?B?B[f@g@x@CBC?CCA@EJIJABABCFcA`BEDE@ABEHEJABADABu@jA_@n@CDA@GHILA@CFqBbDCBC?ABEHEJA@CFU^}@tABJ@B@B@D@B?@AB?D?@@D?BAFAJAJ?DSIC?E@EBc@t@a@l@INGJG\\ETi@rDObAEXCVAV?LANAL?HEDPtBd@zCHF",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ibsenmuseet",
+      "name": {
+        "nb": "Ibsen museum & teater",
+        "en": "Ibsen Museum & Theatre"
+      },
+      "category": "museum",
+      "lat": 59.915031,
+      "lon": 10.727046,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1519078",
+      "website": "https://ibsenmt.no",
+      "wikipedia": {
+        "nb": "IBSEN Museum & Teater",
+        "en": "Ibsen Museum"
+      },
+      "summary": {
+        "nb": "IBSEN Museum & Teater, tidligere Ibsenmuseet, er et litterært museum i Oslo. Museet er nyrenovert og utvidet med nytt amfiteater, tilliggende teaterfasiliteter og et stadig mer oppdatert og velutstyrt forfatterhjem. Gjenåpning av det nye museet skjedde 1. juli 2023 etter ekstra midler over revidert Statsbudsjett. IMT holder åpent alle dager med utvidete åpningstider i sommerhalvåret, og er i vinterhalvåret åpent fra 11 til 16 på mandag, torsdag, lørdag og søndag. Det mangler fremdeles driftsmidler til å spille teater, mens museet på forespørsel gir foredrag for ulike grupper og foreninger i teatersalen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Arbins_gate_1_Oslo.jpg/640px-Arbins_gate_1_Oslo.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 918,
+        "distanceM": 1109,
+        "polyline": "_vulJifk`ADINUHKAECE?E?ABEDQBKBGJFB?D?bBm@h@QDEBIBM?G?G@EBMBM@CBEd@yB@K?I?GBOBO@IDYNeDPyBEOAEBI@IBM@WDBD?FAFEDEJKp@w@FIFKDCtAaBn@w@DADCBA@OFc@ACGi@CWSeBGo@Am@?QAW?A?M?E?IBQQ_BCUCSA]?i@AK?SAU?IAYIeEASAMACAAAEAGAE?G@G?E@C?a@?UB?@?@AB?@?BAB?@?BA@?@?Co@AMG{DAY?C@I?I@C@IAI@S?O?E?EACDoD@w@?E@C?C?U@W?GAA?C?ED_E?C@?X`@JN",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/30439166",
+      "name": {
+        "nb": "Hydroparken"
+      },
+      "category": "park",
+      "lat": 59.914519,
+      "lon": 10.715989,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11976301",
+      "wikipedia": {
+        "nb": "Hydroparken"
+      },
+      "summary": {
+        "nb": "Hydroparken er en park ved Norsk Hydros høye kontorbygning, kjent som Hydrobygget, ved Solli plass i Oslo. Bygningen er tegnet av Erling Viksjø og oppført 1960. Viksjø knyttet til seg landskapsarkitektene Grindaker og Gabrielsen som utformet parken. Murene er laget av billedkunstneren Odd Tandberg."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Hydroparken1.JPG/640px-Hydroparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915027,
+        "lon": 10.714829
+      },
+      "walk": {
+        "durationS": 378,
+        "distanceM": 443,
+        "polyline": "_vulJifk`ADINUHK?B@D@BHIHGJEfBk@@@BB@BDFDD@BBCFIHI@A@Ib@uBh@mCBEB?b@b@t@t@BF@EBQBM@KDABC@BHHFH@@RcAR_ALg@\\eBp@z@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/19053201",
+      "name": {
+        "nb": "Framneshaven"
+      },
+      "category": "park",
+      "lat": 59.911503,
+      "lon": 10.710745,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17773840",
+      "wikipedia": {
+        "nb": "Framneshaven (Tinker’n)"
+      },
+      "summary": {
+        "nb": "Framneshaven er en park på Skillebekk i Oslo. Parken danner en overgang til Filipstad, og ble oppgradert med nytt lekeområde i 2015."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Framneshaven_Tinkern_sett_mot_nord_juni_2015.JPG/640px-Framneshaven_Tinkern_sett_mot_nord_juni_2015.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.912165,
+        "lon": 10.711911
+      },
+      "walk": {
+        "durationS": 629,
+        "distanceM": 793,
+        "polyline": "_vulJifk`ADINUHK?B@D@BHIHGJEfBk@@@BB@BDFDD@BBCFIHI@A@FBFrA~AB@B@@A@CnAsGBDFHFH@@BEBAD@XZLLl@l@DSBQbJdJlBnBJH@A@@B?@@@@D@BBB@@??F@@ND@SDWH_@HWJa@FSHWBGBIDMFQL_@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/5249065",
+      "name": {
+        "nb": "Frøyas have"
+      },
+      "category": "park",
+      "lat": 59.915734,
+      "lon": 10.696708,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11970457",
+      "wikipedia": {
+        "nb": "Frøyas have"
+      },
+      "summary": {
+        "nb": "Frøyas have er en park på Skarpsno i Oslo. Parken har en rolig atmosfære og vanligvis få besøkende. Bandet deLillos feirer sitt 40-årsjubileum med konserter i parken 7. og 8. juni 2025."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Fr%C3%B8yas_have_sitteplass_i_sydvest.JPG/640px-Fr%C3%B8yas_have_sitteplass_i_sydvest.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.916771,
+        "lon": 10.69921
+      },
+      "walk": {
+        "durationS": 800,
+        "distanceM": 983,
+        "polyline": "_vulJifk`AINGLGLEJEN@B@B@BALADGRCNCFCB]tAADGXEPADCDcAfEMb@GREL?f@K??D?N?N?BM?A@ABAD?DLxBl@dJBB?@@R@N?D?BPjCNhCBFBBB?@C@EJNFHBBQv@EZCPFN@JNjBA?@D@L?J@DA?A@?@?BPzC@B@@?BBXBd@@DAB?BPbC?F@D?D@@?DARdC`A?T?DAlA?~AB?F?B?B?@?B?@B@BBDBH@B@D@C@D?B@D@D@H@FEFABAB?DAD?D?D@D?D@DBHDJPb@b@l@VmA@?@?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/5292351",
+      "name": {
+        "nb": "Skarpsnoparken"
+      },
+      "category": "park",
+      "lat": 59.914867,
+      "lon": 10.700382,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12000859",
+      "wikipedia": {
+        "nb": "Skarpsnoparken"
+      },
+      "summary": {
+        "nb": "Skarpsnoparken er en park på Skarpsno ved Frognerkilen i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Skarpsnoparken1.JPG/640px-Skarpsnoparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915589,
+        "lon": 10.701306
+      },
+      "walk": {
+        "durationS": 808,
+        "distanceM": 1027,
+        "polyline": "_vulJifk`AINGLGLEJEN@B@B@BALADGRCNCFCB]tAADGXEPADCDcAfEMb@GREL?f@K??D?N?N?BM?A@ABAD?DLxBl@dJBB?@@R@N?D?BPjCNhCBFBBB?@C@EJNFHBBQv@EZCPFN@JNjBA?@D@L?J@DA?A@?@?BPzC@B@@@@nDz@@@B@BFlAVl@JBB@@BD?@@B@HXxF@DBB@?VURM@?PKPGNCBANA\\?B?H?EiB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

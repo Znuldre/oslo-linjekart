@@ -1,0 +1,332 @@
+{
+  "id": "NSR:StopPlace:58288",
+  "slug": "thune",
+  "name": "Thune",
+  "lat": 59.921848,
+  "lon": 10.687656,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "13"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6443"
+  ],
+  "neighbours": {
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:59603"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "next": "NSR:StopPlace:59603"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": null,
+    "majorstuen": null
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58288",
+      "name": "Thune",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "13B",
+          "name": "Buss for linje 13",
+          "lineId": "RUT:Line:3013"
+        },
+        {
+          "publicCode": "13E",
+          "name": "Ekspressbuss for linje 13",
+          "lineId": "RUT:Line:4013"
+        },
+        {
+          "publicCode": "20",
+          "name": "Skøyen - Galgeberg",
+          "lineId": "RUT:Line:20"
+        },
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6443",
+        "name": "Thune",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11840",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11841",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:frognerparken",
+      "name": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "category": "park",
+      "lat": 59.926659,
+      "lon": 10.701656,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q1126911",
+      "wikipedia": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "summary": {
+        "nb": "Frognerparken er en offentlig park i Oslo. Den tilhørte historisk Frogner Hovedgård, som har gitt navn til parken, strøket Frogner, Bydel Frogner og Frognerseteren.",
+        "en": "Frogner Park is a public park in the central West End borough of Frogner in Oslo, Norway. The park is historically part of Frogner Manor and is Oslo's largest park, open to the public at all times. It includes the manor house which is the seat of Oslo Museum, the nearby Henriette Wegner Pavilion, the Vigeland installation of sculptures created by sculptor Gustav Vigeland, Frogner Baths, Frogner stadion, Frognerparken Café, the restaurant Herregårdskroen and the largest collection of roses in the country with 14,000 plants of 150 species. Frogner Park is the most visited tourist attraction in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg/640px-NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.922828,
+        "lon": 10.694684
+      },
+      "walk": {
+        "durationS": 480,
+        "distanceM": 499,
+        "polyline": "qnvlJ{lf`ARu@XaAACAAACAAACFYX}@\\iAGI?APi@Tm@@C?EACKYO[k@yAw@iBy@sBc@gA{AqDGSDIO}@Ku@G}@OuBAQ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:vigelandsanlegget",
+      "name": {
+        "nb": "Vigelandsanlegget",
+        "en": "Vigeland Sculpture Park"
+      },
+      "category": "attraction",
+      "lat": 59.926903,
+      "lon": 10.701208,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q23878032",
+      "wikipedia": {
+        "nb": "Vigelandsanlegget",
+        "en": "Vigeland Installation"
+      },
+      "summary": {
+        "nb": "Vigelandsanlegget er skulpturanlegget i Frognerparken i Oslo. Skulptursamlingen ble skapt av Gustav Vigeland mellom 1920-årene og 1943 i etterkant av bruken av Frognerparken som folkepark under Jubileumsutstillingen på Frogner 1914. Skulpturanlegget dekker en stor del av, men ikke hele Frognerparken, som også omfatter herregårdsbebyggelsen Frogner Hovedgård med Bymuseet og Henriette Wegners paviljong, øvrige parkarealer, Frognerbadet, Frogner stadion, Frogner tennis og serveringssteder. Frognerparken med Vigelandsanlegget er en av Oslos – og Norges – mest besøkte attraksjoner, med over en million besøkende hvert år."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Frogner_Park_with_Vigeland_Sculpture_Arrangement.jpg/640px-Frogner_Park_with_Vigeland_Sculpture_Arrangement.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 988,
+        "distanceM": 1103,
+        "polyline": "qnvlJ{lf`ARu@XaAACAAACAAACFYX}@\\iAGI?APi@Tm@@C?EACKYO[k@yAw@iBy@sBc@gA{AqDGSDIO}@Ku@G}@OuBGk@Kk@Ok@Sg@cAqBa@k@Uo@sBgECIc@eAEGGCK?KQaE}FeBgCkAaBMSWa@@GWeBJg@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:vigelandmuseet",
+      "name": {
+        "nb": "Vigelandmuseet",
+        "en": "Vigeland Museum"
+      },
+      "category": "museum",
+      "lat": 59.92287,
+      "lon": 10.700061,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q7928869",
+      "website": "https://vigeland.museum.no/",
+      "wikipedia": {
+        "nb": "Vigelandmuseet",
+        "en": "Vigeland Museum"
+      },
+      "summary": {
+        "nb": "Vigelandmuseet ble oppført i 1920-årene av Oslo kommune som atelier, bolig og fremtidig museum for den norske billedhuggeren Gustav Vigeland (1869–1943). Her arbeidet og levde han frem til sin død. Vigelandmuseet er et av de fineste eksemplene på nyklassistisk monumentalarkitektur i Norge, ifølge Kari Hoel, professor i arkitektur ved Universitetet i Oslo. Borggården med fontene, søyleganger og skulpturer er omkranset av museets 13 utstillingssaler. Vigelandmuseet åpnet for publikum i 1947. Museet ligger ved Frognerparken i Oslo, nær Frogner Hovedgård med Bymuseet og Henriette Wegners paviljong.",
+        "en": "The Vigeland Museum is a museum dedicated to Gustav Vigeland in Frogner, Oslo. It is located outside Frogner Park, which includes the Vigeland installation with sculptures by Gustav Vigeland. Inside the park, close to Vigeland Museum, is Frogner Manor with Oslo Museum and the Henriette Wegner Pavilion, a small art gallery."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Vigelandsmuseet.JPG/640px-Vigelandsmuseet.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 919,
+        "distanceM": 1038,
+        "polyline": "qnvlJ{lf`ARu@XaAACAAACAAACFYX}@DKV}@Xw@HUJUJUEKACXi@Vi@f@cABEBG@EDK\\{@DKNk@La@FWBK@I@K?K?K?IAICSKa@Q_AKk@}@aFG]]{ASs@Wq@Ug@MUS]MQMQKOw@aAEGCCk@u@GGGIW]KQKSEGU_@?CEI]{@GS_@cA?CY}@Qq@G[M}@AMCOBCDEFC@AIy@E}@EmA?m@@gABUbBn@HF",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/133391366",
+      "name": {
+        "nb": "Madserud gård"
+      },
+      "category": "park",
+      "lat": 59.923576,
+      "lon": 10.694366,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q61060592",
+      "wikipedia": {
+        "nb": "Madserud gård"
+      },
+      "summary": {
+        "nb": "Madserud gård er et tidligere gårdsanlegg vest i Oslo kommune. Gården var opprinnelig en husmannsplass under Søndre Skøyen og fikk navn etter en mann kalt Mads, far til Niels Madsen, som en gang bodde der. Fra 1812 tilhørte plassen kjøpmann Jacob Erasmus Dybwad, som også eide Fredriksberg på sørsiden av Frognerelva. Midtpartiet av våningshuset er muligens reist en gang i perioden 1852-74 av grosserer Stener Rosenberg, i senklassisistisk stil med innslag av nyrenessanse. Senere eier var kommandørkaptein Fredrik Georg Wilhelm Sverdrup, som i 1890 forlenget huset med en innebygget glassveranda mot øst. Fra 1903 var gården eiet av Harald Løvenskiold. I 1913 bygde han på huset mot vest, slik at det ble symmetrisk, og tilføyde søylepartiet på langsiden mot sør. Arkitekten for dette var Herman Backer. Dermed fikk huset den form det har i dag."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/V.Aker._Madserud_all%C3%A9_34_-_NB_MS_G4_0582.jpg/640px-V.Aker._Madserud_all%C3%A9_34_-_NB_MS_G4_0582.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.92295,
+        "lon": 10.692933
+      },
+      "walk": {
+        "durationS": 391,
+        "distanceM": 412,
+        "polyline": "qnvlJ{lf`ARu@XaAACAAACAAACFYX}@\\iAGI?APi@Tm@@C?EACKYO[k@yAw@iBy@sBc@gA{AqDGSKX",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/44660964",
+      "name": {
+        "nb": "Skøyenparken"
+      },
+      "category": "park",
+      "lat": 59.9263,
+      "lon": 10.688741,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q4616935",
+      "wikipedia": {
+        "nb": "Skøyenparken",
+        "en": "Skøyenparken"
+      },
+      "summary": {
+        "nb": "\n\nSkøyenparken ligger på Skøyen i bydel Ullern i Oslo. Parken hører til Skøyen hovedgård. Nordre Skøyen Hovedgård ligger i bydel Østensjø, og parken rundt Nordre Skøyen omtales også i noen sammenhenger som Skøyenparken.",
+        "en": "Skøyenparken is a park in the neighborhood of Skøyen in the borough of Ullern in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sondre_Skoyen_park.JPG/640px-Sondre_Skoyen_park.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.924649,
+        "lon": 10.687656
+      },
+      "walk": {
+        "durationS": 394,
+        "distanceM": 399,
+        "polyline": "qnvlJ{lf`ASp@]lAACAAAAACACEGACIZA@GPGPGFGFC@CAABAJGXCJADBHBL?F?FCREGGCEAEAG@G?CBEF[QKKmBeBm@o@[_@q@e@IGMAQOAAo@{@GVA@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/2846869",
+      "name": {
+        "nb": "Dronningberget naturreservat",
+        "en": "Dronningberget"
+      },
+      "category": "park",
+      "lat": 59.91582,
+      "lon": 10.684356,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11966098",
+      "wikipedia": {
+        "nb": "Dronningberget"
+      },
+      "summary": {
+        "nb": "Dronningberget er en kolle på Bygdøy i bydel Frogner i Oslo, som ble opparbeidet som park på 1700-tallet."
+      },
+      "access": {
+        "lat": 59.917792,
+        "lon": 10.686955
+      },
+      "walk": {
+        "durationS": 648,
+        "distanceM": 741,
+        "polyline": "qnvlJ{lf`ASp@]lABB@B?@@@DFBD@@HL\\b@BBB@@FBDLTx@dAl@v@r@bAB@BCDENLHL@BDDd@j@~@nA\\b@v@kDNs@f@}BLa@FQFIFEFCH@B@r@R`@DJAHEFGFMFOFUF[HWBIDI@E?E@C@Y?UFABABABG@G@ABFDFDFFBDB@A@A?A?G??DCDCJMDIFKHSJTJVQnAIt@A?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/5249065",
+      "name": {
+        "nb": "Frøyas have"
+      },
+      "category": "park",
+      "lat": 59.915734,
+      "lon": 10.696708,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11970457",
+      "wikipedia": {
+        "nb": "Frøyas have"
+      },
+      "summary": {
+        "nb": "Frøyas have er en park på Skarpsno i Oslo. Parken har en rolig atmosfære og vanligvis få besøkende. Bandet deLillos feirer sitt 40-årsjubileum med konserter i parken 7. og 8. juni 2025."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Fr%C3%B8yas_have_sitteplass_i_sydvest.JPG/640px-Fr%C3%B8yas_have_sitteplass_i_sydvest.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.916771,
+        "lon": 10.694207
+      },
+      "walk": {
+        "durationS": 975,
+        "distanceM": 1062,
+        "polyline": "qnvlJ{lf`ARu@XaAACAAACAAACFYX}@\\iAXw@HUJUJUrAoCJUVk@L_@L]Nk@Nq@FWF_@Ho@D[CG?C@EDMjAkI?C?C?C?A@C@OF[?E@A@??C@CHq@NcAD]@?B@BBB?BGL]BETc@P[LSLUHIFEDG\\]HKVYPU@CDIJOFOL[L]?CBDBB@B@DDJBI@G@CVhAf@|ADLXz@@HBL?H?F@tA?L@?AD?B@N@J?F@JH^BNBVBRJp@Hn@@DBHFFPED@BJAj@C\\BFHFD@BED@D@B?BEDIBS@M?M?M?OCQCOGa@?ACMEC",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "NSR:StopPlace:58279",
+  "slug": "bjornsletta",
+  "name": "Bjørnsletta",
+  "lat": 59.927023,
+  "lon": 10.636729,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2",
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6521"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Avløs",
+        "prev": "NSR:StopPlace:58278",
+        "next": "NSR:StopPlace:58280"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58280",
+        "next": "NSR:StopPlace:58278"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58280",
+        "next": "NSR:StopPlace:58278"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58278",
+        "next": "NSR:StopPlace:58280"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 17,
+    "majorstuen": 12
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58279",
+      "name": "Bjørnsletta",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "42",
+          "name": "Voksen skog - Tjuvholmen",
+          "lineId": "RUT:Line:42"
+        },
+        {
+          "publicCode": "42N",
+          "name": "Voksen skog - Jernbanetorget",
+          "lineId": "RUT:Line:9842"
+        },
+        {
+          "publicCode": "FB3",
+          "name": "Radiumhospitalet via Økern-Storo-Tåsen",
+          "lineId": "NBU:Line:cb7b555c-f96e-42d5-84bf-a5e08c0145c2"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6521",
+        "name": "Bjørnsletta",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:12037",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12038",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": []
+}

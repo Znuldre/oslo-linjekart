@@ -1,0 +1,144 @@
+{
+  "id": "NSR:StopPlace:58248",
+  "slug": "ryen",
+  "name": "Ryen",
+  "lat": 59.895516,
+  "lon": 10.804785,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1",
+    "4"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5900"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58247",
+        "next": "NSR:StopPlace:58249"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58249",
+        "next": "NSR:StopPlace:58247"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58249",
+        "next": "NSR:StopPlace:58247"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58247",
+        "next": "NSR:StopPlace:58249"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 13,
+    "majorstuen": 19
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58248",
+      "name": "Ryen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "4B",
+          "name": "Buss for linje 4",
+          "lineId": "RUT:Line:3004"
+        },
+        {
+          "publicCode": "4N",
+          "name": "Jernbanetorget - Bergkrystallen T",
+          "lineId": "RUT:Line:3904"
+        },
+        {
+          "publicCode": "23",
+          "name": "Lysaker - Simensbråten",
+          "lineId": "RUT:Line:23"
+        },
+        {
+          "publicCode": "70",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:70"
+        },
+        {
+          "publicCode": "70N",
+          "name": "Jernbanetorget - Bjørndal",
+          "lineId": "RUT:Line:3970"
+        },
+        {
+          "publicCode": "71",
+          "name": "Bjørndal - Mortensrud T (-Jernbanetorget)",
+          "lineId": "RUT:Line:71"
+        },
+        {
+          "publicCode": "FB11",
+          "name": "FB11 Fredrikstad-Oslo Lufthavn (OSL)",
+          "lineId": "VYX:Line:56"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:5911",
+      "name": "Ryensvingen",
+      "distanceM": 134,
+      "lines": [
+        {
+          "publicCode": "70E",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:3969"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5900",
+        "name": "Ryen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10819",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10818",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": []
+}

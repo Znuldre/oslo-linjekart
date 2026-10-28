@@ -1,0 +1,889 @@
+{
+  "id": "NSR:StopPlace:58367",
+  "slug": "bjorvika",
+  "name": "Bjørvika",
+  "lat": 59.908077,
+  "lon": 10.7569,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "13",
+    "15",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5908"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "next": "NSR:StopPlace:58366"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Bjørvika",
+        "prev": "NSR:StopPlace:58366"
+      }
+    ],
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:61066",
+        "next": "NSR:StopPlace:59601"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:59601",
+        "next": "NSR:StopPlace:61066"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Jernbanetorget",
+        "prev": "NSR:StopPlace:61066",
+        "next": "NSR:StopPlace:58366"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "next": "NSR:StopPlace:58366"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Bjørvika",
+        "prev": "NSR:StopPlace:58366"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58366",
+        "next": "NSR:StopPlace:61066"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:61066",
+        "next": "NSR:StopPlace:58366"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 3,
+    "majorstuen": 18
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58367",
+      "name": "Bjørvika",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "19N",
+          "name": "Kringsjå - Åsbråten",
+          "lineId": "RUT:Line:3919"
+        },
+        {
+          "publicCode": "30",
+          "name": "Bygdøy - Nydalen",
+          "lineId": "RUT:Line:30"
+        },
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        },
+        {
+          "publicCode": "31E",
+          "name": "Fornebu - Kalbakken",
+          "lineId": "RUT:Line:2031"
+        },
+        {
+          "publicCode": "54",
+          "name": "Kværnerbyen - Kjelsås stasjon",
+          "lineId": "RUT:Line:54"
+        },
+        {
+          "publicCode": "70",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:70"
+        },
+        {
+          "publicCode": "70E",
+          "name": "Nationaltheatret - Skullerud",
+          "lineId": "RUT:Line:3969"
+        },
+        {
+          "publicCode": "71",
+          "name": "Bjørndal - Mortensrud T (-Jernbanetorget)",
+          "lineId": "RUT:Line:71"
+        },
+        {
+          "publicCode": "74X",
+          "name": "Bjørvika - Bekkelagshjemmet",
+          "lineId": "RUT:Line:9074"
+        },
+        {
+          "publicCode": "80E",
+          "name": "Jernbanetorget - Åsbråten",
+          "lineId": "RUT:Line:80"
+        },
+        {
+          "publicCode": "81",
+          "name": "Fornebu - Myrvoll stasjon",
+          "lineId": "RUT:Line:81"
+        },
+        {
+          "publicCode": "81N",
+          "name": "Nationaltheatret - Ski",
+          "lineId": "RUT:Line:3981"
+        },
+        {
+          "publicCode": "83",
+          "name": "Jernbanetorget - Tårnåsen",
+          "lineId": "RUT:Line:83"
+        },
+        {
+          "publicCode": "83N",
+          "name": "Nationaltheatret - Fløysbonn",
+          "lineId": "RUT:Line:3983"
+        },
+        {
+          "publicCode": "84E",
+          "name": "Jernbanetorget-Oppegård st.",
+          "lineId": "RUT:Line:84"
+        },
+        {
+          "publicCode": "85",
+          "name": "Jernbanetorget - Ulvøya",
+          "lineId": "RUT:Line:85"
+        },
+        {
+          "publicCode": "300",
+          "name": "Blystadlia - Ahus - Oslo bussterminal",
+          "lineId": "RUT:Line:300"
+        },
+        {
+          "publicCode": "400",
+          "name": "Oslo lufthavn - Veståsen - Olavsgaard - Oslo",
+          "lineId": "RUT:Line:400"
+        },
+        {
+          "publicCode": "500",
+          "name": "Drøbak - Oslo",
+          "lineId": "RUT:Line:500"
+        },
+        {
+          "publicCode": "500N",
+          "name": "Drøbak - Oslo (natt- og morgenbuss)",
+          "lineId": "RUT:Line:3500"
+        },
+        {
+          "publicCode": "505",
+          "name": "Drøbak - Oslo",
+          "lineId": "RUT:Line:505"
+        },
+        {
+          "publicCode": "505E",
+          "name": "Skorkeberg - Oslo",
+          "lineId": "RUT:Line:2505"
+        },
+        {
+          "publicCode": "515",
+          "name": "Ski - Oslo",
+          "lineId": "RUT:Line:515"
+        },
+        {
+          "publicCode": "540N",
+          "name": "Oslo - Ski - Ås - Vestby (nattbuss)",
+          "lineId": "RUT:Line:2540"
+        },
+        {
+          "publicCode": "550",
+          "name": "Enebakk - Oslo",
+          "lineId": "RUT:Line:550"
+        }
+      ]
+    },
+    {
+      "mode": "rail",
+      "stopPlaceId": "NSR:StopPlace:59872",
+      "name": "Oslo S",
+      "distanceM": 276,
+      "lines": [
+        {
+          "publicCode": "70",
+          "name": "Stockholm-Hallsberg-Karlstad-Oslo",
+          "lineId": "SJV:Line:cfac9102-49ef-476c-8663-a6d468ee4f36"
+        },
+        {
+          "publicCode": "F1",
+          "name": "Oslo S-Kongsvinger--Charlottenberg-Karlstad",
+          "lineId": "VYG:Line:F1"
+        },
+        {
+          "publicCode": "F4",
+          "name": "Oslo S-Bergen",
+          "lineId": "VYG:Line:F4"
+        },
+        {
+          "publicCode": "F5",
+          "name": "Sørtoget region",
+          "lineId": "GOA:Line:50"
+        },
+        {
+          "publicCode": "F6",
+          "name": "Dovrebanen",
+          "lineId": "SJN:Line:21"
+        },
+        {
+          "publicCode": "FLY1",
+          "name": "FLY1",
+          "lineId": "FLT:Line:FLY1"
+        },
+        {
+          "publicCode": "FLY2",
+          "name": "FLY2",
+          "lineId": "FLT:Line:FLY2"
+        },
+        {
+          "publicCode": "IC",
+          "name": "Malmö C",
+          "lineId": "SNT:Line:15931205-7b69-51de-bac7-18d4acc5c6f5"
+        },
+        {
+          "publicCode": "L1",
+          "name": "Spikkestad-Oslo S-Lillestrøm",
+          "lineId": "VYG:Line:L1"
+        },
+        {
+          "publicCode": "L2",
+          "name": "Stabekk-Oslo S-Ski",
+          "lineId": "VYG:Line:L2"
+        },
+        {
+          "publicCode": "L2x",
+          "name": "Stabekk-Oslo S-Ski",
+          "lineId": "VYG:Line:L2x"
+        },
+        {
+          "publicCode": "R12",
+          "name": "Kongsberg-Oslo S-Eidsvoll",
+          "lineId": "VYG:Line:R12"
+        },
+        {
+          "publicCode": "R13",
+          "name": "Drammen-Oslo S-Dal",
+          "lineId": "VYG:Line:R13"
+        },
+        {
+          "publicCode": "R13x",
+          "name": "Drammen-Oslo S-Dal",
+          "lineId": "VYG:Line:R13x"
+        },
+        {
+          "publicCode": "R14",
+          "name": "Asker-Oslo S-Kongsvinger",
+          "lineId": "VYG:Line:R14"
+        },
+        {
+          "publicCode": "R21",
+          "name": "Stabekk-Oslo S-Moss",
+          "lineId": "VYG:Line:R21"
+        },
+        {
+          "publicCode": "R22",
+          "name": "Skøyen-Oslo S-Mysen-Rakkestad",
+          "lineId": "VYG:Line:R22"
+        },
+        {
+          "publicCode": "R23",
+          "name": "Stabekk-Oslo S-Moss",
+          "lineId": "VYG:Line:R23"
+        },
+        {
+          "publicCode": "R23x",
+          "name": "Stabekk-Oslo S-Moss",
+          "lineId": "VYG:Line:R23x"
+        },
+        {
+          "publicCode": "R31",
+          "name": "Skøyen-Jaren-Gjøvik",
+          "lineId": "VYG:Line:R31"
+        },
+        {
+          "publicCode": "RE10",
+          "name": "Drammen-Oslo S-Lillehammer",
+          "lineId": "VYG:Line:RE10"
+        },
+        {
+          "publicCode": "RE11",
+          "name": "Eidsvoll-Oslo S-Skien",
+          "lineId": "VYG:Line:RE11"
+        },
+        {
+          "publicCode": "RE20",
+          "name": "Oslo S-Halden-Göteborg (X-Border)",
+          "lineId": "VYG:Line:RE20"
+        },
+        {
+          "publicCode": "RE30",
+          "name": "Oslo S-Gjøvik",
+          "lineId": "VYG:Line:RE30"
+        },
+        {
+          "publicCode": "RX11",
+          "name": "Eidsvoll-Oslo S-Skien",
+          "lineId": "VYG:Line:RX11"
+        },
+        {
+          "publicCode": "RX20",
+          "name": "Oslo S-Halden-Göteborg",
+          "lineId": "VYG:Line:RX20"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5908",
+        "name": "Bjørvika",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:7167",
+            "publicCode": "B",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:7168",
+            "publicCode": "C",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:operaen",
+      "name": {
+        "nb": "Operahuset",
+        "en": "Oslo Opera House"
+      },
+      "category": "attraction",
+      "lat": 59.907484,
+      "lon": 10.752681,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q43280",
+      "website": "https://operaen.no/",
+      "wikipedia": {
+        "nb": "Operahuset i Oslo",
+        "en": "Oslo Opera House"
+      },
+      "summary": {
+        "nb": "Operahuset i Oslo er Den Norske Opera & Balletts operahus i Bjørvika innerst i Oslofjorden. Det har adresse Kirsten Flagstads plass 1 etter operaens første sjef Kirsten Flagstad. Huset er tegnet av arkitekt- og designkontoret Snøhetta, som vant en arkitektkonkurranse i 2000. Det ble høytidelig åpnet 12. april 2008. Bygningen har fått mange priser, og er fredet av Riksantikvaren.",
+        "en": "The Oslo Opera House is the home of the Norwegian National Opera and Ballet, and the national opera house in Norway. The building is situated in the Bjørvika neighbourhood of central Oslo, at the head of the Oslofjord. It is operated by Norwegian Directorate of Public Construction and Property, the government agency which manages property for the Norwegian government. The structure contains 1,100 rooms in a total area of 49,000 m2 (530,000 sq ft). The main auditorium seats 1,364 and two other performance spaces can seat 200 and 400. The main stage is 16 m (52 ft) wide and 40 m (130 ft) deep. The angled exterior surfaces of the building are covered with marble from Carrara, Italy and white granite and make it appear to rise from the water. It is the largest cultural building constructed in Norway since Nidaros Cathedral was completed circa 1300."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Operahuset_i_Oslo_1.jpg/640px-Operahuset_i_Oslo_1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.908077,
+        "lon": 10.754813
+      },
+      "walk": {
+        "durationS": 181,
+        "distanceM": 171,
+        "polyline": "ixslJm}s`AM~@QhAKv@@@BBANG^@@B@FFCN??CNj@d@f@b@?D?DGX?B?BG\\",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:barcode",
+      "name": {
+        "nb": "Barcode",
+        "en": "Barcode"
+      },
+      "category": "attraction",
+      "lat": 59.907778,
+      "lon": 10.759444,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Barcode (Oslo)",
+        "en": "Barcode Project"
+      },
+      "summary": {
+        "nb": "",
+        "en": "The Barcode Project is a section of the Bjørvika portion of the Fjord City redevelopment on former dock and industrial land in central Oslo. It consists of a row of new multi-purpose high-rise buildings, that was completed in 2016. The developer is marketing the project as \"The Opera Quarter.\" There has been intense public debate about the height and shape of the buildings."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Oslo_-_Bj%C3%B8rvika.jpg/640px-Oslo_-_Bj%C3%B8rvika.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 163,
+        "distanceM": 177,
+        "polyline": "ixslJm}s`AJi@@Gj@oDCEECEEACCAGGAi@RkA??N_AJs@@O?CQQ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:deichman-bjorvika",
+      "name": {
+        "nb": "Deichman Bjørvika",
+        "en": "Deichman Bjørvika Library"
+      },
+      "category": "attraction",
+      "lat": 59.908658,
+      "lon": 10.752697,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Deichman Bjørvika",
+        "en": "Deichman Bjørvika"
+      },
+      "summary": {
+        "nb": "Deichman Bjørvika er hovedbibliotek for Deichman, folkebiblioteket i Oslo kommune. Det ligger i Bjørvika, mellom Oslo S og Operahuset i Oslo. Byggearbeidene tok til i 2013 og ble ferdige i desember 2019. Det nye biblioteket planla å åpne med samlingene fra det gamle hovedbiblioteket på Hammersborg og et utvidet publikumstilbud 28. mars 2020, men åpninga ble utsatt på grunn av nedstengninga av offentlige samlingsarenaer som følge av koronaviruspandemien i 2019–2020. Den offisielle åpningen var 18. juni 2020. Biblioteket har vunnet en rekke priser, blant andre Norsk Bibliotekforenings pris for Årets bibliotek 2020, den internasjonale bibliotekføderasjonen IFLAs pris Public Library of the Year 2021 og prisen Trend Brand of the Year 2020."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Deichman_Bj%C3%B8rvika_og_Operaen_med_Dronning_Eufemias_gate_og_Operagata.jpg/640px-Deichman_Bj%C3%B8rvika_og_Operaen_med_Dronning_Eufemias_gate_og_Operagata.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 272,
+        "distanceM": 277,
+        "polyline": "ixslJm}s`AM~@QhAKv@@@BBANG^Kp@FDDDSnAFXDd@D`@Pz@HbAAJWbBCLAFCPCPEVKr@CJ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:munchmuseet",
+      "name": {
+        "nb": "Munchmuseet",
+        "en": "Munch Museum"
+      },
+      "category": "museum",
+      "lat": 59.905724,
+      "lon": 10.755255,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q844926",
+      "website": "https://www.munchmuseet.no/",
+      "wikipedia": {
+        "nb": "Munchmuseet",
+        "en": "Munch Museum"
+      },
+      "summary": {
+        "nb": "Munchmuseet, fra 2020 markedsført som MUNCH, er et kunstmuseum i Bjørvika i Oslo. Museet inneholder Edvard Munchs etterlatte arbeider som han testamenterte til Oslo kommune i 1940.",
+        "en": "Munch Museum, marketed as MUNCH since 2020, is an art museum in Bjørvika, Oslo, Norway, dedicated to the life and works of the Norwegian artist Edvard Munch."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/MUNCH_Museum_front_%282020%29_4.jpg/640px-MUNCH_Museum_front_%282020%29_4.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 337,
+        "distanceM": 403,
+        "polyline": "ixslJm}s`ABMF[@Gj@oDFFFDb@dALJn@nAB@f@Rt@r@PVhA~AVXShAW~ADB`@X`Ap@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:middelalderparken",
+      "name": {
+        "nb": "Middelalderparken",
+        "en": "Medieval Park"
+      },
+      "category": "park",
+      "lat": 59.904175,
+      "lon": 10.763659,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q6841153",
+      "wikipedia": {
+        "nb": "Middelalderparken",
+        "en": "Middelalderparken"
+      },
+      "summary": {
+        "nb": "Middelalderparken ligger mellom Bjørvika og Gamlebyen i bydel Gamle Oslo, i det som en gang var Middelalderbyen Oslos søndre bydel. Den ble åpnet i 2000, som en viktig del av Oslos fylkes-tusenårssted, middelalderbyen. Utbygging i området er forbudt grunnet ruiner og kulturlag over og under bakken.",
+        "en": "The Medieval Park is located in the borough of Gamle Oslo in Oslo, Norway. The park was opened in the year 2000 at Sørenga in what was once the southern part of the medieval city of Oslo. The park is located within an area which also included the Minneparken and Ladegården on the north side of Bispegata. Development in the area is prohibited due to ruins and cultural layers above and below ground."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Middelalderparken_fra_Ekeberg.JPG/640px-Middelalderparken_fra_Ekeberg.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.906456,
+        "lon": 10.760173
+      },
+      "walk": {
+        "durationS": 269,
+        "distanceM": 306,
+        "polyline": "ixslJm}s`AJi@@Gj@oDFFFDR?\\Ht@TRIJq@H]@E@E@ENaABODWFa@Fe@BI@IBQBSTwAAKCECGAA@CBBLJ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ostbanehallen",
+      "name": {
+        "nb": "Østbanehallen",
+        "en": "Østbanehallen"
+      },
+      "category": "attraction",
+      "lat": 59.910602,
+      "lon": 10.751361,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Østbanehallen"
+      },
+      "summary": {
+        "nb": "Østbanehallen er vognhallen til Østbanestasjonen i Oslo. Siden har navnet blitt tatt i bruk av kjøpesenteret som ble opprettet i hallen etter at Oslo S tok over jernbanefunksjonene. Den er på 8 000 m²."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Oslo_%C3%98stbanestasjonen_2005-08-30.jpg/640px-Oslo_%C3%98stbanestasjonen_2005-08-30.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 532,
+        "distanceM": 543,
+        "polyline": "ixslJm}s`AM~@QhAKv@@@BBANG^Kp@ECCCCACCCACCECGEIGWOk@]_Am@ERCLc@xCC?G?E?CAANAAmAdHEV}@WEXEHAHMbAIl@KfAAHE`@?BAN@b@C\\ANDBGn@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ladegarden",
+      "name": {
+        "nb": "Oslo Ladegård",
+        "en": "Oslo Ladegård"
+      },
+      "category": "museum",
+      "lat": 59.906189,
+      "lon": 10.767626,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q3526084",
+      "wikipedia": {
+        "nb": "Oslo ladegård",
+        "en": "Oslo Ladegård"
+      },
+      "summary": {
+        "nb": "Oslo ladegård eller Ladegården er en bygning i sentrum av Gamlebyen i Oslo, nærmere bestemt nord for Oslo torg / Bispegata. Oslo gate løper langs østsiden.",
+        "en": "Oslo Ladegård is a manor house situated at Gamlebyen in Oslo, Norway. It was built of the site of the Old Bishop's Palace in Oslo.\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Oslo_ladeg%C3%A5rd.jpg/640px-Oslo_ladeg%C3%A5rd.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 708,
+        "distanceM": 694,
+        "polyline": "ixslJm}s`AJi@@Gj@oDCEECEEACCAD]BOj@sDHe@Fc@BKJs@BMVaBFc@He@@KHi@@G@CZwBDUFa@Jg@BUBG?ABMD]?AJo@XiBPeA?E@AFi@@C@G?CBWZcCBK@IAAAAAAAAA?AC?CBE@EBEDOBMDWD[Da@BYB]ZiF@KMCk@[A?AC?C?C?C@S",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:interkulturelt-museum",
+      "name": {
+        "nb": "Interkulturelt museum",
+        "en": "Intercultural Museum"
+      },
+      "category": "museum",
+      "lat": 59.913048,
+      "lon": 10.763251,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q18663554",
+      "website": "https://www.oslomuseum.no/interkulturelt-museum/",
+      "wikipedia": {
+        "nb": "Interkulturelt Museum",
+        "en": "Intercultural Museum"
+      },
+      "summary": {
+        "nb": "Interkulturelt Museum (IKM), tidligere Internasjonalt kultursenter og museum eller Internasjonalt kulturmuseum, er siden 2006 en avdeling ved Oslo Museum.",
+        "en": "The Intercultural Museum is located at Tøyenbekken 5 in Oslo, Norway. \nThe Intercultural Museum is a migration museum, and is primarily concerned with the collection, preservation and dissemination of Norwegian immigration history.\nSince 2006, the Intercultural Museum has been part of the Oslo Museum. It is situated in the district of Grønland and housed in a former police station which was built in 1900–1902 under design by architect Balthazar Lange (1854-1937).\n\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG/640px-Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 728,
+        "distanceM": 776,
+        "polyline": "ixslJm}s`ABMF[@Gj@oDCEECEEEEGGIIiBaBUQCC[YwEsEyAqAAAAECGEQACI[CKGQ??IOEGMOOSCCDSDW?ACCAAACAAAA??CF?@AACEEGA?ABEAGCECCAYSMKoA{@[UCNAVGIKIKGGE_BeASMMICAAAC?C@ABAAIEIECCB]?G?Eo@{A",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:domkirken",
+      "name": {
+        "nb": "Oslo domkirke",
+        "en": "Oslo Cathedral"
+      },
+      "category": "church",
+      "lat": 59.91252,
+      "lon": 10.746867,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1063209",
+      "website": "http://www.oslodomkirke.no",
+      "wikipedia": {
+        "nb": "Oslo domkirke",
+        "en": "Oslo Cathedral"
+      },
+      "summary": {
+        "nb": "Oslo domkirke, tidligere Vår Frelsers kirke, er domkirke og hovedkirke for Oslo bispedømme og soknekirke for Oslo domkirkes menighet i Oslo domprosti. Med form som en korskirke ligger kirken ved Stortorvet i Oslo sentrum. Domkirken er også landets rikskirke som benyttes av kongehuset og staten ved offisielle begivenheter, som vielser og gravferder. Kirken stod ferdig i 1697",
+        "en": "Oslo Cathedral — formerly Our Savior's Church — is the main church for the Church of Norway Diocese of Oslo, as well as the parish church for downtown Oslo. The present building dates from 1694 to 1697."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2012.11.09.Oslodomkirke.jpg/640px-2012.11.09.Oslodomkirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 869,
+        "distanceM": 897,
+        "polyline": "ixslJm}s`AM~@QhAKv@@@BBANG^Kp@CJSpAe@|CSvAKj@IDECEEKIACOOCJ?Zm@dEMn@E^QjA]vBIGOMCC[lBEJEDEBE?GCaAk@ETSx@CTCLEAIBGBIHILGREFGDEBGAGCIEAH?FADAB?DADAJAD?BAD?DAD?Bk@|D?BCJAH?Dg@`DAHAFAD?F_@dCOdACPOO{@a@_@]",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:oslo-spektrum",
+      "name": {
+        "nb": "Oslo Spektrum",
+        "en": "Oslo Spektrum"
+      },
+      "category": "theatre",
+      "lat": 59.912987,
+      "lon": 10.75472,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1508325",
+      "website": "https://www.oslospektrum.no",
+      "wikipedia": {
+        "nb": "Oslo Spektrum",
+        "en": "Oslo Spektrum"
+      },
+      "summary": {
+        "nb": "Oslo Spektrum, fullt navn Oslo Spektrum Arena AS, er en innendørs flerbruksarena for konserter, idrettskonkurranser og store messer i Norge. Arenaen åpnet i desember 1990 og hadde sitt første hele driftsår i 1991. I desember 2005 tok Nova Spektrum over som eiere. Med inntil 11 500 stå- og sitteplasser brukes Oslo Spektrum regelmessig som konsertarena når internasjonale artister gjester Oslo. I tillegg huser arenaen en rekke andre typer arrangementer – som idrettskonkurranser, messer og konferanser. Spektrum ligger sentralt i Oslo sentrum, like ved Oslo sentralstasjon og Oslo bussterminal. I 2017 annonserte Nova Spektrum at arenaen skulle pusses opp og bygges ut med 20 000 ekstra kvadratmeter med oppstart i 2020, men arbeidet kom i gang først i 2025 etter flere års forsinkelser og har forventet ferdigstilling høsten 2028.",
+        "en": "Oslo Spektrum is a multi-purpose indoor arena located in east central Oslo, Norway. It was opened in December 1990 under ownership and operation of Nova Spektrum, formerly Norges Varemesse. It is located in Downtown Oslo, next to the Central Station, long and medium haul bus terminal, Jernbanetorget public transportation hub and the international ferry terminals."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Oslo_Spektrum_-_Sittende_oppsett.jpg/640px-Oslo_Spektrum_-_Sittende_oppsett.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 863,
+        "distanceM": 867,
+        "polyline": "ixslJm}s`AM~@QhAKv@@@BBANG^Kp@ECCCCACCCACCECGEIGIEy@g@_Am@ERCLc@xCC?G?E?CAANAAmAdHEV}@WEXEHAHMbACFEBE?MKUUGGAACAACSQAAA?AA?ACACCACIGCCAAKKIGCCAASOACCAACC@EDEFCJA@E?E?EAUS]YGIEEGFaAnAA@?AAI@CBN?KCOGIMCI?_Cv@CDEDAF?IAMAGAMAO?E?GAOGAECCKACAKEe@KsA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:basarhallene",
+      "name": {
+        "nb": "Basarhallene",
+        "en": "The Bazaar Halls"
+      },
+      "category": "attraction",
+      "lat": 59.912222,
+      "lon": 10.747722,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Basarene"
+      },
+      "summary": {
+        "nb": "Basarene ved Oslo domkirke, også kalt Stortorgets basar og Basarhallene, ble oppført i årene 1840–1859 i upusset tegl i nyromansk stil. Arkitekt var Christian H. Grosch."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Basareneforside.JPG/640px-Basareneforside.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 861,
+        "distanceM": 897,
+        "polyline": "ixslJm}s`AM~@QhAKv@@@BBANG^Kp@CJSpAo@lEIf@Kj@IDECEEKICCMOCJ?Zm@dEMn@E^SlA[tBIGOMCC[lBEJEDEBE?GCaAk@ER?@GVK`@CTCLEAIBGBIHILGREFGDEBGAGCIEAH?FADAB?DADAJAD?BAD?DAD?Be@~CE\\?BCJAH?Dg@`DAHAFAD?F_@dCKIACHi@D[?WCWCMEIEKGEm@i@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:sorenga-sjobad",
+      "name": {
+        "nb": "Sørenga sjøbad",
+        "en": "Sørenga Seawater Pool"
+      },
+      "category": "park",
+      "lat": 59.901,
+      "lon": 10.751,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Sørenga sjøbad"
+      },
+      "summary": {
+        "nb": "Sørenga sjøbad er et kommunalt badeanlegg som ligger helt ytterst på Sørenga i Oslo. Det åpnet 25. juni 2015. Sjøbadet er en 190 meter lang og 28 meter bred flytende park på 5 000 kvadratmeter. Det inkluderer et 200 kvadratmeter stort lukket basseng med sjøvann, et 50 meter langt åpent basseng med 8 baner, stupetårn, og rekreasjonsområde med trapper ned mot sjøen. Fra sjøbadet er det utsikt mot Bjørvika, Operahuset i Oslo og Akershus festning."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ytterst_p%C3%A5_S%C3%B8renga_Sj%C3%B8bad%2C_sett_mot_Ekeberg%C3%A5sen_og_Sj%C3%B8mannsskolen.jpg/640px-Ytterst_p%C3%A5_S%C3%B8renga_Sj%C3%B8bad%2C_sett_mot_Ekeberg%C3%A5sen_og_Sj%C3%B8mannsskolen.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 909,
+        "distanceM": 1049,
+        "polyline": "ixslJm}s`AM~@QhAKv@@@BBHFBDCH?B?D?B@B@@f@f@^\\DBBABBFFDDFDCJFD@AFINDDJv@NdAh@ZXPX??BDHDFBJK\\L`@FZPJFJLd@ZtAp@HFDBZf@f@d@TTJEPIlEkCLI@?FCf@tAVLv@|BHT@J?^Pb@N^N`@Xt@d@RRb@FN\\`APd@BFj@hBXr@BLxAcD",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4258487",
+      "name": {
+        "nb": "Tenerife"
+      },
+      "category": "park",
+      "lat": 59.904307,
+      "lon": 10.761486,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12005478",
+      "wikipedia": {
+        "nb": "Tenerife (Oslo)"
+      },
+      "summary": {
+        "nb": "Tenerife er et folkelig navn på vannspeilet i Middelalderparken i Gamlebyen i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Middelalderparken%2C_Oslo.jpg/640px-Middelalderparken%2C_Oslo.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.906315,
+        "lon": 10.760173
+      },
+      "walk": {
+        "durationS": 292,
+        "distanceM": 338,
+        "polyline": "ixslJm}s`AJi@@Gj@oDFFFDR?\\Ht@TRIJq@H]@E@E@ENaABODWFa@Fe@BI@IBQBSTwAt@`@?E?GAIGy@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/33610051",
+      "name": {
+        "nb": "Grev Wedels plass"
+      },
+      "category": "park",
+      "lat": 59.907345,
+      "lon": 10.742778,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17778503",
+      "wikipedia": {
+        "nb": "Grev Wedels plass (Oslo)"
+      },
+      "summary": {
+        "nb": "Grev Wedels plass er en park som dekker ett kvartal i Kvadraturen i Oslo sentrum. Parken ble anlagt i 1869 og gjenåpnet i 1988."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Grev_Wedels_plass1.JPG/640px-Grev_Wedels_plass1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.90797,
+        "lon": 10.744394
+      },
+      "walk": {
+        "durationS": 837,
+        "distanceM": 896,
+        "polyline": "ixslJm}s`AM~@QhAKv@@@BBANG^Kp@FDDDSnAFXDd@D`@Pz@HbAAJWbBDBFFFFDBSpACJATg@~CEPSlAk@nD?BETCP?DAF?FABCRERADB@v@v@LNHNHNb@fAFVL^BJ@L?NANCRs@zECNEXADA@?DCJAHAB?B?B?D[nBAHA@A@??ADAJCNAB@B?B?BADCT[rB@@DBFF@@?@?@?@@@?@?@LJPPjBjBRP",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/7951543",
+      "name": {
+        "nb": "Botsparken",
+        "en": "Grønlands park – Botsparken"
+      },
+      "category": "park",
+      "lat": 59.909593,
+      "lon": 10.771116,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11973058",
+      "wikipedia": {
+        "nb": "Grønlands park – Botsparken"
+      },
+      "summary": {
+        "nb": "Grønlands park – Botsparken er en park som ligger rundt Oslo fengsel og Politihuset på Grønland i Oslo. Parken er 27,5 dekar stor, når det 11,6 dekar store arealet langs sydsiden av muren mot Klosterenga ikke regnes med. I parken ligger Egon Olsens allé."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Gronlands_park2.JPG/640px-Gronlands_park2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.908159,
+        "lon": 10.767888
+      },
+      "walk": {
+        "durationS": 836,
+        "distanceM": 956,
+        "polyline": "ixslJm}s`AJi@@Gj@oDCEECEEACCAGGIIiBaBUQCCUU}EwEyAqAAAAEIYAEIYCKGQCGEGEGMOOSCCDSDWFWfAaFj@gCDS?AH]TgADQ?C@?@???@C@I@K@E@G`@sBf@{BBKLo@PgAHc@Jg@b@oBF[f@_C@C?C?A?C@A@EBABAB?@?B@@BBB@@RLD@@?@S?CNFRHDB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

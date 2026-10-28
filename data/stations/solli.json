@@ -1,0 +1,727 @@
+{
+  "id": "NSR:StopPlace:58289",
+  "slug": "solli",
+  "name": "Solli",
+  "lat": 59.914768,
+  "lon": 10.717914,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "13",
+    "15"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:4281",
+    "NSR:StopPlace:59287"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58363",
+        "next": "NSR:StopPlace:59602"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:59602",
+        "next": "NSR:StopPlace:58363"
+      }
+    ],
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "prev": "NSR:StopPlace:58404",
+        "next": "NSR:StopPlace:58364"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58364",
+        "next": "NSR:StopPlace:58404"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58404",
+        "next": "NSR:StopPlace:58363"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58363",
+        "next": "NSR:StopPlace:58404"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 9,
+    "majorstuen": 10
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58289",
+      "name": "Solli",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        },
+        {
+          "publicCode": "21",
+          "name": "Tjuvholmen - Helsfyr T",
+          "lineId": "RUT:Line:21"
+        },
+        {
+          "publicCode": "30",
+          "name": "Bygdøy - Nydalen",
+          "lineId": "RUT:Line:30"
+        },
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:59287",
+        "name": "Solli",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:101228",
+            "publicCode": "D",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:101227",
+            "publicCode": "C",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      },
+      {
+        "id": "NSR:StopPlace:4281",
+        "name": "Solli",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:109461",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:109463",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:7732",
+            "publicCode": "B",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:7731",
+            "publicCode": "A",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:104218",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:109462",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:nasjonalbiblioteket",
+      "name": {
+        "nb": "Nasjonalbiblioteket",
+        "en": "National Library of Norway"
+      },
+      "category": "attraction",
+      "lat": 59.914044,
+      "lon": 10.717557,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Nasjonalbiblioteket",
+        "en": "National Library of Norway"
+      },
+      "summary": {
+        "nb": "Nasjonalbiblioteket er Norges nasjonalbibliotek og har ansvar for å samle inn, bevare og tilgjengeliggjøre publisert materiale produsert i Norge. Institusjonen forvalter pliktavleveringsordningen og oppbevarer bøker, aviser, tidsskrifter, digitale dokumenter, film, fotografi, musikk, kart og annet kulturmateriale. Nasjonalbiblioteket har publikumsavdelinger i Oslo.",
+        "en": "The National Library of Norway was established in 1989. Its principal task is \"to preserve the past for the future\". The library is located both in Oslo and in Mo i Rana. The building in Oslo was restored and reopened in 2005."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Nasjonalbiblioteket.JPG/640px-Nasjonalbiblioteket.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 142,
+        "distanceM": 168,
+        "polyline": "ibulJajl`A??@EBCBA@ABA@?@?@@B?@@@@DD@DNSBL?DAHAL@LLhAR`BJz@b@YZWAKFG",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:slottsparken",
+      "name": {
+        "nb": "Slottsparken",
+        "en": "Palace Park"
+      },
+      "category": "park",
+      "lat": 59.917698,
+      "lon": 10.728467,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q4583462",
+      "wikipedia": {
+        "nb": "Slottsparken",
+        "en": "Palace Park (Oslo)"
+      },
+      "summary": {
+        "nb": "Slottsparken er Oslos sentrale bypark, som dekker et samlet areal på 225 dekar eller mål. Parken omkranser Det kongelige slott og Slottsplassen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Air_uranienborg.jpg/640px-Air_uranienborg.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915257,
+        "lon": 10.722731
+      },
+      "walk": {
+        "durationS": 256,
+        "distanceM": 295,
+        "polyline": "ibulJajl`A??@EBCAQ?K?ACMu@oGAME_@Q_BCUCSA]?i@AK?SAU?IAYIeEASAMACAAAEAGAE?G@G?E@CBGBC@CB?@?B@@?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:slottet",
+      "name": {
+        "nb": "Det kongelige slott",
+        "en": "The Royal Palace"
+      },
+      "category": "attraction",
+      "lat": 59.917193,
+      "lon": 10.727236,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q863932",
+      "website": "https://www.kongehuset.no/",
+      "wikipedia": {
+        "nb": "Det kongelige slott (Oslo)",
+        "en": "Royal Palace, Oslo"
+      },
+      "summary": {
+        "nb": "",
+        "en": "The Royal Palace in Oslo is the official residence of the Norwegian monarch. It was built in the first half of the 19th century as the Norwegian residence of the French-born Charles XIV John, who reigned as king of Norway and Sweden."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Slottet_i_Oslo_1.jpg/640px-Slottet_i_Oslo_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.916655,
+        "lon": 10.726273
+      },
+      "walk": {
+        "durationS": 570,
+        "distanceM": 635,
+        "polyline": "ibulJajl`A??@EBCAQ?K?ACMu@oGAME_@Q_BCUCSA]?i@AK?SAU?IAYIeEASAMACAAICGAE??G?G?G?G?EA?A?I?G?G?a@GKAgBYq@IKA@W??B}D?W?UAOCc@g@sG?G?C@CF]?CLPNq@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:nasjonalmuseet",
+      "name": {
+        "nb": "Nasjonalmuseet",
+        "en": "National Museum of Norway"
+      },
+      "category": "museum",
+      "lat": 59.911608,
+      "lon": 10.728821,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q112339532",
+      "website": "https://www.nasjonalmuseet.no/",
+      "wikipedia": {
+        "nb": "Nasjonalmuseet",
+        "en": "National Museum of Norway"
+      },
+      "summary": {
+        "nb": "Nasjonalmuseet for kunst, arkitektur og design er et norsk offentlig museum etablert i 2003 gjennom sammenslåingen av museene Arkitekturmuseet, Kunstindustrimuseet, Museet for samtidskunst, Nasjonalgalleriet og Riksutstillinger. Nasjonalmuseets bygning på Brynjulf Bulls plass i Oslo ble åpnet 11. juni 2022.",
+        "en": "The National Museum is a museum in Oslo, Norway which holds the Norwegian state's public collection of art, architecture, and design objects. The collection totals over 400,000 works, amongst them the first copy of Edvard Munch's The Scream from 1893. The museum is state-owned and managed by the Norwegian Ministry of Culture."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Nasjonalmuseet_logo.svg/langnb-330px-Nasjonalmuseet_logo.svg.png?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.912412,
+        "lon": 10.727306
+      },
+      "walk": {
+        "durationS": 580,
+        "distanceM": 723,
+        "polyline": "ibulJajl`A??@EBCAQ?K?ACMBA@AAI@A@A??BA@ABA?A?A?G@ABA@CBACO?I?EAIc@oDAICGAIEYAQAK?G?EBIDGFMf@u@BEACACAIAACKACXc@d@u@BC@C?C@AJSFK@EB???@ABC\\aADM@E@E?C@CNc@BA@A@A?A\\_A?C?C?E@???DMBM@A@???B?@CBC|@iC@C?C@C?E@?@ADKDO@A?C@?@CVs@DMFODKHUf@wANa@DMDQCICGGWAEBCFIDEDGB@DA@CL]dA{CBIAEEKCKKWYw@[w@??GO",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ibsenmuseet",
+      "name": {
+        "nb": "Ibsen museum & teater",
+        "en": "Ibsen Museum & Theatre"
+      },
+      "category": "museum",
+      "lat": 59.915031,
+      "lon": 10.727046,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1519078",
+      "website": "https://ibsenmt.no",
+      "wikipedia": {
+        "nb": "IBSEN Museum & Teater",
+        "en": "Ibsen Museum"
+      },
+      "summary": {
+        "nb": "IBSEN Museum & Teater, tidligere Ibsenmuseet, er et litterært museum i Oslo. Museet er nyrenovert og utvidet med nytt amfiteater, tilliggende teaterfasiliteter og et stadig mer oppdatert og velutstyrt forfatterhjem. Gjenåpning av det nye museet skjedde 1. juli 2023 etter ekstra midler over revidert Statsbudsjett. IMT holder åpent alle dager med utvidete åpningstider i sommerhalvåret, og er i vinterhalvåret åpent fra 11 til 16 på mandag, torsdag, lørdag og søndag. Det mangler fremdeles driftsmidler til å spille teater, mens museet på forespørsel gir foredrag for ulike grupper og foreninger i teatersalen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Arbins_gate_1_Oslo.jpg/640px-Arbins_gate_1_Oslo.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 503,
+        "distanceM": 589,
+        "polyline": "ibulJajl`A??@EBCAQ?K?ACMu@oGAME_@Q_BCUCSA]?i@AK?SAU?IAYIeEASAMACAAAEAGAE?G@G?E@C?a@?UB?@?@AB?@?BAB?@?BA@?@?Co@AMG{DA]@I?I@C@IAI@S?O?E?EACDoD@w@?E@C?C?U@W?GAA?C?ED_E?C@?X`@JN",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:aker-brygge",
+      "name": {
+        "nb": "Aker Brygge",
+        "en": "Aker Brygge"
+      },
+      "category": "attraction",
+      "lat": 59.909722,
+      "lon": 10.726667,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Aker Brygge",
+        "en": "Aker Brygge"
+      },
+      "summary": {
+        "nb": "Aker brygge er et område og et kjøpesenter i bydel Frogner i Oslo. Om lag 6 000 personer arbeider på Aker brygge til daglig, og rundt 900 har sin bolig her.",
+        "en": "Aker Brygge, formerly known as Holmen, is a neighbourhood in central Oslo, Norway. Since the 1980s and 1990s, it has been a popular area for shopping, dining, and entertainment, as well as a high-end residential area. It was previously an industrial area."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Aker_Brygge_%284%29.jpg/640px-Aker_Brygge_%284%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 763,
+        "distanceM": 940,
+        "polyline": "ibulJajl`A??@EBCBA@ABA@?@?@@B?@@@@DD@DNSBL?DDIz@kAbAuAFG@A@?@CFGFI@C?C@A~@qAd@q@FG@?@A?CDMBQ@A@EZyABA?C@C@G?A?AAO\\eBDA?CBM@I@C?It@sD@CBC?ADOBK?CAK@KNs@XuAXgA@CBAB@d@`@JFFFFFHHvBjB@C?A?M?O@G?W?S?K?q@Ce@C_@AKAQJIHGRO@A@H@DBBDCb@}@HQDLVg@Zq@rBsFRi@a@uAACCI?A",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:nobels-fredssenter",
+      "name": {
+        "nb": "Nobels Fredssenter",
+        "en": "Nobel Peace Center"
+      },
+      "category": "museum",
+      "lat": 59.911612,
+      "lon": 10.7304,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q941120",
+      "website": "https://www.nobelpeacecenter.org",
+      "wikipedia": {
+        "nb": "Nobels Fredssenter",
+        "en": "Nobel Peace Center"
+      },
+      "summary": {
+        "nb": "Nobels Fredssenter er museet for Nobels fredspris. Fredssenteret ble opprettet etter vedtak fra Stortinget i 2000, og ble åpnet i 2005. Nobels Fredssenter formidler fredsprisvinnernes ideer og arbeid for å inspirere til små og store endringer for en fredeligere verden. ",
+        "en": "The Nobel Peace Center in Oslo, Norway, is a showcase for the Nobel Peace Prize and the ideals it represents. The center is also an arena where culture and politics merge to promote involvement, debate and reflection around topics such as war, peace and conflict resolution. The center is located in Oslo, Norway at the City Hall Square (Rådhusplassen)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Nobel_Peace_Center_12.jpg/640px-Nobel_Peace_Center_12.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 821,
+        "distanceM": 988,
+        "polyline": "ibulJajl`A??@EBCAQ?K?ACMBA@AAI@A@A??BA@ABA@AAI@ABA@CBACO?I?EAIc@oDAICGAIEYAQAK?G?EBIDGFMf@u@BEACACAIAACKACXc@d@u@BC@C?C@AJSFK@EB?@ABCb@oA@E@E?C@CNc@BA@A@A?A\\_A?C?C?E@???DMBM@A@???B?@CBC|@iC@C?C@C?E@?@ADKDO@A?C@?@CVs@DMFODKHUf@wANa@DMDQCICGGWAEBCFIDEDGB@DA@CrAyDBIAE@CDI@EBCBG@EBEBEB?DC@ABGDK`@iArAwDJg@Tq@Tm@DMBIBI]iCU_Ai@gAs@s@G?ID",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:konserthuset",
+      "name": {
+        "nb": "Oslo Konserthus",
+        "en": "Oslo Concert Hall"
+      },
+      "category": "theatre",
+      "lat": 59.913091,
+      "lon": 10.729785,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1773297",
+      "wikipedia": {
+        "nb": "Oslo Konserthus",
+        "en": "Oslo Concert Hall"
+      },
+      "summary": {
+        "nb": "Oslo Konserthus er et konserthus som ligger i bydelen Vika i Oslo. Det er tilholdssted for Oslo-Filharmonien. Konserthuset eies av Oslo kommune og administrerende direktør er Jørgen Roll.",
+        "en": "Oslo Concert Hall is a concert hall located in Vika, a part of Oslo city centre in Norway. It is the base of the Oslo Philharmonic Orchestra (Oslo-Filharmonien), but it also aims to be one of the premier music venues for the general musical and cultural life of Norway, offering a broad variety of musical styles from classical, world music, and popular entertainment by both Norwegian and international artists and groups. It presents more than 300 events yearly and receives more than 200,000 visitors."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/OsloKonserthus2.JPG/640px-OsloKonserthus2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 763,
+        "distanceM": 908,
+        "polyline": "ibulJajl`A??@EBCAQ?K?ACMBA@AAI@A@A??BA@ABA?A?A?G@ABA@CBACO?I?EAIc@oDAICGAIEYAQAK?G?EBIDGFMf@u@BEACACAIAACKACXc@d@u@BC@C?C@AJSFK@EB???@ABC\\aADM@E@E?C@CNc@BA@A@A?A\\_A?C?C?E@???DMBM@A@???B?@CBC|@iC@C?C@C?E@?@ADKDO@A?C@?@CVs@DMFODKHUf@wANa@DMDQCICGGWAEBCFIDEDGB@DA@CL]dA{CBIAEEKCKKWYw@[w@??Oa@[w@GUBEDIEKIa@DWGKACi@{AKUHi@Hm@OQBM_@cA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:nationaltheatret",
+      "name": {
+        "nb": "Nationaltheatret",
+        "en": "National Theatre"
+      },
+      "category": "theatre",
+      "lat": 59.914366,
+      "lon": 10.734254,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q565382",
+      "website": "https://www.nationaltheatret.no/",
+      "wikipedia": {
+        "nb": "Nationaltheatret",
+        "en": "National Theatre (Oslo)"
+      },
+      "summary": {
+        "nb": "Nationaltheatret i Oslo er, ved siden av Den Nationale Scene og Det norske teatret, en av Norges tre hovedscener for teaterkunst. Nationaltheatrets første sjef var Bjørn Bjørnson, sønn av Bjørnstjerne Bjørnson. Nåværende teatersjef er Kristian Seltun. Den administrative delen av Torshovteatret ligger under Nationaltheatret.",
+        "en": "The National Theatre in Oslo is one of Norway's largest and most prominent venues for performance of dramatic arts."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/NOR-2016-Oslo-National_Theatre.jpg/640px-NOR-2016-Oslo-National_Theatre.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 841,
+        "distanceM": 1017,
+        "polyline": "ibulJajl`A??@EBCAQ?K?ACMu@oGAME_@Q_BCUCSA]?i@AK?SAU?IAYIeEASAMACAAICGAE??G?G?G?G?EDABEBE?CKOIIACGMGUEWE]Gc@Eq@A]Es@E}@AkA?y@Bw@LuCpAkY?A@YL{CKcADyAd@oADOFSN_@VaADJHRVg@HSBIBEFGJKFKHQFWFWDS",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:frognerparken",
+      "name": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "category": "park",
+      "lat": 59.926659,
+      "lon": 10.701656,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q1126911",
+      "wikipedia": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "summary": {
+        "nb": "Frognerparken er en offentlig park i Oslo. Den tilhørte historisk Frogner Hovedgård, som har gitt navn til parken, strøket Frogner, Bydel Frogner og Frognerseteren.",
+        "en": "Frogner Park is a public park in the central West End borough of Frogner in Oslo, Norway. The park is historically part of Frogner Manor and is Oslo's largest park, open to the public at all times. It includes the manor house which is the seat of Oslo Museum, the nearby Henriette Wegner Pavilion, the Vigeland installation of sculptures created by sculptor Gustav Vigeland, Frogner Baths, Frogner stadion, Frognerparken Café, the restaurant Herregårdskroen and the largest collection of roses in the country with 14,000 plants of 150 species. Frogner Park is the most visited tourist attraction in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg/640px-NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.922828,
+        "lon": 10.708628
+      },
+      "walk": {
+        "durationS": 992,
+        "distanceM": 1168,
+        "polyline": "ibulJajl`ACBAD?DCCCCAECHIVC@EBE@o@v@uA`BEBGJGHq@v@KJEDGDG@E?ECIE??CAo@m@OMAHCNELAH?BAD_@rA]nA]tAABA@A?ABCNCNADaA_A?AECGEECACAGAAA??AA@A?A@CD?@?CEICFEFGFiCpAeAh@MFiAh@}@b@e@TSLGDWNa@ZMJc@^YZEDg@p@KNU\\KRc@t@IL]x@{@zBs@vBGNGOITFJ@@A@??_@hAg@vA?@ABADCJGN?@C@?@}@jCCJDJXj@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:astrup-fearnley",
+      "name": {
+        "nb": "Astrup Fearnley Museet",
+        "en": "Astrup Fearnley Museum"
+      },
+      "category": "museum",
+      "lat": 59.906925,
+      "lon": 10.721938,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q761048",
+      "website": "http://afmuseet.no",
+      "wikipedia": {
+        "nb": "Astrup Fearnley Museet",
+        "en": "Astrup Fearnley Museum of Modern Art"
+      },
+      "summary": {
+        "nb": "Astrup Fearnley Museet [sic] er et privat museum for samtidskunst på Tjuvholmen i Oslo, organisert som Astrup Fearnley Museet AS. Museet åpnet i 1993 og er grunnlagt og støttet av Stiftelsen Thomas Fearnley, Heddy og Nils Astrup.",
+        "en": "The Astrup Fearnley Museum is a privately owned contemporary art museum in Oslo in Norway. It was founded and opened to the public in 1993. The collection's main focus is the American appropriation artists from the 1980s, but it is currently developing towards the international contemporary art scene, with artists like Jeff Koons, Richard Prince, Cindy Sherman, Matthew Barney, Tom Sachs, Doug Aitken, Olafur Eliasson, and Cai Guo-Qiang. The museum holds 6-7 temporary exhibitions each year. Astrup Fearnley Museum collaborates with international institutions and produces exhibitions that travel worldwide. In 2012 the museum moved to two new buildings designed by Renzo Piano in Tjuvholmen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Astrup_Fearnley_009.JPG/640px-Astrup_Fearnley_009.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 863,
+        "distanceM": 1112,
+        "polyline": "ibulJajl`A??@EBCBA@ABA@?@?@@B?@@@@DD@DNSBL?DDI~@mA~@sAFG@A@?@CFGFI@C?C@A~@qAd@q@FG@?@AB@V\\Z`@LNRXxBrCBB@F?D@P@?D?B?B?@????IBK@IBIFKLU`@y@JUl@qAP_@DKBEBABFBB@@B?@CDEBGDGFEDAF?D@FBDFDFDGBC@CFIBGDCDEBC@C@A?CCSAY@]BYDSDMBCBEFMVg@Xm@FMJQDKXi@BABABCNYLWTe@Tg@AII[jAaCzCvBt@Pd@URWFMr@??Fh@tAt@tA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:kunstnernes-hus",
+      "name": {
+        "nb": "Kunstnernes Hus",
+        "en": "Kunstnernes Hus"
+      },
+      "category": "gallery",
+      "lat": 59.919571,
+      "lon": 10.730827,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1772519",
+      "wikipedia": {
+        "nb": "Kunstnernes Hus",
+        "en": "Kunstnernes Hus"
+      },
+      "summary": {
+        "nb": "Kunstnernes Hus er en kunstnerdrevet stiftelse i Wergelandsveien ved Slottsparken i Oslo. Det er Norges største kunstnerdrevne visningssted for norsk og internasjonal samtidskunst.",
+        "en": "Kunstnernes Hus is an art gallery in Oslo, Norway. It is Norway's largest gallery under the direction of artists, and has served as a major center for exhibits of Norwegian and international contemporary art. It is also a prominent example of Functionalist architecture situated in Wergelandsveien 17, across the Royal palace park."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Oslo%2C_Kunstnernes_Hus_%283%29.JPG/640px-Oslo%2C_Kunstnernes_Hus_%283%29.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 932,
+        "distanceM": 1062,
+        "polyline": "ibulJajl`A??@EBCAQ?K?ACMu@oGAME_@Q_BCUCSA]?i@AK?SAU?IAYIeEASAMACAAAEAGAE?G@G?E@C?a@?U?_@?KGcDAg@AY?Y?[?]FkF?e@?{@AAC??K@WCACAUYuB}CCEs@{@o@y@e@o@a@i@o@y@UWMMKCGCEAC?I?O@CGAACCECSGMEICEEGCGIEIKSIOGQGI?CIQCI]_A]aAKQCIAICCCCKWAAKZACEKGKAAKZCEA@??A?AA?AAA?C?A@CGICHKXA@A@A?E?Wk@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/30439166",
+      "name": {
+        "nb": "Hydroparken"
+      },
+      "category": "park",
+      "lat": 59.914519,
+      "lon": 10.715989,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11976301",
+      "wikipedia": {
+        "nb": "Hydroparken"
+      },
+      "summary": {
+        "nb": "Hydroparken er en park ved Norsk Hydros høye kontorbygning, kjent som Hydrobygget, ved Solli plass i Oslo. Bygningen er tegnet av Erling Viksjø og oppført 1960. Viksjø knyttet til seg landskapsarkitektene Grindaker og Gabrielsen som utformet parken. Murene er laget av billedkunstneren Odd Tandberg."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Hydroparken1.JPG/640px-Hydroparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.914768,
+        "lon": 10.717149
+      },
+      "walk": {
+        "durationS": 67,
+        "distanceM": 67,
+        "polyline": "ibulJajl`ACBAD?DAF?BABCBEDCBELCB@D@D?BB@B@LT@D@FCJCPBDBD@G",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/19053201",
+      "name": {
+        "nb": "Framneshaven"
+      },
+      "category": "park",
+      "lat": 59.911503,
+      "lon": 10.710745,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17773840",
+      "wikipedia": {
+        "nb": "Framneshaven (Tinker’n)"
+      },
+      "summary": {
+        "nb": "Framneshaven er en park på Skillebekk i Oslo. Parken danner en overgang til Filipstad, og ble oppgradert med nytt lekeområde i 2015."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Framneshaven_Tinkern_sett_mot_nord_juni_2015.JPG/640px-Framneshaven_Tinkern_sett_mot_nord_juni_2015.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.912165,
+        "lon": 10.711911
+      },
+      "walk": {
+        "durationS": 390,
+        "distanceM": 496,
+        "polyline": "ibulJajl`A??@EBCBA@ABA@?@?@@B?@@@@DD@DNSBL?DAHAL@LLhAR`BJz@NtABF?@B?@B@L@N@D?FDb@Hb@F`@J^Ld@d@fBZfA@BjAlEf@jBBFTFFBr@dA@@b@l@LHL_@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/841080898",
+      "name": {
+        "nb": "Studenterlunden"
+      },
+      "category": "park",
+      "lat": 59.914598,
+      "lon": 10.734412,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q7627912",
+      "wikipedia": {
+        "nb": "Studenterlunden",
+        "en": "Studenterlunden"
+      },
+      "summary": {
+        "nb": "Studenterlunden er et parkanlegg i Oslo avgrenset av Karl Johans gate, Roald Amundsens gate, Stortingsgata og Frederiks gate.",
+        "en": "Studenterlunden is a park in the city center of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Studenterlunden1.JPG/640px-Studenterlunden1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.914768,
+        "lon": 10.732761
+      },
+      "walk": {
+        "durationS": 745,
+        "distanceM": 897,
+        "polyline": "ibulJajl`A??@EBCAQ?K?ACMu@oGAME_@Q_BCUCSA]?i@AK?SAU?IAYIeEASAMACAAAEAGAE?G@G?E@C?a@?U?_@?KGcDAg@AY?Y?[?]FkF?e@?{@@U?O@UPaQAa@@U?S@m@D{D?k@?SB?B@@?B?@?B@B?@?D???RK??DEBCBCEO@GBEDK@CBK@EBO@EBK@AB?@B@@?CBIBI?CAEAE?G?G@EAECGCEAEAAACCG?CAADO@G",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/29500484",
+      "name": {
+        "nb": "Uranienborgparken",
+        "en": "Uranienborg Park"
+      },
+      "category": "park",
+      "lat": 59.921779,
+      "lon": 10.721318,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12008563",
+      "wikipedia": {
+        "nb": "Uranienborgparken"
+      },
+      "summary": {
+        "nb": "Uranienborgparken er en park på en høyde på Uranienborg i Oslo. Uranienborg kirke ligger i parken."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Uranienborgparken1.JPG/640px-Uranienborgparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.921159,
+        "lon": 10.719954
+      },
+      "walk": {
+        "durationS": 866,
+        "distanceM": 961,
+        "polyline": "ibulJajl`ACBAD?DCCCCAECHIVC@EBE@o@v@uA`BEBGJCGKUm@_Ac@s@e@s@IQwA}BGKOS{C{EIOIOCL?Dq@dEADCBCACCMMSe@q@cAW]IOIMCE?GCAECAAAACAA??@A??@ABCNAJAF@B?DAB?BAFANAL?DCAAAWIc@MICWI}@Ww@SECOCoA]KCK?C??H??AH{@fCA?CCEGSc@GMKWb@sA",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "id": "NSR:StopPlace:58221",
+  "slug": "furuset",
+  "name": "Furuset",
+  "lat": 59.940893,
+  "lon": 10.897515,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5625"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:58220",
+        "next": "NSR:StopPlace:58222"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58222",
+        "next": "NSR:StopPlace:58220"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 20,
+    "majorstuen": 26
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58221",
+      "name": "Furuset",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2B",
+          "name": "Buss for linje 2",
+          "lineId": "RUT:Line:3002"
+        },
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "26",
+          "name": "Ellingsrudåsen - Bislett",
+          "lineId": "RUT:Line:26"
+        },
+        {
+          "publicCode": "64",
+          "name": "Furuset T - Stovner T via Høybråten",
+          "lineId": "RUT:Line:64"
+        },
+        {
+          "publicCode": "65",
+          "name": "Furuset T - Stovner T via Smedstua",
+          "lineId": "RUT:Line:65"
+        },
+        {
+          "publicCode": "79",
+          "name": "Grorud T - Åsbråten",
+          "lineId": "RUT:Line:79"
+        },
+        {
+          "publicCode": "100",
+          "name": "Kjeller - Oslo bussterminal",
+          "lineId": "RUT:Line:100"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5625",
+        "name": "Furuset",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10304",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10305",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:baitun-nasr",
+      "name": {
+        "nb": "Baitun Nasr moské",
+        "en": "Baitun Nasr Mosque"
+      },
+      "category": "church",
+      "lat": 59.939691,
+      "lon": 10.898552,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q15057386",
+      "wikipedia": {
+        "nb": "Bait-un-Nasr",
+        "en": "Baitun Nasr Mosque"
+      },
+      "summary": {
+        "nb": "Baitun Nasr, også kjent som Furuset moske, ligger i Søren Bulls vei 1 på Furuset i bydel Alna, og tilhører Ahmadiyya trossamfunn i Oslo. Moskeen er Nordens største, med plass til nærmere 5 000 personer. Bygget har en minaret på sørsiden mot E6. Inne er det to bønnesaler, én for menn og én for kvinner. Furuset moské ble brukt som begrep første gang 28. juni 1994 av Einar Lonstad (Frp) fra Furuset bydelsutvalg.",
+        "en": "Baitun Nasr Mosque, also known as the Furuset Mosque, is an Ahmadi Muslim mosque in Furuset in the borough of Alna, northeast of Oslo, Norway. It is the largest mosque in the country. The complex is located near E6, the country's main north–south highway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/2011-04-08_Bait-un-Nasr_mosque.jpg/640px-2011-04-08_Bait-un-Nasr_mosque.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 188,
+        "distanceM": 211,
+        "polyline": "edzlJmloaA?I?o@?GD?H?F?F?D?B?D?F?@??P^??a@x@?z@@`@EDC@C@EGwAEm@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/155873155",
+      "name": {
+        "nb": "Furuset kulturpark"
+      },
+      "category": "park",
+      "lat": 59.942774,
+      "lon": 10.889864,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17775527",
+      "wikipedia": {
+        "nb": "Furuset kulturpark",
+        "en": "Furuset kulturpark"
+      },
+      "summary": {
+        "nb": "Furuset kulturpark er en park ved Furuset kirke på Furuset i Oslo, åpnet i 2009 som en del av Groruddalssatsingen.",
+        "en": "Furuset kulturpark is a park in the neighborhood of Furuset in Oslo, Norway. It opened in May 2009 at a cost of NOK 5.6 million."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Furuset_kulturpark_med_dammen.JPG/640px-Furuset_kulturpark_med_dammen.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.942057,
+        "lon": 10.890836
+      },
+      "walk": {
+        "durationS": 460,
+        "distanceM": 534,
+        "polyline": "edzlJmloaA?T?lD?lC?lC?F@J@FArCgAO?bC?fAEZGNEKGEEBEHANc@HApAG\\CRKb@AFIZ}@i@]EK@@t@?x@Fh@?L@P@\\@b@@L",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/156523957",
+      "name": {
+        "nb": "Verdensparken"
+      },
+      "category": "park",
+      "lat": 59.944835,
+      "lon": 10.895964,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19397784",
+      "wikipedia": {
+        "nb": "Verdensparken",
+        "en": "Verdensparken"
+      },
+      "summary": {
+        "nb": "Verdensparken er en park på 52 dekar på Furuset i Oslo som ble åpnet i 2013 og ferdigstilt i 2016. Parken er utformet med anlegg for å trene parkour, et eget lekelandskap, syv møteplasser, bruk av vann og med en egen plass preget av kunst, Verdensplassen.",
+        "en": "Verdensparken is a park on 5.2 hectares in Furuset, Oslo, Norway which opened in 2013 and was completed in 2014. The park reflects the population of the suburb of Furuset, where 63% of inhabitants had an ethnic origin other than Norwegian in 2009, and immigrants came from around 140 countries. In Verdensparken, there is a space to practice parkour."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Verdensparken_sitteomr%C3%A5de_s%C3%B8r_i_parken.JPG/640px-Verdensparken_sitteomr%C3%A5de_s%C3%B8r_i_parken.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.943139,
+        "lon": 10.897515
+      },
+      "walk": {
+        "durationS": 294,
+        "distanceM": 386,
+        "polyline": "edzlJmloaA?I?w@??@Y?uB?UQAi@?E???E?EBGDIJCFI@Q@MBIDGDE@E?K?KAKCICQKCAIAIAo@BM?o@?K?G@KDYXQXDLNVLLeA@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/221110378",
+      "name": {
+        "nb": "Nordre Lindeberg gård"
+      },
+      "category": "attraction",
+      "lat": 59.937301,
+      "lon": 10.885311,
+      "score": 12,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q11991925",
+      "wikipedia": {
+        "nb": "Nordre Lindeberg gård"
+      },
+      "summary": {
+        "nb": "Nordre Lindeberg gård, også kjent som 4H-gården, ligger på Lindeberg i bydel Alna i Oslo. Gården eies av Oslo kommune, drives av Bymiljøetaten og har status som besøksgård."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/2007-09-02_Lindeberg_g%C3%A5rd.jpg/640px-2007-09-02_Lindeberg_g%C3%A5rd.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.937949,
+        "lon": 10.886645
+      },
+      "walk": {
+        "durationS": 742,
+        "distanceM": 920,
+        "polyline": "edzlJmloaA?T?lD?lC?lC?F@J@FArCgAO?bCdAtCPf@JXt@tBP`@DFPFF`@WZITCECLEJGPFLX`@`AjATd@XRJDr@\\VJPLJPd@lAJv@NdAFp@Hx@BZBNBF??HFp@N|Ab@NFFBV\\SGSGU?_@A",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/130893646",
+      "name": {
+        "nb": "Furuset kirke",
+        "en": "Furuset Church"
+      },
+      "category": "church",
+      "lat": 59.942072,
+      "lon": 10.88903,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297153",
+      "wikipedia": {
+        "nb": "Furuset kirke (Oslo)",
+        "en": "Furuset Church (Oslo)"
+      },
+      "summary": {
+        "nb": "Furuset kirke er en kirke fra 1980 i Ellingsrud og Furuset menighet i Groruddalen prosti i Oslo bispedømme i Bydel Alna i Oslo.",
+        "en": "Furuset Church is a church that was consecrated in 1980. The church is located in the neighborhood of Furuset in Oslo, Norway. In the same area was a church in the Middle Ages, from which keys of iron were found, are preserved and placed in the present church."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Furuset_kirke_%28april_2024%2C_bilde01%29.jpg/640px-Furuset_kirke_%28april_2024%2C_bilde01%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 557,
+        "distanceM": 644,
+        "polyline": "edzlJmloaA?T?jC?`@?lC?lC?F@J@FArCgAO?bC?fAEZGNEKGEEBEHANc@HApAG\\CRKb@AFIZ}@i@GAUCK@@t@?x@Fh@?L@P@\\@b@@V@JBFHJADGPDl@ARCVE`@FDIPGXKd@Mr@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/5010839",
+      "name": {
+        "nb": "Høybråten kirke",
+        "en": "Høybråten Church"
+      },
+      "category": "church",
+      "lat": 59.944317,
+      "lon": 10.909384,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297243",
+      "wikipedia": {
+        "nb": "Høybråten kirke",
+        "en": "Høybråten Church"
+      },
+      "summary": {
+        "nb": "Høybråten kirke er soknekirke for Høybråten, Fossum og Stovner menighet i Groruddalen prosti i Oslo bispedømme i bydel Stovner i Oslo kommune. Den ligger på Høybråten nær grensen til Furuset. Den ligger i bydel Stovner. Kirken ble tegnet av arkitekt Georg Greve og innviet torsdag 30. juni 1932 kl 17 som gravkapell etter at kirkegården ble tatt i bruk i 1929. Senere er den ombygget og har siden 1966 hatt status som soknekirke for Høybråten menighet og fra 1. januar 2013 for den sammenslåtte menigheten Høybråten, Fossum og Stovner menighet. Før 1966 var Høybråten kirke annekskirke under Grorud menighet. Frem til enheten prestegjeld ble avviklet i 2004 var Ellingsrud menighet et annekssokn til Høybråten menighet.",
+        "en": "Høybråten Church is a church dating from 1932 in Oslo, Norway. It was originally a burial chapel at a cemetery which was consecrated in 1929. However, the church was later rebuilt in 1932, and in 1966 it attained the status of a parish church. One of the largest cemeteries in Oslo still surrounds the church."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/H%C3%B8ybr%C3%A5ten_kirke_1.jpg/640px-H%C3%B8ybr%C3%A5ten_kirke_1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 967,
+        "distanceM": 1143,
+        "polyline": "edzlJmloaA?I?o@?G@Y?uB?UQAi@?E???E?EBGDIJCFI@Q@MBIDGDE@E?K?KAKCICQKCAIAIAo@BM?o@??s@Ig@Mo@O]GC?m@M?U?OAEDe@{@CWC[?KKqACU`@k@HSH]@Y?UEg@?GI_@Iq@?e@?KPcDZoE@Op@uKF[Ji@Bg@?KAICOQc@Ga@?o@Fc@C[Oo@CMYiAOS[USOO_@Yw@e@f@IFGBI?KAKCMEEAG@KFc@b@GFKiALM",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

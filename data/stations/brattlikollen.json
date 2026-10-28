@@ -1,0 +1,168 @@
+{
+  "id": "NSR:StopPlace:58247",
+  "slug": "brattlikollen",
+  "name": "Brattlikollen",
+  "lat": 59.886574,
+  "lon": 10.800408,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1",
+    "4"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6657"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58246",
+        "next": "NSR:StopPlace:58248"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58248",
+        "next": "NSR:StopPlace:58246"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58248",
+        "next": "NSR:StopPlace:58246"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58246",
+        "next": "NSR:StopPlace:58248"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 15,
+    "majorstuen": 21
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58247",
+      "name": "Brattlikollen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "4B",
+          "name": "Buss for linje 4",
+          "lineId": "RUT:Line:3004"
+        },
+        {
+          "publicCode": "4N",
+          "name": "Jernbanetorget - Bergkrystallen T",
+          "lineId": "RUT:Line:3904"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6657",
+        "name": "Brattlikollen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:12292",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12293",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:node/272859055",
+      "name": {
+        "nb": "Brannfjell"
+      },
+      "category": "viewpoint",
+      "lat": 59.887776,
+      "lon": 10.794558,
+      "score": 11,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q11962099",
+      "wikipedia": {
+        "nb": "Brannfjell"
+      },
+      "summary": {
+        "nb": "Brannfjell er et høydedrag øst og syd for Ekebergsletta i Oslo. Det har en største høyde på 205 meter over havet. Området er utlagt som naturpark, og er del av et «statlig sikret friluftslivsområde»."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Brannfjellet.JPG/640px-Brannfjellet.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 551,
+        "distanceM": 516,
+        "polyline": "krolJ_m|`A?@BF@PBDFHBH@BBHBNBF@H?J?H@t@@rB@f@Bv@Db@B`@\\tCX|CJ~A?JCJELCBEBE@GHCBCFAFAFCBOFOBM@GJIFGBMBICM?KXERSf@I\\EVEXOJOJOFQFMXQZOu@EYCEEAEA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/141513850",
+      "name": {
+        "nb": "Bekkelaget kirke",
+        "en": "Bekkelaget Church"
+      },
+      "category": "church",
+      "lat": 59.884859,
+      "lon": 10.788268,
+      "score": 8.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297093",
+      "wikipedia": {
+        "nb": "Bekkelaget kirke",
+        "en": "Bekkelaget Church"
+      },
+      "summary": {
+        "nb": "Bekkelaget kirke er soknekirke for Bekkelaget og Ormøy menighet i Søndre Aker prosti i Oslo bispedømme i Oslo kommune. Det er en langkirke fra 1923 som ligger på Bekkelaget i bydel Nordstrand.",
+        "en": "Bekkelaget Church is a long church located in Bekkelaget in Nordstrand, a district of Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Bekkelaget_church_in_2025.jpg/640px-Bekkelaget_church_in_2025.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 700,
+        "distanceM": 830,
+        "polyline": "krolJ_m|`A?@BF@PBDFHBH@BBHBNBF@H?J?H@t@@rB@f@Bv@Db@B`@\\tCX|CJ~A?J@L@?DABA@ADpADlDBrB@|B@d@LbE?H@D@D@B?B?P@V?BABAD?D@D?F@DBD@@PN@DALBHBJHf@DZJn@Jh@D\\@NBJ@T@P@XAX?TLAH@RBXJTJ^ZLJPJB?@RA@GHEJCJERIh@AP?T@^?PEJG?AF?HADAFABU?",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

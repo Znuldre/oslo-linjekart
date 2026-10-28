@@ -1,0 +1,107 @@
+{
+  "id": "NSR:StopPlace:4007",
+  "slug": "gjettum",
+  "name": "Gjettum",
+  "lat": 59.908516,
+  "lon": 10.530621,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:4007"
+  ],
+  "neighbours": {
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58283",
+        "next": "NSR:StopPlace:59895"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:59895",
+        "next": "NSR:StopPlace:58283"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 28,
+    "majorstuen": 23
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:4007",
+        "name": "Gjettum",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:7217",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:7213",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:relation/13364531",
+      "name": {
+        "nb": "Kolsåsstupene naturreservat",
+        "en": "Kolsåsstupene"
+      },
+      "category": "park",
+      "lat": 59.924527,
+      "lon": 10.520445,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q47491664",
+      "wikipedia": {
+        "nb": "Kolsåsstupene naturreservat"
+      },
+      "summary": {
+        "nb": "Kolsåsstupene naturreservat omfatter de bratte skråninger og stup på vest-, sør- og østsiden av Kolsåstoppen i Bærum.\nVerneverdiene er både geologiske forekomster og vegetasjon. I den nedre delen består fjellet av sedimentære bergarter fra silurtiden; kalkstein nederst med sandstein, leirskifer og konglomerat over. Øverst finnes lavabergarter fra permtiden; basalt og rombeporfyr.\nVegetasjonen er rik, med næringskrevende planter på hyller i stupene, og for øvrig mye edelløvskog."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Kols%C3%A5sstupene.jpg/640px-Kols%C3%A5sstupene.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.916386,
+        "lon": 10.530621
+      },
+      "walk": {
+        "durationS": 1032,
+        "distanceM": 1141,
+        "polyline": "_{slJowg_A?@@ABI@AD`@TlBNhABV?FABA@??OLA@A?CAACCOE[Gg@Y{BAIKFBh@@n@?XCj@KnAK~@AXE^CbA@nA@\\OVMLIDIBSAOAK?i@AYE_@O{A{A{@Be@P[RYAi@e@OMGSKa@yBWkABYQe@i@GOa@mA}@q@w@kAcBuFyD}K",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

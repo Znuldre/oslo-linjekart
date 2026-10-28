@@ -1,0 +1,350 @@
+{
+  "id": "NSR:StopPlace:61268",
+  "slug": "sinsen-t",
+  "name": "Sinsen T",
+  "lat": 59.936978,
+  "lon": 10.781837,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6035"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:63284",
+        "next": "NSR:StopPlace:58195"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58195",
+        "next": "NSR:StopPlace:63284"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58189",
+        "next": "NSR:StopPlace:58195"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58195",
+        "next": "NSR:StopPlace:58189"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 17,
+    "majorstuen": 12
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:61268",
+      "name": "Sinsen T",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "26",
+          "name": "Ellingsrudåsen - Bislett",
+          "lineId": "RUT:Line:26"
+        },
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        },
+        {
+          "publicCode": "58",
+          "name": "Nydalen - Tveita (- Bøler) via Bjerke",
+          "lineId": "RUT:Line:58"
+        },
+        {
+          "publicCode": "380",
+          "name": "Lillestrøm - Rv4 - Oslo bussterminal",
+          "lineId": "RUT:Line:380"
+        },
+        {
+          "publicCode": "390",
+          "name": "Kongskog/Hellerudhaugen - Oslo bussterminal",
+          "lineId": "RUT:Line:390"
+        },
+        {
+          "publicCode": "390E",
+          "name": "Hellerudhaugen - Oslo bussterminal",
+          "lineId": "RUT:Line:2390"
+        },
+        {
+          "publicCode": "FB1",
+          "name": "Majorstuen via Torshov-Sagene",
+          "lineId": "NBU:Line:a7cafc59-feaf-4e61-9fa1-b7dce4ffe970"
+        }
+      ]
+    },
+    {
+      "mode": "rail",
+      "stopPlaceId": "NSR:StopPlace:61268",
+      "name": "Sinsen T",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "R31",
+          "name": "Skøyen-Jaren-Gjøvik",
+          "lineId": "VYG:Line:R31"
+        },
+        {
+          "publicCode": "RE30",
+          "name": "Oslo S-Gjøvik",
+          "lineId": "VYG:Line:RE30"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6035",
+        "name": "Sinsen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11078",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11077",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:torshovdalen",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "lat": 59.934963,
+      "lon": 10.776707,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19392835",
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      },
+      "summary": {
+        "nb": "Torshovdalen er et parkområde i Oslo. Parken ligger mellom Torshov i vest, Sinsen i øst (Trondheimsveien), Rosenhoff og Rodeløkka i sørøst og sør (Mailundveien) og Gjøvikbanen i nord, og har skateboardramp i den sydlige delen. Parken forvaltes av Bymiljøetaten i Oslo kommune, som også preparerer langrennsløype om vinteren."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Torshovdalen4.JPG/640px-Torshovdalen4.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.936978,
+        "lon": 10.781837
+      },
+      "walk": {
+        "durationS": 0,
+        "distanceM": 0,
+        "source": "estimate"
+      }
+    },
+    {
+      "id": "osm:way/110586542",
+      "name": {
+        "nb": "Sinsenparken"
+      },
+      "category": "park",
+      "lat": 59.933244,
+      "lon": 10.785884,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19388524",
+      "wikipedia": {
+        "nb": "Sinsenparken",
+        "en": "Sinsenparken"
+      },
+      "summary": {
+        "nb": "Sinsenparken er en park mellom Lørenveien og Gjøvikbanen på Sinsen i Oslo. Oslo kommune bruker Sinsenparken også om et område ved Schouterrassen lenger syd på Sinsen.",
+        "en": "Sinsenparken is a park between Lørenveien road and the Gjøvik Line at Sinsen, in Oslo, Norway. The 21.2-acre park is used for recreational purposes. The area is bounded by 6 storey residential buildings on three sides, and has Sinsen Church framing the south. There is a leisure and recreation area for the community, which is used for exercise, dog walking, games, sunbathing, barbecuing, social gatherings and other recreation. The entire surface is covered with grass, and in the northeastern part of the park are some tall trees. In the park stands a memorial in remembrance of the 24 Sinsen residents who fell during World War II. The monument was unveiled by Alfred Seland in September 1949."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Sinsenparken2.JPG/640px-Sinsenparken2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.934043,
+        "lon": 10.784551
+      },
+      "walk": {
+        "durationS": 565,
+        "distanceM": 692,
+        "polyline": "amylJiyx`Ae@NzA{@DAtBm@h@fBCB?@_@gA[_AAA?AACCGACW{@Y}@Ic@Ec@@a@B[JG^]\\Yn@m@`@]zAuAbA}@vAoAt@q@FCF@Jj@F^^jCBV",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/252260743",
+      "name": {
+        "nb": "Torshovparken"
+      },
+      "category": "park",
+      "lat": 59.935297,
+      "lon": 10.77098,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19392836",
+      "wikipedia": {
+        "nb": "Torshovparken",
+        "en": "Torshovparken"
+      },
+      "summary": {
+        "nb": "Torshovparken er en stor park på Torshov i Oslo, anlagt på 1920-tallet som en del av Torshovbyen, boligområdet som ble bygget ut i kommunal regi.",
+        "en": "Torshovparken is a large park located in Torshov, Oslo, Norway, that was established in the 1920s as part of Torshovbyen, a residential area developed by the municipality."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Torshovparken1.JPG/640px-Torshovparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.936397,
+        "lon": 10.773276
+      },
+      "walk": {
+        "durationS": 600,
+        "distanceM": 735,
+        "polyline": "amylJiyx`Ae@NzA{@DAXx@Tr@BJFAFCDAt@~Av@|At@tAn@fAFdAPtAHr@P~AJzAD`BC`@Ej@_@~AI`@EDGPMd@C@AFCFCHAB?FQj@g@`BC@C?A?CHAFCHAF?@@DADu@bCCBBDFLFL@BGLIPKPMLMLQLMDA@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/27012015",
+      "name": {
+        "nb": "Torshov kirkepark"
+      },
+      "category": "park",
+      "lat": 59.938137,
+      "lon": 10.773215,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12007133",
+      "wikipedia": {
+        "nb": "Torshov kirkepark"
+      },
+      "summary": {
+        "nb": "Torshov kirkepark er en park på Torshov i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Torshov_kirkepark.JPG/640px-Torshov_kirkepark.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.93732,
+        "lon": 10.774425
+      },
+      "walk": {
+        "durationS": 583,
+        "distanceM": 754,
+        "polyline": "amylJiyx`Ae@N{Bf@yAh@IL[J{A\\C?BRD~@??DfA@P?V?V?^?NAR?RExAAfAGdCMzF?D@B@@?B?H?L?@A@C@AD?HK~FT|@pAn@B?@?@?DBD@@@@B@@lBbAJ?@Ap@a@No@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/44368259",
+      "name": {
+        "nb": "Torshov kirke",
+        "en": "Torshov Church"
+      },
+      "category": "church",
+      "lat": 59.938544,
+      "lon": 10.773444,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10422484",
+      "wikipedia": {
+        "nb": "Torshov kirke"
+      },
+      "summary": {
+        "nb": "Torshov kirke er soknekirke for Torshov og Lilleborg menighet i Nordre Aker prosti i Oslo bispedømme i bydel Sagene i Oslo kommune. Den er en langkirke fra 1958 på Torshov. Kirken ligger i Torshov kirkepark, mellom Åsengata og Nordkappgata."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Torshov_kirke_1.jpg/640px-Torshov_kirke_1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 543,
+        "distanceM": 684,
+        "polyline": "amylJiyx`Ae@N{Bf@yAh@IL[J{A\\C?BRD~@??DfA@P?V?V?^?NAR?RExAAfAGdCMzF?D@B@@?B?H?L?@A@C@AD?HK~FT|@pAn@B?@?@?DBAXCTGv@CTMz@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/110586537",
+      "name": {
+        "nb": "Sinsen kirke",
+        "en": "Sinsen Church"
+      },
+      "category": "church",
+      "lat": 59.931925,
+      "lon": 10.787425,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10419404",
+      "website": "http://www.sinsenkirke.no",
+      "wikipedia": {
+        "nb": "Sinsen kirke",
+        "en": "Sinsen Church"
+      },
+      "summary": {
+        "nb": "Sinsen kirke er soknekirke for Sinsen menighet i Nordre Aker prosti i Oslo bispedømme i Bydel Grünerløkka i Oslo kommune. Den er bygget som en arbeidskirke i 1971. Byggverket er i betong og har 1000 sitteplasser når menighetssaler er koplet til hovedrommet.",
+        "en": "Sinsen Church is a church center in Oslo, Norway. The church was consecrated in 1971, and is one of the larger churches in the city."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Sinsen_kirke_2012-2.jpg/640px-Sinsen_kirke_2012-2.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 729,
+        "distanceM": 887,
+        "polyline": "amylJiyx`Ae@NzA{@DAtBm@h@fBCB?@_@gA[_AAA?AACCGACW{@Y}@Ic@Ec@@a@B[JG^]\\Yn@m@`@]zAuAbA}@vAoAt@q@FCF@DEDEDEDE@E@C??lBiB^[r@o@XW`@]jBcB@FDDF@D?FALKBC",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

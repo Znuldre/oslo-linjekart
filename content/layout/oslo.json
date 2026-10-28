@@ -1,0 +1,4049 @@
+{
+  "viewBox": [
+    2300,
+    1560
+  ],
+  "grid": 10,
+  "nodes": [
+    {
+      "id": "adamstuen",
+      "stationIds": [
+        "NSR:StopPlace:58262"
+      ],
+      "x": 1000,
+      "y": 720,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "aker-brygge",
+      "stationIds": [
+        "NSR:StopPlace:58382"
+      ],
+      "x": 1060,
+      "y": 1160,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ammerud",
+      "stationIds": [
+        "NSR:StopPlace:59518"
+      ],
+      "x": 1920,
+      "y": 300,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "asjordet",
+      "stationIds": [
+        "NSR:StopPlace:58278"
+      ],
+      "x": 630,
+      "y": 1070,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "avlos",
+      "stationIds": [
+        "NSR:StopPlace:59895"
+      ],
+      "x": 280,
+      "y": 1270,
+      "kind": "terminus",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "bekkestua",
+      "stationIds": [
+        "NSR:StopPlace:58281"
+      ],
+      "x": 430,
+      "y": 1270,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "berg",
+      "stationIds": [
+        "NSR:StopPlace:59738"
+      ],
+      "x": 900,
+      "y": 560,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "bergkrystallen",
+      "stationIds": [
+        "NSR:StopPlace:58243"
+      ],
+      "x": 1700,
+      "y": 1400,
+      "kind": "terminus",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "besserud",
+      "stationIds": [
+        "NSR:StopPlace:58267"
+      ],
+      "x": 740,
+      "y": 440,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "biermanns-gate",
+      "stationIds": [
+        "NSR:StopPlace:58257"
+      ],
+      "x": 1240,
+      "y": 680,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -18,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "birkelunden",
+      "stationIds": [
+        "NSR:StopPlace:58357"
+      ],
+      "x": 1240,
+      "y": 720,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 18,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "bislett",
+      "stationIds": [
+        "NSR:StopPlace:58353"
+      ],
+      "x": 1000,
+      "y": 800,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "bjornsletta",
+      "stationIds": [
+        "NSR:StopPlace:58279"
+      ],
+      "x": 580,
+      "y": 1120,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "bjorvika",
+      "stationIds": [
+        "NSR:StopPlace:58367"
+      ],
+      "x": 1260,
+      "y": 1000,
+      "kind": "terminus",
+      "label": {
+        "anchor": "start",
+        "dx": 12,
+        "dy": 14,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "blindern",
+      "stationIds": [
+        "NSR:StopPlace:6332"
+      ],
+      "x": 900,
+      "y": 820,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -14,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "bogerud",
+      "stationIds": [
+        "NSR:StopPlace:58226"
+      ],
+      "x": 2100,
+      "y": 1220,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "bogstadveien",
+      "stationIds": [
+        "NSR:StopPlace:58403"
+      ],
+      "x": 950,
+      "y": 880,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "boler",
+      "stationIds": [
+        "NSR:StopPlace:58225"
+      ],
+      "x": 2050,
+      "y": 1170,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "borgen",
+      "stationIds": [
+        "NSR:StopPlace:58272"
+      ],
+      "x": 840,
+      "y": 920,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "braten",
+      "stationIds": [
+        "NSR:StopPlace:58302"
+      ],
+      "x": 1500,
+      "y": 1420,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "brattlikollen",
+      "stationIds": [
+        "NSR:StopPlace:58247"
+      ],
+      "x": 1700,
+      "y": 1160,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "brynseng",
+      "stationIds": [
+        "NSR:StopPlace:58197"
+      ],
+      "x": 1700,
+      "y": 920,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": -18,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "carl-berners-plass",
+      "stationIds": [
+        "NSR:StopPlace:58189"
+      ],
+      "x": 1400,
+      "y": 680,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -14,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "disen",
+      "stationIds": [
+        "NSR:StopPlace:58305"
+      ],
+      "x": 1200,
+      "y": 470,
+      "kind": "terminus",
+      "label": {
+        "anchor": "start",
+        "dx": 18,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "doktor-smiths-vei",
+      "stationIds": [
+        "NSR:StopPlace:58306"
+      ],
+      "x": 1200,
+      "y": 420,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "dronningens-gate",
+      "stationIds": [
+        "NSR:StopPlace:59601"
+      ],
+      "x": 1160,
+      "y": 1000,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 24,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "eiksmarka",
+      "stationIds": [
+        "NSR:StopPlace:58276"
+      ],
+      "x": 480,
+      "y": 620,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ekebergparken",
+      "stationIds": [
+        "NSR:StopPlace:58297"
+      ],
+      "x": 1260,
+      "y": 1180,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -14,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ekraveien",
+      "stationIds": [
+        "NSR:StopPlace:59764"
+      ],
+      "x": 530,
+      "y": 670,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "elisenberg",
+      "stationIds": [
+        "NSR:StopPlace:58361"
+      ],
+      "x": 840,
+      "y": 1110,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -12,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ellingsrudasen",
+      "stationIds": [
+        "NSR:StopPlace:58220"
+      ],
+      "x": 2160,
+      "y": 560,
+      "kind": "terminus",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ensjo",
+      "stationIds": [
+        "NSR:StopPlace:59762"
+      ],
+      "x": 1500,
+      "y": 920,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 28,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "forskningsparken",
+      "stationIds": [
+        "NSR:StopPlace:59600"
+      ],
+      "x": 900,
+      "y": 720,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -14,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "froen",
+      "stationIds": [
+        "NSR:StopPlace:6233"
+      ],
+      "x": 860,
+      "y": 880,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "frogner-plass",
+      "stationIds": [
+        "NSR:StopPlace:58356"
+      ],
+      "x": 800,
+      "y": 1070,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -14,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "frogner-stadion",
+      "stationIds": [
+        "NSR:StopPlace:58354"
+      ],
+      "x": 850,
+      "y": 970,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "frognerseteren",
+      "stationIds": [
+        "NSR:StopPlace:59768"
+      ],
+      "x": 740,
+      "y": 200,
+      "kind": "terminus",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": -10,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "frydenlund",
+      "stationIds": [
+        "NSR:StopPlace:58405"
+      ],
+      "x": 1080,
+      "y": 840,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 24,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "furuset",
+      "stationIds": [
+        "NSR:StopPlace:58221"
+      ],
+      "x": 2100,
+      "y": 620,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "gaustad",
+      "stationIds": [
+        "NSR:StopPlace:59519"
+      ],
+      "x": 740,
+      "y": 760,
+      "kind": "stop",
+      "label": {
+        "anchor": "end",
+        "dx": -11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "gaustadalleen",
+      "stationIds": [
+        "NSR:StopPlace:6261"
+      ],
+      "x": 860,
+      "y": 680,
+      "kind": "terminus",
+      "label": {
+        "anchor": "end",
+        "dx": -12,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "gjettum",
+      "stationIds": [
+        "NSR:StopPlace:4007"
+      ],
+      "x": 230,
+      "y": 1270,
+      "kind": "stop",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "gjonnes",
+      "stationIds": [
+        "NSR:StopPlace:64352"
+      ],
+      "x": 380,
+      "y": 1270,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "glads-vei",
+      "stationIds": [
+        "NSR:StopPlace:58307"
+      ],
+      "x": 1200,
+      "y": 370,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "godlia",
+      "stationIds": [
+        "NSR:StopPlace:5968"
+      ],
+      "x": 1850,
+      "y": 970,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "grakammen",
+      "stationIds": [
+        "NSR:StopPlace:6289"
+      ],
+      "x": 740,
+      "y": 640,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "grefsen-stadion",
+      "stationIds": [
+        "NSR:StopPlace:58309"
+      ],
+      "x": 1200,
+      "y": 270,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "grefsen-stasjon",
+      "stationIds": [
+        "NSR:StopPlace:59643"
+      ],
+      "x": 1280,
+      "y": 480,
+      "kind": "terminus",
+      "label": {
+        "anchor": "start",
+        "dx": 12,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "grefsenplataet",
+      "stationIds": [
+        "NSR:StopPlace:58308"
+      ],
+      "x": 1200,
+      "y": 320,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "grefsenveien",
+      "stationIds": [
+        "NSR:StopPlace:58196"
+      ],
+      "x": 1240,
+      "y": 560,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 18,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "gronland",
+      "stationIds": [
+        "NSR:StopPlace:6488"
+      ],
+      "x": 1300,
+      "y": 920,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 36,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "grorud",
+      "stationIds": [
+        "NSR:StopPlace:58216"
+      ],
+      "x": 1980,
+      "y": 300,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "gullerasen",
+      "stationIds": [
+        "NSR:StopPlace:6294"
+      ],
+      "x": 740,
+      "y": 600,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "hasle",
+      "stationIds": [
+        "NSR:StopPlace:58191"
+      ],
+      "x": 1500,
+      "y": 660,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "haslum",
+      "stationIds": [
+        "NSR:StopPlace:58282"
+      ],
+      "x": 330,
+      "y": 1270,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "hauger",
+      "stationIds": [
+        "NSR:StopPlace:58283"
+      ],
+      "x": 180,
+      "y": 1270,
+      "kind": "stop",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "haugerud",
+      "stationIds": [
+        "NSR:StopPlace:58213"
+      ],
+      "x": 1920,
+      "y": 800,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "heimdalsgata",
+      "stationIds": [
+        "NSR:StopPlace:58253"
+      ],
+      "x": 1280,
+      "y": 800,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "hellerud",
+      "stationIds": [
+        "NSR:StopPlace:58198"
+      ],
+      "x": 1800,
+      "y": 920,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 16,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "helsfyr",
+      "stationIds": [
+        "NSR:StopPlace:59516"
+      ],
+      "x": 1600,
+      "y": 920,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 28,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "holbergs-plass",
+      "stationIds": [
+        "NSR:StopPlace:58407"
+      ],
+      "x": 1120,
+      "y": 840,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": -17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "holmen",
+      "stationIds": [
+        "NSR:StopPlace:6350"
+      ],
+      "x": 680,
+      "y": 820,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "holmenkollen",
+      "stationIds": [
+        "NSR:StopPlace:59766"
+      ],
+      "x": 740,
+      "y": 400,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "holstein",
+      "stationIds": [
+        "NSR:StopPlace:59765"
+      ],
+      "x": 900,
+      "y": 380,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "holtet",
+      "stationIds": [
+        "NSR:StopPlace:58299"
+      ],
+      "x": 1380,
+      "y": 1300,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "homansbyen",
+      "stationIds": [
+        "NSR:StopPlace:58291"
+      ],
+      "x": 1000,
+      "y": 840,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 24,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "hovseter",
+      "stationIds": [
+        "NSR:StopPlace:58275"
+      ],
+      "x": 630,
+      "y": 770,
+      "kind": "stop",
+      "label": {
+        "anchor": "end",
+        "dx": -9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "hoyenhall",
+      "stationIds": [
+        "NSR:StopPlace:58250"
+      ],
+      "x": 1700,
+      "y": 980,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "jar",
+      "stationIds": [
+        "NSR:StopPlace:58280"
+      ],
+      "x": 530,
+      "y": 1170,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "jernbanetorget",
+      "stationIds": [
+        "NSR:StopPlace:58366"
+      ],
+      "x": 1200,
+      "y": 920,
+      "kind": "terminus",
+      "label": {
+        "anchor": "end",
+        "dx": -44,
+        "dy": 48,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "john-colletts-plass",
+      "stationIds": [
+        "NSR:StopPlace:58264"
+      ],
+      "x": 1000,
+      "y": 640,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "jomfrubraten",
+      "stationIds": [
+        "NSR:StopPlace:6580"
+      ],
+      "x": 1300,
+      "y": 1220,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "kalbakken",
+      "stationIds": [
+        "NSR:StopPlace:5810"
+      ],
+      "x": 1860,
+      "y": 300,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -12,
+        "dy": -8,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "karlsrud",
+      "stationIds": [
+        "NSR:StopPlace:58246"
+      ],
+      "x": 1700,
+      "y": 1220,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "kastellet",
+      "stationIds": [
+        "NSR:StopPlace:58301"
+      ],
+      "x": 1460,
+      "y": 1380,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "kjelsas",
+      "stationIds": [
+        "NSR:StopPlace:59615"
+      ],
+      "x": 1200,
+      "y": 170,
+      "kind": "terminus",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": -13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "kjelsasalleen",
+      "stationIds": [
+        "NSR:StopPlace:58310"
+      ],
+      "x": 1200,
+      "y": 220,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "kolsas",
+      "stationIds": [
+        "NSR:StopPlace:58284"
+      ],
+      "x": 130,
+      "y": 1270,
+      "kind": "terminus",
+      "label": {
+        "anchor": "end",
+        "dx": -11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "kontraskjaeret",
+      "stationIds": [
+        "NSR:StopPlace:4245"
+      ],
+      "x": 1100,
+      "y": 1120,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "korsgata",
+      "stationIds": [
+        "NSR:StopPlace:6428"
+      ],
+      "x": 1200,
+      "y": 800,
+      "kind": "terminus",
+      "label": {
+        "anchor": "end",
+        "dx": -12,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "kringsja",
+      "stationIds": [
+        "NSR:StopPlace:59706"
+      ],
+      "x": 900,
+      "y": 320,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "lakkegata-skole",
+      "stationIds": [
+        "NSR:StopPlace:58254"
+      ],
+      "x": 1320,
+      "y": 760,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "lambertseter",
+      "stationIds": [
+        "NSR:StopPlace:58245"
+      ],
+      "x": 1700,
+      "y": 1280,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "lijordet",
+      "stationIds": [
+        "NSR:StopPlace:3700"
+      ],
+      "x": 430,
+      "y": 570,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "lille-frogner-alle",
+      "stationIds": [
+        "NSR:StopPlace:58362"
+      ],
+      "x": 890,
+      "y": 1110,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "lillevann",
+      "stationIds": [
+        "NSR:StopPlace:61604"
+      ],
+      "x": 740,
+      "y": 280,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "lindeberg",
+      "stationIds": [
+        "NSR:StopPlace:58222"
+      ],
+      "x": 2040,
+      "y": 680,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "linderud-t",
+      "stationIds": [
+        "NSR:StopPlace:61582"
+      ],
+      "x": 1710,
+      "y": 450,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ljabru",
+      "stationIds": [
+        "NSR:StopPlace:58304"
+      ],
+      "x": 1580,
+      "y": 1500,
+      "kind": "terminus",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "loren",
+      "stationIds": [
+        "NSR:StopPlace:63284"
+      ],
+      "x": 1460,
+      "y": 520,
+      "kind": "stop",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "majorstuen",
+      "stationIds": [
+        "NSR:StopPlace:58381"
+      ],
+      "x": 900,
+      "y": 920,
+      "kind": "terminus",
+      "label": {
+        "anchor": "end",
+        "dx": -36,
+        "dy": 34,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "makrellbekken",
+      "stationIds": [
+        "NSR:StopPlace:58274"
+      ],
+      "x": 730,
+      "y": 870,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "manglerud",
+      "stationIds": [
+        "NSR:StopPlace:58249"
+      ],
+      "x": 1700,
+      "y": 1040,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "middelalderparken",
+      "stationIds": [
+        "NSR:StopPlace:61066"
+      ],
+      "x": 1260,
+      "y": 1060,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "midtstuen",
+      "stationIds": [
+        "NSR:StopPlace:6302"
+      ],
+      "x": 740,
+      "y": 480,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "montebello",
+      "stationIds": [
+        "NSR:StopPlace:6503"
+      ],
+      "x": 730,
+      "y": 970,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "mortensrud",
+      "stationIds": [
+        "NSR:StopPlace:58228"
+      ],
+      "x": 2200,
+      "y": 1320,
+      "kind": "terminus",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "munkelia",
+      "stationIds": [
+        "NSR:StopPlace:58244"
+      ],
+      "x": 1700,
+      "y": 1340,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "nationaltheatret",
+      "stationIds": [
+        "NSR:StopPlace:58404"
+      ],
+      "x": 1000,
+      "y": 920,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 30,
+        "dy": 34,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "niels-juels-gate",
+      "stationIds": [
+        "NSR:StopPlace:58363"
+      ],
+      "x": 940,
+      "y": 1110,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": -13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "nobels-gate",
+      "stationIds": [
+        "NSR:StopPlace:59603"
+      ],
+      "x": 850,
+      "y": 1260,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "nybrua",
+      "stationIds": [
+        "NSR:StopPlace:61989"
+      ],
+      "x": 1240,
+      "y": 840,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 22,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "nydalen",
+      "stationIds": [
+        "NSR:StopPlace:59605"
+      ],
+      "x": 1060,
+      "y": 520,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": -14,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "okern",
+      "stationIds": [
+        "NSR:StopPlace:58194"
+      ],
+      "x": 1560,
+      "y": 600,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "olaf-ryes-plass",
+      "stationIds": [
+        "NSR:StopPlace:58258"
+      ],
+      "x": 1240,
+      "y": 760,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -18,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "oppsal",
+      "stationIds": [
+        "NSR:StopPlace:59575"
+      ],
+      "x": 1950,
+      "y": 1070,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "oslo-hospital",
+      "stationIds": [
+        "NSR:StopPlace:58296"
+      ],
+      "x": 1260,
+      "y": 1120,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "osteras",
+      "stationIds": [
+        "NSR:StopPlace:58277"
+      ],
+      "x": 380,
+      "y": 520,
+      "kind": "terminus",
+      "label": {
+        "anchor": "end",
+        "dx": -9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "osthorn",
+      "stationIds": [
+        "NSR:StopPlace:6196"
+      ],
+      "x": 900,
+      "y": 440,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ovre-slottsgate",
+      "stationIds": [
+        "NSR:StopPlace:61633"
+      ],
+      "x": 1100,
+      "y": 1000,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -18,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ringstabekk",
+      "stationIds": [
+        "NSR:StopPlace:63808"
+      ],
+      "x": 480,
+      "y": 1220,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ris",
+      "stationIds": [
+        "NSR:StopPlace:58269"
+      ],
+      "x": 740,
+      "y": 720,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "rislokka",
+      "stationIds": [
+        "NSR:StopPlace:5922"
+      ],
+      "x": 1610,
+      "y": 550,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "roa",
+      "stationIds": [
+        "NSR:StopPlace:59520"
+      ],
+      "x": 580,
+      "y": 720,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "rodtvet",
+      "stationIds": [
+        "NSR:StopPlace:58214"
+      ],
+      "x": 1810,
+      "y": 350,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "rommen",
+      "stationIds": [
+        "NSR:StopPlace:58217"
+      ],
+      "x": 2100,
+      "y": 300,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "romsas",
+      "stationIds": [
+        "NSR:StopPlace:5780"
+      ],
+      "x": 2040,
+      "y": 300,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "rosenhoff",
+      "stationIds": [
+        "NSR:StopPlace:58255"
+      ],
+      "x": 1440,
+      "y": 640,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ruselokka",
+      "stationIds": [
+        "NSR:StopPlace:59602"
+      ],
+      "x": 1000,
+      "y": 1160,
+      "kind": "stop",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ryen",
+      "stationIds": [
+        "NSR:StopPlace:58248"
+      ],
+      "x": 1700,
+      "y": 1100,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "saeter",
+      "stationIds": [
+        "NSR:StopPlace:58303"
+      ],
+      "x": 1540,
+      "y": 1460,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "sandaker-senter",
+      "stationIds": [
+        "NSR:StopPlace:58185"
+      ],
+      "x": 1240,
+      "y": 600,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 18,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "schous-plass",
+      "stationIds": [
+        "NSR:StopPlace:58259"
+      ],
+      "x": 1240,
+      "y": 800,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 16,
+        "dy": 20,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "sinsen-t",
+      "stationIds": [
+        "NSR:StopPlace:61268"
+      ],
+      "x": 1340,
+      "y": 520,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": -14,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "sinsenkrysset",
+      "stationIds": [
+        "NSR:StopPlace:58406"
+      ],
+      "x": 1400,
+      "y": 540,
+      "kind": "stop",
+      "label": {
+        "anchor": "end",
+        "dx": -11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "sinsenterrassen",
+      "stationIds": [
+        "NSR:StopPlace:6024"
+      ],
+      "x": 1440,
+      "y": 580,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "skadalen",
+      "stationIds": [
+        "NSR:StopPlace:6299"
+      ],
+      "x": 740,
+      "y": 520,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "skarpsno",
+      "stationIds": [
+        "NSR:StopPlace:58365"
+      ],
+      "x": 900,
+      "y": 1210,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "skillebekk",
+      "stationIds": [
+        "NSR:StopPlace:58364"
+      ],
+      "x": 950,
+      "y": 1160,
+      "kind": "stop",
+      "label": {
+        "anchor": "end",
+        "dx": -9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "skogen",
+      "stationIds": [
+        "NSR:StopPlace:59767"
+      ],
+      "x": 740,
+      "y": 320,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "skoyenasen",
+      "stationIds": [
+        "NSR:StopPlace:58223"
+      ],
+      "x": 1900,
+      "y": 1020,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "skullerud",
+      "stationIds": [
+        "NSR:StopPlace:58227"
+      ],
+      "x": 2150,
+      "y": 1270,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "slemdal",
+      "stationIds": [
+        "NSR:StopPlace:58268"
+      ],
+      "x": 740,
+      "y": 680,
+      "kind": "stop",
+      "label": {
+        "anchor": "end",
+        "dx": -11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "smestad",
+      "stationIds": [
+        "NSR:StopPlace:58273"
+      ],
+      "x": 780,
+      "y": 920,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -14,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "sofienberg",
+      "stationIds": [
+        "NSR:StopPlace:58190"
+      ],
+      "x": 1360,
+      "y": 720,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "sognsvann",
+      "stationIds": [
+        "NSR:StopPlace:59705"
+      ],
+      "x": 900,
+      "y": 260,
+      "kind": "terminus",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": -10,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "solli",
+      "stationIds": [
+        "NSR:StopPlace:58289"
+      ],
+      "x": 1000,
+      "y": 1110,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 12,
+        "dy": 14,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "sorli",
+      "stationIds": [
+        "NSR:StopPlace:58300"
+      ],
+      "x": 1420,
+      "y": 1340,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "sportsplassen",
+      "stationIds": [
+        "NSR:StopPlace:58298"
+      ],
+      "x": 1340,
+      "y": 1260,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "steinerud",
+      "stationIds": [
+        "NSR:StopPlace:58271"
+      ],
+      "x": 820,
+      "y": 840,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "stensgata",
+      "stationIds": [
+        "NSR:StopPlace:58261"
+      ],
+      "x": 1000,
+      "y": 760,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "storgata",
+      "stationIds": [
+        "NSR:StopPlace:61444"
+      ],
+      "x": 1240,
+      "y": 880,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 22,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "storo",
+      "stationIds": [
+        "NSR:StopPlace:58195"
+      ],
+      "x": 1200,
+      "y": 520,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -12,
+        "dy": -12,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "stortinget",
+      "stationIds": [
+        "NSR:StopPlace:4029"
+      ],
+      "x": 1100,
+      "y": 920,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": -26,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "stortorvet",
+      "stationIds": [
+        "NSR:StopPlace:58358"
+      ],
+      "x": 1200,
+      "y": 880,
+      "kind": "terminus",
+      "label": {
+        "anchor": "end",
+        "dx": -12,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "stovner",
+      "stationIds": [
+        "NSR:StopPlace:58219"
+      ],
+      "x": 2160,
+      "y": 300,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "tasen",
+      "stationIds": [
+        "NSR:StopPlace:59573"
+      ],
+      "x": 900,
+      "y": 500,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "thune",
+      "stationIds": [
+        "NSR:StopPlace:58288"
+      ],
+      "x": 800,
+      "y": 1310,
+      "kind": "terminus",
+      "label": {
+        "anchor": "end",
+        "dx": -9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "tinghuset",
+      "stationIds": [
+        "NSR:StopPlace:59833"
+      ],
+      "x": 1200,
+      "y": 840,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 16,
+        "dy": 20,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "torshov",
+      "stationIds": [
+        "NSR:StopPlace:58256"
+      ],
+      "x": 1240,
+      "y": 640,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 18,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "toyen",
+      "stationIds": [
+        "NSR:StopPlace:59604"
+      ],
+      "x": 1400,
+      "y": 920,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 31,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "trosterud",
+      "stationIds": [
+        "NSR:StopPlace:6197"
+      ],
+      "x": 1980,
+      "y": 740,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "tullinlokka",
+      "stationIds": [
+        "NSR:StopPlace:60322"
+      ],
+      "x": 1160,
+      "y": 840,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 24,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "tveita-t",
+      "stationIds": [
+        "NSR:StopPlace:59517"
+      ],
+      "x": 1860,
+      "y": 860,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": 13,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ullernasen",
+      "stationIds": [
+        "NSR:StopPlace:6509"
+      ],
+      "x": 680,
+      "y": 1020,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ulleval-stadion",
+      "stationIds": [
+        "NSR:StopPlace:58265"
+      ],
+      "x": 900,
+      "y": 620,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -14,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ulleval-sykehus",
+      "stationIds": [
+        "NSR:StopPlace:58263"
+      ],
+      "x": 1000,
+      "y": 680,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "ulsrud",
+      "stationIds": [
+        "NSR:StopPlace:58224"
+      ],
+      "x": 2000,
+      "y": 1120,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "universitetet-blindern",
+      "stationIds": [
+        "NSR:StopPlace:6340"
+      ],
+      "x": 960,
+      "y": 680,
+      "kind": "interchange",
+      "label": {
+        "anchor": "middle",
+        "dx": 0,
+        "dy": 21,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "veitvet",
+      "stationIds": [
+        "NSR:StopPlace:58215"
+      ],
+      "x": 1760,
+      "y": 400,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "vestli",
+      "stationIds": [
+        "NSR:StopPlace:58218"
+      ],
+      "x": 2220,
+      "y": 300,
+      "kind": "terminus",
+      "label": {
+        "anchor": "start",
+        "dx": 15,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "vettakollen",
+      "stationIds": [
+        "NSR:StopPlace:6298"
+      ],
+      "x": 740,
+      "y": 560,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "vigelandsparken",
+      "stationIds": [
+        "NSR:StopPlace:58355"
+      ],
+      "x": 800,
+      "y": 1020,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -12,
+        "dy": -9,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "vinderen",
+      "stationIds": [
+        "NSR:StopPlace:58270"
+      ],
+      "x": 780,
+      "y": 800,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 9,
+        "dy": -6,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "voksenkollen",
+      "stationIds": [
+        "NSR:StopPlace:58266"
+      ],
+      "x": 740,
+      "y": 240,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "voksenlia",
+      "stationIds": [
+        "NSR:StopPlace:59763"
+      ],
+      "x": 740,
+      "y": 360,
+      "kind": "stop",
+      "label": {
+        "anchor": "start",
+        "dx": 11,
+        "dy": 4,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "vollebekk",
+      "stationIds": [
+        "NSR:StopPlace:59704"
+      ],
+      "x": 1660,
+      "y": 500,
+      "kind": "interchange",
+      "label": {
+        "anchor": "start",
+        "dx": 13,
+        "dy": 17,
+        "rotate": 0
+      }
+    },
+    {
+      "id": "welhavens-gate",
+      "stationIds": [
+        "NSR:StopPlace:60179"
+      ],
+      "x": 1040,
+      "y": 840,
+      "kind": "interchange",
+      "label": {
+        "anchor": "end",
+        "dx": -16,
+        "dy": -13,
+        "rotate": 0
+      }
+    }
+  ],
+  "lines": [
+    {
+      "lineCode": "1",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "bergkrystallen",
+          "to": "munkelia"
+        },
+        {
+          "from": "lambertseter",
+          "to": "munkelia"
+        },
+        {
+          "from": "karlsrud",
+          "to": "lambertseter"
+        },
+        {
+          "from": "brattlikollen",
+          "to": "karlsrud"
+        },
+        {
+          "from": "brattlikollen",
+          "to": "ryen"
+        },
+        {
+          "from": "manglerud",
+          "to": "ryen"
+        },
+        {
+          "from": "hoyenhall",
+          "to": "manglerud"
+        },
+        {
+          "from": "brynseng",
+          "to": "hoyenhall"
+        },
+        {
+          "from": "brynseng",
+          "to": "helsfyr"
+        },
+        {
+          "from": "ensjo",
+          "to": "helsfyr"
+        },
+        {
+          "from": "ensjo",
+          "to": "toyen"
+        },
+        {
+          "from": "gronland",
+          "to": "toyen"
+        },
+        {
+          "from": "gronland",
+          "to": "jernbanetorget"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "stortinget"
+        },
+        {
+          "from": "nationaltheatret",
+          "to": "stortinget"
+        },
+        {
+          "from": "majorstuen",
+          "to": "nationaltheatret"
+        },
+        {
+          "from": "froen",
+          "to": "majorstuen"
+        },
+        {
+          "from": "froen",
+          "to": "steinerud"
+        },
+        {
+          "from": "steinerud",
+          "to": "vinderen"
+        },
+        {
+          "from": "gaustad",
+          "to": "vinderen"
+        },
+        {
+          "from": "gaustad",
+          "to": "ris"
+        },
+        {
+          "from": "ris",
+          "to": "slemdal"
+        },
+        {
+          "from": "grakammen",
+          "to": "slemdal"
+        },
+        {
+          "from": "grakammen",
+          "to": "gullerasen"
+        },
+        {
+          "from": "gullerasen",
+          "to": "vettakollen"
+        },
+        {
+          "from": "skadalen",
+          "to": "vettakollen"
+        },
+        {
+          "from": "midtstuen",
+          "to": "skadalen"
+        },
+        {
+          "from": "besserud",
+          "to": "midtstuen"
+        },
+        {
+          "from": "besserud",
+          "to": "holmenkollen"
+        },
+        {
+          "from": "holmenkollen",
+          "to": "voksenlia"
+        },
+        {
+          "from": "skogen",
+          "to": "voksenlia"
+        },
+        {
+          "from": "lillevann",
+          "to": "skogen"
+        },
+        {
+          "from": "lillevann",
+          "to": "voksenkollen"
+        },
+        {
+          "from": "frognerseteren",
+          "to": "voksenkollen"
+        },
+        {
+          "from": "grakammen",
+          "to": "vettakollen"
+        }
+      ]
+    },
+    {
+      "lineCode": "2",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "ellingsrudasen",
+          "to": "furuset"
+        },
+        {
+          "from": "furuset",
+          "to": "lindeberg"
+        },
+        {
+          "from": "lindeberg",
+          "to": "trosterud"
+        },
+        {
+          "from": "haugerud",
+          "to": "trosterud"
+        },
+        {
+          "from": "haugerud",
+          "to": "tveita-t"
+        },
+        {
+          "from": "hellerud",
+          "to": "tveita-t"
+        },
+        {
+          "from": "brynseng",
+          "to": "hellerud"
+        },
+        {
+          "from": "brynseng",
+          "to": "helsfyr"
+        },
+        {
+          "from": "ensjo",
+          "to": "helsfyr"
+        },
+        {
+          "from": "ensjo",
+          "to": "toyen"
+        },
+        {
+          "from": "gronland",
+          "to": "toyen"
+        },
+        {
+          "from": "gronland",
+          "to": "jernbanetorget"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "stortinget"
+        },
+        {
+          "from": "nationaltheatret",
+          "to": "stortinget"
+        },
+        {
+          "from": "majorstuen",
+          "to": "nationaltheatret"
+        },
+        {
+          "from": "borgen",
+          "to": "majorstuen"
+        },
+        {
+          "from": "borgen",
+          "to": "smestad"
+        },
+        {
+          "from": "makrellbekken",
+          "to": "smestad"
+        },
+        {
+          "from": "holmen",
+          "to": "makrellbekken"
+        },
+        {
+          "from": "holmen",
+          "to": "hovseter"
+        },
+        {
+          "from": "hovseter",
+          "to": "roa"
+        },
+        {
+          "from": "ekraveien",
+          "to": "roa"
+        },
+        {
+          "from": "eiksmarka",
+          "to": "ekraveien"
+        },
+        {
+          "from": "eiksmarka",
+          "to": "lijordet"
+        },
+        {
+          "from": "lijordet",
+          "to": "osteras"
+        },
+        {
+          "from": "montebello",
+          "to": "smestad"
+        },
+        {
+          "from": "montebello",
+          "to": "ullernasen"
+        },
+        {
+          "from": "asjordet",
+          "to": "ullernasen"
+        },
+        {
+          "from": "asjordet",
+          "to": "bjornsletta"
+        },
+        {
+          "from": "bjornsletta",
+          "to": "jar"
+        },
+        {
+          "from": "jar",
+          "to": "ringstabekk"
+        },
+        {
+          "from": "bekkestua",
+          "to": "ringstabekk"
+        },
+        {
+          "from": "bekkestua",
+          "to": "gjonnes"
+        },
+        {
+          "from": "gjonnes",
+          "to": "haslum"
+        },
+        {
+          "from": "avlos",
+          "to": "haslum"
+        }
+      ]
+    },
+    {
+      "lineCode": "3",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "hauger",
+          "to": "kolsas"
+        },
+        {
+          "from": "gjettum",
+          "to": "hauger"
+        },
+        {
+          "from": "avlos",
+          "to": "gjettum"
+        },
+        {
+          "from": "avlos",
+          "to": "haslum"
+        },
+        {
+          "from": "gjonnes",
+          "to": "haslum"
+        },
+        {
+          "from": "bekkestua",
+          "to": "gjonnes"
+        },
+        {
+          "from": "bekkestua",
+          "to": "ringstabekk"
+        },
+        {
+          "from": "jar",
+          "to": "ringstabekk"
+        },
+        {
+          "from": "bjornsletta",
+          "to": "jar"
+        },
+        {
+          "from": "asjordet",
+          "to": "bjornsletta"
+        },
+        {
+          "from": "asjordet",
+          "to": "ullernasen"
+        },
+        {
+          "from": "montebello",
+          "to": "ullernasen"
+        },
+        {
+          "from": "montebello",
+          "to": "smestad"
+        },
+        {
+          "from": "borgen",
+          "to": "smestad"
+        },
+        {
+          "from": "borgen",
+          "to": "majorstuen"
+        },
+        {
+          "from": "majorstuen",
+          "to": "nationaltheatret"
+        },
+        {
+          "from": "nationaltheatret",
+          "to": "stortinget"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "stortinget"
+        },
+        {
+          "from": "gronland",
+          "to": "jernbanetorget"
+        },
+        {
+          "from": "gronland",
+          "to": "toyen"
+        },
+        {
+          "from": "ensjo",
+          "to": "toyen"
+        },
+        {
+          "from": "ensjo",
+          "to": "helsfyr"
+        },
+        {
+          "from": "brynseng",
+          "to": "helsfyr"
+        },
+        {
+          "from": "brynseng",
+          "to": "hellerud"
+        },
+        {
+          "from": "godlia",
+          "to": "hellerud"
+        },
+        {
+          "from": "godlia",
+          "to": "skoyenasen"
+        },
+        {
+          "from": "oppsal",
+          "to": "skoyenasen"
+        },
+        {
+          "from": "oppsal",
+          "to": "ulsrud"
+        },
+        {
+          "from": "boler",
+          "to": "ulsrud"
+        },
+        {
+          "from": "bogerud",
+          "to": "boler"
+        },
+        {
+          "from": "bogerud",
+          "to": "skullerud"
+        },
+        {
+          "from": "mortensrud",
+          "to": "skullerud"
+        }
+      ]
+    },
+    {
+      "lineCode": "4",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "stovner",
+          "to": "vestli"
+        },
+        {
+          "from": "rommen",
+          "to": "stovner"
+        },
+        {
+          "from": "rommen",
+          "to": "romsas"
+        },
+        {
+          "from": "grorud",
+          "to": "romsas"
+        },
+        {
+          "from": "ammerud",
+          "to": "grorud"
+        },
+        {
+          "from": "ammerud",
+          "to": "kalbakken"
+        },
+        {
+          "from": "kalbakken",
+          "to": "rodtvet"
+        },
+        {
+          "from": "rodtvet",
+          "to": "veitvet"
+        },
+        {
+          "from": "linderud-t",
+          "to": "veitvet"
+        },
+        {
+          "from": "linderud-t",
+          "to": "vollebekk"
+        },
+        {
+          "from": "rislokka",
+          "to": "vollebekk"
+        },
+        {
+          "from": "okern",
+          "to": "rislokka"
+        },
+        {
+          "from": "loren",
+          "to": "okern",
+          "via": [
+            [
+              1480,
+              520
+            ]
+          ]
+        },
+        {
+          "from": "loren",
+          "to": "sinsen-t"
+        },
+        {
+          "from": "sinsen-t",
+          "to": "storo"
+        },
+        {
+          "from": "nydalen",
+          "to": "storo"
+        },
+        {
+          "from": "nydalen",
+          "to": "ulleval-stadion",
+          "via": [
+            [
+              960,
+              620
+            ]
+          ]
+        },
+        {
+          "from": "forskningsparken",
+          "to": "ulleval-stadion"
+        },
+        {
+          "from": "blindern",
+          "to": "forskningsparken"
+        },
+        {
+          "from": "blindern",
+          "to": "majorstuen"
+        },
+        {
+          "from": "majorstuen",
+          "to": "nationaltheatret"
+        },
+        {
+          "from": "nationaltheatret",
+          "to": "stortinget"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "stortinget"
+        },
+        {
+          "from": "gronland",
+          "to": "jernbanetorget"
+        },
+        {
+          "from": "gronland",
+          "to": "toyen"
+        },
+        {
+          "from": "ensjo",
+          "to": "toyen"
+        },
+        {
+          "from": "ensjo",
+          "to": "helsfyr"
+        },
+        {
+          "from": "brynseng",
+          "to": "helsfyr"
+        },
+        {
+          "from": "brynseng",
+          "to": "hoyenhall"
+        },
+        {
+          "from": "hoyenhall",
+          "to": "manglerud"
+        },
+        {
+          "from": "manglerud",
+          "to": "ryen"
+        },
+        {
+          "from": "brattlikollen",
+          "to": "ryen"
+        },
+        {
+          "from": "brattlikollen",
+          "to": "karlsrud"
+        },
+        {
+          "from": "karlsrud",
+          "to": "lambertseter"
+        },
+        {
+          "from": "lambertseter",
+          "to": "munkelia"
+        },
+        {
+          "from": "bergkrystallen",
+          "to": "munkelia"
+        }
+      ]
+    },
+    {
+      "lineCode": "5",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "kringsja",
+          "to": "sognsvann"
+        },
+        {
+          "from": "holstein",
+          "to": "kringsja"
+        },
+        {
+          "from": "holstein",
+          "to": "osthorn"
+        },
+        {
+          "from": "osthorn",
+          "to": "tasen"
+        },
+        {
+          "from": "berg",
+          "to": "tasen"
+        },
+        {
+          "from": "berg",
+          "to": "ulleval-stadion"
+        },
+        {
+          "from": "forskningsparken",
+          "to": "ulleval-stadion"
+        },
+        {
+          "from": "blindern",
+          "to": "forskningsparken"
+        },
+        {
+          "from": "blindern",
+          "to": "majorstuen"
+        },
+        {
+          "from": "majorstuen",
+          "to": "nationaltheatret"
+        },
+        {
+          "from": "nationaltheatret",
+          "to": "stortinget"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "stortinget"
+        },
+        {
+          "from": "gronland",
+          "to": "jernbanetorget"
+        },
+        {
+          "from": "gronland",
+          "to": "toyen"
+        },
+        {
+          "from": "carl-berners-plass",
+          "to": "toyen"
+        },
+        {
+          "from": "carl-berners-plass",
+          "to": "sinsen-t",
+          "via": [
+            [
+              1340,
+              620
+            ]
+          ]
+        },
+        {
+          "from": "sinsen-t",
+          "to": "storo"
+        },
+        {
+          "from": "nydalen",
+          "to": "storo"
+        },
+        {
+          "from": "nydalen",
+          "to": "ulleval-stadion",
+          "via": [
+            [
+              960,
+              620
+            ]
+          ]
+        },
+        {
+          "from": "carl-berners-plass",
+          "to": "hasle",
+          "via": [
+            [
+              1420,
+              660
+            ]
+          ]
+        },
+        {
+          "from": "hasle",
+          "to": "okern"
+        },
+        {
+          "from": "okern",
+          "to": "rislokka"
+        },
+        {
+          "from": "rislokka",
+          "to": "vollebekk"
+        },
+        {
+          "from": "linderud-t",
+          "to": "vollebekk"
+        },
+        {
+          "from": "linderud-t",
+          "to": "veitvet"
+        },
+        {
+          "from": "rodtvet",
+          "to": "veitvet"
+        },
+        {
+          "from": "kalbakken",
+          "to": "rodtvet"
+        },
+        {
+          "from": "ammerud",
+          "to": "kalbakken"
+        },
+        {
+          "from": "ammerud",
+          "to": "grorud"
+        },
+        {
+          "from": "grorud",
+          "to": "romsas"
+        },
+        {
+          "from": "rommen",
+          "to": "romsas"
+        },
+        {
+          "from": "rommen",
+          "to": "stovner"
+        },
+        {
+          "from": "stovner",
+          "to": "vestli"
+        }
+      ]
+    },
+    {
+      "lineCode": "12",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "frogner-stadion",
+          "to": "majorstuen"
+        },
+        {
+          "from": "frogner-stadion",
+          "to": "vigelandsparken"
+        },
+        {
+          "from": "frogner-plass",
+          "to": "vigelandsparken"
+        },
+        {
+          "from": "elisenberg",
+          "to": "frogner-plass"
+        },
+        {
+          "from": "elisenberg",
+          "to": "lille-frogner-alle"
+        },
+        {
+          "from": "lille-frogner-alle",
+          "to": "niels-juels-gate"
+        },
+        {
+          "from": "niels-juels-gate",
+          "to": "solli"
+        },
+        {
+          "from": "ruselokka",
+          "to": "solli"
+        },
+        {
+          "from": "aker-brygge",
+          "to": "ruselokka"
+        },
+        {
+          "from": "aker-brygge",
+          "to": "kontraskjaeret"
+        },
+        {
+          "from": "kontraskjaeret",
+          "to": "ovre-slottsgate"
+        },
+        {
+          "from": "dronningens-gate",
+          "to": "ovre-slottsgate"
+        },
+        {
+          "from": "dronningens-gate",
+          "to": "jernbanetorget",
+          "via": [
+            [
+              1200,
+              960
+            ]
+          ]
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "storgata"
+        },
+        {
+          "from": "nybrua",
+          "to": "storgata"
+        },
+        {
+          "from": "nybrua",
+          "to": "schous-plass"
+        },
+        {
+          "from": "olaf-ryes-plass",
+          "to": "schous-plass"
+        },
+        {
+          "from": "birkelunden",
+          "to": "olaf-ryes-plass"
+        },
+        {
+          "from": "biermanns-gate",
+          "to": "birkelunden"
+        },
+        {
+          "from": "biermanns-gate",
+          "to": "torshov"
+        },
+        {
+          "from": "sandaker-senter",
+          "to": "torshov"
+        },
+        {
+          "from": "grefsenveien",
+          "to": "sandaker-senter"
+        },
+        {
+          "from": "grefsenveien",
+          "to": "storo"
+        },
+        {
+          "from": "disen",
+          "to": "storo"
+        },
+        {
+          "from": "disen",
+          "to": "doktor-smiths-vei"
+        },
+        {
+          "from": "doktor-smiths-vei",
+          "to": "glads-vei"
+        },
+        {
+          "from": "glads-vei",
+          "to": "grefsenplataet"
+        },
+        {
+          "from": "grefsen-stadion",
+          "to": "grefsenplataet"
+        },
+        {
+          "from": "grefsen-stadion",
+          "to": "kjelsasalleen"
+        },
+        {
+          "from": "kjelsas",
+          "to": "kjelsasalleen"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "stortorvet"
+        },
+        {
+          "from": "korsgata",
+          "to": "schous-plass"
+        },
+        {
+          "from": "bjorvika",
+          "to": "jernbanetorget",
+          "via": [
+            [
+              1200,
+              940
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "lineCode": "13",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "ljabru",
+          "to": "saeter"
+        },
+        {
+          "from": "braten",
+          "to": "saeter"
+        },
+        {
+          "from": "braten",
+          "to": "kastellet"
+        },
+        {
+          "from": "kastellet",
+          "to": "sorli"
+        },
+        {
+          "from": "holtet",
+          "to": "sorli"
+        },
+        {
+          "from": "holtet",
+          "to": "sportsplassen"
+        },
+        {
+          "from": "jomfrubraten",
+          "to": "sportsplassen"
+        },
+        {
+          "from": "ekebergparken",
+          "to": "jomfrubraten"
+        },
+        {
+          "from": "ekebergparken",
+          "to": "oslo-hospital"
+        },
+        {
+          "from": "middelalderparken",
+          "to": "oslo-hospital"
+        },
+        {
+          "from": "bjorvika",
+          "to": "middelalderparken"
+        },
+        {
+          "from": "bjorvika",
+          "to": "dronningens-gate"
+        },
+        {
+          "from": "dronningens-gate",
+          "to": "ovre-slottsgate"
+        },
+        {
+          "from": "nationaltheatret",
+          "to": "ovre-slottsgate",
+          "via": [
+            [
+              1020,
+              920
+            ]
+          ]
+        },
+        {
+          "from": "nationaltheatret",
+          "to": "solli"
+        },
+        {
+          "from": "skillebekk",
+          "to": "solli"
+        },
+        {
+          "from": "skarpsno",
+          "to": "skillebekk"
+        },
+        {
+          "from": "nobels-gate",
+          "to": "skarpsno"
+        },
+        {
+          "from": "nobels-gate",
+          "to": "thune"
+        },
+        {
+          "from": "ekebergparken",
+          "to": "sportsplassen"
+        },
+        {
+          "from": "bjorvika",
+          "to": "jernbanetorget",
+          "via": [
+            [
+              1200,
+              940
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "lineCode": "15",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "kjelsas",
+          "to": "kjelsasalleen"
+        },
+        {
+          "from": "grefsen-stadion",
+          "to": "kjelsasalleen"
+        },
+        {
+          "from": "grefsen-stadion",
+          "to": "grefsenplataet"
+        },
+        {
+          "from": "glads-vei",
+          "to": "grefsenplataet"
+        },
+        {
+          "from": "doktor-smiths-vei",
+          "to": "glads-vei"
+        },
+        {
+          "from": "disen",
+          "to": "doktor-smiths-vei"
+        },
+        {
+          "from": "disen",
+          "to": "storo"
+        },
+        {
+          "from": "grefsenveien",
+          "to": "storo"
+        },
+        {
+          "from": "grefsenveien",
+          "to": "sandaker-senter"
+        },
+        {
+          "from": "sandaker-senter",
+          "to": "torshov"
+        },
+        {
+          "from": "biermanns-gate",
+          "to": "torshov"
+        },
+        {
+          "from": "biermanns-gate",
+          "to": "birkelunden"
+        },
+        {
+          "from": "birkelunden",
+          "to": "olaf-ryes-plass"
+        },
+        {
+          "from": "olaf-ryes-plass",
+          "to": "schous-plass"
+        },
+        {
+          "from": "nybrua",
+          "to": "schous-plass"
+        },
+        {
+          "from": "nybrua",
+          "to": "storgata"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "storgata"
+        },
+        {
+          "from": "dronningens-gate",
+          "to": "jernbanetorget",
+          "via": [
+            [
+              1200,
+              960
+            ]
+          ]
+        },
+        {
+          "from": "dronningens-gate",
+          "to": "ovre-slottsgate"
+        },
+        {
+          "from": "nationaltheatret",
+          "to": "ovre-slottsgate",
+          "via": [
+            [
+              1020,
+              920
+            ]
+          ]
+        },
+        {
+          "from": "nationaltheatret",
+          "to": "solli"
+        },
+        {
+          "from": "niels-juels-gate",
+          "to": "solli"
+        },
+        {
+          "from": "lille-frogner-alle",
+          "to": "niels-juels-gate"
+        },
+        {
+          "from": "elisenberg",
+          "to": "lille-frogner-alle"
+        },
+        {
+          "from": "elisenberg",
+          "to": "frogner-plass"
+        },
+        {
+          "from": "frogner-plass",
+          "to": "vigelandsparken"
+        },
+        {
+          "from": "frogner-stadion",
+          "to": "vigelandsparken"
+        },
+        {
+          "from": "frogner-stadion",
+          "to": "majorstuen"
+        },
+        {
+          "from": "korsgata",
+          "to": "schous-plass"
+        },
+        {
+          "from": "bjorvika",
+          "to": "jernbanetorget",
+          "via": [
+            [
+              1200,
+              940
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "lineCode": "17",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "forskningsparken",
+          "to": "gaustadalleen"
+        },
+        {
+          "from": "forskningsparken",
+          "to": "universitetet-blindern",
+          "via": [
+            [
+              940,
+              680
+            ]
+          ]
+        },
+        {
+          "from": "john-colletts-plass",
+          "to": "universitetet-blindern"
+        },
+        {
+          "from": "john-colletts-plass",
+          "to": "ulleval-sykehus"
+        },
+        {
+          "from": "adamstuen",
+          "to": "ulleval-sykehus"
+        },
+        {
+          "from": "adamstuen",
+          "to": "stensgata"
+        },
+        {
+          "from": "bislett",
+          "to": "stensgata"
+        },
+        {
+          "from": "bislett",
+          "to": "homansbyen"
+        },
+        {
+          "from": "holbergs-plass",
+          "to": "homansbyen"
+        },
+        {
+          "from": "holbergs-plass",
+          "to": "tullinlokka"
+        },
+        {
+          "from": "tinghuset",
+          "to": "tullinlokka"
+        },
+        {
+          "from": "stortorvet",
+          "to": "tinghuset"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "stortorvet"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "storgata"
+        },
+        {
+          "from": "nybrua",
+          "to": "storgata"
+        },
+        {
+          "from": "heimdalsgata",
+          "to": "nybrua"
+        },
+        {
+          "from": "heimdalsgata",
+          "to": "lakkegata-skole"
+        },
+        {
+          "from": "lakkegata-skole",
+          "to": "sofienberg"
+        },
+        {
+          "from": "carl-berners-plass",
+          "to": "sofienberg"
+        },
+        {
+          "from": "carl-berners-plass",
+          "to": "rosenhoff"
+        },
+        {
+          "from": "rosenhoff",
+          "to": "sinsenterrassen"
+        },
+        {
+          "from": "sinsenkrysset",
+          "to": "sinsenterrassen"
+        },
+        {
+          "from": "grefsen-stasjon",
+          "to": "sinsenkrysset",
+          "via": [
+            [
+              1340,
+              480
+            ]
+          ]
+        },
+        {
+          "from": "grefsen-stasjon",
+          "to": "storo",
+          "via": [
+            [
+              1240,
+              520
+            ]
+          ]
+        },
+        {
+          "from": "disen",
+          "to": "storo"
+        },
+        {
+          "from": "frydenlund",
+          "to": "holbergs-plass"
+        },
+        {
+          "from": "frydenlund",
+          "to": "welhavens-gate"
+        },
+        {
+          "from": "homansbyen",
+          "to": "welhavens-gate"
+        }
+      ]
+    },
+    {
+      "lineCode": "18",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "forskningsparken",
+          "to": "gaustadalleen"
+        },
+        {
+          "from": "forskningsparken",
+          "to": "universitetet-blindern",
+          "via": [
+            [
+              940,
+              680
+            ]
+          ]
+        },
+        {
+          "from": "john-colletts-plass",
+          "to": "universitetet-blindern"
+        },
+        {
+          "from": "john-colletts-plass",
+          "to": "ulleval-sykehus"
+        },
+        {
+          "from": "adamstuen",
+          "to": "ulleval-sykehus"
+        },
+        {
+          "from": "adamstuen",
+          "to": "stensgata"
+        },
+        {
+          "from": "bislett",
+          "to": "stensgata"
+        },
+        {
+          "from": "bislett",
+          "to": "homansbyen"
+        },
+        {
+          "from": "holbergs-plass",
+          "to": "homansbyen"
+        },
+        {
+          "from": "holbergs-plass",
+          "to": "tullinlokka"
+        },
+        {
+          "from": "tinghuset",
+          "to": "tullinlokka"
+        },
+        {
+          "from": "stortorvet",
+          "to": "tinghuset"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "stortorvet"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "storgata"
+        },
+        {
+          "from": "nybrua",
+          "to": "storgata"
+        },
+        {
+          "from": "nybrua",
+          "to": "schous-plass"
+        },
+        {
+          "from": "olaf-ryes-plass",
+          "to": "schous-plass"
+        },
+        {
+          "from": "birkelunden",
+          "to": "olaf-ryes-plass"
+        },
+        {
+          "from": "biermanns-gate",
+          "to": "birkelunden"
+        },
+        {
+          "from": "biermanns-gate",
+          "to": "torshov"
+        },
+        {
+          "from": "sandaker-senter",
+          "to": "torshov"
+        },
+        {
+          "from": "grefsenveien",
+          "to": "sandaker-senter"
+        },
+        {
+          "from": "grefsenveien",
+          "to": "storo"
+        },
+        {
+          "from": "grefsen-stasjon",
+          "to": "storo",
+          "via": [
+            [
+              1240,
+              520
+            ]
+          ]
+        },
+        {
+          "from": "frydenlund",
+          "to": "holbergs-plass"
+        },
+        {
+          "from": "frydenlund",
+          "to": "welhavens-gate"
+        },
+        {
+          "from": "homansbyen",
+          "to": "welhavens-gate"
+        }
+      ]
+    },
+    {
+      "lineCode": "19",
+      "offset": 0,
+      "segments": [
+        {
+          "from": "bogstadveien",
+          "to": "majorstuen",
+          "via": [
+            [
+              940,
+              880
+            ]
+          ]
+        },
+        {
+          "from": "bogstadveien",
+          "to": "homansbyen",
+          "via": [
+            [
+              990,
+              840
+            ]
+          ]
+        },
+        {
+          "from": "holbergs-plass",
+          "to": "homansbyen"
+        },
+        {
+          "from": "holbergs-plass",
+          "to": "tullinlokka"
+        },
+        {
+          "from": "tinghuset",
+          "to": "tullinlokka"
+        },
+        {
+          "from": "stortorvet",
+          "to": "tinghuset"
+        },
+        {
+          "from": "jernbanetorget",
+          "to": "stortorvet"
+        },
+        {
+          "from": "bjorvika",
+          "to": "jernbanetorget",
+          "via": [
+            [
+              1200,
+              940
+            ]
+          ]
+        },
+        {
+          "from": "bjorvika",
+          "to": "middelalderparken"
+        },
+        {
+          "from": "middelalderparken",
+          "to": "oslo-hospital"
+        },
+        {
+          "from": "ekebergparken",
+          "to": "oslo-hospital"
+        },
+        {
+          "from": "ekebergparken",
+          "to": "sportsplassen"
+        },
+        {
+          "from": "holtet",
+          "to": "sportsplassen"
+        },
+        {
+          "from": "holtet",
+          "to": "sorli"
+        },
+        {
+          "from": "kastellet",
+          "to": "sorli"
+        },
+        {
+          "from": "braten",
+          "to": "kastellet"
+        },
+        {
+          "from": "braten",
+          "to": "saeter"
+        },
+        {
+          "from": "ljabru",
+          "to": "saeter"
+        },
+        {
+          "from": "jomfrubraten",
+          "to": "sportsplassen"
+        },
+        {
+          "from": "ekebergparken",
+          "to": "jomfrubraten"
+        },
+        {
+          "from": "frydenlund",
+          "to": "holbergs-plass"
+        },
+        {
+          "from": "frydenlund",
+          "to": "welhavens-gate"
+        },
+        {
+          "from": "homansbyen",
+          "to": "welhavens-gate"
+        }
+      ]
+    }
+  ]
+}

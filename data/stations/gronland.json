@@ -1,0 +1,670 @@
+{
+  "id": "NSR:StopPlace:6488",
+  "slug": "gronland",
+  "name": "Grønland",
+  "lat": 59.912806,
+  "lon": 10.760162,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6488"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:58366"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58366",
+        "next": "NSR:StopPlace:59604"
+      }
+    ],
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:58366"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58366",
+        "next": "NSR:StopPlace:59604"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58366",
+        "next": "NSR:StopPlace:59604"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:58366"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58366",
+        "next": "NSR:StopPlace:59604"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:58366"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58366",
+        "next": "NSR:StopPlace:59604"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:59604",
+        "next": "NSR:StopPlace:58366"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 1,
+    "majorstuen": 7
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6488",
+        "name": "Grønland",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11928",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11929",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:interkulturelt-museum",
+      "name": {
+        "nb": "Interkulturelt museum",
+        "en": "Intercultural Museum"
+      },
+      "category": "museum",
+      "lat": 59.913048,
+      "lon": 10.763251,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q18663554",
+      "website": "https://www.oslomuseum.no/interkulturelt-museum/",
+      "wikipedia": {
+        "nb": "Interkulturelt Museum",
+        "en": "Intercultural Museum"
+      },
+      "summary": {
+        "nb": "Interkulturelt Museum (IKM), tidligere Internasjonalt kultursenter og museum eller Internasjonalt kulturmuseum, er siden 2006 en avdeling ved Oslo Museum.",
+        "en": "The Intercultural Museum is located at Tøyenbekken 5 in Oslo, Norway. \nThe Intercultural Museum is a migration museum, and is primarily concerned with the collection, preservation and dissemination of Norwegian immigration history.\nSince 2006, the Intercultural Museum has been part of the Oslo Museum. It is situated in the district of Grønland and housed in a former police station which was built in 1900–1902 under design by architect Balthazar Lange (1854-1937).\n\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG/640px-Gr%C3%B6nland_politistasjon_T%C3%B6yenbekken_1_rk_163562_IMG_8319.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 341,
+        "distanceM": 357,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?LyHJq@P{FAAC?C@ABAAIEIECCB]?G?Eo@{A",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:oslo-spektrum",
+      "name": {
+        "nb": "Oslo Spektrum",
+        "en": "Oslo Spektrum"
+      },
+      "category": "theatre",
+      "lat": 59.912987,
+      "lon": 10.75472,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1508325",
+      "website": "https://www.oslospektrum.no",
+      "wikipedia": {
+        "nb": "Oslo Spektrum",
+        "en": "Oslo Spektrum"
+      },
+      "summary": {
+        "nb": "Oslo Spektrum, fullt navn Oslo Spektrum Arena AS, er en innendørs flerbruksarena for konserter, idrettskonkurranser og store messer i Norge. Arenaen åpnet i desember 1990 og hadde sitt første hele driftsår i 1991. I desember 2005 tok Nova Spektrum over som eiere. Med inntil 11 500 stå- og sitteplasser brukes Oslo Spektrum regelmessig som konsertarena når internasjonale artister gjester Oslo. I tillegg huser arenaen en rekke andre typer arrangementer – som idrettskonkurranser, messer og konferanser. Spektrum ligger sentralt i Oslo sentrum, like ved Oslo sentralstasjon og Oslo bussterminal. I 2017 annonserte Nova Spektrum at arenaen skulle pusses opp og bygges ut med 20 000 ekstra kvadratmeter med oppstart i 2020, men arbeidet kom i gang først i 2025 etter flere års forsinkelser og har forventet ferdigstilling høsten 2028.",
+        "en": "Oslo Spektrum is a multi-purpose indoor arena located in east central Oslo, Norway. It was opened in December 1990 under ownership and operation of Nova Spektrum, formerly Norges Varemesse. It is located in Downtown Oslo, next to the Central Station, long and medium haul bus terminal, Jernbanetorget public transportation hub and the international ferry terminals."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Oslo_Spektrum_-_Sittende_oppsett.jpg/640px-Oslo_Spektrum_-_Sittende_oppsett.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 417,
+        "distanceM": 479,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBTRJHOrAc@YMIECE`@I|@C^MrAOtAAPAL?B?NAD?H?HAP?R?@?T@Z@^B\\RbCD`@B\\Hz@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:botanisk-hage",
+      "name": {
+        "nb": "Botanisk hage",
+        "en": "Botanical Garden"
+      },
+      "category": "park",
+      "lat": 59.918365,
+      "lon": 10.769751,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q3116396",
+      "website": "https://www.nhm.uio.no/utstillinger/botanisk-hage/index.html",
+      "wikipedia": {
+        "nb": "Botanisk hage (Oslo)",
+        "en": "University Botanical Garden (Oslo)"
+      },
+      "summary": {
+        "nb": "Botanisk hage på Tøyen i Oslo er Norges eldste botaniske hage, den ble etablert i 1814. Hagen og samlingene er siden blitt del av Naturhistorisk museum, sammen med blant annet Geologisk museum og Zoologisk museum. Naturhistorisk museum er igjen en del av Universitetet i Oslo (UiO). Botanisk hage har et areal på 150 mål, med rundt 35 000 planter, fordelt på 8 500 arter fra ulike deler av verden. Utvalget er under stadig utvidelse og omlegging.",
+        "en": "The University Botanical Garden is Norway's oldest botanical garden. It was first established in 1814 and is administered by the University of Oslo. It is situated in the neighborhood of Tøyen in Oslo, Norway. \n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Botanisk_hage_Oldemors_have.JPG/640px-Botanisk_hage_Oldemors_have.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.91582,
+        "lon": 10.766224
+      },
+      "walk": {
+        "durationS": 658,
+        "distanceM": 726,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?LyHJq@]S?BECGCIECC?Is@c@u@c@g@[GCCAAKCIEOAC?E{AoECECCC??CCMCMACu@cD?AAAA??CCICMACuA{FACC?A?A@sAvBCKEQACk@aC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:ostbanehallen",
+      "name": {
+        "nb": "Østbanehallen",
+        "en": "Østbanehallen"
+      },
+      "category": "attraction",
+      "lat": 59.910602,
+      "lon": 10.751361,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Østbanehallen"
+      },
+      "summary": {
+        "nb": "Østbanehallen er vognhallen til Østbanestasjonen i Oslo. Siden har navnet blitt tatt i bruk av kjøpesenteret som ble opprettet i hallen etter at Oslo S tok over jernbanefunksjonene. Den er på 8 000 m²."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Oslo_%C3%98stbanestasjonen_2005-08-30.jpg/640px-Oslo_%C3%98stbanestasjonen_2005-08-30.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 707,
+        "distanceM": 784,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBTRJHp@hAf@v@KjBADVNJBBBR`AAH?HAJ?L@L@L@JBHDFDHDBFDHB@?C\\DBM`BCXK|ANt@DXd@jCBPDDFH\\XTR@BBD@D@BDDHHh@h@RNBDD@D@VA@?HAB@D@JDNL@@?@?@?@@?NPHFCNGl@?F?HGf@CL@b@C\\ANDBGn@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:jodisk-museum",
+      "name": {
+        "nb": "Jødisk museum",
+        "en": "Jewish Museum Oslo"
+      },
+      "category": "museum",
+      "lat": 59.916338,
+      "lon": 10.755421,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q6189888",
+      "wikipedia": {
+        "nb": "Jødisk museum i Oslo",
+        "en": "Oslo Jewish Museum"
+      },
+      "summary": {
+        "nb": "",
+        "en": "\nThe Oslo Jewish Museum aims to inform about Jews in Norway. It was established as a foundation in 2003, supported by Det Mosaiske Trossamfund and Oslo City Museum."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/J%C3%B8disk_Museum_i_Oslo_-_2010-07-05_at_15-21-17.jpg/640px-J%C3%B8disk_Museum_i_Oslo_-_2010-07-05_at_15-21-17.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 747,
+        "distanceM": 835,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBkABEEG?ED?BCH?LBHDFLFLFCNg@[K_@MOMEGCMIOKQQi@i@KKIKKOIOCMCIEMGMO]IYAKAKCCAACAG?EBCBCFAJId@Kp@OfACL?F?FCBADCNCPADA?A??@AHGVCLIb@If@AFCFEVK\\K^I\\M`@GRIPGTGN?@?@?@?BBDADAB?@AB?@A@CLAFCAC?E?ABCBEHGHIP_BbD?BAD?B?B@@HXZbA??",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:deichman-bjorvika",
+      "name": {
+        "nb": "Deichman Bjørvika",
+        "en": "Deichman Bjørvika Library"
+      },
+      "category": "attraction",
+      "lat": 59.908658,
+      "lon": 10.752697,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Deichman Bjørvika",
+        "en": "Deichman Bjørvika"
+      },
+      "summary": {
+        "nb": "Deichman Bjørvika er hovedbibliotek for Deichman, folkebiblioteket i Oslo kommune. Det ligger i Bjørvika, mellom Oslo S og Operahuset i Oslo. Byggearbeidene tok til i 2013 og ble ferdige i desember 2019. Det nye biblioteket planla å åpne med samlingene fra det gamle hovedbiblioteket på Hammersborg og et utvidet publikumstilbud 28. mars 2020, men åpninga ble utsatt på grunn av nedstengninga av offentlige samlingsarenaer som følge av koronaviruspandemien i 2019–2020. Den offisielle åpningen var 18. juni 2020. Biblioteket har vunnet en rekke priser, blant andre Norsk Bibliotekforenings pris for Årets bibliotek 2020, den internasjonale bibliotekføderasjonen IFLAs pris Public Library of the Year 2021 og prisen Trend Brand of the Year 2020."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Deichman_Bj%C3%B8rvika_og_Operaen_med_Dronning_Eufemias_gate_og_Operagata.jpg/640px-Deichman_Bj%C3%B8rvika_og_Operaen_med_Dronning_Eufemias_gate_og_Operagata.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 905,
+        "distanceM": 988,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBTRJHp@hAf@v@KjBADVNJBBBR`AAH?HAJ?L@L@L@JBHDFDHDBFDHB@?C\\DBM`BCXK|ANt@DXd@jCBPDDFH\\XTR@BBD@D@BDDHHh@h@RNBDD@D@VA@?HAB@D@JDNL@?@A??@@NNHFDQB@F?DBRP@ZB@LLTPBBHJf@h@FNDBFDDSBKBBh@ZDBFBDBBB@@B@@@B@BBBBHDDBHFp@?L?F?@@NHBO^iC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:youngstorget",
+      "name": {
+        "nb": "Youngstorget",
+        "en": "Youngstorget"
+      },
+      "category": "attraction",
+      "lat": 59.914943,
+      "lon": 10.748826,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Youngstorget (Oslo)",
+        "en": "Youngstorget"
+      },
+      "summary": {
+        "nb": "Youngstorget er et torg i sentrum av Oslo. Det ligger mellom Storgata og Møllergata, midt i Torggata.\nDet ble anlagt i 1846.",
+        "en": "Youngstorget is a square and public space located in downtown Oslo. It lies at the junction of the streets Storgata and Møllergata and alongside Torggata. Constructed in 1846, it has become a symbol of political power in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Youngstorget_panorama.jpg/640px-Youngstorget_panorama.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 813,
+        "distanceM": 900,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBkABEEG?EDCL?LBHDFLFDBFBCNAHIz@CRADA@CFYbDABA@C@?FANAR@d@MtCiBxNAHCRLn@ABA@ABJf@DPHZC@ABEBR`ABNDTBPBLt@pDA@WX]^[b@Yh@Wp@M\\ABKXM`@AB@B@J?H?@?H?@CFCDA?CBC?Ap@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:operaen",
+      "name": {
+        "nb": "Operahuset",
+        "en": "Oslo Opera House"
+      },
+      "category": "attraction",
+      "lat": 59.907484,
+      "lon": 10.752681,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q43280",
+      "website": "https://operaen.no/",
+      "wikipedia": {
+        "nb": "Operahuset i Oslo",
+        "en": "Oslo Opera House"
+      },
+      "summary": {
+        "nb": "Operahuset i Oslo er Den Norske Opera & Balletts operahus i Bjørvika innerst i Oslofjorden. Det har adresse Kirsten Flagstads plass 1 etter operaens første sjef Kirsten Flagstad. Huset er tegnet av arkitekt- og designkontoret Snøhetta, som vant en arkitektkonkurranse i 2000. Det ble høytidelig åpnet 12. april 2008. Bygningen har fått mange priser, og er fredet av Riksantikvaren.",
+        "en": "The Oslo Opera House is the home of the Norwegian National Opera and Ballet, and the national opera house in Norway. The building is situated in the Bjørvika neighbourhood of central Oslo, at the head of the Oslofjord. It is operated by Norwegian Directorate of Public Construction and Property, the government agency which manages property for the Norwegian government. The structure contains 1,100 rooms in a total area of 49,000 m2 (530,000 sq ft). The main auditorium seats 1,364 and two other performance spaces can seat 200 and 400. The main stage is 16 m (52 ft) wide and 40 m (130 ft) deep. The angled exterior surfaces of the building are covered with marble from Carrara, Italy and white granite and make it appear to rise from the water. It is the largest cultural building constructed in Norway since Nidaros Cathedral was completed circa 1300."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Operahuset_i_Oslo_1.jpg/640px-Operahuset_i_Oslo_1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.908314,
+        "lon": 10.754813
+      },
+      "walk": {
+        "durationS": 990,
+        "distanceM": 1107,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBTRJHp@hAf@v@KjBADVNJBBBR`AAH?HAJ?L@L@L@JBHDFDHDBFDHB@?C\\DBM`BCXK|ANt@DXd@jCBPDDFH\\XTRD@D?D?@ABKDGDEBA@BB@@BRN@@BBHFJJ@@BBHF@BBBB@?@@@@?@@RP@BB@@@FFTTLJD?DCBGLcA@IDIDY|@VDW`@sDj@qB@@@OB@D?F?B?b@yCBMDS~@l@bAl@HFFDDBBBB@BBB@BBDBFDDDQfAAFFX",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:barcode",
+      "name": {
+        "nb": "Barcode",
+        "en": "Barcode"
+      },
+      "category": "attraction",
+      "lat": 59.907778,
+      "lon": 10.759444,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Barcode (Oslo)",
+        "en": "Barcode Project"
+      },
+      "summary": {
+        "nb": "",
+        "en": "The Barcode Project is a section of the Bjørvika portion of the Fjord City redevelopment on former dock and industrial land in central Oslo. It consists of a row of new multi-purpose high-rise buildings, that was completed in 2016. The developer is marketing the project as \"The Opera Quarter.\" There has been intense public debate about the height and shape of the buildings."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Oslo_-_Bj%C3%B8rvika.jpg/640px-Oslo_-_Bj%C3%B8rvika.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 879,
+        "distanceM": 957,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?LyHJq@VmCTkADEBA~AdAFDJFJHFH@WBOZTnAz@LJXRB@DBFBD@@C@?DFBD@@?ABG??@@@@@B@@BB?@EVERBBFFFJLNDFDFBFFPBJHX@DHX@D@@xApA~ExERRBBTPhB`BF_@RkA??N_AJs@@O?CQQ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:domkirken",
+      "name": {
+        "nb": "Oslo domkirke",
+        "en": "Oslo Cathedral"
+      },
+      "category": "church",
+      "lat": 59.91252,
+      "lon": 10.746867,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1063209",
+      "website": "http://www.oslodomkirke.no",
+      "wikipedia": {
+        "nb": "Oslo domkirke",
+        "en": "Oslo Cathedral"
+      },
+      "summary": {
+        "nb": "Oslo domkirke, tidligere Vår Frelsers kirke, er domkirke og hovedkirke for Oslo bispedømme og soknekirke for Oslo domkirkes menighet i Oslo domprosti. Med form som en korskirke ligger kirken ved Stortorvet i Oslo sentrum. Domkirken er også landets rikskirke som benyttes av kongehuset og staten ved offisielle begivenheter, som vielser og gravferder. Kirken stod ferdig i 1697",
+        "en": "Oslo Cathedral — formerly Our Savior's Church — is the main church for the Church of Norway Diocese of Oslo, as well as the parish church for downtown Oslo. The present building dates from 1694 to 1697."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2012.11.09.Oslodomkirke.jpg/640px-2012.11.09.Oslodomkirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 979,
+        "distanceM": 1092,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBTRJHp@hAf@v@KjBADVNJBBBR`AAH?HAJ?L@L@L@JBHDFDHDBFDHB@?C\\DBM`BCXK|ANt@j@dDBPDDFH\\XTR@BBD@D@BC@?BA@AD?DAH?LAHCRm@`EE^AJAD?JER?PCZADCZ?@C?CAEDA??B@B?JAT?PEAEdCALCnA?F?R@P?L@J@F@D@@Gb@ABAJAHAD?DC\\CZEd@?BMx@?DAHCH?BYWAAA?A?A@YZGLIXGVO~@ALZvDRRX[@m@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:kulturkirken-jakob",
+      "name": {
+        "nb": "Kulturkirken Jakob",
+        "en": "Jakob Church of Culture"
+      },
+      "category": "theatre",
+      "lat": 59.91815,
+      "lon": 10.754419,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1773529",
+      "website": "https://jakob.no/",
+      "wikipedia": {
+        "nb": "Kulturkirken Jakob",
+        "en": "Jakob Church"
+      },
+      "summary": {
+        "nb": "Kulturkirken Jakob er en kirke i Hausmanns gate i strøket Hausmannsområdet i Oslo. Jakob kirke ble tegnet av arkitekt Georg Andreas Bull og oppført i 1880. Den har sitt navn etter apostelen St. Jakob. Altertavlen er «Hyrdenes tilbedelse» av Eilif Peterssen (1880). I våpenhuset henger et relieff av Erkeengelen Mikael. Den har plass til 550."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Kulturkirken_Jakob-1.jpg/640px-Kulturkirken_Jakob-1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 964,
+        "distanceM": 1018,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBkABEEG?ED?BCH?LBHDFLFLFCNg@[K_@MOMEGCMIOKQQi@i@KKIKKOIOCMCIEMGMO]IYAKAKCCAACAG?EBCBCFAJId@EECEKp@O|@ETCRIXCL?@ENW|AKj@K`@?@IZMf@Md@Qj@IVCHGRABABMVCFaC`FGL]n@?@Wb@iAvBEFKRIWGWGJCB?@?@?FADAB?Bc@x@_@p@_@oA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:middelalderparken",
+      "name": {
+        "nb": "Middelalderparken",
+        "en": "Medieval Park"
+      },
+      "category": "park",
+      "lat": 59.904175,
+      "lon": 10.763659,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q6841153",
+      "wikipedia": {
+        "nb": "Middelalderparken",
+        "en": "Middelalderparken"
+      },
+      "summary": {
+        "nb": "Middelalderparken ligger mellom Bjørvika og Gamlebyen i bydel Gamle Oslo, i det som en gang var Middelalderbyen Oslos søndre bydel. Den ble åpnet i 2000, som en viktig del av Oslos fylkes-tusenårssted, middelalderbyen. Utbygging i området er forbudt grunnet ruiner og kulturlag over og under bakken.",
+        "en": "The Medieval Park is located in the borough of Gamle Oslo in Oslo, Norway. The park was opened in the year 2000 at Sørenga in what was once the southern part of the medieval city of Oslo. The park is located within an area which also included the Minneparken and Ladegården on the north side of Bispegata. Development in the area is prohibited due to ruins and cultural layers above and below ground."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Middelalderparken_fra_Ekeberg.JPG/640px-Middelalderparken_fra_Ekeberg.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.906456,
+        "lon": 10.760173
+      },
+      "walk": {
+        "durationS": 1050,
+        "distanceM": 1131,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?LyHJq@VmCTkADEBA~AdAFDJFJHFH@WBOZTnAz@LJXRB@DBFBD@@C@?DFBD@@?ABG??@@@@@B@@BB?@EVERBBNRLNDFDFBFFPBJHX@DHX@D@@xApA~ExERRBBTPvApAPNHHFFDD??DDDBBDFFFDR?\\Ht@TRIJq@H]@E@E@ENaABODWFa@Fe@BI@IBQBSTwAAKCECGAA@CBBLJ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:basarhallene",
+      "name": {
+        "nb": "Basarhallene",
+        "en": "The Bazaar Halls"
+      },
+      "category": "attraction",
+      "lat": 59.912222,
+      "lon": 10.747722,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Basarene"
+      },
+      "summary": {
+        "nb": "Basarene ved Oslo domkirke, også kalt Stortorgets basar og Basarhallene, ble oppført i årene 1840–1859 i upusset tegl i nyromansk stil. Arkitekt var Christian H. Grosch."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Basareneforside.JPG/640px-Basareneforside.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 971,
+        "distanceM": 1094,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBTRJHp@hAf@v@KjBADVNJBBBR`AAH?HAJ?L@L@L@JBHDFDHDBFDHB@?C\\DBM`BCXK|ANt@j@dDBPDDFH\\XTR@BBD@D@BC@?BA@AD?DAH?LAHCRm@`EE^AJAD?JER?PCZADCZ?@C?CAEDA??B@B?JAT?PEAEdCALCnA?F?R@P?L@J??@F@D@@Gb@ABAJAHAD?@?BC\\CZEd@?BKp@AF?DAHCH?BYWAAA?A?A@MLKLGLIXGVO~@ALBBV{AHYDKDGFEFAH?FDPL\\Z",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/547688836",
+      "name": {
+        "nb": "Elgsletta",
+        "en": "Elgsletta aktivitetspark"
+      },
+      "category": "park",
+      "lat": 59.915901,
+      "lon": 10.761247,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q97794288",
+      "wikipedia": {
+        "nb": "Elgsletta aktivitetspark"
+      },
+      "summary": {
+        "nb": "Elgsletta aktivitetspark er en park langs Akerselva på Grønland i Oslo, ferdig i 2009. Parken inneholder blant annet sandvolleyballbaner."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Elgsletta_aktivitetspark_2014.jpg/640px-Elgsletta_aktivitetspark_2014.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.915223,
+        "lon": 10.760162
+      },
+      "walk": {
+        "durationS": 403,
+        "distanceM": 484,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBkABEEG?EDCL?LBHDFLFDBFBCNg@[K_@MOMEGCMIOKQQi@i@KKIKKOIOSWOQIQKSGIKGEAi@c@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/7951543",
+      "name": {
+        "nb": "Botsparken",
+        "en": "Grønlands park – Botsparken"
+      },
+      "category": "park",
+      "lat": 59.909593,
+      "lon": 10.771116,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11973058",
+      "wikipedia": {
+        "nb": "Grønlands park – Botsparken"
+      },
+      "summary": {
+        "nb": "Grønlands park – Botsparken er en park som ligger rundt Oslo fengsel og Politihuset på Grønland i Oslo. Parken er 27,5 dekar stor, når det 11,6 dekar store arealet langs sydsiden av muren mot Klosterenga ikke regnes med. I parken ligger Egon Olsens allé."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Gronlands_park2.JPG/640px-Gronlands_park2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.911026,
+        "lon": 10.767888
+      },
+      "walk": {
+        "durationS": 646,
+        "distanceM": 728,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?LyHJq@P{FAAC?C@?EBUBO?G?G?G@K@OFe@Hs@Jw@BKB]L_ABGZwBDYVkBFG?C@IBO?[Pw@DSFK@C@EDEp@g@fCyBVS?ECMAMAA?ECIMq@Si@[R",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4245701",
+      "name": {
+        "nb": "Kristparken"
+      },
+      "category": "park",
+      "lat": 59.917561,
+      "lon": 10.748641,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11982177",
+      "wikipedia": {
+        "nb": "Kristparken"
+      },
+      "summary": {
+        "nb": "Kristparken er en park på Hammersborg nær Oslo sentrum."
+      },
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristparken_i_mai.JPG?width=640",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.917189,
+        "lon": 10.749891
+      },
+      "walk": {
+        "durationS": 880,
+        "distanceM": 985,
+        "polyline": "avtlJ_rt`A?ACA@qBIvFJ?A`@WAi@tBkABEEG?EDCL?LBHDFLFLFCNAHIz@CRADA@CFYbDABA@C@?FANAR@d@MtCwBxMA@A@a@}AGHA@CBA@ABGHBH@B@D?BCD??qCzDA@?BAAABEFKL???BA?A@c@n@m@hA?@A@CACEA@A?ABAB@D?BABABADCFAAAAA?A@GJ{AvC?@?@?@ABEJCH?@C?A?A@sAhCAD?B?B@B@BB@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

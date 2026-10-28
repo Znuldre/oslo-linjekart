@@ -1,0 +1,408 @@
+{
+  "id": "NSR:StopPlace:59516",
+  "slug": "helsfyr",
+  "name": "Helsfyr",
+  "lat": 59.912673,
+  "lon": 10.801052,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6068"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58197",
+        "next": "NSR:StopPlace:59762"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:59762",
+        "next": "NSR:StopPlace:58197"
+      }
+    ],
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:58197",
+        "next": "NSR:StopPlace:59762"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:59762",
+        "next": "NSR:StopPlace:58197"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:59762",
+        "next": "NSR:StopPlace:58197"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58197",
+        "next": "NSR:StopPlace:59762"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:59762",
+        "next": "NSR:StopPlace:58197"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58197",
+        "next": "NSR:StopPlace:59762"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 7,
+    "majorstuen": 13
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59516",
+      "name": "Helsfyr",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "3N",
+          "name": "Jernbanetorget - Skullerud T",
+          "lineId": "RUT:Line:3903"
+        },
+        {
+          "publicCode": "4B",
+          "name": "Buss for linje 4",
+          "lineId": "RUT:Line:3004"
+        },
+        {
+          "publicCode": "4N",
+          "name": "Jernbanetorget - Bergkrystallen T",
+          "lineId": "RUT:Line:3904"
+        },
+        {
+          "publicCode": "20",
+          "name": "Skøyen - Galgeberg",
+          "lineId": "RUT:Line:20"
+        },
+        {
+          "publicCode": "21",
+          "name": "Tjuvholmen - Helsfyr T",
+          "lineId": "RUT:Line:21"
+        },
+        {
+          "publicCode": "23",
+          "name": "Lysaker - Simensbråten",
+          "lineId": "RUT:Line:23"
+        },
+        {
+          "publicCode": "37",
+          "name": "Nydalen T - Helsfyr",
+          "lineId": "RUT:Line:37"
+        },
+        {
+          "publicCode": "66",
+          "name": "Helsfyr T - Grorud T",
+          "lineId": "RUT:Line:66"
+        },
+        {
+          "publicCode": "68",
+          "name": "Helsfyr T - Grorud T via Alfaset",
+          "lineId": "RUT:Line:68"
+        },
+        {
+          "publicCode": "76",
+          "name": "Helsfyr T - Mortensrud T",
+          "lineId": "RUT:Line:76"
+        },
+        {
+          "publicCode": "100",
+          "name": "Kjeller - Oslo bussterminal",
+          "lineId": "RUT:Line:100"
+        },
+        {
+          "publicCode": "110",
+          "name": "Lillestrøm - Oslo bussterminal",
+          "lineId": "RUT:Line:110"
+        },
+        {
+          "publicCode": "110E",
+          "name": "Sørlihavna - Helsfyr",
+          "lineId": "RUT:Line:3110"
+        },
+        {
+          "publicCode": "115E",
+          "name": "Vallerudtoppen - Helsfyr",
+          "lineId": "RUT:Line:3115"
+        },
+        {
+          "publicCode": "300",
+          "name": "Blystadlia - Ahus - Oslo bussterminal",
+          "lineId": "RUT:Line:300"
+        },
+        {
+          "publicCode": "300E",
+          "name": "Ekspress Blystadlia - Helsfyr",
+          "lineId": "RUT:Line:2300"
+        },
+        {
+          "publicCode": "375",
+          "name": "Strømmen - Olavsgaard - Helsfyr",
+          "lineId": "RUT:Line:375"
+        },
+        {
+          "publicCode": "400",
+          "name": "Oslo lufthavn - Veståsen - Olavsgaard - Oslo",
+          "lineId": "RUT:Line:400"
+        },
+        {
+          "publicCode": "400E",
+          "name": "Eltonåsen - Oslo Ekspress",
+          "lineId": "RUT:Line:2400"
+        },
+        {
+          "publicCode": "470E",
+          "name": "Eidslia - Helsfyr",
+          "lineId": "RUT:Line:2470"
+        },
+        {
+          "publicCode": "FB5",
+          "name": "Oslo sentrum via Helsfyr-Hasle-Bislett",
+          "lineId": "NBU:Line:a7c15243-8873-4aee-a8b4-8d22e8ad31dc"
+        }
+      ]
+    },
+    {
+      "mode": "coach",
+      "stopPlaceId": "NSR:StopPlace:59516",
+      "name": "Helsfyr",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "NW130",
+          "name": "Trysilekspressen",
+          "lineId": "NWY:Line:677f2beb-6261-50bf-bfec-418580078dd5"
+        },
+        {
+          "publicCode": "VY123",
+          "name": "VY123 Elverum-Oslo",
+          "lineId": "VYX:Line:2"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:60245",
+      "name": "Fyrstikktorget",
+      "distanceM": 221,
+      "lines": [
+        {
+          "publicCode": "126",
+          "name": "Dokka-Hov-Brandbu-Oslo",
+          "lineId": "INN:Line:126"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6068",
+        "name": "Helsfyr",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:102523",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11135",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11134",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:intility-arena",
+      "name": {
+        "nb": "Intility Arena",
+        "en": "Intility Arena"
+      },
+      "category": "attraction",
+      "lat": 59.91799,
+      "lon": 10.806553,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q20078531",
+      "wikipedia": {
+        "nb": "Intility Arena",
+        "en": "Intility Arena"
+      },
+      "summary": {
+        "nb": "Intility Arena er en fotballstadion på Valle Hovin i Oslo. Arenaen er hjemmebane for Vålerenga Fotball og Vålerenga Fotball Damer, og har en tilskuerkapasitet på 16 555. Arenaen inngår i konseptet Vålerenga kultur- og idrettspark, som dekker hele området med Vallhall Arena og treningsfeltet.",
+        "en": "Intility Arena, also referred to as Vålerenga Stadion, is an association football stadium in Oslo, Norway. The stadium is the home stadium for Vålerenga Fotball, currently playing in the Eliteserien, and Vålerenga Fotball Damer, currently playing in the Toppserien. It has a seating capacity of 16,555 people."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Intility_Arena_%28bilde05%29_%288._september_2018%29.jpg/640px-Intility_Arena_%28bilde05%29_%288._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.916822,
+        "lon": 10.804606
+      },
+      "walk": {
+        "durationS": 612,
+        "distanceM": 716,
+        "polyline": "eutlJqq|`AF]u@_AAg@i@sB[u@IQCG?EAC@C?Aw@qBAEoBiFsD}JK[GEACEMQc@KWAAA??@i@lAIPGLEFCBA@C@C?AAEXAFABAHCLCJELENELG\\Mx@Q`AG\\CNCFCFEFCDA@COCGCECECCECE?EBEBCDCFCHANAPAXa@[",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:valle-hovin",
+      "name": {
+        "nb": "Valle Hovin",
+        "en": "Valle Hovin"
+      },
+      "category": "park",
+      "lat": 59.918,
+      "lon": 10.8061,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Valle Hovin",
+        "en": "Valle Hovin stadion"
+      },
+      "summary": {
+        "nb": "Valle Hovin, eller Valle-Hovin, er et strøk i Oslo mellom Grenseveien og Ring 3, som har fått sitt navn etter gårdene Valle og Hovin. Strøket omkranser flere idrettsanlegg; Valle Hovin idrettspark, Valle Hovin stadion, Vallhall Arena og Intility Arena.",
+        "en": "Valle Hovin stadion is both a bandy and speed skating rink in cold weather, and an outdoor stadium for concerts in warm weather, in Valle-Hovin, Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Intility_Arena%2C_Valle_Hovin_%28bilde01%29_%288._september_2018%29.jpg/640px-Intility_Arena%2C_Valle_Hovin_%28bilde01%29_%288._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 734,
+        "distanceM": 871,
+        "polyline": "eutlJqq|`AF]u@_AAg@i@sB[u@IQCG?EAC@C?Aw@qBAEoBiFsD}JK[GEACEMQc@KWAAA??@i@lAIPGLEFCBA@C@C?AAEXAFABAHCLCJELENELG\\Mx@Q`AG\\CNCFCFEFCDA@COCGCECECCECE?EBEBCDCFCHANAPAXqCyBKIm@IyAsA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/158006633",
+      "name": {
+        "nb": "Etterstadparken"
+      },
+      "category": "park",
+      "lat": 59.910126,
+      "lon": 10.799218,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q23042769",
+      "wikipedia": {
+        "nb": "Etterstadparken"
+      },
+      "summary": {
+        "nb": "Etterstadparken er en park i bydel Gamle Oslo. Den ble anlagt som kjerne i boligstrøket Etterstad, som ble anlagt med frittstående lavblokker i siksakkmønster i 1940- og 50-årene. Store grønne områder mellom bygningene går over i parken. Dette dannet mønster for senere drabantbyer."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Etterstadparken_midtpart_sett_mot_nord%C3%B8st.jpg/640px-Etterstadparken_midtpart_sett_mot_nord%C3%B8st.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.911922,
+        "lon": 10.801052
+      },
+      "walk": {
+        "durationS": 100,
+        "distanceM": 112,
+        "polyline": "eutlJqq|`AF]NUPU@C@CDIBI@EBCJALCN@D@BBBF@F?DAHAJAFBB??FFFF@@@?FA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/65072278",
+      "name": {
+        "nb": "Vålerenga park"
+      },
+      "category": "park",
+      "lat": 59.906959,
+      "lon": 10.787363,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12010204",
+      "wikipedia": {
+        "nb": "Vålerenga park"
+      },
+      "summary": {
+        "nb": "Vålerenga park er en park på Vålerenga i Oslo. Parken er 32 mål stor og ble opparbeidet i årene 1903-1916. Vålerenga kirke (1902) står midt i parken. Parken avgrenses av Danmarks gate i nord, Hjaltlandsgata og Vålerenga skole i øst, Hovedbanen i syd og Opplandsgata i vest. Under parken går Vålerengtunnelen. Prestegården tett ved kirken er våningshuset fra tidligere Vålerenga gård."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/V%C3%A5lerenga_park_sett_mot_Opplandgata.JPG/640px-V%C3%A5lerenga_park_sett_mot_Opplandgata.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.907771,
+        "lon": 10.789423
+      },
+      "walk": {
+        "durationS": 880,
+        "distanceM": 1140,
+        "polyline": "eutlJqq|`AF]NUPU@C@CDIBI@EBCJALCN@D@BBBF@F?DAHAJAFBB??FFFF@@@?@G@OHHDDF@rAGX@PBxAvBHTL`@l@jBRj@n@bBBHJXn@fBV|@X|@XtCBNJxAJf@PhA@HVrA@B@f@?@DZGDUZUXW`@IPGJIH@B@LBL@BDGJ`@HTFNDFBBFDJBD@J?F@D@H?H@FDJJJz@Hr@HCBZBZFn@@JEDORBLBRDVHv@J~@P~AfAbKJ|@@CFECC?CMgA",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

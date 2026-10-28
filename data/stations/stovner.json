@@ -1,0 +1,212 @@
+{
+  "id": "NSR:StopPlace:58219",
+  "slug": "stovner",
+  "name": "Stovner",
+  "lat": 59.961987,
+  "lon": 10.922846,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5720"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58218",
+        "next": "NSR:StopPlace:58217"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58217",
+        "next": "NSR:StopPlace:58218"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58217",
+        "next": "NSR:StopPlace:58218"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58218",
+        "next": "NSR:StopPlace:58217"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 36,
+    "majorstuen": 31
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58219",
+      "name": "Stovner",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "5N",
+          "name": "Jernbanetorget - Vestli T",
+          "lineId": "RUT:Line:3905"
+        },
+        {
+          "publicCode": "64",
+          "name": "Furuset T - Stovner T via Høybråten",
+          "lineId": "RUT:Line:64"
+        },
+        {
+          "publicCode": "65",
+          "name": "Furuset T - Stovner T via Smedstua",
+          "lineId": "RUT:Line:65"
+        },
+        {
+          "publicCode": "120",
+          "name": "Nesåsen - Stovner",
+          "lineId": "RUT:Line:120"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5720",
+        "name": "Stovner",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10488",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10489",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:stovnertarnet",
+      "name": {
+        "nb": "Stovnertårnet",
+        "en": "Stovner Tower"
+      },
+      "category": "viewpoint",
+      "lat": 59.961008,
+      "lon": 10.929948,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "website": "http://www.stovnertårnet.no",
+      "wikipedia": {
+        "nb": "Stovnertårnet"
+      },
+      "summary": {
+        "nb": "Stovnertårnet er et utsiktstårn på Fossumberget på Stovner i Oslo. En 265 meter lang sirklende gangbane fører til toppen av tårnet, 15 meter over bakken og 215 meter over havet. Tårnet kalles også «Norges lengste tårn», med sin lange gangbane. Det er utformet slik blant annet med tanke på universell tilgjengelighet."
+      },
+      "access": {
+        "lat": 59.9605,
+        "lon": 10.929
+      },
+      "walk": {
+        "durationS": 450,
+        "distanceM": 497,
+        "polyline": "ki~lJwjtaA@E@A@A@A@?@?B?H@?U?A?M?Q?MAICMAICKEGEGu@aAAAEKCKAEAKCSAQCIGIGAK@?QDGTi@Tu@B]tAgDPY|A}C`@w@BIHSHODKJYFUDM`AwBHe@?w@A_@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/107808300",
+      "name": {
+        "nb": "Fossum kirke",
+        "en": "Fossum Church"
+      },
+      "category": "church",
+      "lat": 59.962737,
+      "lon": 10.924836,
+      "score": 8.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297144",
+      "wikipedia": {
+        "nb": "Fossum kirke",
+        "en": "Fossum Church"
+      },
+      "summary": {
+        "nb": "Fossum kirke er en av tre kirker i Høybråten, Fossum og Stovner menighet i Groruddalen prosti i Oslo bispedømme i Bydel Stovner i Oslo kommune. Den er en arbeidskirke oppført i 1976.",
+        "en": "Fossum Church is a church center at Stovner in Oslo, Norway. The church was designed by the architectural firm Anker & Hølaas and created by Selvaagbygg. The church was consecrated in September 1976. Fossum church has 200 seats in the nave and 400 in the aisles."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Fossum_kirke.jpg/640px-Fossum_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 244,
+        "distanceM": 249,
+        "polyline": "ki~lJwjtaA@E@A@A@A@?@?B?H@?U?O?Q?MAICMAICKEGEGU[a@g@EKCKAEAKCSAQCIGIGAK@?QXm@@CTu@B]Yo@q@tA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/110100603",
+      "name": {
+        "nb": "Stovner kirke",
+        "en": "Stovner Church"
+      },
+      "category": "church",
+      "lat": 59.955642,
+      "lon": 10.926077,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10421019",
+      "wikipedia": {
+        "nb": "Stovner kirke",
+        "en": "Stovner Church"
+      },
+      "summary": {
+        "nb": "Stovner kirke er en kirke i Høybråten, Fossum og Stovner menighet i Groruddalen prosti i Oslo bispedømme i Bydel Stovner i Oslo kommune. Den er byggdet som en arbeidskirke i 1979 på Stovner i Oslo. Kirken var soknekirke for Stovner menighet til 2013 da menigheten ble slått sammen med Fossum og Høybråten menigheter med navnet Høybråten, Fossum og Stovner menighet.",
+        "en": "Stovner Church is a church center in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Stovner_kirke.jpg/640px-Stovner_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 696,
+        "distanceM": 794,
+        "polyline": "ki~lJwjtaA@E@A@A@A@?@?B?H@F@B?B@FBB@FABA`@OFE@ABCHIFELEf@UBA@A@CBE?A@CBA@?@ADAHCHCB?@@B@@@Vm@VK\\o@FMl@UJa@l@UHEB?@?@?@@@A?C@A@ABABABADADA??NGHE@JDRDBBF`@n@JNFFFDH@H?LAhAOPCRAVC\\?h@?R@RB?g@LADCBCDGDMGULBJ?FAFEJMh@u@t@kAT[RWDGFEDCDAD?F?\\LBQ@G@IVs@Xy@HW",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

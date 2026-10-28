@@ -1,0 +1,157 @@
+{
+  "id": "NSR:StopPlace:58269",
+  "slug": "ris",
+  "name": "Ris",
+  "lat": 59.948069,
+  "lon": 10.7046,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6268"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:59519",
+        "next": "NSR:StopPlace:58268"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58268",
+        "next": "NSR:StopPlace:59519"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 15,
+    "majorstuen": 10
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58269",
+      "name": "Ris",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "1N",
+          "name": "Jernbanetorget - Ullerntoppen",
+          "lineId": "RUT:Line:3901"
+        },
+        {
+          "publicCode": "46X",
+          "name": "Ullerntoppen - Voksen skog Holmenkollstafetten",
+          "lineId": "RUT:Line:2046"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6268",
+        "name": "Ris",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11506",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11505",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:emanuel-vigeland",
+      "name": {
+        "nb": "Emanuel Vigelands museum",
+        "en": "Emanuel Vigeland Museum"
+      },
+      "category": "museum",
+      "lat": 59.947118,
+      "lon": 10.692591,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q17769549",
+      "website": "http://www.emanuelvigeland.museum.no/",
+      "wikipedia": {
+        "nb": "Emanuel Vigelands Museum",
+        "en": "Emanuel Vigeland Museum"
+      },
+      "summary": {
+        "nb": "Emanuel Vigelands museum på Slemdal i Oslo består av mausoleet etter Emanuel Vigeland (1875–1948), og et siderom som tidligere fungerte som galleri. Gravkammeret er et tønnehvelvet rom fullstendig dekket av fresker, og i dag er det kun denne delen som er åpen for publikum."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Emanuel_Vigelands_Museum.jpg/640px-Emanuel_Vigelands_Museum.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 920,
+        "distanceM": 1002,
+        "polyline": "or{lJyvi`AADBDDFDFGPEJ[tAAD?D?B@BBFMf@GXCNGVCXEZEn@E`@C^Et@Ar@GhCCl@Ch@Ed@Gd@CNIb@G\\K^Up@Qf@M^Md@I`@G\\Gb@CZC`@C^Ab@Ab@?l@AlB@P?JBJ@FDDDDTHp@VD@@BBB?D?D?JAhA?R@N@NNMDLFIl@n@\\`@^^TT@?BAJJj@p@MRMRKTIZI\\Eb@ANIn@ETEPGRININBLBEFODFDDfAX~@VL?h@A?FF^D?D??HJ?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/123460929",
+      "name": {
+        "nb": "Ris kirke",
+        "en": "Ris Church"
+      },
+      "category": "church",
+      "lat": 59.947538,
+      "lon": 10.701259,
+      "score": 10,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q7335797",
+      "wikipedia": {
+        "nb": "Ris kirke",
+        "en": "Ris Church"
+      },
+      "summary": {
+        "nb": "Ris kirke er soknekirke for Ris menighet i Vestre Aker prosti i Oslo bispedømme i Bydel Vestre Aker i Oslo kommune. Den er en langkirke innviet 12. juni 1932. Kostnadene beløp seg til 723 000 kroner inkludert gaver til en sum av 284 000.",
+        "en": "Ris Church is a church in Oslo, Norway. The Romanesque Revival style church is situated in a neighborhood of Ris in the borough of Vestre Aker in Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Ris_kirke_TRS_070501_015.jpg/640px-Ris_kirke_TRS_070501_015.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 209,
+        "distanceM": 247,
+        "polyline": "or{lJyvi`AADBDDFDF??FJBB@BK\\Kh@AD?F?D?D@F?BBD\\b@?@CHAHGCGDMFCJ?J?H?HDRDNHNFLHXBR@^Av@@N@ZDZL^FJHDNRPP",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

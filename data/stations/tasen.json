@@ -1,0 +1,172 @@
+{
+  "id": "NSR:StopPlace:59573",
+  "slug": "tasen",
+  "name": "Tåsen",
+  "lat": 59.952802,
+  "lon": 10.751501,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6179"
+  ],
+  "neighbours": {
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:6196",
+        "next": "NSR:StopPlace:59738"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:59738",
+        "next": "NSR:StopPlace:6196"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 14,
+    "majorstuen": 9
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59573",
+      "name": "Tåsen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "23",
+          "name": "Lysaker - Simensbråten",
+          "lineId": "RUT:Line:23"
+        },
+        {
+          "publicCode": "24",
+          "name": "Fornebu vest - Brynseng T",
+          "lineId": "RUT:Line:24"
+        },
+        {
+          "publicCode": "34",
+          "name": "Tåsen - Ekeberg hageby",
+          "lineId": "RUT:Line:34"
+        },
+        {
+          "publicCode": "FB3",
+          "name": "Radiumhospitalet via Økern-Storo-Tåsen",
+          "lineId": "NBU:Line:cb7b555c-f96e-42d5-84bf-a5e08c0145c2"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6179",
+        "name": "Tåsen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11339",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11341",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:ullevaal-stadion",
+      "name": {
+        "nb": "Ullevaal Stadion",
+        "en": "Ullevaal Stadium"
+      },
+      "category": "attraction",
+      "lat": 59.949136,
+      "lon": 10.734329,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q680291",
+      "wikipedia": {
+        "nb": "Ullevaal Stadion",
+        "en": "Ullevaal Stadion"
+      },
+      "summary": {
+        "nb": "Ullevaal Stadion er et fotballstadion i Oslo i Norge. Det er hjemmebanen til herrelandslaget og damelandslaget i tillegg til at cupfinalen i herrefotball og damefotball blir arrangert der hvert år. Fra åpningen i 1926 til 2009 var stadionet også hjemmebanen til Lyn Toppfotball. Med en kapasitet på ca. 27 182 er det det største fotballstadionet i Norge. Det er eid av Norges Fotballforbund (NFF).",
+        "en": "Ullevaal Stadion is an all-seater football stadium located in Oslo, Norway. It is the home ground of the Norway national football team, and the site of the Norwegian Cup Final. From its opening in 1926 to 2009 it was the home ground of FK Lyn and from 1999 to 2017 was a home ground of Vålerenga IF. With a capacity of approximately 28,000, it is the largest football stadium in Norway. The national stadium is fully owned by the Football Association of Norway (NFF)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Ullev%C3%A5l_Stadium_from_air.jpg/640px-Ullev%C3%A5l_Stadium_from_air.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.949972,
+        "lon": 10.736211
+      },
+      "walk": {
+        "durationS": 786,
+        "distanceM": 1041,
+        "polyline": "_p|lJy{r`ABXLt@FLDNBPBHDRHPB?B@BDJALA@F?H@F@F@FGLCNCR?R?P@HHlALbBN~CTfGf@nMBt@Dx@DlAZzIHlB@TBZBh@BRBNBLHVDLDJDDBDDBDBB@N?F@F@LJJLFJBD@F@F?BAP?@?F?\\AT?FCJAFCHAF?NBlBDlBFtAH|BF?Fj@f@nElBsA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/3630497",
+      "name": {
+        "nb": "Voldsløkka"
+      },
+      "category": "park",
+      "lat": 59.944846,
+      "lon": 10.753937,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12010063",
+      "wikipedia": {
+        "nb": "Voldsløkka"
+      },
+      "summary": {
+        "nb": "Voldsløkka er et område i bydel Sagene i Oslo, av noen betegnet som en del av Bjølsen, av andre som et eget strøk."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Voldsl%C3%B8kka_sett_mot_nord.jpg/640px-Voldsl%C3%B8kka_sett_mot_nord.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.94642,
+        "lon": 10.751501
+      },
+      "walk": {
+        "durationS": 619,
+        "distanceM": 852,
+        "polyline": "_p|lJy{r`ABXLt@FLDNBPBHDRHPB?B@BDJALA@F?H@F@F@FHGVKd@YLOZWVKVQRINCP@J?FBhA^`@PLF`@RDB?B@?JFHUNg@`@_B@IVkATeAFUz@uDLMv@FfCR^JFBh@\\tAz@v@f@f@Xt@b@fAp@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

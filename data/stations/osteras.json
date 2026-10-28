@@ -1,0 +1,171 @@
+{
+  "id": "NSR:StopPlace:58277",
+  "slug": "osteras",
+  "name": "Østerås",
+  "lat": 59.939461,
+  "lon": 10.608845,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:3726"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:3700"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "next": "NSR:StopPlace:3700"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 21,
+    "majorstuen": 16
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58277",
+      "name": "Østerås",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "140",
+          "name": "Bekkestua - Østerås - Skøyen",
+          "lineId": "RUT:Line:140"
+        },
+        {
+          "publicCode": "140N",
+          "name": "Nationaltheatret - Bekkestua",
+          "lineId": "RUT:Line:3140"
+        },
+        {
+          "publicCode": "230",
+          "name": "Sandvika - Bekkestua - Østerås - Ila",
+          "lineId": "RUT:Line:230"
+        },
+        {
+          "publicCode": "235",
+          "name": "Østerås - Grini Næringspark - Listuveien",
+          "lineId": "RUT:Line:235"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:3726",
+        "name": "Østerås",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:6658",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:6659",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/27662030",
+      "name": {
+        "nb": "Øvrevoll galoppbane",
+        "en": "Øvrevoll Galoppbane"
+      },
+      "category": "attraction",
+      "lat": 59.938051,
+      "lon": 10.619376,
+      "score": 11,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q1782457",
+      "wikipedia": {
+        "nb": "Øvrevoll Galoppbane",
+        "en": "Øvrevoll Galoppbane"
+      },
+      "summary": {
+        "nb": "Øvrevoll Galoppbane er Norges eneste galoppbane, og ligger på Eiksmarka i Bærum.",
+        "en": "Øvrevoll Galoppbane is the only gallop racecourse in Norway. It is located at Øvrevoll between Østerås (west), Jar (south) and Eiksmarka (north) in Bærum. It has both a turf track and an all-weather track. It was officially opened in 1932 by King Haakon VII and Queen Maud."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/%C3%98vrevoll_Galoppbane_1939.jpg/640px-%C3%98vrevoll_Galoppbane_1939.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.939461,
+        "lon": 10.613518
+      },
+      "walk": {
+        "durationS": 602,
+        "distanceM": 735,
+        "polyline": "s|ylJg`w_AG|BAXPD@WF_AD@?X?\\HFVCVQLYFYB]@Y?YBsDFuCHaDBu@Bw@@m@@a@?a@Aa@Ca@Gq@KeAGg@C_@A]?U?Y@WDYDQDODKGO?E?C?EACGOEKCEOQEG?AOYEGK]EIEKIOEJAJCLAN?P?T@VLrA\\tARbBAdASM",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/230036879",
+      "name": {
+        "nb": "Østerås kirke",
+        "en": "Østerås Church"
+      },
+      "category": "church",
+      "lat": 59.940316,
+      "lon": 10.607054,
+      "score": 7,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q8735161",
+      "wikipedia": {
+        "nb": "Østerås kirke"
+      },
+      "summary": {
+        "nb": "Østerås kirke er en arbeidskirke fra 1974 i Bærum kommune, Akershus fylke."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/%C3%98ster%C3%A5s_kirke_20080601-1.jpg/640px-%C3%98ster%C3%A5s_kirke_20080601-1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 323,
+        "distanceM": 336,
+        "polyline": "s|ylJg`w_AG|BAXUGAAEBEHEB?N?J@R@\\?R?p@@b@?R?P@BAL?dA?f@A^Af@An@Cj@C?ECEAI?KIIGu@i@FqADUJ[BSCSSU",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

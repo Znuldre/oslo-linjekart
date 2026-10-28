@@ -1,0 +1,331 @@
+{
+  "id": "NSR:StopPlace:58185",
+  "slug": "sandaker-senter",
+  "name": "Sandaker senter",
+  "lat": 59.939031,
+  "lon": 10.768812,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "15",
+    "18"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6394"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58256",
+        "next": "NSR:StopPlace:58196"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58196",
+        "next": "NSR:StopPlace:58256"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58196",
+        "next": "NSR:StopPlace:58256"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58256",
+        "next": "NSR:StopPlace:58196"
+      }
+    ],
+    "18": [
+      {
+        "directionType": "inbound",
+        "towards": "Grefsen stasjon",
+        "prev": "NSR:StopPlace:58256",
+        "next": "NSR:StopPlace:58196"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58196",
+        "next": "NSR:StopPlace:58256"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 14,
+    "majorstuen": 32
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58185",
+      "name": "Sandaker senter",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6394",
+        "name": "Sandaker senter",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11755",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:105085",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:105084",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11752",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:torshovdalen",
+      "name": {
+        "nb": "Torshovdalen",
+        "en": "Torshovdalen"
+      },
+      "category": "park",
+      "lat": 59.934963,
+      "lon": 10.776707,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q19392835",
+      "wikipedia": {
+        "nb": "Torshovdalen"
+      },
+      "summary": {
+        "nb": "Torshovdalen er et parkområde i Oslo. Parken ligger mellom Torshov i vest, Sinsen i øst (Trondheimsveien), Rosenhoff og Rodeløkka i sørøst og sør (Mailundveien) og Gjøvikbanen i nord, og har skateboardramp i den sydlige delen. Parken forvaltes av Bymiljøetaten i Oslo kommune, som også preparerer langrennsløype om vinteren."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Torshovdalen4.JPG/640px-Torshovdalen4.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.938851,
+        "lon": 10.771529
+      },
+      "walk": {
+        "durationS": 202,
+        "distanceM": 223,
+        "polyline": "}yylJ}gv`AEGG?E?KEEEQO][QQ@C@E@I@E@E@ILg@Ru@FWNUAYHy@Pk@XcACw@HGHY",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/27012015",
+      "name": {
+        "nb": "Torshov kirkepark"
+      },
+      "category": "park",
+      "lat": 59.938137,
+      "lon": 10.773215,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12007133",
+      "wikipedia": {
+        "nb": "Torshov kirkepark"
+      },
+      "summary": {
+        "nb": "Torshov kirkepark er en park på Torshov i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Torshov_kirkepark.JPG/640px-Torshov_kirkepark.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.938954,
+        "lon": 10.772005
+      },
+      "walk": {
+        "durationS": 241,
+        "distanceM": 262,
+        "polyline": "}yylJ}gv`AEGG?E?KEEEQO][QQ@C@E@I@E@E@ILg@Ru@FWNUAYHy@Pk@XcACw@HGPo@FWAOK_@IQ",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/252260743",
+      "name": {
+        "nb": "Torshovparken"
+      },
+      "category": "park",
+      "lat": 59.935297,
+      "lon": 10.77098,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19392836",
+      "wikipedia": {
+        "nb": "Torshovparken",
+        "en": "Torshovparken"
+      },
+      "summary": {
+        "nb": "Torshovparken er en stor park på Torshov i Oslo, anlagt på 1920-tallet som en del av Torshovbyen, boligområdet som ble bygget ut i kommunal regi.",
+        "en": "Torshovparken is a large park located in Torshov, Oslo, Norway, that was established in the 1920s as part of Torshovbyen, a residential area developed by the municipality."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Torshovparken1.JPG/640px-Torshovparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.936397,
+        "lon": 10.768812
+      },
+      "walk": {
+        "durationS": 323,
+        "distanceM": 393,
+        "polyline": "}yylJ}gv`APP?E@E?CBOfAbA`@^xDvDDBD@B?@A@E@GAO?sBAuA@?B?D?DA@?@??DBFfCc@HCLADAB?CA?C?G",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/147978315",
+      "name": {
+        "nb": "Bjølsenparken"
+      },
+      "category": "park",
+      "lat": 59.940759,
+      "lon": 10.756004,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11961272",
+      "wikipedia": {
+        "nb": "Bjølsenparken"
+      },
+      "summary": {
+        "nb": "Bjølsenparken er en park på Bjølsen i bydel Sagene i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Bjolsenparken1.JPG/640px-Bjolsenparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.939587,
+        "lon": 10.757773
+      },
+      "walk": {
+        "durationS": 692,
+        "distanceM": 825,
+        "polyline": "}yylJ}gv`AEGG?E?CZIn@ANALAV@RBTDVFX?L?P?N?NAJALAJCLEJCJEHGFc@f@GFEFEJGPCPCPANAN?F?HAPAD@V@V?L@L?R@\\?`@@\\?V@REFV`ANf@L`@Nb@Rf@R`@Xh@@BEJEPELADCCAAC@A@ABOj@i@~B_@|AK`@YpAEGGEg@[AHANALADCAM`@?BABGDGFA@DZBNn@xDHd@Dd@?FAB?FAJ?J?HRBB@@DBBD??D@Jb@pADJBBLE@VDA?VETCL",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4648305",
+      "name": {
+        "nb": "Myraløkka"
+      },
+      "category": "park",
+      "lat": 59.935354,
+      "lon": 10.758464,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19370963",
+      "wikipedia": {
+        "nb": "Myraløkka"
+      },
+      "summary": {
+        "nb": "Myraløkka er en park langs Akerselva på Sagene i Oslo, med en lang historie som friområde."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Myralokka.JPG/640px-Myralokka.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.937347,
+        "lon": 10.76082
+      },
+      "walk": {
+        "durationS": 517,
+        "distanceM": 643,
+        "polyline": "}yylJ}gv`AEGG?E?CZIn@ANALAV@RBTDVFX?L?P?N?NAJALAJCLEJCJEHGFc@f@GFEFEJGPCPCPANAN?F?HAPAD@V@V?L@L?R@\\?`@@\\?V@REFV`ANf@L`@Nb@Rf@R`@Xh@@BLTTXVZXXp@r@v@r@DFNTJJFJDY@[BApAnG@B",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/113519280",
+      "name": {
+        "nb": "Sagene kirke",
+        "en": "Sagene Church"
+      },
+      "category": "church",
+      "lat": 59.937645,
+      "lon": 10.753121,
+      "score": 10,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q2113262",
+      "wikipedia": {
+        "nb": "Sagene kirke",
+        "en": "Sagene Church"
+      },
+      "summary": {
+        "nb": "Sagene kirke er sognekirke for Sagene og Iladalen menighet i Nordre Aker prosti i Oslo bispedømme i Oslo i Bydel Sagene i Oslo kommune. Den ligger på Sagene syd for Arendalsgata med adresse Dannevigsveien 17. Øst for kirken dekker Sagene kirkepark hele kvartalet. Kirken ligger nær den gamle grensen mellom Kristiania og Aker i byens ytterkant mot nord. Fra den stod ferdig ble kirken i mange år omtalt også som Nordkantkatedralen, på samme måte som Grønland kirke ble omtalt som Østkantkatedralen.",
+        "en": "Sagene Church is located in Oslo, Norway. The church is one of the most rugged and prominent in Oslo. The church was built in gothic revival style and it was consecrated in 1891. It was designed by architect Christian Fürst in neo-Gothic style. There are 600 seats."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Sagene_kirke2.JPG/640px-Sagene_kirke2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 909,
+        "distanceM": 1065,
+        "polyline": "}yylJ}gv`AEGG?E?CZIn@ANALAV@RBTDVFX?L?P?N?NAJALAJCLEJCJEHGFc@f@GFEFEJGPCPCPANAN?F?HAPAD@V@V?L@L?R@\\?`@@\\?V@REFV`ANf@L`@Nb@Rf@R`@Xh@@BLTTXVZXXp@r@v@r@DFNTJJFJFLHRNj@DNHZLf@FZLh@@FBDB@@HBNBL?@CFCDABEJAJ?J?L?dF?fE?`@?F?|@?b@?X?jB?~@AH@F?J?@AJ?HABA@?BAJ?F?F?D]nD?DABAB?DAD?B@B?B?DCNAPAFA@A@AB?BO`B\\\\YhB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

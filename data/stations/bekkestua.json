@@ -1,0 +1,186 @@
+{
+  "id": "NSR:StopPlace:58281",
+  "slug": "bekkestua",
+  "name": "Bekkestua",
+  "lat": 59.917247,
+  "lon": 10.589651,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2",
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:3808"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Avløs",
+        "prev": "NSR:StopPlace:63808",
+        "next": "NSR:StopPlace:64352"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:64352",
+        "next": "NSR:StopPlace:63808"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:64352",
+        "next": "NSR:StopPlace:63808"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:63808",
+        "next": "NSR:StopPlace:64352"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 22,
+    "majorstuen": 17
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58281",
+      "name": "Bekkestua",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "140",
+          "name": "Bekkestua - Østerås - Skøyen",
+          "lineId": "RUT:Line:140"
+        },
+        {
+          "publicCode": "140N",
+          "name": "Nationaltheatret - Bekkestua",
+          "lineId": "RUT:Line:3140"
+        },
+        {
+          "publicCode": "145",
+          "name": "Bekkestua - Fornebu",
+          "lineId": "RUT:Line:145"
+        },
+        {
+          "publicCode": "150",
+          "name": "Gullhaug - Nationaltheatret",
+          "lineId": "RUT:Line:150"
+        },
+        {
+          "publicCode": "150E",
+          "name": "Gullhaug - Nationaltheatret",
+          "lineId": "RUT:Line:2850"
+        },
+        {
+          "publicCode": "211",
+          "name": "Bekkestua - Sandvika storsenter",
+          "lineId": "RUT:Line:211"
+        },
+        {
+          "publicCode": "212",
+          "name": "Bekkestua - Østerås",
+          "lineId": "RUT:Line:212"
+        },
+        {
+          "publicCode": "213",
+          "name": "Bekkestua - Høvik - Sandvika",
+          "lineId": "RUT:Line:213"
+        },
+        {
+          "publicCode": "214",
+          "name": "Bekkestua - Lysaker - Ekern - Jernbaneveien",
+          "lineId": "RUT:Line:214"
+        },
+        {
+          "publicCode": "216",
+          "name": "Bekkestua - Søråsen - Kleivveien",
+          "lineId": "RUT:Line:216"
+        },
+        {
+          "publicCode": "220",
+          "name": "Sandvika - Bekkestua",
+          "lineId": "RUT:Line:220"
+        },
+        {
+          "publicCode": "230",
+          "name": "Sandvika - Bekkestua - Østerås - Ila",
+          "lineId": "RUT:Line:230"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:3808",
+        "name": "Bekkestua",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:6824",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:6823",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/284716256",
+      "name": {
+        "nb": "Bjerkelunden"
+      },
+      "category": "park",
+      "lat": 59.92435,
+      "lon": 10.600184,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q11961242",
+      "wikipedia": {
+        "nb": "Bjerkelunden"
+      },
+      "summary": {
+        "nb": "Bjerkelunden er et grøntområde på Nadderud i Bærum som blant annet benyttes til forsamlinger den 17. mai. Den 21,6 mål store naturparken har to monumenter. Det eldste er minnesmerket for Egne Hjem fra 1935. Det andre er en statue av en tamburmajor som ble reist for Norges Musikkorps Forbund ved 50 års jubileet i 1968. \nParken fikk sitt navn i 1925, men ble i 1938 fornorsket fra Birkelunden til Bjerkelunden. I 1939 ble området bevart som naturpark. I dag ligger Bjerkelunden barnepark som ble åpnet i 1958 på området."
+      },
+      "access": {
+        "lat": 59.923394,
+        "lon": 10.598472
+      },
+      "walk": {
+        "durationS": 964,
+        "distanceM": 1024,
+        "polyline": "wqulJihs_Ae@qC@CFV@DBNBH]n@g@bAEDCDGHGBY?CCCHCFW[Oa@_@eAOYESG[CW?_@IDK@EGGWSgAEm@E[Mc@a@mA]w@{A_DO_@Og@q@kCsAoEc@uAIQ_@}@Sa@_BwBa@e@uA_B_AgAw@_AS]OYM]Ka@[sACIEDGHGXAT?P@TF`@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

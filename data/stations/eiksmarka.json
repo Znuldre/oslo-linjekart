@@ -1,0 +1,173 @@
+{
+  "id": "NSR:StopPlace:58276",
+  "slug": "eiksmarka",
+  "name": "Eiksmarka",
+  "lat": 59.947043,
+  "lon": 10.622964,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:3693"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:59764",
+        "next": "NSR:StopPlace:3700"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:3700",
+        "next": "NSR:StopPlace:59764"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 19,
+    "majorstuen": 14
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58276",
+      "name": "Eiksmarka",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "140",
+          "name": "Bekkestua - Østerås - Skøyen",
+          "lineId": "RUT:Line:140"
+        },
+        {
+          "publicCode": "140N",
+          "name": "Nationaltheatret - Bekkestua",
+          "lineId": "RUT:Line:3140"
+        },
+        {
+          "publicCode": "212",
+          "name": "Bekkestua - Østerås",
+          "lineId": "RUT:Line:212"
+        },
+        {
+          "publicCode": "230",
+          "name": "Sandvika - Bekkestua - Østerås - Ila",
+          "lineId": "RUT:Line:230"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:3693",
+        "name": "Eiksmarka",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:6591",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:6590",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/59458870",
+      "name": {
+        "nb": "Grinilund kirke",
+        "en": "Eiksmarka Church"
+      },
+      "category": "church",
+      "lat": 59.949039,
+      "lon": 10.622814,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q8733577",
+      "wikipedia": {
+        "nb": "Eiksmarka kirke"
+      },
+      "summary": {
+        "nb": "Eiksmarka kirke er en langkirke fra 2014 på Eiksmarka i Bærum kommune, Akershus fylke. En kirke oppført i 1959 ble revet i 2013 og ny kirke oppført med vigsling 23. mars 2014. Navnet ble endret fra Grinilund kirke til Eiksmarka kirke i desember 2018."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Grinilund_kirke.jpg/640px-Grinilund_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 327,
+        "distanceM": 331,
+        "polyline": "_l{lJqxy_AA@EMEOC@EACACEEHEH?BeAxBCBCCG?G?GHEJAN?N?FYfAO\\GRILKDSDc@PGDCDK]Oq@EKECWGWE[c@Ye@Qo@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/27662030",
+      "name": {
+        "nb": "Øvrevoll galoppbane",
+        "en": "Øvrevoll Galoppbane"
+      },
+      "category": "attraction",
+      "lat": 59.938051,
+      "lon": 10.619376,
+      "score": 11,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q1782457",
+      "wikipedia": {
+        "nb": "Øvrevoll Galoppbane",
+        "en": "Øvrevoll Galoppbane"
+      },
+      "summary": {
+        "nb": "Øvrevoll Galoppbane er Norges eneste galoppbane, og ligger på Eiksmarka i Bærum.",
+        "en": "Øvrevoll Galoppbane is the only gallop racecourse in Norway. It is located at Øvrevoll between Østerås (west), Jar (south) and Eiksmarka (north) in Bærum. It has both a turf track and an all-weather track. It was officially opened in 1932 by King Haakon VII and Queen Maud."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/%C3%98vrevoll_Galoppbane_1939.jpg/640px-%C3%98vrevoll_Galoppbane_1939.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.942384,
+        "lon": 10.622964
+      },
+      "walk": {
+        "durationS": 655,
+        "distanceM": 841,
+        "polyline": "_l{lJqxy_ABIN]BEFOd@oAJSNGDIDUTy@H_@Ha@Ls@Hk@Fe@X_CHi@BUR{@Lk@BOBIBC\\DZBZBZ@Z@~B?pC@D@BB@F@FHAF?JCPAD?d@?DCJCDFDFBBDDB@B?F?JAF@CZ?rA@x@?FB~@@b@@ZH`EFfDB|ALZLG",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

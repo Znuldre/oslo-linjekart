@@ -1,0 +1,265 @@
+{
+  "id": "NSR:StopPlace:59518",
+  "slug": "ammerud",
+  "name": "Ammerud",
+  "lat": 59.95768,
+  "lon": 10.871752,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5829"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58216",
+        "next": "NSR:StopPlace:5810"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:5810",
+        "next": "NSR:StopPlace:58216"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:5810",
+        "next": "NSR:StopPlace:58216"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58216",
+        "next": "NSR:StopPlace:5810"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 31,
+    "majorstuen": 26
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59518",
+      "name": "Ammerud",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "31",
+          "name": "Snarøya - Fornebu - Tonsenhagen - Grorud",
+          "lineId": "RUT:Line:31"
+        },
+        {
+          "publicCode": "62",
+          "name": "Grorud T - Ammerud ring",
+          "lineId": "RUT:Line:62"
+        },
+        {
+          "publicCode": "68",
+          "name": "Helsfyr T - Grorud T via Alfaset",
+          "lineId": "RUT:Line:68"
+        },
+        {
+          "publicCode": "126",
+          "name": "Dokka-Hov-Brandbu-Oslo",
+          "lineId": "INN:Line:126"
+        },
+        {
+          "publicCode": "380",
+          "name": "Lillestrøm - Rv4 - Oslo bussterminal",
+          "lineId": "RUT:Line:380"
+        },
+        {
+          "publicCode": "390",
+          "name": "Kongskog/Hellerudhaugen - Oslo bussterminal",
+          "lineId": "RUT:Line:390"
+        },
+        {
+          "publicCode": "FB1",
+          "name": "Majorstuen via Torshov-Sagene",
+          "lineId": "NBU:Line:a7cafc59-feaf-4e61-9fa1-b7dce4ffe970"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5829",
+        "name": "Ammerud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10692",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10693",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/125848624",
+      "name": {
+        "nb": "Grorudparken"
+      },
+      "category": "park",
+      "lat": 59.957627,
+      "lon": 10.876947,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q17778604",
+      "wikipedia": {
+        "nb": "Grorudparken"
+      },
+      "summary": {
+        "nb": "Grorudparken er et parkområde anlagt langs Alna på strekningen fra Grorud senter til Hølaløkka. Anlegget ble til som en del av Groruddalssatsingen i et samarbeid mellom Vann- og avløpsetaten, Bymiljøetaten, Plan- og bygningsetaten, Byantikvaren og Bydel Grorud i perioden 2012–2014."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Groruddammen.JPG/640px-Groruddammen.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.95768,
+        "lon": 10.872577
+      },
+      "walk": {
+        "durationS": 68,
+        "distanceM": 83,
+        "polyline": "qn}lJkkjaA?BBD??HNH@FEDIDM?[E[EOGM?AUiA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/85238118",
+      "name": {
+        "nb": "Rødtvet kirke",
+        "en": "Rødtvet Church"
+      },
+      "category": "church",
+      "lat": 59.957325,
+      "lon": 10.868668,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10361402",
+      "wikipedia": {
+        "nb": "Rødtvet kirke",
+        "en": "Rødtvet Church"
+      },
+      "summary": {
+        "nb": "Rødtvet kirke er kirke i Grorud menighet i Groruddalen prosti i Oslo bispedømme. Den er bygget i 1978 som en arbeidskirke i Oslo kommune, Oslo fylke.",
+        "en": "Rødtvet Church is a church center in Oslo, Norway. There is a youth center, an elderly center, a kindergarten and offices. In addition to the church room, there are two congregation halls. The facades of the church building are in brick. On one of the exterior walls hangs a large ceramic cross, created by Konrad Galaaen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/R%C3%B8dtvet_kirke.jpg/640px-R%C3%B8dtvet_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 269,
+        "distanceM": 250,
+        "polyline": "qn}lJkkjaA?BBDA@ENRn@HTJ\\LXDIj@tATr@Rn@j@hBIDEB?FABONOLOLq@v@IF",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/108517764",
+      "name": {
+        "nb": "Grorud kirke",
+        "en": "Grorud Church"
+      },
+      "category": "church",
+      "lat": 59.957787,
+      "lon": 10.884607,
+      "score": 10,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q5610417",
+      "wikipedia": {
+        "nb": "Grorud kirke",
+        "en": "Grorud Church"
+      },
+      "summary": {
+        "nb": "Grorud kirke er en korskirke i Grorud menighet i Groruddalen prosti i Oslo bispedømme fra 1902 plassert på øvre Grorud, i bydel Grorud i Oslo kommune, Oslo fylke. Kirken ligger på en høyde og er godt synlig fra store deler av Groruddalen. Kirken ligger i Pastor Blaauws vei.",
+        "en": "Grorud Church is a cruciform church from 1902 located on the upper Grorud in Grorud in Oslo, Norway. The church is located on a hill and is visible from many parts of the Grorud Valley. The building is made of local Grorud Granite stone (Grefsensyenitt) and has 500 seats. Stone walls' uneven appearance, which gives the wall a live appearance, because the stones varies between roughly hewn uneven surface, and smooth surface. The smooth cut stones are centered on the corners and windows. Minister and landed on Linderud, Christian Pierre Mathiesen, gave the altar and baptismal silver dish to the church."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Grorud_church_1.jpg/640px-Grorud_church_1.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 886,
+        "distanceM": 988,
+        "polyline": "qn}lJkkjaA?BBDA@ENGLABcAkCIUG_@?E?m@@g@?CDODORg@Ze@Vc@PSPMSu@Uo@WSMAKBCK]wAEMCIISG[UeASeAQcASqAc@aDK{@Ca@C_@MiBGwCEiF?aAb@CJw@Lc@RYNKZEl@]OcCAM?QHAd@GRAFA?GAIAMAI@CBI@?FAAQAgCAw@C_@H?JAAcA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:relation/11365358",
+      "name": {
+        "nb": "Alungsjøen",
+        "en": "Alnsjøen"
+      },
+      "category": "park",
+      "lat": 59.967271,
+      "lon": 10.850755,
+      "score": 10,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q541968",
+      "wikipedia": {
+        "nb": "Alnsjøen",
+        "en": "Alnsjøen"
+      },
+      "summary": {
+        "nb": "Alnsjøen er et vann som ligger 237 meter over havet i Lillomarka nord i Oslo. Vannet har vært drikkevannskilde for Oslo siden 1930. Vannet er demmet opp og er regulert av Vann- og avløpsetaten (VAV). Alnsjøen har utløp til Alnaelva som renner gjennom Ammerud, og ned i Groruddalen hvor den følger Alnaparken og renner ut i Oslofjorden.",
+        "en": "Alnsjøen is a lake in Lillomarka in Oslo, Norway. The lake is drained by the Alna River to the Oslofjord. The surrounding area was utilized for copper mining during the 18th century. The lake functions as a minor water reservoir for the city of Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/2010-10-25_Ammerud.jpg/640px-2010-10-25_Ammerud.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.961672,
+        "lon": 10.858939
+      },
+      "walk": {
+        "durationS": 1141,
+        "distanceM": 1137,
+        "polyline": "qn}lJkkjaA?BBDA@ENRn@HTJ\\LXDIj@tATr@Rn@j@hBIDEB?FABKJCBOLOLDZBTHd@@`@ERQl@EZLtAAb@QTEDCFW~@Qp@KPKHI@MCIAI@WNOHMn@GHO@]D_@TQNUPWMWOGC?`@Ab@CfABL@n@@P?L?d@?HAZCV?@CZCPAPCJCDGLQTKFC@e@LWJUTSHMNGLER?LCXAF?JCL?BEL?F?NE`@CXCVIl@CTANE\\CRCPg@j@aCzBg@\\OJc@^_Ar@LbABn@C`@AB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

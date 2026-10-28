@@ -1,0 +1,135 @@
+{
+  "id": "NSR:StopPlace:58222",
+  "slug": "lindeberg",
+  "name": "Lindeberg",
+  "lat": 59.93292,
+  "lon": 10.881797,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5607"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:58221",
+        "next": "NSR:StopPlace:6197"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:6197",
+        "next": "NSR:StopPlace:58221"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 19,
+    "majorstuen": 25
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58222",
+      "name": "Lindeberg",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2B",
+          "name": "Buss for linje 2",
+          "lineId": "RUT:Line:3002"
+        },
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "26",
+          "name": "Ellingsrudåsen - Bislett",
+          "lineId": "RUT:Line:26"
+        },
+        {
+          "publicCode": "79",
+          "name": "Grorud T - Åsbråten",
+          "lineId": "RUT:Line:79"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5607",
+        "name": "Lindeberg",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10270",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10269",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/221110378",
+      "name": {
+        "nb": "Nordre Lindeberg gård"
+      },
+      "category": "attraction",
+      "lat": 59.937301,
+      "lon": 10.885311,
+      "score": 12,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q11991925",
+      "wikipedia": {
+        "nb": "Nordre Lindeberg gård"
+      },
+      "summary": {
+        "nb": "Nordre Lindeberg gård, også kjent som 4H-gården, ligger på Lindeberg i bydel Alna i Oslo. Gården eies av Oslo kommune, drives av Bymiljøetaten og har status som besøksgård."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/2007-09-02_Lindeberg_g%C3%A5rd.jpg/640px-2007-09-02_Lindeberg_g%C3%A5rd.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.936653,
+        "lon": 10.883976
+      },
+      "walk": {
+        "durationS": 442,
+        "distanceM": 542,
+        "polyline": "ysxlJsjlaAEBKFAGCOg@}AOa@AEEKCGKQGGCIIYMm@Ok@Ke@Mu@Qy@Qu@?Iq@gBCFGDMFMYKMKKGACOEIIIIGIKKSCLELIZINEJA@ILQXA?]f@GJGJEHmAlDEHENm@qD",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

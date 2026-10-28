@@ -1,0 +1,418 @@
+{
+  "id": "NSR:StopPlace:58355",
+  "slug": "vigelandsparken",
+  "name": "Vigelandsparken",
+  "lat": 59.924564,
+  "lon": 10.708159,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "15"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:4531"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58354",
+        "next": "NSR:StopPlace:58356"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58356",
+        "next": "NSR:StopPlace:58354"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "prev": "NSR:StopPlace:58356",
+        "next": "NSR:StopPlace:58354"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58354",
+        "next": "NSR:StopPlace:58356"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 16,
+    "majorstuen": 4
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58355",
+      "name": "Vigelandsparken",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        },
+        {
+          "publicCode": "20",
+          "name": "Skøyen - Galgeberg",
+          "lineId": "RUT:Line:20"
+        }
+      ]
+    },
+    {
+      "mode": "coach",
+      "stopPlaceId": "NSR:StopPlace:58355",
+      "name": "Vigelandsparken",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "VY53",
+          "name": "Markabussen Mylla",
+          "lineId": "VYX:Line:172"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:4531",
+        "name": "Vigelandsparken",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:8189",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:8190",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:frognerparken",
+      "name": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "category": "park",
+      "lat": 59.926659,
+      "lon": 10.701656,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q1126911",
+      "wikipedia": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "summary": {
+        "nb": "Frognerparken er en offentlig park i Oslo. Den tilhørte historisk Frogner Hovedgård, som har gitt navn til parken, strøket Frogner, Bydel Frogner og Frognerseteren.",
+        "en": "Frogner Park is a public park in the central West End borough of Frogner in Oslo, Norway. The park is historically part of Frogner Manor and is Oslo's largest park, open to the public at all times. It includes the manor house which is the seat of Oslo Museum, the nearby Henriette Wegner Pavilion, the Vigeland installation of sculptures created by sculptor Gustav Vigeland, Frogner Baths, Frogner stadion, Frognerparken Café, the restaurant Herregårdskroen and the largest collection of roses in the country with 14,000 plants of 150 species. Frogner Park is the most visited tourist attraction in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg/640px-NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.924564,
+        "lon": 10.708159
+      },
+      "walk": {
+        "durationS": 0,
+        "distanceM": 0,
+        "source": "estimate"
+      }
+    },
+    {
+      "id": "curated:vigelandsanlegget",
+      "name": {
+        "nb": "Vigelandsanlegget",
+        "en": "Vigeland Sculpture Park"
+      },
+      "category": "attraction",
+      "lat": 59.926903,
+      "lon": 10.701208,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q23878032",
+      "wikipedia": {
+        "nb": "Vigelandsanlegget",
+        "en": "Vigeland Installation"
+      },
+      "summary": {
+        "nb": "Vigelandsanlegget er skulpturanlegget i Frognerparken i Oslo. Skulptursamlingen ble skapt av Gustav Vigeland mellom 1920-årene og 1943 i etterkant av bruken av Frognerparken som folkepark under Jubileumsutstillingen på Frogner 1914. Skulpturanlegget dekker en stor del av, men ikke hele Frognerparken, som også omfatter herregårdsbebyggelsen Frogner Hovedgård med Bymuseet og Henriette Wegners paviljong, øvrige parkarealer, Frognerbadet, Frogner stadion, Frogner tennis og serveringssteder. Frognerparken med Vigelandsanlegget er en av Oslos – og Norges – mest besøkte attraksjoner, med over en million besøkende hvert år."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Frogner_Park_with_Vigeland_Sculpture_Arrangement.jpg/640px-Frogner_Park_with_Vigeland_Sculpture_Arrangement.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 420,
+        "distanceM": 517,
+        "polyline": "m_wlJ}lj`ACDADA@ADADABJRVh@HRM\\]OIXMp@Id@I^EP_@~AaAdEYhAs@jAaBfHY^I`@CH?DSt@AFGXIVAFKb@CJABAFCHa@TMf@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:bymuseet",
+      "name": {
+        "nb": "Oslo Museum (Bymuseet)",
+        "en": "Oslo City Museum"
+      },
+      "category": "museum",
+      "lat": 59.923918,
+      "lon": 10.703014,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q2578922",
+      "website": "https://www.oslomuseum.no/besok-oss/bymuseet/",
+      "wikipedia": {
+        "nb": "Oslo Museum",
+        "en": "Oslo City Museum"
+      },
+      "summary": {
+        "nb": "Oslo Museum er et kulturhistorisk museum i Oslo som ble opprettet 1. januar 2006 gjennom sammenslutning av tre eksisterende museer: Oslo Bymuseum, Interkulturelt Museum og Teatermuseet. Arbeidermuseet ble åpnet som del av Oslo Museum i 2013. Museets administrasjon er lokalisert sammen med Bymuseet og Teatermuseet på Frogner hovedgård i Frognerparken. I 2010 hadde museet samlet 79 888 besøkende. I 2019 ble Oslo Museum kåret til årets museum av Norges museumsforbund.",
+        "en": "Oslo City Museum is a department of Oslo Museum in Oslo, Norway since 2006. The museum is located at Frogner Manor in Frogner Park (Frognerparken)."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Oslo_Museum_logo.svg/langnb-330px-Oslo_Museum_logo.svg.png?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 317,
+        "distanceM": 370,
+        "polyline": "m_wlJ}lj`ACDADA@ADADABJRVh@HRJT|@jBP^f@fABj@Az@Ij@Ch@Il@Kj@CRI\\M~@j@r@HRDdBGBATE\\MEMv@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:skoytemuseet",
+      "name": {
+        "nb": "Skøytemuseet",
+        "en": "Skating Museum"
+      },
+      "category": "museum",
+      "lat": 59.927723,
+      "lon": 10.709451,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q12001332",
+      "website": "https://skoytemuseet.no/",
+      "wikipedia": {
+        "nb": "Skøytemuseet"
+      },
+      "summary": {
+        "nb": "Skøytemuseet har sitt opphav fra 1914 og ligger ved Frogner stadion i Oslo. Museet oppsto i sin nåværende form i 1985. Skøytemuseet inneholder i dag store prissamlinger etter både Axel Paulsen og Oscar Mathisen. Museet har også et stort utvalg av forskjellige bilder og skriftlig dokumentasjon om historien til skøyteløp og kunstløp."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Norwegian_icescating_museum.jpg/640px-Norwegian_icescating_museum.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 411,
+        "distanceM": 497,
+        "polyline": "m_wlJ}lj`ACDADA@ADADABCGm@kAIOSc@}DkIGICIiAsBQ[EIeAmBs@zB[hA}@hDQn@ABM^",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:vigelandmuseet",
+      "name": {
+        "nb": "Vigelandmuseet",
+        "en": "Vigeland Museum"
+      },
+      "category": "museum",
+      "lat": 59.92287,
+      "lon": 10.700061,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q7928869",
+      "website": "https://vigeland.museum.no/",
+      "wikipedia": {
+        "nb": "Vigelandmuseet",
+        "en": "Vigeland Museum"
+      },
+      "summary": {
+        "nb": "Vigelandmuseet ble oppført i 1920-årene av Oslo kommune som atelier, bolig og fremtidig museum for den norske billedhuggeren Gustav Vigeland (1869–1943). Her arbeidet og levde han frem til sin død. Vigelandmuseet er et av de fineste eksemplene på nyklassistisk monumentalarkitektur i Norge, ifølge Kari Hoel, professor i arkitektur ved Universitetet i Oslo. Borggården med fontene, søyleganger og skulpturer er omkranset av museets 13 utstillingssaler. Vigelandmuseet åpnet for publikum i 1947. Museet ligger ved Frognerparken i Oslo, nær Frogner Hovedgård med Bymuseet og Henriette Wegners paviljong.",
+        "en": "The Vigeland Museum is a museum dedicated to Gustav Vigeland in Frogner, Oslo. It is located outside Frogner Park, which includes the Vigeland installation with sculptures by Gustav Vigeland. Inside the park, close to Vigeland Museum, is Frogner Manor with Oslo Museum and the Henriette Wegner Pavilion, a small art gallery."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Vigelandsmuseet.JPG/640px-Vigelandsmuseet.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 425,
+        "distanceM": 538,
+        "polyline": "m_wlJ}lj`ACDADA@ADADABJRVh@HRJT|@jBP^f@fAnAlClAbCDHBHDTBXBP@R@V?H?HATALC\\Gp@a@nDMhA@?DDFD?@AV?LANAL?HEDPtBd@zCHF",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:colosseum",
+      "name": {
+        "nb": "Colosseum kino",
+        "en": "Colosseum Cinema"
+      },
+      "category": "attraction",
+      "lat": 59.92963,
+      "lon": 10.710651,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Colosseum kino",
+        "en": "Colosseum kino"
+      },
+      "summary": {
+        "nb": "Colosseum kino er Nordisk Films største kino. Kinoen ligger på Majorstuen i Oslo og har fire saler i ulike størrelser hvorav den største, «Colosseum 1», har 978 sitteplasser.",
+        "en": "The Colosseum Kino in Oslo, Norway is the largest cinema in Northern Europe and the largest THX cinema in the world. It is distinguished by its large spherical dome."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Colosseum_kino.jpg/640px-Colosseum_kino.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 705,
+        "distanceM": 813,
+        "polyline": "m_wlJ}lj`ACDADA@ADADABCGm@kAIOSc@CXk@|BAFGT?ZIB_@~@EP]j@YP[AQCKAOAg@G?KCICIGCOCg@GaBOE?e@EIWQi@Ck@MQMS[MGYIKGMIQBIKSQn@EGCIEEEI?DEDABGJEFAFiBaGMe@Qk@Uu@AAu@gCCKMa@GGCBEBINGxA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:sporveismuseet",
+      "name": {
+        "nb": "Sporveismuseet",
+        "en": "Oslo Tramway Museum"
+      },
+      "category": "museum",
+      "lat": 59.931273,
+      "lon": 10.716363,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q7107052",
+      "website": "https://www.sporveismuseet.no/",
+      "wikipedia": {
+        "nb": "Lokaltrafikkhistorisk forening",
+        "en": "Oslo Tramway Museum"
+      },
+      "summary": {
+        "nb": "Sporveismuseet i Vognhall 5 på Majorstuen viser Oslos trikke-, buss- og T-banehistorie med rundt 20 vogner fra hestesporvognen i 1875 til nyere tid. Drives av Lokaltrafikkhistorisk forening, åpent i helgene.",
+        "en": "The Oslo Tramway Museum in Vognhall 5 at Majorstuen tells the story of Oslo's trams, buses and metro with around 20 vehicles from the 1875 horse tram onwards. Run by volunteers, open at weekends."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Old_Tram_in_Oslo_TRS_050515_008.jpg/640px-Old_Tram_in_Oslo_TRS_050515_008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 987,
+        "distanceM": 1048,
+        "polyline": "m_wlJ}lj`ACDADA@ADo@uAIQGQKUKW{@iBsBiEMW_@q@kCaFCGMSMUqAgCWe@EI?CEMAGEMMYk@gAe@{@KOAECEIIGIAACEGKe@{@S]IQ]w@IS[_Ai@kBGHADCKEECAC?QZC?i@fAGLa@r@e@v@EOCMEOCM?E@GAGAIW{@Y}@ESc@yA]n@EHgAtBM@I?GEJSKc@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:bogstadveien",
+      "name": {
+        "nb": "Bogstadveien",
+        "en": "Bogstadveien"
+      },
+      "category": "attraction",
+      "lat": 59.927222,
+      "lon": 10.720278,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Bogstadveien (Oslo)",
+        "en": "Bogstadveien"
+      },
+      "summary": {
+        "nb": "Bogstadveien er en travel handlegate og innfartsåre i Oslo.",
+        "en": "Bogstadveien is a street in the district of Frogner in Oslo, Norway. It is considered a central business district and features many of the city's wide range of exclusive shops as well as entertainment, hotels and restaurants. The road is known for the frequent Farmer's Markets on weekends as well as its biannual car-free shopping events."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bogstadveien.jpg/640px-Bogstadveien.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 832,
+        "distanceM": 959,
+        "polyline": "m_wlJ}lj`A?ABE?A@EBI??GQYi@]s@CGCECGAECCaAsB?CCEEIEIACCCcBkDEMAG?ECCEKGMACCACAKWUe@qBqDEK?AAC?C?C@C@G`AsD?A@AAAEGGKAC?A?AA?@CBIBK@C@A@Cr@iCNi@DS@E@E?CAA?CEC?ACAAAC?UWm@m@?EBMBO@CCC?AAA?C?ESkE?G?C?A?C@C@AFKACCIGSACEAAAAAeDsJa@iAAC?A?C@E@Cx@{ABCBBD@??B?BCLWJSCGAAAAA?AEAEAC?EACCGDG@C?E@A@E",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/29500484",
+      "name": {
+        "nb": "Uranienborgparken",
+        "en": "Uranienborg Park"
+      },
+      "category": "park",
+      "lat": 59.921779,
+      "lon": 10.721318,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12008563",
+      "wikipedia": {
+        "nb": "Uranienborgparken"
+      },
+      "summary": {
+        "nb": "Uranienborgparken er en park på en høyde på Uranienborg i Oslo. Uranienborg kirke ligger i parken."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Uranienborgparken1.JPG/640px-Uranienborgparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.922399,
+        "lon": 10.719954
+      },
+      "walk": {
+        "durationS": 877,
+        "distanceM": 1014,
+        "polyline": "m_wlJ}lj`A?ABE?A@EBI??GQYi@]s@CGCECGAECCaAsB?C?K@K\\cAx@iCbA{CL_@`@}B@E@A@?@?@EBMDO?CMU?CAC?I?A@C@E~@mC?C@?@AAGFQDM@EDMLm@NwANBJSVNdADDAAU?EHATIJICQ?M?YEOCMKs@EUCMHSNYT[FM?C@S@Q?CH@F@D?Zq@LW@G?E?IAGAEEOO_@B[@Q@?@?@A@A@ABK~@qC?C@AAC@CDIBK@A??@?@A@CfAeD?C?AYo@gA{B_@hA",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

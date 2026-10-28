@@ -1,0 +1,135 @@
+{
+  "id": "NSR:StopPlace:59895",
+  "slug": "avlos",
+  "name": "Avløs",
+  "lat": 59.914026,
+  "lon": 10.550276,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2",
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:3963"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Avløs",
+        "prev": "NSR:StopPlace:58282"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "next": "NSR:StopPlace:58282"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:4007",
+        "next": "NSR:StopPlace:58282"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58282",
+        "next": "NSR:StopPlace:4007"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 27,
+    "majorstuen": 22
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59895",
+      "name": "Avløs",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "220",
+          "name": "Sandvika - Bekkestua",
+          "lineId": "RUT:Line:220"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:3963",
+        "name": "Avløs",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:7132",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:7131",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/27945653",
+      "name": {
+        "nb": "Dælivannet"
+      },
+      "category": "park",
+      "lat": 59.921325,
+      "lon": 10.5405,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q1778496",
+      "wikipedia": {
+        "nb": "Dælivannet",
+        "en": "Dælivannet"
+      },
+      "summary": {
+        "nb": "Dælivannet er et vann som ligger rett øst for Kolsås i Bærum kommune i Akershus. I vannet finnes abbor, gjedde, mort og karuss.",
+        "en": "Dælivannet is a lake in Bærum, Akershus county, Norway. It lies just beneath the Kolsås hill on the East side. The lake contains perch and pike and has a rich bird life."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/D%C3%A6livannet.jpg/640px-D%C3%A6livannet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.919256,
+        "lon": 10.543525
+      },
+      "walk": {
+        "durationS": 1140,
+        "distanceM": 1178,
+        "polyline": "s}tlJgrk_AF\\`@zBF\\Lt@ILOJMF_@By@?u@TSF_@H_Dn@}@Hs@Eq@Kg@GMHGFALCN?XFXLr@h@zBNv@RbAe@p@g@h@k@x@Q`@Yr@EHUd@Yp@a@l@Hn@?t@D`APl@X\\dAxA]|DOIk@A_@?_@BcAVaAsBe@[]e@]cAeA_AAA",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

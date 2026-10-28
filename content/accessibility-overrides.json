@@ -1,0 +1,3 @@
+{
+  "$comment": "Kuraterte tilgjengelighetsdata per stopp-slug når Nasjonalt stoppestedsregister mangler data. Verdier: TRUE | FALSE | PARTIAL | UNKNOWN. Felt: wheelchairAccess, stepFreeAccess, liftFreeAccess, escalatorFreeAccess."
+}

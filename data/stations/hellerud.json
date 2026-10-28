@@ -1,0 +1,142 @@
+{
+  "id": "NSR:StopPlace:58198",
+  "slug": "hellerud",
+  "name": "Hellerud",
+  "lat": 59.910298,
+  "lon": 10.830996,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2",
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6140"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:59517",
+        "next": "NSR:StopPlace:58197"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58197",
+        "next": "NSR:StopPlace:59517"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58197",
+        "next": "NSR:StopPlace:5968"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:5968",
+        "next": "NSR:StopPlace:58197"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 12,
+    "majorstuen": 18
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58198",
+      "name": "Hellerud",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2B",
+          "name": "Buss for linje 2",
+          "lineId": "RUT:Line:3002"
+        },
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "76",
+          "name": "Helsfyr T - Mortensrud T",
+          "lineId": "RUT:Line:76"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6140",
+        "name": "Hellerud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11274",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11273",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/575896567",
+      "name": {
+        "nb": "Søndre Skøyen kapell",
+        "en": "Søndre Skøyen Chapel"
+      },
+      "category": "church",
+      "lat": 59.904319,
+      "lon": 10.830069,
+      "score": 6,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10421534",
+      "wikipedia": {
+        "nb": "Søndre Skøyen kapell"
+      },
+      "summary": {
+        "nb": "Søndre Skøyen kapell er en arbeidskirke fra 1980. Den ligger like ved Søndre Skøyen gård i Bydel Østensjø i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Sondre_Skoyen_kapell_-_2010.JPG/640px-Sondre_Skoyen_kapell_-_2010.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 681,
+        "distanceM": 747,
+        "polyline": "iftlJolbaA@ADAn@QAJAT@RHORa@DEPMBGDBZBFBJFDFHVDNJnAd@@HBLDTNJHBDTZFHd@v@NVVb@NPHFNJJDN@B@\\@X@n@@L?R?tAF`@B~@@J?TAVC`AMt@ID?FAj@GB?FA`@GB@p@EHMFE@G?S?MR?RC",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

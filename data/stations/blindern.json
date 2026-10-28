@@ -1,0 +1,153 @@
+{
+  "id": "NSR:StopPlace:6332",
+  "slug": "blindern",
+  "name": "Blindern",
+  "lat": 59.940205,
+  "lon": 10.716174,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6332"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:59600",
+        "next": "NSR:StopPlace:58381"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58381",
+        "next": "NSR:StopPlace:59600"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59600",
+        "next": "NSR:StopPlace:58381"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58381",
+        "next": "NSR:StopPlace:59600"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 9,
+    "majorstuen": 4
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6332",
+        "name": "Blindern",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11635",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11636",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:barnekunstmuseet",
+      "name": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "category": "museum",
+      "lat": 59.935755,
+      "lon": 10.711526,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q11960263",
+      "website": "https://barnekunst.no/",
+      "wikipedia": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "summary": {
+        "nb": "Det Internasjonale barnekunstmuseet er et museum for barnetegninger og annen barnekunst. Museets oppgave er å samle, bevare og formidle kunst fra hele verden laget av barn og unge opptil 18 år."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Barnekunstmuseet.jpg/640px-Barnekunstmuseet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 484,
+        "distanceM": 640,
+        "polyline": "cazlJm_l`AAA?ADGHq@J}@F_@BI@ADCD?F@^V`Ap@`@Vb@XBF@H?PET@NDPDFf@h@p@|@l@bAd@|@Zv@b@lAZfAZtATt@b@`Ab@r@b@j@h@d@XPb@R\\H^Df@AJ?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/114706150",
+      "name": {
+        "nb": "Vestre Aker kirke",
+        "en": "Vestre Aker Church"
+      },
+      "category": "church",
+      "lat": 59.936655,
+      "lon": 10.729338,
+      "score": 10,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q4343578",
+      "wikipedia": {
+        "nb": "Vestre Aker kirke",
+        "en": "Vestre Aker Church"
+      },
+      "summary": {
+        "nb": "Vestre Aker kirke er sognekirke for Bakkehaugen, Majorstuen og Vestre aker menighet og prostesete for Vestre Aker prosti i Oslo bispedømme i Bydel St. Hanshaugen i Oslo kommune. Den ligger på Kalvehaugen på Ullevål i Oslo med gateadresse Ullevålsveien 117 i Bydel St. Hanshaugen.",
+        "en": "Vestre Aker Church is a church at Ullevaal in Oslo that was consecrated in 1855. The church was at first named Aker Church, but was renamed to Vestre Aker Church in 1861."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/VestreAkerKirke.JPG/640px-VestreAkerKirke.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1018,
+        "distanceM": 1153,
+        "polyline": "cazlJm_l`AAA?ADGHq@J}@F_@BIBQBK@M@O?G?Gx@}GDOJO^Ob@KVSLUt@cBXu@tA_DLING?E@E@EFGJOLSLULSLWNYR_@NYn@}AN_@N[DKPa@HSHSDWBIDMDOf@wADODOJY@GBGFKEQEOR_@lA{BFMJSLSHULYHUHYFWJe@Je@DSDSDUDa@D]LmAHu@NuAaAe@eAe@_A_@a@OIAKCGAOTi@`@BiB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "NSR:StopPlace:58250",
+  "slug": "hoyenhall",
+  "name": "Høyenhall",
+  "lat": 59.9065,
+  "lon": 10.819554,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "1",
+    "4"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5935"
+  ],
+  "neighbours": {
+    "1": [
+      {
+        "directionType": "outbound",
+        "towards": "Frognerseteren",
+        "prev": "NSR:StopPlace:58249",
+        "next": "NSR:StopPlace:58197"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58197",
+        "next": "NSR:StopPlace:58249"
+      }
+    ],
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58197",
+        "next": "NSR:StopPlace:58249"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58249",
+        "next": "NSR:StopPlace:58197"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 10,
+    "majorstuen": 16
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58250",
+      "name": "Høyenhall",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "3N",
+          "name": "Jernbanetorget - Skullerud T",
+          "lineId": "RUT:Line:3903"
+        },
+        {
+          "publicCode": "4B",
+          "name": "Buss for linje 4",
+          "lineId": "RUT:Line:3004"
+        },
+        {
+          "publicCode": "4N",
+          "name": "Jernbanetorget - Bergkrystallen T",
+          "lineId": "RUT:Line:3904"
+        },
+        {
+          "publicCode": "23",
+          "name": "Lysaker - Simensbråten",
+          "lineId": "RUT:Line:23"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:5939",
+      "name": "Bryn senter",
+      "distanceM": 217,
+      "lines": [
+        {
+          "publicCode": "78A",
+          "name": "Østensjø ring",
+          "lineId": "RUT:Line:78"
+        },
+        {
+          "publicCode": "78B",
+          "name": "Østensjø ring",
+          "lineId": "RUT:Line:2078"
+        }
+      ]
+    },
+    {
+      "mode": "rail",
+      "stopPlaceId": "NSR:StopPlace:61897",
+      "name": "Bryn stasjon",
+      "distanceM": 296,
+      "lines": [
+        {
+          "publicCode": "L1",
+          "name": "Spikkestad-Oslo S-Lillestrøm",
+          "lineId": "VYG:Line:L1"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5935",
+        "name": "Høyenhall",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10883",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10882",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/158006633",
+      "name": {
+        "nb": "Etterstadparken"
+      },
+      "category": "park",
+      "lat": 59.910126,
+      "lon": 10.799218,
+      "score": 10.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q23042769",
+      "wikipedia": {
+        "nb": "Etterstadparken"
+      },
+      "summary": {
+        "nb": "Etterstadparken er en park i bydel Gamle Oslo. Den ble anlagt som kjerne i boligstrøket Etterstad, som ble anlagt med frittstående lavblokker i siksakkmønster i 1940- og 50-årene. Store grønne områder mellom bygningene går over i parken. Dette dannet mønster for senere drabantbyer."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Etterstadparken_midtpart_sett_mot_nord%C3%B8st.jpg/640px-Etterstadparken_midtpart_sett_mot_nord%C3%B8st.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.908329,
+        "lon": 10.803153
+      },
+      "walk": {
+        "durationS": 982,
+        "distanceM": 1200,
+        "polyline": "snslJge`aAQFURC@CHAHALCDEDEFCDCKC?E@EB??a@TC@I?A?C@IDCDCHCFANCVAXEx@Ex@Cl@Ef@E^EPCPGRIPIPA@GJEFe@h@c@f@GLCFF`@BP@P@LALCHAHCFGLCBIJ@B@H@F@DKHSVOXMVKVCHCLENKl@I`@Gf@E\\EVCVAXA^AJ?F@d@?D@V@L@F@HA@CDEF??A@A@?FALCfBAj@AZ?XAh@?XAZG`BAf@A`@CTATAR?TAV?d@?N?P?D@DBBDD@@CZAPAV?@Az@?VE`BCh@GbAK|@Er@GAALCXCXC^A^CZAf@A\\Ad@?\\?\\?p@@hAD`CBA@?B?D?D?LATAR?H?L@JBRDPFRHRLFDRPDHFHAFADADAHDFBH",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/575896567",
+      "name": {
+        "nb": "Søndre Skøyen kapell",
+        "en": "Søndre Skøyen Chapel"
+      },
+      "category": "church",
+      "lat": 59.904319,
+      "lon": 10.830069,
+      "score": 6,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10421534",
+      "wikipedia": {
+        "nb": "Søndre Skøyen kapell"
+      },
+      "summary": {
+        "nb": "Søndre Skøyen kapell er en arbeidskirke fra 1980. Den ligger like ved Søndre Skøyen gård i Bydel Østensjø i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Sondre_Skoyen_kapell_-_2010.JPG/640px-Sondre_Skoyen_kapell_-_2010.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 923,
+        "distanceM": 960,
+        "polyline": "snslJge`aAB?@CROHKDEBCB?@@?B?B?BCFIFELIHA@A@C?C@C?CAC?CCAACCAECECGAGAGAGAEAG?GAE?E?K?QAk@DMFKFGBCBMFCFELQFSHU@IDWBOXoBDY@IAQAMAKEWGOEKEMS[QS}AuB[_@S]COIm@Ce@Cq@Cu@?ODYBMDMHUTc@HMRUDG\\[|@{@TUZc@Zs@V{@H[BIHg@F_@Da@BUFkA?m@?]GoDt@ID?FAj@GB?FA`@GB@p@EHMFE@G?S?MR?RC",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

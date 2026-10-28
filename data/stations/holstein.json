@@ -1,0 +1,105 @@
+{
+  "id": "NSR:StopPlace:59765",
+  "slug": "holstein",
+  "name": "Holstein",
+  "lat": 59.960666,
+  "lon": 10.739865,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6205"
+  ],
+  "neighbours": {
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59706",
+        "next": "NSR:StopPlace:6196"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:6196",
+        "next": "NSR:StopPlace:59706"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 16,
+    "majorstuen": 11
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6205",
+        "name": "Holstein",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11389",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11388",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/150567480",
+      "name": {
+        "nb": "Nordberg kirke",
+        "en": "Nordberg Church"
+      },
+      "category": "church",
+      "lat": 59.963001,
+      "lon": 10.742593,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10358207",
+      "wikipedia": {
+        "nb": "Nordberg kirke (Oslo)",
+        "en": "Nordberg Church (Oslo)"
+      },
+      "summary": {
+        "nb": "Nordberg kirke er soknekirke for Nordberg menighet i Vestre Aker prosti i Oslo bispedømme i Bydel Nordre Aker i Oslo kommune. Den ligger på Nordberg i Oslo og er en sekskantet kirke med 620 sitteplasser. Kirken sto ferdig i 1962 og ble restaurert og utvidet med en kirkestue i 1982. Fasaden er i hvitslammet tegl og har et karakteristisk tårn som kan ses fra store deler av Oslo. Nordberg menighet ble opprettet i 1946. Før kirken ble bygget holdt menigheten til i et kapell kalt \"tømmerhuset\" som ligger rett nedenfor kirken. Etter at det permanente kirkebygget sto ferdig, ble \"tømmerhuset\" omdøpt til \"ungdomshuset\" og brukes i dag av Nordberg menighets barnehage.",
+        "en": "Nordberg Church is a hexagonal church, located in the neighbourhood of Nordberg in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Nordberg_Kirke.jpg/640px-Nordberg_Kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 461,
+        "distanceM": 476,
+        "polyline": "ea~lJcsp`AG`@[dBA@A@MK?E?Cb@aC_AaAACCEUa@]Uq@[C?CAE?A?@s@Bi@AMAIAECEKMEI?AGKOc@GECAGAs@@?ECKAOACMJ]`@C@a@d@UVI@GCCC?EACEMBEBS?i@QyB",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

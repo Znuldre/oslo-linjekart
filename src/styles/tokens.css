@@ -1,0 +1,205 @@
+/* ==========================================================================
+   Ruter designtokens – basert på Ruters designsystem
+   Kilder: merkevarefarger, digitale UI-farger (ink/fill/tint), TID-typeskala
+   (Alfa–Lima, 4px baseline), 4px geometrisk spacing.
+   Alle tekst/bakgrunn-par er kontrastberegnet til WCAG 2.1 AA (≥ 4,5:1).
+   ========================================================================== */
+
+:root {
+  /* ---- Merkevare ---- */
+  --ruter-red: #e60000;
+  --ruter-blue-500: #313663;
+  --deep-blue: #25103a;
+
+  /* ---- Ink (tekst/ikoner) ---- */
+  --ink-primary: #25103a;   /* 15,9:1 på hvit */
+  --ink-secondary: #625371; /* 7,0:1 på hvit */
+  --ink-tertiary: #786b85;  /* 5,0:1 på hvit – kun hint/metadata */
+  --ink-inverse: #ffffff;
+
+  /* ---- Flater ---- */
+  --bg-page: #ffffff;
+  --bg-soft: #faf9f8;       /* Beach */
+  --bg-fill: #f4f2f7;       /* avledet deep blue-fill */
+  --bg-fill-strong: #eae6f0;
+  --border: #ddd8e3;
+  --border-strong: #b5abc2;
+
+  /* ---- Interaksjon ---- */
+  --action: #313663;        /* lenker, interaktive elementer – 12,2:1 på hvit */
+  --action-hover: #25103a;
+  --focus-ring: #313663;
+
+  /* ---- Knapper ---- */
+  --btn-primary-bg: #25103a;
+  --btn-primary-ink: #ffffff;
+  --btn-primary-bg-hover: #3d2757;
+  --btn-secondary-ink: #25103a;
+  --btn-secondary-border: #25103a;
+  --btn-secondary-bg-hover: #f4f2f7;
+
+  /* ---- Status (tint) ---- */
+  --error-ink: #d00000;     /* 5,7:1 på hvit */
+  --error-surface: #fce6e6; /* Flamingo */
+  --success-ink: #056a49;   /* 6,6:1 på hvit */
+  --success-surface: #dff4ea; /* Mint */
+  --warning-ink: #6b4e00;
+  --warning-surface: #fff4cd; /* Cream */
+
+  /* ---- Dekorflater (kampanje/illustrasjon) ---- */
+  --surface-lavender: #f1ebff;
+  --surface-sky: #e1f4ff;
+  --surface-mint: #dff4ea;
+  --surface-flamingo: #fce6e6;
+  --surface-cream: #fff4cd;
+  --surface-champagne: #ffefe2;
+
+  /* ---- Illustrasjonspalett ---- */
+  --ill-blue-800: #25103a;
+  --ill-coral: #fd4444;
+  --ill-candy: #e8a9a0;
+  --ill-lilac: #b7c1fc;
+  --ill-earth: #f9f6f0;
+
+  /* ---- Typografi: TID-skalaen (px / line-height px) ---- */
+  --fs-alfa: 0.875rem;    --lh-alfa: 1.25rem;   /* 14/20 */
+  --fs-bravo: 1rem;       --lh-bravo: 1.5rem;   /* 16/24 */
+  --fs-charlie: 1.125rem; --lh-charlie: 1.75rem;/* 18/28 */
+  --fs-delta: 1.3125rem;  --lh-delta: 1.75rem;  /* 21/28 */
+  --fs-echo: 1.5rem;      --lh-echo: 2rem;      /* 24/32 */
+  --fs-foxtrot: 1.75rem;  --lh-foxtrot: 2rem;   /* 28/32 */
+  --fs-golf: 2rem;        --lh-golf: 2.25rem;   /* 32/36 */
+  --fs-hotel: 2.1875rem;  --lh-hotel: 2.5rem;   /* 35/40 */
+  --fs-india: 2.4375rem;  --lh-india: 2.75rem;  /* 39/44 */
+  --fs-juliet: 2.625rem;  --lh-juliet: 3rem;    /* 42/48 */
+  --fs-kilo: 3rem;        --lh-kilo: 3.5rem;    /* 48/56 */
+  --fs-lima: 3.375rem;    --lh-lima: 3.75rem;   /* 54/60 */
+
+  --fw-normal: 400;
+  --fw-medium: 500;
+  /* TID UI er offentlig tilgjengelig i 400/500; 500 brukes som utheving */
+  --fw-bold: 500;
+
+  /* ---- Spacing: 4px-basert geometrisk skala ---- */
+  --space-2xs: 0.25rem;  /* 4 */
+  --space-xs: 0.5rem;    /* 8 */
+  --space-sm: 0.75rem;   /* 12 */
+  --space-md: 1rem;      /* 16 */
+  --space-lg: 1.5rem;    /* 24 */
+  --space-xl: 2rem;      /* 32 */
+  --space-2xl: 3rem;     /* 48 */
+  --space-3xl: 4rem;     /* 64 */
+  --space-4xl: 6rem;     /* 96 */
+
+  /* ---- Form ---- */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --shadow-card: 0 1px 3px rgba(37, 16, 58, 0.08), 0 4px 16px rgba(37, 16, 58, 0.06);
+  --shadow-raised: 0 4px 12px rgba(37, 16, 58, 0.12), 0 12px 32px rgba(37, 16, 58, 0.10);
+
+  --content-width: 72rem;   /* 1152px */
+  --content-narrow: 46rem;  /* 736px – leselinjer under 80 tegn */
+
+  color-scheme: light;
+}
+
+/* ==========================================================================
+   Mørk modus. Aktiveres av data-theme="dark", eller av systempreferanse
+   når brukeren ikke har valgt selv (data-theme mangler/er "auto").
+   ========================================================================== */
+
+[data-theme="dark"] {
+  --ink-primary: #f3f0f7;    /* 16,6:1 på bg-page */
+  --ink-secondary: #c6bdd3;  /* 10,3:1 */
+  --ink-tertiary: #9a8fab;   /* 6,1:1 */
+  --ink-inverse: #25103a;
+
+  --bg-page: #170e20;
+  --bg-soft: #1d1229;
+  --bg-fill: #281b3a;
+  --bg-fill-strong: #342547;
+  --border: #3f3053;
+  --border-strong: #5c4d70;
+
+  --action: #b7c1fc;         /* Lilac – 10,7:1 på bg-page */
+  --action-hover: #d3d9ff;
+  --focus-ring: #b7c1fc;
+
+  --btn-primary-bg: #f3f0f7;
+  --btn-primary-ink: #25103a;
+  --btn-primary-bg-hover: #ffffff;
+  --btn-secondary-ink: #f3f0f7;
+  --btn-secondary-border: #c6bdd3;
+  --btn-secondary-bg-hover: #281b3a;
+
+  --error-ink: #ff7a7a;
+  --error-surface: #3a2026;
+  --success-ink: #4cc993;
+  --success-surface: #14312a;
+  --warning-ink: #e8c56a;
+  --warning-surface: #3a3012;
+
+  --surface-lavender: #2b2347;
+  --surface-sky: #16283a;
+  --surface-mint: #14312a;
+  --surface-flamingo: #3a2026;
+  --surface-cream: #3a3012;
+  --surface-champagne: #3a2b1e;
+
+  --ill-earth: #281b3a;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-raised: 0 4px 12px rgba(0, 0, 0, 0.5), 0 12px 32px rgba(0, 0, 0, 0.4);
+
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
+    --ink-primary: #f3f0f7;
+    --ink-secondary: #c6bdd3;
+    --ink-tertiary: #9a8fab;
+    --ink-inverse: #25103a;
+
+    --bg-page: #170e20;
+    --bg-soft: #1d1229;
+    --bg-fill: #281b3a;
+    --bg-fill-strong: #342547;
+    --border: #3f3053;
+    --border-strong: #5c4d70;
+
+    --action: #b7c1fc;
+    --action-hover: #d3d9ff;
+    --focus-ring: #b7c1fc;
+
+    --btn-primary-bg: #f3f0f7;
+    --btn-primary-ink: #25103a;
+    --btn-primary-bg-hover: #ffffff;
+    --btn-secondary-ink: #f3f0f7;
+    --btn-secondary-border: #c6bdd3;
+    --btn-secondary-bg-hover: #281b3a;
+
+    --error-ink: #ff7a7a;
+    --error-surface: #3a2026;
+    --success-ink: #4cc993;
+    --success-surface: #14312a;
+    --warning-ink: #e8c56a;
+    --warning-surface: #3a3012;
+
+    --surface-lavender: #2b2347;
+    --surface-sky: #16283a;
+    --surface-mint: #14312a;
+    --surface-flamingo: #3a2026;
+    --surface-cream: #3a3012;
+    --surface-champagne: #3a2b1e;
+
+    --ill-earth: #281b3a;
+
+    --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.3);
+    --shadow-raised: 0 4px 12px rgba(0, 0, 0, 0.5), 0 12px 32px rgba(0, 0, 0, 0.4);
+
+    color-scheme: dark;
+  }
+}

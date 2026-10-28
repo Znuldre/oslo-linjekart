@@ -1,0 +1,148 @@
+{
+  "id": "NSR:StopPlace:58280",
+  "slug": "jar",
+  "name": "Jar",
+  "lat": 59.926162,
+  "lon": 10.619059,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2",
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:3659"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Avløs",
+        "prev": "NSR:StopPlace:58279",
+        "next": "NSR:StopPlace:63808"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:63808",
+        "next": "NSR:StopPlace:58279"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:63808",
+        "next": "NSR:StopPlace:58279"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58279",
+        "next": "NSR:StopPlace:63808"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 19,
+    "majorstuen": 14
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:3657",
+      "name": "Jar bru",
+      "distanceM": 260,
+      "lines": [
+        {
+          "publicCode": "140",
+          "name": "Bekkestua - Østerås - Skøyen",
+          "lineId": "RUT:Line:140"
+        },
+        {
+          "publicCode": "140E",
+          "name": "Hosle - Nationaltheatret",
+          "lineId": "RUT:Line:2840"
+        },
+        {
+          "publicCode": "140N",
+          "name": "Nationaltheatret - Bekkestua",
+          "lineId": "RUT:Line:3140"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:3659",
+        "name": "Jar",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:6521",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:6522",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/27662030",
+      "name": {
+        "nb": "Øvrevoll galoppbane",
+        "en": "Øvrevoll Galoppbane"
+      },
+      "category": "attraction",
+      "lat": 59.938051,
+      "lon": 10.619376,
+      "score": 11,
+      "tier": "A",
+      "source": "osm",
+      "wikidata": "Q1782457",
+      "wikipedia": {
+        "nb": "Øvrevoll Galoppbane",
+        "en": "Øvrevoll Galoppbane"
+      },
+      "summary": {
+        "nb": "Øvrevoll Galoppbane er Norges eneste galoppbane, og ligger på Eiksmarka i Bærum.",
+        "en": "Øvrevoll Galoppbane is the only gallop racecourse in Norway. It is located at Øvrevoll between Østerås (west), Jar (south) and Eiksmarka (north) in Bærum. It has both a turf track and an all-weather track. It was officially opened in 1932 by King Haakon VII and Queen Maud."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/%C3%98vrevoll_Galoppbane_1939.jpg/640px-%C3%98vrevoll_Galoppbane_1939.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.933718,
+        "lon": 10.619059
+      },
+      "walk": {
+        "durationS": 1062,
+        "distanceM": 1121,
+        "polyline": "miwlJo_y_ABZCDGOc@eAIQKWEK?CACAGACAA?JALCIGOAI?GCKOaAEWEOCKEGIMIOUWECECIIMKKICCiA_@K@KBKBGCIOSWWIYI]C_@Ao@Da@LSJa@^KNGLKLIJGJKEqAnAEDIb@MRCLECKGGACXEZGXQn@EPAJCP?DE\\CXCXCZQAUA_@?iAAa@KKC]Sm@e@oBaBo@k@u@y@yBeCUUCnAItBE|B",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

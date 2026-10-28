@@ -1,0 +1,133 @@
+{
+  "id": "NSR:StopPlace:58304",
+  "slug": "ljabru",
+  "name": "Ljabru",
+  "lat": 59.853464,
+  "lon": 10.801186,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "13",
+    "19"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6694"
+  ],
+  "neighbours": {
+    "13": [
+      {
+        "directionType": "outbound",
+        "towards": "Thune",
+        "next": "NSR:StopPlace:58303"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58303"
+      }
+    ],
+    "19": [
+      {
+        "directionType": "inbound",
+        "towards": "Ljabru",
+        "prev": "NSR:StopPlace:58303"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "next": "NSR:StopPlace:58303"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 20,
+    "majorstuen": 35
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58304",
+      "name": "Ljabru",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "19N",
+          "name": "Kringsjå - Åsbråten",
+          "lineId": "RUT:Line:3919"
+        },
+        {
+          "publicCode": "79",
+          "name": "Grorud T - Åsbråten",
+          "lineId": "RUT:Line:79"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6694",
+        "name": "Ljabru",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:12369",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:12368",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/25615934",
+      "name": {
+        "nb": "Nordstrand kirke",
+        "en": "Nordstrand Church"
+      },
+      "category": "church",
+      "lat": 59.859282,
+      "lon": 10.802767,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10359282",
+      "wikipedia": {
+        "nb": "Nordstrand kirke",
+        "en": "Nordstrand Church"
+      },
+      "summary": {
+        "nb": "Nordstrand kirke er soknekirke for Nordstrand menighet i Søndre Aker prosti i Oslo bispedømme i Bydel Nordstrand i Oslo kommune. Den er en langkirke fra 1866 på Nordstrand i Oslo.",
+        "en": "Nordstrand Church is a church in Oslo, Norway. The church was consecrated in 1866 as Østre Aker Chapel and was later renamed Sæter Chapel. In 1905 the Nordstrand congregation was established, and the following year the church changed its name again to Nordstrand Church. The church was built in red brick in neo-Gothic style by architect Jacob Wilhelm Nordan. In 1886 a sacristy was added, and in 1935 it was extended and given a new church tower to the west, drawn by architect Georg Greve. The last and largest expansion took place in 2014 to 2015. Then the church was extended 26 meters to the east and the church congregation got new facilities in the basement. The number of seats in the church room was increased from approx. 300 to 480. Architects for the remodeling work were Are Meinich and Trine-Lise Sonne. The church was reconsecrated on Sunday, August 23, 2015, by bishop of Oslo Ole Christian Kvarme."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Nordstrand_kirke_20081026-2.jpg/640px-Nordstrand_kirke_20081026-2.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 664,
+        "distanceM": 743,
+        "polyline": "_cilJgr|`A@IGM]_@]a@KMIIUUQUMKGGIEMGCAGAIAEAG?C?E?G?IBIBIBy@VkA`@_A\\i@RGBYJWHy@VQDMDKBK@K?K?IAKAIAIAe@Im@IICUC?E@M@Q?CEAc@Ia@CCEWEEAACACAGAG?OA?C?E?A?Aw@EAGEMMMKKGMEIAMAUA[BMVWLK@I_ACQ",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

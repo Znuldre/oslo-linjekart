@@ -1,0 +1,155 @@
+{
+  "id": "NSR:StopPlace:5922",
+  "slug": "rislokka",
+  "name": "Risløkka",
+  "lat": 59.932473,
+  "lon": 10.822987,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5922"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:59704",
+        "next": "NSR:StopPlace:58194"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58194",
+        "next": "NSR:StopPlace:59704"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:58194",
+        "next": "NSR:StopPlace:59704"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:59704",
+        "next": "NSR:StopPlace:58194"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 23,
+    "majorstuen": 18
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:5925",
+      "name": "Risløkkalléen",
+      "distanceM": 260,
+      "lines": [
+        {
+          "publicCode": "5N",
+          "name": "Jernbanetorget - Vestli T",
+          "lineId": "RUT:Line:3905"
+        },
+        {
+          "publicCode": "67",
+          "name": "Økern-Lørenskog sentrum",
+          "lineId": "RUT:Line:67"
+        },
+        {
+          "publicCode": "126",
+          "name": "Dokka-Hov-Brandbu-Oslo",
+          "lineId": "INN:Line:126"
+        },
+        {
+          "publicCode": "345",
+          "name": "Vestvollen - Økern",
+          "lineId": "RUT:Line:345"
+        },
+        {
+          "publicCode": "FB3",
+          "name": "Radiumhospitalet via Økern-Storo-Tåsen",
+          "lineId": "NBU:Line:cb7b555c-f96e-42d5-84bf-a5e08c0145c2"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5922",
+        "name": "Risløkka",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10861",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10863",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/81574141",
+      "name": {
+        "nb": "Bjerkedalen park"
+      },
+      "category": "park",
+      "lat": 59.938773,
+      "lon": 10.821154,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q15062005",
+      "wikipedia": {
+        "nb": "Bjerkedalen park"
+      },
+      "summary": {
+        "nb": "Bjerkedalen park er en bydelspark i Bydel Bjerke i Oslo. Parken ble offisielt åpnet av byråd Bård Folke Fredriksen den 11. oktober 2013."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Bjerkedalen_med_bro.JPG/640px-Bjerkedalen_med_bro.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.937138,
+        "lon": 10.822987
+      },
+      "walk": {
+        "durationS": 882,
+        "distanceM": 1029,
+        "polyline": "cqxlJmz`aA?AA@m@yDEBGQKWWi@Cq@@o@AAC]C[s@oEM{@Qw@w@oBAC?EAEAEAEAEAAKPGLGFILKLA?WTUTWPIFkAp@_@PC@A?CCACAEA?EBEBA@?JCFA@[L]Na@Ns@NIBUAG?C?_@FCDC@EBGFEBC@]FG?ICEGEIEKA?E@E@A?C@E@E?A@ADCPINCBe@F?J@J?J?BO@_@D_@BC?@ZJ@FFBJ@J?LUhAKVO?Sh@?hABxBBHP`@HJFJZXHJFJFJFPFN\\YMy@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "id": "NSR:StopPlace:58272",
+  "slug": "borgen",
+  "name": "Borgen",
+  "lat": 59.93464,
+  "lon": 10.696102,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2",
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6490"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:58381",
+        "next": "NSR:StopPlace:58273"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58273",
+        "next": "NSR:StopPlace:58381"
+      }
+    ],
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58273",
+        "next": "NSR:StopPlace:58381"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58381",
+        "next": "NSR:StopPlace:58273"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 8,
+    "majorstuen": 3
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58272",
+      "name": "Borgen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        },
+        {
+          "publicCode": "28",
+          "name": "Fornebu vest - Økern T",
+          "lineId": "RUT:Line:28"
+        },
+        {
+          "publicCode": "45",
+          "name": "Majorstuen - Voksen skog",
+          "lineId": "RUT:Line:45"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6490",
+        "name": "Borgen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11932",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11933",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:frognerparken",
+      "name": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "category": "park",
+      "lat": 59.926659,
+      "lon": 10.701656,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q1126911",
+      "wikipedia": {
+        "nb": "Frognerparken",
+        "en": "Frogner Park"
+      },
+      "summary": {
+        "nb": "Frognerparken er en offentlig park i Oslo. Den tilhørte historisk Frogner Hovedgård, som har gitt navn til parken, strøket Frogner, Bydel Frogner og Frognerseteren.",
+        "en": "Frogner Park is a public park in the central West End borough of Frogner in Oslo, Norway. The park is historically part of Frogner Manor and is Oslo's largest park, open to the public at all times. It includes the manor house which is the seat of Oslo Museum, the nearby Henriette Wegner Pavilion, the Vigeland installation of sculptures created by sculptor Gustav Vigeland, Frogner Baths, Frogner stadion, Frognerparken Café, the restaurant Herregårdskroen and the largest collection of roses in the country with 14,000 plants of 150 species. Frogner Park is the most visited tourist attraction in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg/640px-NOR-2016-Frogner_Park-Vigeland_Installation-View_from_the_monolith.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.930489,
+        "lon": 10.696102
+      },
+      "walk": {
+        "durationS": 514,
+        "distanceM": 640,
+        "polyline": "m~xlJqah`AJgAB_@PoCB[??@@PH??@MBY@C@?D?@MFOBADCDFBH?JZb@@Bx@jAJPdA~Ah@In@\\LI\\E^Kn@g@l@aCl@gCz@fAJNdAbBdAbB`@j@PT",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:villa-stenersen",
+      "name": {
+        "nb": "Villa Stenersen",
+        "en": "Villa Stenersen"
+      },
+      "category": "museum",
+      "lat": 59.939263,
+      "lon": 10.69867,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q14375801",
+      "website": "https://www.nasjonalmuseet.no/besok/visningssteder/villa-stenersen/",
+      "wikipedia": {
+        "nb": "Villa Stenersen",
+        "en": "Villa Stenersen"
+      },
+      "summary": {
+        "nb": "Villa Stenersen i Tuengen allé 10c i Oslo er tegnet av arkitekt Arne Korsmo og ble bygget i 1937–1939 for finansmannen, kunstsamleren og forfatteren Rolf Stenersen og hans familie. Huset skulle tjene både som bolig og som ramme for den store kunstsamlingen, og regnes som ett av hovedverkene i norsk funksjonalisme.",
+        "en": "Villa Stenersen in Oslo was designed by architect Arne Korsmo for the financier, art collector and author Rolf Stenersen and his family in 1939. The house was intended to serve both as a residence and as a gallery for his large art collection, and is considered as one of the main works of architecture in the Norwegian functionalist style. It is also the only Norwegian member of Iconic Houses. It is currently undergoing restoration headed by Statsbygg, in collaboration with the National Gallery and the Stenersen family. The villa is operated by the National Gallery of Norway and is open to the public every Sunday during the summer."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Villa_Stenersen3.JPG/640px-Villa_Stenersen3.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 737,
+        "distanceM": 762,
+        "polyline": "m~xlJqah`AMrBAAEj@QrCOfBAACEGb@OMOSa@WCAMISKME[IWEG?UCeAGSGYIYKQKMGCCIEAFA@EE_@_@KKU[KOU_@CGGKYm@KQWc@Wg@IGIGi@_@KMWQGC?????E@I@G?AAACCACAC?ACACCC?A?GCWQ_@YCCSOUQYUXiBLeAJq@@K?GAGCECCOM",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:colosseum",
+      "name": {
+        "nb": "Colosseum kino",
+        "en": "Colosseum Cinema"
+      },
+      "category": "attraction",
+      "lat": 59.92963,
+      "lon": 10.710651,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Colosseum kino",
+        "en": "Colosseum kino"
+      },
+      "summary": {
+        "nb": "Colosseum kino er Nordisk Films største kino. Kinoen ligger på Majorstuen i Oslo og har fire saler i ulike størrelser hvorav den største, «Colosseum 1», har 978 sitteplasser.",
+        "en": "The Colosseum Kino in Oslo, Norway is the largest cinema in Northern Europe and the largest THX cinema in the world. It is distinguished by its large spherical dome."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Colosseum_kino.jpg/640px-Colosseum_kino.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 829,
+        "distanceM": 1049,
+        "polyline": "m~xlJqah`AJgAB_@ECHiAJsA@QJ}@?CJw@NsApAcKfAwIXwA@GLe@J_@FSJKLOJOn@kBFQDIDGBKVo@DMFOFKDIBEb@uAHUHKFKPMFMN[FKv@s@VYZ]V_@@A~@cBJQFI@?FIPOLKNGZEBAAM?G?G?G?G?G?I?C@?BCBGBI@CIQCKEUC_@@A?]DYVaAPeAPiANyAFiADkA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:barnekunstmuseet",
+      "name": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "category": "museum",
+      "lat": 59.935755,
+      "lon": 10.711526,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q11960263",
+      "website": "https://barnekunst.no/",
+      "wikipedia": {
+        "nb": "Det internasjonale barnekunstmuseet",
+        "en": "International Museum of Children's Art"
+      },
+      "summary": {
+        "nb": "Det Internasjonale barnekunstmuseet er et museum for barnetegninger og annen barnekunst. Museets oppgave er å samle, bevare og formidle kunst fra hele verden laget av barn og unge opptil 18 år."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Barnekunstmuseet.jpg/640px-Barnekunstmuseet.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1072,
+        "distanceM": 1178,
+        "polyline": "m~xlJqah`AJgAB_@ECHiAJsAAAEAECCCECBYB[DWBYFi@NkApAgKj@wENkAHm@Fa@DUFWFYF]J_@J_@DSFUAG@GEMEKCGEOa@k@CCs@kAQ[MWOWaBaCu@kAc@k@@KPkDDaA?S?U@g@De@DE@G@IBM@O?mAAi@?C?I?C@U@M@O@I@I@IFw@?A?M@M?E?M?O?CI?kAGUCC?_@@CCQAI?G@?CCI@INiAH{@@EFgA@Y@a@?Q?K?g@A?E?G???CECAUBa@B",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:skoytemuseet",
+      "name": {
+        "nb": "Skøytemuseet",
+        "en": "Skating Museum"
+      },
+      "category": "museum",
+      "lat": 59.927723,
+      "lon": 10.709451,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q12001332",
+      "website": "https://skoytemuseet.no/",
+      "wikipedia": {
+        "nb": "Skøytemuseet"
+      },
+      "summary": {
+        "nb": "Skøytemuseet har sitt opphav fra 1914 og ligger ved Frogner stadion i Oslo. Museet oppsto i sin nåværende form i 1985. Skøytemuseet inneholder i dag store prissamlinger etter både Axel Paulsen og Oscar Mathisen. Museet har også et stort utvalg av forskjellige bilder og skriftlig dokumentasjon om historien til skøyteløp og kunstløp."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Norwegian_icescating_museum.jpg/640px-Norwegian_icescating_museum.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 917,
+        "distanceM": 1190,
+        "polyline": "m~xlJqah`AJgAB_@ECHiAJsA@QJ}@?CJw@NsApAcKfAwIXwA@GLe@J_@FSJKLOJOn@kBFQDIDGBKVo@DMFOFKDIBEb@uAHUHKFKPMFMN[FKv@s@VYZ]V_@@A~@cBJQFI@?FIPOLKNGZEBAL@PBRHJDD@@@`@Zn@d@TJLFH@F@TCFADCHCJGJMLOJUHU\\qAJc@Tu@XeA?APo@VaATa@\\gA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/44660964",
+      "name": {
+        "nb": "Skøyenparken"
+      },
+      "category": "park",
+      "lat": 59.9263,
+      "lon": 10.688741,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q4616935",
+      "wikipedia": {
+        "nb": "Skøyenparken",
+        "en": "Skøyenparken"
+      },
+      "summary": {
+        "nb": "\n\nSkøyenparken ligger på Skøyen i bydel Ullern i Oslo. Parken hører til Skøyen hovedgård. Nordre Skøyen Hovedgård ligger i bydel Østensjø, og parken rundt Nordre Skøyen omtales også i noen sammenhenger som Skøyenparken.",
+        "en": "Skøyenparken is a park in the neighborhood of Skøyen in the borough of Ullern in Oslo, Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sondre_Skoyen_park.JPG/640px-Sondre_Skoyen_park.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.927951,
+        "lon": 10.692084
+      },
+      "walk": {
+        "durationS": 884,
+        "distanceM": 1126,
+        "polyline": "m~xlJqah`AJgAB_@PoCB[??@@PH??@?CVKzACf@B?B@TVv@fALR^}At@jArAlBdA|AdA|AfA~AdA~Ap@`Ah@v@H]\\o@h@m@X_@d@s@LSFSb@t@xCyEDMLw@Ln@@B@NMbC@~@Fz@nBb@ZHVNRVFFBRBJXnAFXDLHJRXFD",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

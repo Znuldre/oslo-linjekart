@@ -1,0 +1,216 @@
+{
+  "id": "NSR:StopPlace:58225",
+  "slug": "boler",
+  "name": "Bøler",
+  "lat": 59.883942,
+  "lon": 10.84475,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5862"
+  ],
+  "neighbours": {
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58224",
+        "next": "NSR:StopPlace:58226"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58226",
+        "next": "NSR:StopPlace:58224"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 19,
+    "majorstuen": 25
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58225",
+      "name": "Bøler",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "3B",
+          "name": "Buss for linje 3",
+          "lineId": "RUT:Line:3003"
+        },
+        {
+          "publicCode": "3N",
+          "name": "Jernbanetorget - Skullerud T",
+          "lineId": "RUT:Line:3903"
+        },
+        {
+          "publicCode": "58",
+          "name": "Nydalen - Tveita (- Bøler) via Bjerke",
+          "lineId": "RUT:Line:58"
+        },
+        {
+          "publicCode": "76",
+          "name": "Helsfyr T - Mortensrud T",
+          "lineId": "RUT:Line:76"
+        },
+        {
+          "publicCode": "79",
+          "name": "Grorud T - Åsbråten",
+          "lineId": "RUT:Line:79"
+        },
+        {
+          "publicCode": "FB10",
+          "name": "Mortensrud - Oslo lufthavn Gardermoen",
+          "lineId": "UNI:Line:UE1"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5862",
+        "name": "Bøler",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10749",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10750",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:ostensjovannet",
+      "name": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet Lake"
+      },
+      "category": "park",
+      "lat": 59.886902,
+      "lon": 10.830399,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q47494417",
+      "wikipedia": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet"
+      },
+      "summary": {
+        "nb": "Østensjøvannet er en innsjø som ligger midt i bydelen Østensjø i Oslo kommune. Innsjøen har et areal på 0,33 km² og ligger 107 meter over havet. Innsjøen er omkranset av drabantbyene og boligstrøkene Bogerud, Abildsø, Manglerud, Rognerud, Oppsal, Ulsrud og Bøler. Den regnes som en av Norges mest artsrike innsjøer for vann- og sumpvegetasjon, noe som videre danner grunnlag for et rikt fugle- og dyreliv der. Artsrikdommen og den sentrale beliggenheten gjør dessuten vannet til et av landets mest benyttede rekreasjonsområder.",
+        "en": "Østensjøvannet is a lake located in the Østensjø borough in Oslo, Norway. It is well known for the wide variety of birds and other wildlife that can be found there. It is currently a wildlife preserve, though urban development posed a serious threat to the lake and its environs during the 1980s and early 1990s."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%C3%98stensj%C3%B8vannet_%285._mai_2018%29.jpg/640px-%C3%98stensj%C3%B8vannet_%285._mai_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.883942,
+        "lon": 10.836564
+      },
+      "walk": {
+        "durationS": 629,
+        "distanceM": 869,
+        "polyline": "gaolJ}beaAHp@N|ALx@Jb@DTFT@FR~@@BBJDNFLBJRt@Nj@BFJb@Tx@Nh@L\\HXN\\LZPXHLFJRXTRVTTNXNVJBBDDFFFDjBb@HDDDBJ@H@V?RATAJCPCLCLCHEHEHEFKLOJMFO@oCZKBA?c@F_@D[H[HWJSJSNKJOPKNS\\Uf@Sh@Ol@I^?DKl@Eb@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:noklevann",
+      "name": {
+        "nb": "Nøklevann",
+        "en": "Nøklevann Lake"
+      },
+      "category": "park",
+      "lat": 59.883574,
+      "lon": 10.869868,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q75466",
+      "wikipedia": {
+        "nb": "Nøklevann",
+        "en": "Nøklevann"
+      },
+      "summary": {
+        "nb": "Nøklevann er et drøyt 3 kilometer langt vann som ligger i Østmarka i Oslo, i nærheten av Bydel Østensjø. Vannet ligger 163 meter over havet. Inntil marka ved vannet grenser drabantbyene Bøler og Bogerud. Vannet har regulert utløp i sørvest. Her faller Ljanselva bratt ned mot Skraperudtjern på 125 moh.",
+        "en": "Nøklevann is a lake in Østmarka in Oslo, Norway. It has a surface area of 0.8 km2, and is 163 meters above sea level. The lake drains through Ljanselva to Bunnefjorden. It is a former drinking water supply for Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/N%C3%B8klevann.svg/langnb-330px-N%C3%B8klevann.svg.png?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.883942,
+        "lon": 10.85813
+      },
+      "walk": {
+        "durationS": 771,
+        "distanceM": 894,
+        "polyline": "gaolJ}beaAAIa@{BW}AW{AAOGa@OaAG]Mm@Me@Oi@Ka@@WSg@Qc@IQS_@DIBCHONWNSFKDK@E@EFULg@Lk@F[F_@@IDW@OBU@Q?W@]?_@A]?UAGCs@Ei@Es@Em@Ai@A{@?m@@eA@S@YDKBKBK?G@I?Q?M?SA]?K@MBMBKFOPi@HQFUDUHe@BMDOTe@Re@Vi@HUHSDI@EHMHQ@OP{@D]D[BY@IBSq@{E",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/157456494",
+      "name": {
+        "nb": "Bøler kirke",
+        "en": "Bøler Church"
+      },
+      "category": "church",
+      "lat": 59.882704,
+      "lon": 10.840163,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297118",
+      "wikipedia": {
+        "nb": "Bøler kirke"
+      },
+      "summary": {
+        "nb": "Bøler kirke er soknekirke for Bøler menighet i Søndre Aker prosti i Oslo bispedømme i Bydel Østensjø i Oslo kommune. Den stod ferdig i august 2011 og oppført på samme sted som den tidligere interimskirken ved Bølerbekkens nedre, åpne løp, like opp for Den Norske Eterfabrikk og Østensjøvannet."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/B%C3%B8ler_kirke_%28bilde07%29_%2815._september_2018%29.jpg/640px-B%C3%B8ler_kirke_%28bilde07%29_%2815._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 239,
+        "distanceM": 313,
+        "polyline": "gaolJ}beaAHp@N|ALx@Jb@DTFT@FR~@DNDNFLBJRt@Nj@BFJb@Tx@Nh@L\\HXN\\LZGPKR?@?B@@?BA@?B?@?BA@DHBJ@H?JAFGTCL",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

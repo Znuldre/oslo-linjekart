@@ -1,0 +1,207 @@
+{
+  "id": "NSR:StopPlace:58226",
+  "slug": "bogerud",
+  "name": "Bogerud",
+  "lat": 59.875663,
+  "lon": 10.841956,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5874"
+  ],
+  "neighbours": {
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:58225",
+        "next": "NSR:StopPlace:58227"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:58227",
+        "next": "NSR:StopPlace:58225"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 21,
+    "majorstuen": 27
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58226",
+      "name": "Bogerud",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "3B",
+          "name": "Buss for linje 3",
+          "lineId": "RUT:Line:3003"
+        },
+        {
+          "publicCode": "3N",
+          "name": "Jernbanetorget - Skullerud T",
+          "lineId": "RUT:Line:3903"
+        },
+        {
+          "publicCode": "76",
+          "name": "Helsfyr T - Mortensrud T",
+          "lineId": "RUT:Line:76"
+        },
+        {
+          "publicCode": "79",
+          "name": "Grorud T - Åsbråten",
+          "lineId": "RUT:Line:79"
+        },
+        {
+          "publicCode": "FB10",
+          "name": "Mortensrud - Oslo lufthavn Gardermoen",
+          "lineId": "UNI:Line:UE1"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5874",
+        "name": "Bogerud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10768",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10769",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:ostensjovannet",
+      "name": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet Lake"
+      },
+      "category": "park",
+      "lat": 59.886902,
+      "lon": 10.830399,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q47494417",
+      "wikipedia": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet"
+      },
+      "summary": {
+        "nb": "Østensjøvannet er en innsjø som ligger midt i bydelen Østensjø i Oslo kommune. Innsjøen har et areal på 0,33 km² og ligger 107 meter over havet. Innsjøen er omkranset av drabantbyene og boligstrøkene Bogerud, Abildsø, Manglerud, Rognerud, Oppsal, Ulsrud og Bøler. Den regnes som en av Norges mest artsrike innsjøer for vann- og sumpvegetasjon, noe som videre danner grunnlag for et rikt fugle- og dyreliv der. Artsrikdommen og den sentrale beliggenheten gjør dessuten vannet til et av landets mest benyttede rekreasjonsområder.",
+        "en": "Østensjøvannet is a lake located in the Østensjø borough in Oslo, Norway. It is well known for the wide variety of birds and other wildlife that can be found there. It is currently a wildlife preserve, though urban development posed a serious threat to the lake and its environs during the 1980s and early 1990s."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%C3%98stensj%C3%B8vannet_%285._mai_2018%29.jpg/640px-%C3%98stensj%C3%B8vannet_%285._mai_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.876159,
+        "lon": 10.836564
+      },
+      "walk": {
+        "durationS": 432,
+        "distanceM": 487,
+        "polyline": "gnmlJiqdaA?VADD?@DPBNEDBBB@BBNBN?B@NB\\@PDVBN?F?LAJ?BCRAREZCZCVETGZIVADMd@INELGD??GBGBG@EFEJGPGRGNIPGRGPGTGXGZEVELARARARCNEPENEPGRMZKTITKRMRKRMXCLDANILKNKNILGJING@AHENMBC",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/23761672",
+      "name": {
+        "nb": "Skraperudtjern"
+      },
+      "category": "park",
+      "lat": 59.868988,
+      "lon": 10.851474,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19389070",
+      "wikipedia": {
+        "nb": "Skraperudtjern"
+      },
+      "summary": {
+        "nb": "Skraperudtjern er et vann i Østmarka i Oslo, like ved Skullerud skole i boligstrøkene Bogerud og Skullerud."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Skraperudtjern.jpg/640px-Skraperudtjern.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.870946,
+        "lon": 10.850045
+      },
+      "walk": {
+        "durationS": 815,
+        "distanceM": 978,
+        "polyline": "gnmlJiqdaA@[?A@?@?BABC@G@ITD??FAFCNIVSJMBGHONYL[PPHc@DIHGH@CO@OBYFQRY@CBMBM@C@@B@BABG|B_In@yBPm@La@L_@Pa@JSZm@R]JMPSTURQPOHGZQVKBE@E@K?I?MCSCQKYAAGIKCG@GHAQLKJKJNJZFMDJDRBTBRBLBJDFD@H?NALAJ?L?L?L@J@LBJBJBNF@??MC[C]GKSW@OJ_E?SCOGKUO?_@?[RLLFNFPHPD",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/157456494",
+      "name": {
+        "nb": "Bøler kirke",
+        "en": "Bøler Church"
+      },
+      "category": "church",
+      "lat": 59.882704,
+      "lon": 10.840163,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297118",
+      "wikipedia": {
+        "nb": "Bøler kirke"
+      },
+      "summary": {
+        "nb": "Bøler kirke er soknekirke for Bøler menighet i Søndre Aker prosti i Oslo bispedømme i Bydel Østensjø i Oslo kommune. Den stod ferdig i august 2011 og oppført på samme sted som den tidligere interimskirken ved Bølerbekkens nedre, åpne løp, like opp for Den Norske Eterfabrikk og Østensjøvannet."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/B%C3%B8ler_kirke_%28bilde07%29_%2815._september_2018%29.jpg/640px-B%C3%B8ler_kirke_%28bilde07%29_%2815._september_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 753,
+        "distanceM": 895,
+        "polyline": "gnmlJiqdaA?VADD?@D@D?D?DB@BBBFQLOHQH]N}@^A?EAAAE@GBE@GB?DCDCBGDoEjBi@Rc@N_@LWHm@Nm@Jq@Jk@Fg@BK@_@Bk@?s@?e@Ag@CYEICCIAAKCKCAAA@C?C@EAo@Kk@Mi@Sc@SYMSMSQWSU[MUKQGMABELDFENCDGPKR?@?B@@?BA@?B?@?BA@DHBJ@H?JAFGTCL",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

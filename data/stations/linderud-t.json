@@ -1,0 +1,225 @@
+{
+  "id": "NSR:StopPlace:61582",
+  "slug": "linderud-t",
+  "name": "Linderud T",
+  "lat": 59.94132,
+  "lon": 10.838868,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "4",
+    "5"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5947"
+  ],
+  "neighbours": {
+    "4": [
+      {
+        "directionType": "inbound",
+        "towards": "Bergkrystallen",
+        "prev": "NSR:StopPlace:58215",
+        "next": "NSR:StopPlace:59704"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59704",
+        "next": "NSR:StopPlace:58215"
+      }
+    ],
+    "5": [
+      {
+        "directionType": "inbound",
+        "towards": "Vestli",
+        "prev": "NSR:StopPlace:59704",
+        "next": "NSR:StopPlace:58215"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Sognsvann",
+        "prev": "NSR:StopPlace:58215",
+        "next": "NSR:StopPlace:59704"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 26,
+    "majorstuen": 21
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:61582",
+      "name": "Linderud T",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "60",
+          "name": "Vippetangen-Tonsenhagen",
+          "lineId": "RUT:Line:60"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5947",
+        "name": "Linderud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10905",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10906",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:linderud-gard",
+      "name": {
+        "nb": "Linderud gård",
+        "en": "Linderud Manor"
+      },
+      "category": "museum",
+      "lat": 59.941891,
+      "lon": 10.833781,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q11984093",
+      "wikipedia": {
+        "nb": "Linderud gård",
+        "en": "Linderud Manor"
+      },
+      "summary": {
+        "nb": "Linderud gård er en tidligere storgård ved Linderud i bydel Bjerke i Oslo og en avdeling av MiA - Museene i Akershus. Gårdsbebyggelsen og hagen er i dag et fredet kulturminne."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Linderud_g%C3%A5rd_hovedbygning2.JPG/640px-Linderud_g%C3%A5rd_hovedbygning2.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 542,
+        "distanceM": 574,
+        "polyline": "ghzlJ{}caACKEQMm@GHAFCJ?HA@GLCFCBI[ONuArBB\\Bd@FjAHpAZzCHp@Fh@DTDLDFDFDBH?NCPGBZdAbMuCh@Ag@?YCq@?E",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/248741524",
+      "name": {
+        "nb": "Veitvetparken"
+      },
+      "category": "park",
+      "lat": 59.941571,
+      "lon": 10.848437,
+      "score": 9,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q129994004",
+      "wikipedia": {
+        "nb": "Veitvetparken"
+      },
+      "summary": {
+        "nb": "Veitvetparken er et parkområde i Veitvetdalen mellom Veitvet skole og Linderud i Oslo."
+      },
+      "access": {
+        "lat": 59.94132,
+        "lon": 10.846822
+      },
+      "walk": {
+        "durationS": 403,
+        "distanceM": 536,
+        "polyline": "ghzlJ{}caACKMk@ESh@u@FGEOFGDKLSLc@Jk@Dm@@q@KcAGk@Ea@Y}BIq@_@wCEk@?m@Dk@LoAPLF?BCBABCFC\\KAGAOCg@Cq@A_@Ec@C_@ESMk@I_@G_@Gc@Eq@IwA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/81574141",
+      "name": {
+        "nb": "Bjerkedalen park"
+      },
+      "category": "park",
+      "lat": 59.938773,
+      "lon": 10.821154,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q15062005",
+      "wikipedia": {
+        "nb": "Bjerkedalen park"
+      },
+      "summary": {
+        "nb": "Bjerkedalen park er en bydelspark i Bydel Bjerke i Oslo. Parken ble offisielt åpnet av byråd Bård Folke Fredriksen den 11. oktober 2013."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Bjerkedalen_med_bro.JPG/640px-Bjerkedalen_med_bro.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.940408,
+        "lon": 10.823104
+      },
+      "walk": {
+        "durationS": 793,
+        "distanceM": 974,
+        "polyline": "ghzlJ{}caAJd@Ld@J`@FPADAHBHDNHVCDEDn@tBpArEbAhDXjAPn@Lj@Jl@FX@LA?EBEDABF\\Hr@Ht@Dp@Bp@Bb@@f@@`@?b@@f@AHAH?J?NAR?R@H?N?VCf@An@Cl@Cf@Gn@Gp@WpCAFCDEJATCJAL@@?B?D?DIp@Kz@CXEj@Cf@AZARAh@Al@Ar@?z@?jA?fCAH?DAJCJ?D@P?T?B@D@F?dD?HAT?H?TGAK@g@L",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/52048958",
+      "name": {
+        "nb": "Lunden kloster"
+      },
+      "category": "church",
+      "lat": 59.941941,
+      "lon": 10.828613,
+      "score": 6,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q11987008",
+      "wikipedia": {
+        "nb": "Lunden kloster"
+      },
+      "summary": {
+        "nb": "Lunden kloster er et katolsk kloster på Brobekk ved Linderud i Groruddalen i Oslo. Klosteret er et kvinnekloster og søstrene der er kontemplative dominikanerinner. Søsterkommuniteten har sitt utspring i et dominikanerinnekloster i Lourdes i Frankrike og ble grunnlagt av søstre derfra i 1951. 7. juni 1959 ble klosteret selvstendig, autonomt, fra moderklosteret."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Lunden_kloster_Oslo.JPG/640px-Lunden_kloster_Oslo.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 987,
+        "distanceM": 1159,
+        "polyline": "ghzlJ{}caAJd@Ld@J`@FPADAHBHDNHVCDEDn@tBpArEbAhDXjAPn@Lj@Jl@FX@LA?EBEDABF\\Hr@Ht@Dp@Bp@Bb@@f@@`@?b@@f@AHAH?J?NUCWGG?EBE@CDEFCJCLETOnAEXIZENENMTILKJIFKDIBI@G?GAIA_@QWMSMg@]IEGCIAIAG?I@c@FM@{@FKKGAG?EBEFGNKb@GTO\\Wh@ABIV@f@FdBHlC@NBt@BfCRA\\Ef@ORGBCDEBE@G@I?I?GAKCICKGMCIAI?GBe@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

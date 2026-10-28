@@ -1,0 +1,134 @@
+{
+  "id": "NSR:StopPlace:6197",
+  "slug": "trosterud",
+  "name": "Trosterud",
+  "lat": 59.927175,
+  "lon": 10.865165,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6197"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:58222",
+        "next": "NSR:StopPlace:58213"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58213",
+        "next": "NSR:StopPlace:58222"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 17,
+    "majorstuen": 23
+  },
+  "transfers": [],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6197",
+        "name": "Trosterud",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11373",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11374",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/48421218",
+      "name": {
+        "nb": "Alfaset kapell",
+        "en": "Alfaset Cemetery"
+      },
+      "category": "church",
+      "lat": 59.932475,
+      "lon": 10.858197,
+      "score": 8,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q5982166",
+      "website": "https://www.oslo.kommune.no/helse-og-omsorg/begravelser-og-gravferd/gravplasser-i-oslo/alfaset-gravlund/#gref",
+      "wikipedia": {
+        "nb": "Alfaset gravlund og kapell"
+      },
+      "summary": {
+        "nb": "Alfaset kapell er et gravlundskapell fra 1972 på Alfaset gravlund i bydel Alna i Oslo. Bygget ble tegnet av arkitektfirmaet Blakstad og Munthe-Kaas Arkitekter. Den tyske krigskirkegården ligger på Alfaset gravlund."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Alfaset_gravlunds_kapell.jpg/640px-Alfaset_gravlunds_kapell.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 999,
+        "distanceM": 1142,
+        "polyline": "_pwlJebiaAA?Iq@A?A??FBP?D@AVKBAAm@BE@u@[}AEECECEEMACAI[AGAE?ICIAWE[KMGKGMIm@e@GCEAGAAX?F@DFPHZJ\\J^JXNj@ILa@x@IMCCCCCAE?G@k@JG?IAKESMGCK?I?GDGFGLYt@_@|@Ul@c@bAOZCFAFAFAFAPAVCZAF?HCNGAI@IFIHILKTUh@iA`Cc@dAw@rBQd@M^Od@Mh@Mh@Mb@GPGNINGDI@i@b@YPC@OHQFUHUHu@TBz@BlALADAD?DBFBJHHPCHIx@`@ZAF",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/154762904",
+      "name": {
+        "nb": "Haugerud kirke",
+        "en": "Haugerud Church"
+      },
+      "category": "church",
+      "lat": 59.921497,
+      "lon": 10.857796,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10297197",
+      "wikipedia": {
+        "nb": "Haugerud kirke"
+      },
+      "summary": {
+        "nb": "Haugerud kirke er en soknekirke i Østre Aker og Haugerud menighet i Groruddalen prosti i Oslo bispedømme i Oslo kommune. Den er en arbeidskirke fra 1975 og har navn etter Haugerud gård som ligger tett intil. Byggverket har 370 sitteplasser og er bygd i kalksandstein i en kvadratisk funkisstil. Kirkerommet har et 9 meter høyt alterteppe av Else Marie Jakobsen, Fra mørket til lyset. Teppet regnes som et hovedverk i ny norsk kirkekunst. Speidergruppa 1. Haugerud har møtelokaler i underetasjen. Kirkens orgel med 20 stemmer bygget av Vestlandske Orgelverksted, Hareid, er ikke lenger i bruk og blitt erstattet av et digitalt orgel av merke Allen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Haugerud_kirke_nord.jpg/640px-Haugerud_kirke_nord.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 894,
+        "distanceM": 1016,
+        "polyline": "_pwlJebiaAA?Iq@A?A??FBP?D@AVKBACq@DA@q@Eu@BADCFGJMJMBGNYLU@E?E?IVGXEB?@?L@VFTLJLLPf@v@LNJLRJPFj@JXDHANDPJFHFNNXHJHHHBL@X@N@TAh@CX@LJ`@Vj@^l@`@NJNHLFNLPLPPDLBDBJDHH\\DTBHNd@Jh@Jh@DZDXJt@BRBLBpA?J@F@b@@h@@PDjABf@Dn@@LD^Ff@PzANpATfBTbBL^EPI^",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

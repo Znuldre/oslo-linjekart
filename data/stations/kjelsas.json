@@ -1,0 +1,175 @@
+{
+  "id": "NSR:StopPlace:59615",
+  "slug": "kjelsas",
+  "name": "Kjelsås",
+  "lat": 59.964219,
+  "lon": 10.784937,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "12",
+    "15"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6124"
+  ],
+  "neighbours": {
+    "12": [
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58310"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "next": "NSR:StopPlace:58310"
+      }
+    ],
+    "15": [
+      {
+        "directionType": "outbound",
+        "towards": "Majorstuen",
+        "next": "NSR:StopPlace:58310"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Kjelsås",
+        "prev": "NSR:StopPlace:58310"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 24,
+    "majorstuen": 42
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58310",
+      "name": "Kjelsåsalléen",
+      "distanceM": 139,
+      "lines": [
+        {
+          "publicCode": "11N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3911"
+        },
+        {
+          "publicCode": "12N",
+          "name": "Majorstuen - Kjelsås",
+          "lineId": "RUT:Line:3912"
+        },
+        {
+          "publicCode": "25",
+          "name": "Majorstuen-Haugerud",
+          "lineId": "RUT:Line:25"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59648",
+      "name": "Kjelsås stasjon",
+      "distanceM": 260,
+      "lines": [
+        {
+          "publicCode": "54",
+          "name": "Kværnerbyen - Kjelsås stasjon",
+          "lineId": "RUT:Line:54"
+        }
+      ]
+    },
+    {
+      "mode": "rail",
+      "stopPlaceId": "NSR:StopPlace:59648",
+      "name": "Kjelsås stasjon",
+      "distanceM": 260,
+      "lines": [
+        {
+          "publicCode": "R31",
+          "name": "Skøyen-Jaren-Gjøvik",
+          "lineId": "VYG:Line:R31"
+        },
+        {
+          "publicCode": "RE30",
+          "name": "Oslo S-Gjøvik",
+          "lineId": "VYG:Line:RE30"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6124",
+        "name": "Kjelsås",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11244",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11242",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:teknisk-museum",
+      "name": {
+        "nb": "Norsk Teknisk Museum",
+        "en": "Norwegian Museum of Science and Technology"
+      },
+      "category": "museum",
+      "lat": 59.966923,
+      "lon": 10.783325,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q7061184",
+      "website": "https://www.tekniskmuseum.no/",
+      "wikipedia": {
+        "nb": "Norsk Teknisk Museum",
+        "en": "Norwegian Museum of Science and Technology"
+      },
+      "summary": {
+        "nb": "Norsk Teknisk Museum er et norsk museum for industri, vitenskap, teknologi og medisin. I tillegg huser museet Oslo vitensenter og Nasjonalt medisinsk museum. Museet ble i 2021 kåret til Oslos beste opplevelse for barn av Aftenpostens lesere.",
+        "en": "The Norwegian Museum of Science and Technology is located in Oslo, Norway. The museum is an anchor point on the European Route of Industrial Heritage.\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Norsk_Teknisk_Museum_TRS_070501_011.jpg/640px-Norsk_Teknisk_Museum_TRS_070501_011.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.96638,
+        "lon": 10.784459
+      },
+      "walk": {
+        "durationS": 229,
+        "distanceM": 293,
+        "polyline": "kw~lJqly`AOKe@]CCAE?CQK]SC?C@ACCCCAACCHCH_@|@g@dAIRKQMQIEoAq@YOG`@CX?T?XBN_@}@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

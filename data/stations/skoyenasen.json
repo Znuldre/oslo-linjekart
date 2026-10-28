@@ -1,0 +1,201 @@
+{
+  "id": "NSR:StopPlace:58223",
+  "slug": "skoyenasen",
+  "name": "Skøyenåsen",
+  "lat": 59.89966,
+  "lon": 10.836596,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "3"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:5971"
+  ],
+  "neighbours": {
+    "3": [
+      {
+        "directionType": "inbound",
+        "towards": "Mortensrud",
+        "prev": "NSR:StopPlace:5968",
+        "next": "NSR:StopPlace:59575"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Kolsås",
+        "prev": "NSR:StopPlace:59575",
+        "next": "NSR:StopPlace:5968"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 15,
+    "majorstuen": 21
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58223",
+      "name": "Skøyenåsen",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "3B",
+          "name": "Buss for linje 3",
+          "lineId": "RUT:Line:3003"
+        },
+        {
+          "publicCode": "3N",
+          "name": "Jernbanetorget - Skullerud T",
+          "lineId": "RUT:Line:3903"
+        },
+        {
+          "publicCode": "78A",
+          "name": "Østensjø ring",
+          "lineId": "RUT:Line:78"
+        },
+        {
+          "publicCode": "78B",
+          "name": "Østensjø ring",
+          "lineId": "RUT:Line:2078"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:5971",
+        "name": "Skøyenåsen",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:10954",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:10953",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:ostensjovannet",
+      "name": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet Lake"
+      },
+      "category": "park",
+      "lat": 59.886902,
+      "lon": 10.830399,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q47494417",
+      "wikipedia": {
+        "nb": "Østensjøvannet",
+        "en": "Østensjøvannet"
+      },
+      "summary": {
+        "nb": "Østensjøvannet er en innsjø som ligger midt i bydelen Østensjø i Oslo kommune. Innsjøen har et areal på 0,33 km² og ligger 107 meter over havet. Innsjøen er omkranset av drabantbyene og boligstrøkene Bogerud, Abildsø, Manglerud, Rognerud, Oppsal, Ulsrud og Bøler. Den regnes som en av Norges mest artsrike innsjøer for vann- og sumpvegetasjon, noe som videre danner grunnlag for et rikt fugle- og dyreliv der. Artsrikdommen og den sentrale beliggenheten gjør dessuten vannet til et av landets mest benyttede rekreasjonsområder.",
+        "en": "Østensjøvannet is a lake located in the Østensjø borough in Oslo, Norway. It is well known for the wide variety of birds and other wildlife that can be found there. It is currently a wildlife preserve, though urban development posed a serious threat to the lake and its environs during the 1980s and early 1990s."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/%C3%98stensj%C3%B8vannet_%285._mai_2018%29.jpg/640px-%C3%98stensj%C3%B8vannet_%285._mai_2018%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.897645,
+        "lon": 10.836564
+      },
+      "walk": {
+        "durationS": 214,
+        "distanceM": 244,
+        "polyline": "ycrlJuocaA?B@PJdATKTGTCl@E^@J@N?x@Dt@B@@L?N?VGXET?",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/178994474",
+      "name": {
+        "nb": "Oppsal kirke",
+        "en": "Oppsal Church"
+      },
+      "category": "church",
+      "lat": 59.899715,
+      "lon": 10.843078,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10359489",
+      "wikipedia": {
+        "nb": "Oppsal kirke",
+        "en": "Oppsal Church"
+      },
+      "summary": {
+        "nb": "Oppsal kirke er soknekirke for Oppsal menighet i Søndre Aker prosti i Oslo bispedømme i Bydel Østensjø i Oslo kommune. Den er bygget som en langkirke fra 1961 og ligger på Oppsal i Oslo.",
+        "en": "Oppsal Church in Oslo, Norway is the parish church for the Oppsal congregation. It is a church center erected in concrete and natural stone, according to drawings by the architects H. W. Simers and H. Chr. Gaaserud. Oppsal Church was consecrated in 1961. It has a high freestanding bell tower. 400 seats, in addition to an adjacent church hall with 200 seats, separated from the church room by a folding door, as well as a kitchen. The great crucifix in the altar wall acts as an altarpiece, and is made by Victor Sparre, together with the church's other stained glass windows. The stained glass measure a total of 220 m², which is the largest area of glass art in any Norwegian church that was built after 1945. The pulpit of wood and the altar and the baptismal font is in soapstone were designed by the architects. The new digital church organ is from 2013."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Oppsal_kirke_%285._mai_2018%2C_bilde02%29.jpg/640px-Oppsal_kirke_%285._mai_2018%2C_bilde02%29.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 965,
+        "distanceM": 958,
+        "polyline": "ycrlJuocaA?BF@@gAEu@LD@?D@D?FALAB?B@x@`@D@B?D?DEBEBE@A@G?I?K?UAY?QJ@@??E?O?K?ANA^GdCc@B@FEJCJCDEBIBM?IGyBCc@Gc@GWEMEMMSQSWKi@SAAQKSQMUK[I_@G_@?CAGC]GMGC?EAO?K?EYDE@OBk@H_ALG@WDQ?Q?SCWGWISMSOQQGGY[GIIQAIAM?E@GBMLa@HUBIPm@V_AP{@TLFBJDPBj@@@q@R?D???",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/575896567",
+      "name": {
+        "nb": "Søndre Skøyen kapell",
+        "en": "Søndre Skøyen Chapel"
+      },
+      "category": "church",
+      "lat": 59.904319,
+      "lon": 10.830069,
+      "score": 6,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10421534",
+      "wikipedia": {
+        "nb": "Søndre Skøyen kapell"
+      },
+      "summary": {
+        "nb": "Søndre Skøyen kapell er en arbeidskirke fra 1980. Den ligger like ved Søndre Skøyen gård i Bydel Østensjø i Oslo."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Sondre_Skoyen_kapell_-_2010.JPG/640px-Sondre_Skoyen_kapell_-_2010.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 859,
+        "distanceM": 1000,
+        "polyline": "ycrlJuocaA?BGBGBKDIDGDGFGJu@@y@@A?EAE?A??DMAWEMCIBM@QHEBGDKBAQEMCIGICAKAOAiADi@BW?a@DQBSDUFQHSJKJUROROTEJCHCLANAT?d@?^Ab@?T?XBPBRFTHTFJFJJNn@z@JPHPHTFVBRD\\BX@V?VARC^C^CNIZGREJGNKPEHCBEDIFSNi@T]JE@m@FMB_@?_A?eAB?tB?pA@zBR?RC",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

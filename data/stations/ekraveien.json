@@ -1,0 +1,149 @@
+{
+  "id": "NSR:StopPlace:59764",
+  "slug": "ekraveien",
+  "name": "Ekraveien",
+  "lat": 59.950611,
+  "lon": 10.637662,
+  "modes": [
+    "metro"
+  ],
+  "lineCodes": [
+    "2"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6392"
+  ],
+  "neighbours": {
+    "2": [
+      {
+        "directionType": "outbound",
+        "towards": "Østerås",
+        "prev": "NSR:StopPlace:59520",
+        "next": "NSR:StopPlace:58276"
+      },
+      {
+        "directionType": "inbound",
+        "towards": "Ellingsrudåsen",
+        "prev": "NSR:StopPlace:58276",
+        "next": "NSR:StopPlace:59520"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 17,
+    "majorstuen": 12
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:59764",
+      "name": "Ekraveien",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "2N",
+          "name": "Østerås T - Ellingsrudåsen",
+          "lineId": "RUT:Line:3902"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6392",
+        "name": "Ekraveien",
+        "modes": [
+          "metro"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11750",
+            "publicCode": "2",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11749",
+            "publicCode": "1",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "osm:way/150071632",
+      "name": {
+        "nb": "Røa kirke",
+        "en": "Røa Church"
+      },
+      "category": "church",
+      "lat": 59.949591,
+      "lon": 10.643146,
+      "score": 7.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q10361271",
+      "wikipedia": {
+        "nb": "Røa kirke",
+        "en": "Røa Church"
+      },
+      "summary": {
+        "nb": "Røa kirke er soknekirke for Røa menighet i Vestre Aker prosti i Oslo bispedømmme i Bydel Vestre Aker i Oslo kommune. Det er en langkirke fra 1939 i funkisjonalistisk stil. Den ligger 200 meter nord for Røakrysset, i Sørkedalsveien/Nordengveien. Røa kirke har egen barnehage på eiendommen.",
+        "en": "Røa Church is a church center in Oslo, Norway. The church room has 300 seats, but this can be increased to 500 by opening the sliding doors to the parish hall. The church building also includes offices, a wing of verger housing and daycare. There is an almost separate bell tower."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Roakirke01.jpg/640px-Roakirke01.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 412,
+        "distanceM": 401,
+        "polyline": "gb|lJit|_ABI@?@??ADKEUCIAECECI?KAIAICGGQq@yARe@L]BQBUBKDu@Bw@J@J@NAJCNILIRWJUHUH]BWDi@@g@@u@@uBD}@PBNBLuBF@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/59458870",
+      "name": {
+        "nb": "Grinilund kirke",
+        "en": "Eiksmarka Church"
+      },
+      "category": "church",
+      "lat": 59.949039,
+      "lon": 10.622814,
+      "score": 6.5,
+      "tier": "C",
+      "source": "osm",
+      "wikidata": "Q8733577",
+      "wikipedia": {
+        "nb": "Eiksmarka kirke"
+      },
+      "summary": {
+        "nb": "Eiksmarka kirke er en langkirke fra 2014 på Eiksmarka i Bærum kommune, Akershus fylke. En kirke oppført i 1959 ble revet i 2013 og ny kirke oppført med vigsling 23. mars 2014. Navnet ble endret fra Grinilund kirke til Eiksmarka kirke i desember 2018."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Grinilund_kirke.jpg/640px-Grinilund_kirke.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 934,
+        "distanceM": 1114,
+        "polyline": "gb|lJit|_A[x@IRGLILABGFMLMHKJIDGDCBIJMNc@f@MJSXOTS\\U`@_@x@CFCDITIVIVIZIVEVId@AHE^Cb@CVAXAX?X?\\?Z@V@P@NNt@Hr@NdARbAXnAn@~B^vAf@jBZhAf@dBh@hBDHF@RMFGDBBF@HDZDLBRC^AP?PDh@`@lB`@fBh@rDRtBXxDTEDvEDRZ@r@|A?@",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}

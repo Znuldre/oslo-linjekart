@@ -1,0 +1,527 @@
+{
+  "id": "NSR:StopPlace:58353",
+  "slug": "bislett",
+  "name": "Bislett",
+  "lat": 59.9257,
+  "lon": 10.731151,
+  "modes": [
+    "tram"
+  ],
+  "lineCodes": [
+    "17",
+    "18"
+  ],
+  "linked": [],
+  "childStopPlaceIds": [
+    "NSR:StopPlace:6263"
+  ],
+  "neighbours": {
+    "17": [
+      {
+        "directionType": "inbound",
+        "towards": "Disen",
+        "prev": "NSR:StopPlace:58261",
+        "next": "NSR:StopPlace:58291"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58291",
+        "next": "NSR:StopPlace:58261"
+      }
+    ],
+    "18": [
+      {
+        "directionType": "inbound",
+        "towards": "Grefsen stasjon",
+        "prev": "NSR:StopPlace:58261",
+        "next": "NSR:StopPlace:58291"
+      },
+      {
+        "directionType": "outbound",
+        "towards": "Gaustadalléen",
+        "prev": "NSR:StopPlace:58291",
+        "next": "NSR:StopPlace:58261"
+      }
+    ]
+  },
+  "hubMinutes": {
+    "jernbanetorget": 11,
+    "majorstuen": null
+  },
+  "transfers": [
+    {
+      "mode": "bus",
+      "stopPlaceId": "NSR:StopPlace:58353",
+      "name": "Bislett",
+      "distanceM": 0,
+      "lines": [
+        {
+          "publicCode": "17B",
+          "name": "Buss for linje 17",
+          "lineId": "RUT:Line:3017"
+        },
+        {
+          "publicCode": "19N",
+          "name": "Kringsjå - Åsbråten",
+          "lineId": "RUT:Line:3919"
+        },
+        {
+          "publicCode": "21",
+          "name": "Tjuvholmen - Helsfyr T",
+          "lineId": "RUT:Line:21"
+        },
+        {
+          "publicCode": "26",
+          "name": "Ellingsrudåsen - Bislett",
+          "lineId": "RUT:Line:26"
+        },
+        {
+          "publicCode": "FB5",
+          "name": "Oslo sentrum via Helsfyr-Hasle-Bislett",
+          "lineId": "NBU:Line:a7c15243-8873-4aee-a8b4-8d22e8ad31dc"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "wheelchairAccess": "UNKNOWN",
+    "stepFreeAccess": "UNKNOWN",
+    "liftFreeAccess": "UNKNOWN",
+    "escalatorFreeAccess": "UNKNOWN",
+    "perChild": [
+      {
+        "id": "NSR:StopPlace:6263",
+        "name": "Bislett",
+        "modes": [
+          "tram"
+        ],
+        "wheelchairAccess": "UNKNOWN",
+        "stepFreeAccess": "UNKNOWN",
+        "liftFreeAccess": "UNKNOWN",
+        "escalatorFreeAccess": "UNKNOWN",
+        "quays": [
+          {
+            "id": "NSR:Quay:11494",
+            "publicCode": "B",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          },
+          {
+            "id": "NSR:Quay:11492",
+            "publicCode": "A",
+            "wheelchairAccess": "UNKNOWN",
+            "stepFreeAccess": "UNKNOWN"
+          }
+        ]
+      }
+    ]
+  },
+  "pois": [
+    {
+      "id": "curated:bislett-stadion",
+      "name": {
+        "nb": "Bislett stadion",
+        "en": "Bislett Stadium"
+      },
+      "category": "attraction",
+      "lat": 59.924973,
+      "lon": 10.733289,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q866409",
+      "wikipedia": {
+        "nb": "Bislett stadion",
+        "en": "Bislett Stadium"
+      },
+      "summary": {
+        "nb": "Bislett stadion er en idrettsplass på Bislett i bydel St. Hanshaugen sentralt i Oslo. Stadionet er, sammen med Holmenkollbakken, Norges internasjonalt mest kjente idrettsanlegg, og åsted for 14 verdensrekorder på skøyter og mer enn 50 i friidrett. Stadionet er i nyere tid mest kjent for friidrettsarrangementet Bislett Games. Bislett har en høy stjerne internasjonalt, og har blant annet blitt kåret til det tyvende århundrets femte beste stadion av det amerikanske sportsbladet Sports Illustrated.",
+        "en": "Bislett Stadium is a sports stadium in Oslo, Norway. Bislett is Norway's most well known sports arena internationally, with 15 speed skating world records and more than 50 track and field world records having been set here. The original stadium was demolished in 2004 and construction of a new stadium was completed by the summer of 2005. The New Bislett Stadium was designed by C.F. Møller Architects."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Bislett_Stadion_exterior_views.jpg/640px-Bislett_Stadion_exterior_views.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.9257,
+        "lon": 10.731833
+      },
+      "walk": {
+        "durationS": 44,
+        "distanceM": 48,
+        "polyline": "qfwlJs|n`A@C?IBCDCDEBAEUEg@Km@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:slottsparken",
+      "name": {
+        "nb": "Slottsparken",
+        "en": "Palace Park"
+      },
+      "category": "park",
+      "lat": 59.917698,
+      "lon": 10.728467,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q4583462",
+      "wikipedia": {
+        "nb": "Slottsparken",
+        "en": "Palace Park (Oslo)"
+      },
+      "summary": {
+        "nb": "Slottsparken er Oslos sentrale bypark, som dekker et samlet areal på 225 dekar eller mål. Parken omkranser Det kongelige slott og Slottsplassen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Air_uranienborg.jpg/640px-Air_uranienborg.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.920139,
+        "lon": 10.731151
+      },
+      "walk": {
+        "durationS": 630,
+        "distanceM": 798,
+        "polyline": "qfwlJs|n`A@C?IBCDCDEBABFF@B?@@@?@?H@HCLQ@DDJDHBDAJAH@HBDDBDBD?HALANEn@QJEFCRIVKvAo@t@_@NINGp@Yh@Y@A@A?I@?FAFA@??BB@@?l@GZAn@GPCDAJC?B@D?D?@@N@BfAk@@?@@@AFCHE@A@C@AvBaABADEBEBIh@_CBE@A@?@?@@f@xA@F?H@@DJ@BBH?B@?@A@@BD`@lADLDNDHBHBBYzBIr@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:st-hanshaugen",
+      "name": {
+        "nb": "St. Hanshaugen",
+        "en": "St. Hanshaugen Park"
+      },
+      "category": "park",
+      "lat": 59.9267,
+      "lon": 10.7409,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "St. Hanshaugen (park)",
+        "en": "St. Hanshaugen Park"
+      },
+      "summary": {
+        "nb": "St. Hanshaugen er en park i Oslo. «St. Hanshaugen» brukes også om bydel St. Hanshaugen og strøket St. Hanshaugen.",
+        "en": "St. Hanshaugen Park is a large public park located just north of the city center of Oslo, Norway. It is a classic urban park located within the borough of St. Hanshaugen, which was named for the park which lies within its center. St. Hanshaugen Park is situated between Geitmyrsveien, Colletts gate, Ullevålsveien and Knud Knudsens plass. Nearby are Bislett Stadium and Alexander Kiellands plass.\n"
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Basseng_og_utsikt_fra_Tarnhuset_pa_St._Hanshaugen.JPG/640px-Basseng_og_utsikt_fra_Tarnhuset_pa_St._Hanshaugen.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 827,
+        "distanceM": 830,
+        "polyline": "qfwlJs|n`A@C?IBCDCDEBAEUEg@KcACUk@wFOwAEc@Cg@AE?G@I@CAECMCQAGAECC??CI?CKk@_A{EEWKe@G]Y{AESG]G]?G?ACKCK?ABCFMF_@Fe@Lm@?KBIBGDEBAGOCS?G?E@O@Q?E?CRBD@B?@??A?G?CPBZBXBf@@FOR]Zk@HIOQMQFUBYBY?KIc@C_@M]i@y@Wi@M[I[Ea@GPKRY?]ICXFT",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:slottet",
+      "name": {
+        "nb": "Det kongelige slott",
+        "en": "The Royal Palace"
+      },
+      "category": "attraction",
+      "lat": 59.917193,
+      "lon": 10.727236,
+      "score": 23,
+      "tier": "A",
+      "priority": 3,
+      "source": "curated",
+      "wikidata": "Q863932",
+      "website": "https://www.kongehuset.no/",
+      "wikipedia": {
+        "nb": "Det kongelige slott (Oslo)",
+        "en": "Royal Palace, Oslo"
+      },
+      "summary": {
+        "nb": "",
+        "en": "The Royal Palace in Oslo is the official residence of the Norwegian monarch. It was built in the first half of the 19th century as the Norwegian residence of the French-born Charles XIV John, who reigned as king of Norway and Sweden."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Slottet_i_Oslo_1.jpg/640px-Slottet_i_Oslo_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.917732,
+        "lon": 10.728198
+      },
+      "walk": {
+        "durationS": 840,
+        "distanceM": 1055,
+        "polyline": "qfwlJs|n`A@C?IBCDCDEBABFF@B?@@@?@?H@HCLQ@DDJDHBDAJAH@HBDDBDBD?HALANEn@QJEFCRIVKvAo@t@_@NINGp@Yh@Y@A@A?B@F?D@D?D?BFADAJCh@EVCB?DBDFJXlB|EL\\`@lAb@hAXr@@A@EDI@EBG?ABHJTd@jARf@LVBBHHJ@BDFHn@fA@BBBD?HGDG@@@FBB@BBB@FDFAFAHAJf@Fl@CJBFFROxB_B\\WdAs@ZSDDFJr@`AJLX\\",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:bogstadveien",
+      "name": {
+        "nb": "Bogstadveien",
+        "en": "Bogstadveien"
+      },
+      "category": "attraction",
+      "lat": 59.927222,
+      "lon": 10.720278,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Bogstadveien (Oslo)",
+        "en": "Bogstadveien"
+      },
+      "summary": {
+        "nb": "Bogstadveien er en travel handlegate og innfartsåre i Oslo.",
+        "en": "Bogstadveien is a street in the district of Frogner in Oslo, Norway. It is considered a central business district and features many of the city's wide range of exclusive shops as well as entertainment, hotels and restaurants. The road is known for the frequent Farmer's Markets on weekends as well as its biannual car-free shopping events."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bogstadveien.jpg/640px-Bogstadveien.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 753,
+        "distanceM": 870,
+        "polyline": "qfwlJs|n`A?DCBC?C?AJAF?B?DADAJHDBD@D?DAH?BBFBJ@BFVCBCDA@GJKNGJmAlBe@t@XtADRr@pCf@vBA@CDGHA@FV@Dd@jB@JJb@@@HXNn@j@zBVfAx@xBJZ@D?D?BAH_@x@A@A@A@ELCHCFAFABCDA?ABQ`@Yl@s@rAADAD?BC@A@ABEHEHCBADABA@C@A@q@nAEHCBCHEFADA@ADC@CDq@lACDCFAFABCDA@A?ABEFEHCD?DABABC@C@A@e@x@aAfB??",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:kunstnernes-hus",
+      "name": {
+        "nb": "Kunstnernes Hus",
+        "en": "Kunstnernes Hus"
+      },
+      "category": "gallery",
+      "lat": 59.919571,
+      "lon": 10.730827,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikidata": "Q1772519",
+      "wikipedia": {
+        "nb": "Kunstnernes Hus",
+        "en": "Kunstnernes Hus"
+      },
+      "summary": {
+        "nb": "Kunstnernes Hus er en kunstnerdrevet stiftelse i Wergelandsveien ved Slottsparken i Oslo. Det er Norges største kunstnerdrevne visningssted for norsk og internasjonal samtidskunst.",
+        "en": "Kunstnernes Hus is an art gallery in Oslo, Norway. It is Norway's largest gallery under the direction of artists, and has served as a major center for exhibits of Norwegian and international contemporary art. It is also a prominent example of Functionalist architecture situated in Wergelandsveien 17, across the Royal palace park."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Oslo%2C_Kunstnernes_Hus_%283%29.JPG/640px-Oslo%2C_Kunstnernes_Hus_%283%29.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 707,
+        "distanceM": 887,
+        "polyline": "qfwlJs|n`A@C?IBCDCDEBABFF@D@??@?@?H@HCLQ@DDJDHBDAJAH@HBDDBDBD?HALANEn@QJEFCFCJEVKvAo@d@UNININGp@Yh@Y@A@A?I@?FAFA@??BB@@?l@GVAB?n@GPCHCFA?B@D?D?@@N@BfAk@@?@@@AFCHE@A@C@AvBaA??BADEBEBIh@_CBE@A@?@?@@BHb@nA@F?H@@DJ@BBH?B@?@A@@BD`@lADLDNDHBHBBF@BAh@eA@C@@@BPb@FJ`@dAJVk@lBFL",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:historisk-museum",
+      "name": {
+        "nb": "Historisk museum",
+        "en": "Historical Museum"
+      },
+      "category": "museum",
+      "lat": 59.916783,
+      "lon": 10.73554,
+      "score": 22,
+      "tier": "A",
+      "priority": 2,
+      "source": "curated",
+      "wikidata": "Q1405469",
+      "website": "https://www.khm.uio.no/",
+      "wikipedia": {
+        "nb": "Historisk museum",
+        "en": "Historical Museum, Oslo"
+      },
+      "summary": {
+        "nb": "Historisk museum er en museumsbygning på Tullinløkka i Oslo som ble åpnet for publikum i 1904."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Historisk_museum_oslo.jpg/640px-Historisk_museum_oslo.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 900,
+        "distanceM": 1123,
+        "polyline": "qfwlJs|n`A@C?IBCDCDEBABFF@B?@@@?@?H@HCLQ@DDJDHBDAJAH@HBDDBDBD?HALANEn@QJEFCRIVKvAo@t@_@NINGp@Yh@Y@A@A?I@?FAFA@??BB@@?l@GZAn@GPCPE?B@D?D?@@N@BfAk@@?@@@AFCHE@A@C@AvBaABADEBEBIh@_CBE@A@?@?@@f@xA@F@CDODQ@C@?@AdCkEBCDCBC@G@BBD?@@B@B@@LQBEHIFEHC@ADANA@B@?DAH?D?@@@?F?nAIJAx@Ix@KB@@@@@B?FAF?B?LEPOP[JUJ[DW@E@GBI@KDQ@G@Cd@h@JHLP",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:var-frelsers-gravlund",
+      "name": {
+        "nb": "Vår Frelsers gravlund",
+        "en": "Cemetery of Our Saviour"
+      },
+      "category": "park",
+      "lat": 59.920994,
+      "lon": 10.745069,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Vår Frelsers gravlund",
+        "en": "Cemetery of Our Saviour"
+      },
+      "summary": {
+        "nb": "Vår Frelsers gravlund er en kirkegård i Oslo, beliggende i strøket Gamle Aker nord for Hammersborg i sentrum. Gravlunden dekker et areal på 86 dekar og ble innviet 17. juni 1808 av biskop Frederik Julius Bech.",
+        "en": "The Cemetery of Our Saviour is a cemetery in Oslo, Norway, located north of Hammersborg in Gamle Aker district. It is located adjacent to the older Old Aker Cemetery and was created in 1808 as a result of the great famine and cholera epidemic of the Napoleonic Wars. Its grounds were extended in 1911. The cemetery has been full and thus closed for new graves since 1952, with interment only being allowed in existing family graves. The cemetery includes five sections, including Æreslunden, Norway's main honorary burial ground, and the western, southern, eastern and northern sections. The Cemetery of Our Saviour became the preferred cemetery of bourgeois and other upper-class families. It has many grand tombstones and is the most famous cemetery in Norway."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/V%C3%A5r_Frelsers_gravlund_Oslo.jpg/640px-V%C3%A5r_Frelsers_gravlund_Oslo.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 992,
+        "distanceM": 1132,
+        "polyline": "qfwlJs|n`A@C?IBCDCDEBABFF@B?@@@?@?H@HCLQv@wAzCsFP]Pe@H_@D_@LyAD_@DUBMHa@DOBMBM?GBBDDBFB@Jc@Ha@DSBOZyAVgA@A?C@A@?FAD?DAAi@?M@KDSr@qCb@kB@G@G?MAG?IAGAKCIGMEKIu@E]AEAQE[ACAGGa@e@uDAC?E?C?C?C@A@AB?BATWh@g@BCPMZUHGAIAIAE?CAE?I?I?K?C?GB?HCW_BFGBC@Cp@iA~@_Bz@_BIYPcBLgAHm@DWDSPo@Cs@DMDKBEBDB@@B^d@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "curated:damstredet",
+      "name": {
+        "nb": "Damstredet og Telthusbakken",
+        "en": "Damstredet and Telthusbakken"
+      },
+      "category": "attraction",
+      "lat": 59.9217,
+      "lon": 10.7452,
+      "score": 21,
+      "tier": "A",
+      "priority": 1,
+      "source": "curated",
+      "wikipedia": {
+        "nb": "Damstredet (Oslo)",
+        "en": "Damstredet"
+      },
+      "summary": {
+        "nb": "Damstredet er en smal og krokete gate i Bergfjerdingen i Oslo, bydel St. Hanshaugen."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Damstredet_TRS_050626_016.jpg/640px-Damstredet_TRS_050626_016.jpg?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "walk": {
+        "durationS": 1015,
+        "distanceM": 1163,
+        "polyline": "qfwlJs|n`A@C?IBCDCDEBABFF@B?@@@?@?H@HCLQv@wAzCsFP]Pe@H_@D_@LyAD_@DUBMHa@DOBMBM?GBBDDBFB@Jc@Ha@DSBOZyAVgA@A?C@A@?FAD?DAAi@?M@KDSr@qCb@kB@G@G?MAG?IAGAKCIGMEKIu@E]AEAQE[ACAGGa@e@uDAC?E?C?C?C@A@AB?BATWh@g@BCPMZUHGAIAIAE?CAE?I?I?K?C?GB?HCW_BFGBC@CY{ASeA?OJQDSROz@cBz@eB_@yAa@}AVa@ZjAr@kA",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/4218904",
+      "name": {
+        "nb": "Stensparken"
+      },
+      "category": "park",
+      "lat": 59.928836,
+      "lon": 10.730579,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q7703624",
+      "wikipedia": {
+        "nb": "Stensparken"
+      },
+      "summary": {
+        "nb": "Stensparken er en høyde på Fagerborg i bydel St. Hanshaugen i Oslo. Høyden er langstrakt og består av «knollekalk», dvs. kalkstein i en mørkere skifermasse. Sydlige del av høyden er opparbeidet park, mens nordlige del (Blåsen) er en fjellknaus med utsikt over byen. Parken ble opparbeidet fra 1890-tallet til 1940-tallet. Omtrent midt i parken er det om sommeren et vannspeil. Der er det en liten kafé og et bordtennisbord. I parken er det et inngjerdet område som tidligere var barnepark. "
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Stensparken1.JPG/640px-Stensparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.926635,
+        "lon": 10.731151
+      },
+      "walk": {
+        "durationS": 101,
+        "distanceM": 118,
+        "polyline": "qfwlJs|n`A?DCBC?C?AJAF?B?DADAJEAeAe@UKSIm@W",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/29500484",
+      "name": {
+        "nb": "Uranienborgparken",
+        "en": "Uranienborg Park"
+      },
+      "category": "park",
+      "lat": 59.921779,
+      "lon": 10.721318,
+      "score": 8.5,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q12008563",
+      "wikipedia": {
+        "nb": "Uranienborgparken"
+      },
+      "summary": {
+        "nb": "Uranienborgparken er en park på en høyde på Uranienborg i Oslo. Uranienborg kirke ligger i parken."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Uranienborgparken1.JPG/640px-Uranienborgparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.922399,
+        "lon": 10.722683
+      },
+      "walk": {
+        "durationS": 569,
+        "distanceM": 653,
+        "polyline": "qfwlJs|n`A?DCBC?C?AJAF?B?DADAJHDBD@D?DAH?BBFBJ@BFV@C@ABJBJL^t@tBX~@Z|@b@tABHDJPl@JXDTPx@@@?D@B`@fBDV@@d@~BBNBFBBH@Nt@KPBF@B@D@B@B@DCJ?L?L?F?b@?D@D?F@t@?H?RFH~@tAjBrCf@v@@H@HTb@b@|@",
+        "source": "entur-foot"
+      }
+    },
+    {
+      "id": "osm:way/855363036",
+      "name": {
+        "nb": "Marienlystparken",
+        "en": "Marienlystparken, Oslo"
+      },
+      "category": "park",
+      "lat": 59.933552,
+      "lon": 10.722461,
+      "score": 8,
+      "tier": "B",
+      "source": "osm",
+      "wikidata": "Q19381059",
+      "wikipedia": {
+        "nb": "Marienlystparken"
+      },
+      "summary": {
+        "nb": "Marienlystparken er en stor park på Marienlyst i Oslo, beliggende mellom Kirkeveien og NRK."
+      },
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Marienlystparken1.JPG/640px-Marienlystparken1.JPG?utm_source=no.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "attribution": "Wikimedia Commons"
+      },
+      "access": {
+        "lat": 59.931877,
+        "lon": 10.726592
+      },
+      "walk": {
+        "durationS": 779,
+        "distanceM": 851,
+        "polyline": "qfwlJs|n`A?DCBC?C?AJAF?B?DADAJHDBD@D?DAHsCnEC@CAA?A@GJEHC@?D?BAF]h@]Xe@\\C?IICMA?EAE@A@?FATEVSLIFE@G@IKKIEGCFAJCJGROL]n@OXe@z@AB?@?B?BABCDEHA@A?A?A@CJELA@?BABuAhBKNWZA@ILGJCD?BA@?@ABU\\QXq@`ASVEDs@Bu@?a@?e@Ak@GWCWGCCSKo@[CASKg@WUcA",
+        "source": "entur-foot"
+      }
+    }
+  ]
+}
